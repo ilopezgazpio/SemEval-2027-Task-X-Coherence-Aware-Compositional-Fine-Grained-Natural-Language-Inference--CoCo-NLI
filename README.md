@@ -10,7 +10,7 @@ DiCo-NLI evaluates whether NLI systems make **consistent direction-sensitive dec
 
 The task is inspired by reversal-based evaluation, but it is not a direct test of Berglund-style parametric factual reversal. DiCo-NLI is a fine-grained NLI task: both phrases are given to the system, and the target is the label relation between them.
 
-**If you use our data, please cite:**
+**If you use our data, code kits or evaluation scripts please cite:**
 
 ```bibtex
 TODO: add official task citation once available.
@@ -56,7 +56,7 @@ The reversible English source subset used in the pilot contains 1,946 source phr
 |------------|-------------:|-----------:|
 | `EQUIVALENCE` | 686 | 35.3 |
 | `FORWARD_ENTAILMENT` | 624 | 32.1 |
-| `BACKWARD_ENTAILMENT` | 636 | 32.7 |
+| `BACKWARD_ENTAILMENT` | 636 | 32.6 |
 | **Total** | **1,946** | **100.0** |
 
 After adding the reversed counterpart for each source pair, the distribution remains balanced at the ordered-instance level: `EQUIVALENCE` maps to itself, while `FORWARD_ENTAILMENT` and `BACKWARD_ENTAILMENT` swap under the reversal operator.
