@@ -1,0 +1,156 @@
+% SemEval-2027 conditionally accepted task proposal: revised version.
+% Clean resubmission copy; revision markup is disabled.
+% Set \showrevisionstrue to display the marked revision copy.
+
+\documentclass[11pt]{article}
+\usepackage[preprint]{acl}
+\usepackage{times}
+\usepackage{latexsym}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{microtype}
+\usepackage{inconsolata}
+\usepackage{booktabs}
+\usepackage{amsmath}
+\usepackage{xcolor}
+\usepackage{url}
+
+\definecolor{revisionblue}{RGB}{0,74,148}
+\newif\ifshowrevisions
+\showrevisionsfalse
+\newcommand{\rev}[1]{\ifshowrevisions{\color{revisionblue}#1}\else#1\fi}
+\newcommand{\EquivLabel}{\textsc{Equiv}}
+\newcommand{\ForwardLabel}{\textsc{Forward}}
+\newcommand{\BackwardLabel}{\textsc{Backward}}
+\newcommand{\NegativeLabel}{\textsc{Other}}
+
+\title{\rev{SemEval-2027 Task Proposal: DiCo-NLI---Directional Consistency in Fine-Grained Natural Language Inference}}
+\author{
+  Jon Felix Apaolaza Larraya \and Aitor Soroa \and Rodrigo Agerri \and Iñigo Lopez-Gazpio \\
+  HiTZ Basque Center for Language Technology--Ixa NLP Group \\
+  University of the Basque Country UPV/EHU \\
+  \texttt{\{jonfelix.apaolaza, a.soroa, rodrigo.agerri, inigo.lopez\}@ehu.eus}
+}
+
+\begin{document}
+\maketitle
+\ifshowrevisions
+\noindent\textcolor{revisionblue}{\small Substantive revisions made in response to the conditional-acceptance reviews are shown in blue.}\par\smallskip
+\fi
+
+\section{Overview}
+
+\textbf{Task.}
+DiCo-NLI evaluates direction-sensitive fine-grained natural language inference over ordered phrase pairs.
+For each source pair $(A,B)$, systems predict a label for both $(A,B)$ and its reversed counterpart $(B,A)$.
+The label algebra is deterministic: \EquivLabel{} maps to itself, while \ForwardLabel{} and \BackwardLabel{} map to each other.
+The task jointly measures item-level correctness and whether predictions remain compatible under reversal.
+
+% R1.1--R1.3: conceptual scope, renaming, and positive positioning.
+\rev{The Reversal Curse characterizes parametric factual reversal as a revealing generalization test~\cite{berglund2024reversal}. DiCo-NLI applies reversal to supervised fine-grained NLI: both phrases are supplied, and the target is their ordered inferential relation. The two paradigms characterize complementary capacities: factual retrieval from model parameters and relation prediction for supplied text. The official evaluation adopts the pilot's unseen/hard condition, placing both directions of every evaluation pair in the held-out partition. This design isolates generalization to novel directional NLI constructs and gives \emph{consistency} its precise task meaning: compatibility under the deterministic label-reversal operator.}
+
+DiCo-NLI extends PhrasIS, a benchmark of naturally occurring phrase pairs from image captions and news headlines~\cite{lopezgazpio2024phrasis}.
+Its phrase units inherit the Interpretable STS segmentation framework~\cite{lopezgazpio2017interpretable}; here, compositionality denotes inference over heterogeneous local semantic units such as nominal expressions, verb chains, prepositional phrases, and quantificational expressions.
+\rev{BECEL evaluates broad behavioural-consistency properties across tasks~\cite{jang2022becel}; Blanck et al.\ study NLI meta-inferential properties~\cite{blanck2026reverse}; and Wu and Last evaluate transitive self-consistency without gold labels~\cite{wu2025transitive}. DiCo-NLI contributes a shared-task setting with fine-grained directional labels, paired reversal units, four multilingual tracks, and an official reproducible scorer.}
+The task targets researchers in NLI, multilingual NLP, semantic evaluation, interpretability, and robust language-model assessment. Its paired multilingual release and reproducible scorer will support comparable studies of directional generalization after the competition.
+
+\section{Data and Resources}
+
+\textbf{Source data, labels, and scale.}
+The English reversible subset contains 1,946 human-annotated PhrasIS source pairs and 3,892 ordered instances after materializing both directions (Table~\ref{tab:data}).
+The three labels are close to balanced.
+Original PhrasIS labels outside this algebra will be pooled as \NegativeLabel{} (the released code value \texttt{NEGATIVE\_OTHER}); these items enter item-level evaluation and will be capped and stratified so that they do not dominate the reversible labels.
+They are excluded from paired consistency metrics because their source relations do not define a deterministic reverse label.
+
+\begin{table}[t]
+\centering
+\ifshowrevisions\color{revisionblue}\fi
+\footnotesize
+\begin{tabular}{@{}lrrl@{}}
+\toprule
+Label & Source & Ordered & $Rev(\cdot)$ \\
+\midrule
+\texttt{EQUIVALENCE} & 686 & 1,372 & \texttt{EQUIVALENCE} \\
+\texttt{FORWARD} & 624 & 1,260 & \texttt{BACKWARD} \\
+\texttt{BACKWARD} & 636 & 1,260 & \texttt{FORWARD} \\
+\midrule
+Total & 1,946 & 3,892 & -- \\
+\bottomrule
+\end{tabular}
+\caption{English reversible data and label-reversal algebra. ``Ordered'' counts both directions.}
+\label{tab:data}
+\end{table}
+
+\rev{The task has independent English, Spanish, and Basque monolingual tracks and a Mixed track whose two phrases use different EN/ES/EU languages; teams may enter any subset of tracks. Before quality filtering, the reversible component yields up to 11,676 monolingual instances and 23,352 mixed-language instances, or 35,028 across all tracks. Final counts and per-split label distributions will be published for every track. If filtering distorts a target-language distribution, controlled stratified downsampling will restore comparable proportions and the adjustment will be documented.}
+Each record contains pair and source identifiers, language codes, the ordered phrases, label, reverse identifier, split, and provenance.
+For example, \emph{Everyone is hungry} $\rightarrow$ \emph{Someone is hungry} is \ForwardLabel{}; its swapped record is \BackwardLabel{}.
+
+% R1.7--R1.8: leakage and contamination controls.
+\rev{\textbf{Splits and prior exposure.}
+The split unit is the underlying source pair. Both directions, all language versions, and every mixed-language variant of one source pair remain in the same train, development, or evaluation partition. Every final-test source pair is therefore evaluation-exclusive across direction and language. We treat possible prior exposure to public PhrasIS material as an evaluation variable and reduce avoidable leakage through newly grouped splits, hidden final labels, delayed gold release, complete provenance, and exact/near-exact overlap audits against examples in papers and public documentation.}
+
+% R1.9--R1.10 and R2.2: multilingual relation-preservation protocol.
+\rev{\textbf{Multilingual production and quality control.}
+Spanish and Basque candidates will be generated independently by two systems. The initial generators are NLLB-200 and Google Cloud Translation, representing an open multilingual model and a production API.\@ System/API versions, decoding settings, and prompts will be frozen and recorded. Generators receive only the phrases, without relation labels or reverse metadata. For each target language, two bilingual annotators will independently assess a 100-source-pair pilot for translation adequacy, preservation of the original label, and preservation of the reverse label. The audit will deliberately cover quantification, plurality, definiteness, specificity, scope, case marking, and other morphosyntactically sensitive phenomena. We will report raw agreement, Cohen's $\kappa$, adjudication counts, and translation-induced label-flip and instability rates. In full production, one bilingual reviewer checks every item; a second reviewer adjudicates low-confidence, ambiguous, or relation-changing cases. Items are corrected when the relation can be restored and removed otherwise.}
+PhrasIS reports relation-label accuracy/$\kappa$ of .78/.66 for Headlines and .82/.77 for Images~\cite{lopezgazpio2024phrasis}; DiCo-NLI adds deterministic algebra checks and the bilingual relation-preservation audit above.
+
+% Call requirements: concrete licensing, resources, ethics, and permanence.
+\rev{\textbf{Release, licenses, resources, and ethics.}
+The upstream PhrasIS repository is MIT-licensed; its notice and provenance will be retained. Newly authored translations, adjudications, splits, and metadata will be released under CC BY 4.0, while scorer and starter-kit software will use GPL-3.0. A component-level license manifest, GitHub repository, and permanent Zenodo record will accompany trial and final data. Translation and adjudication are budgeted below 200 bilingual expert hours. Data construction and official scoring are CPU-based; each starter baseline will use a fixed one-GPU configuration, avoiding the pilot's large hyperparameter search. Before release, organizers will screen final items for private-person PII and sensitive content and remove problematic cases. The task supports semantic classification research and involves neither personal profiling nor medical decision making.}
+The organizers will also provide a format checker, standard scorer, baseline systems, task website, mailing list, and CodaBench competition.
+
+\section{Pilot Task}
+
+The task is grounded in the public LREC 2026 pilot~\cite{apaolaza2026assessing}, which evaluated encoder-only, decoder-only, and encoder--decoder systems on English PhrasIS reversal pairs.
+\rev{Table~\ref{tab:pilot} makes the empirical basis explicit. Weighted $F_1$ is measured on the positive combined English test track; SoftCons and HardCons use the unseen/hard positive combined track, the condition adopted for SemEval. The family aggregates show that the challenge is systematic rather than model-specific.}
+
+\begin{table*}[t]
+\centering
+\ifshowrevisions\color{revisionblue}\fi
+\footnotesize
+\begin{tabular}{@{}llcc@{}}
+\toprule
+Family & Representative model & Representative $F/S/H$ & Family mean $\pm$ sd $F/S/H$ \\
+\midrule
+Encoder-only & DeBERTa-v3-base & .75/.84/.79 & $.713\!\pm\!.031$ / $.770\!\pm\!.049$ / $.721\!\pm\!.048$ \\
+Decoder-only & OPT-125M & .61/.65/.58 & $.583\!\pm\!.038$ / $.568\!\pm\!.060$ / $.498\!\pm\!.070$ \\
+Encoder--decoder & BART-large & .68/.80/.72 & $.655\!\pm\!.024$ / $.768\!\pm\!.025$ / $.693\!\pm\!.019$ \\
+\bottomrule
+\end{tabular}
+\caption{Pilot results. $F$: weighted $F_1$; $S$: SoftCons; $H$: HardCons. The metric slices are stated in the text.}
+\label{tab:pilot}
+\end{table*}
+
+The pilot established feasibility and showed that architecture family and hyperparameter selection affect both item-level and paired scores.
+\rev{The starter kit fixes one reference per family. The encoder is \path{microsoft/deberta-v3-base}; the decoder is \path{facebook/opt-125m}; and the encoder--decoder is \path{facebook/bart-base}. For each, we will release preprocessing, fixed learning rate, batch size, epochs, maximum length, optimizer, seeds, model-selection rule, prediction format, scripts, configuration files, and checkpoints when redistribution permits.}
+
+\section{Evaluation}
+
+Systems predict one of four labels: \EquivLabel{}, \ForwardLabel{}, \BackwardLabel{}, or \NegativeLabel{}. These abbreviations correspond to the released code values \path{EQUIVALENCE}, \path{FORWARD_ENTAILMENT}, \path{BACKWARD_ENTAILMENT}, and \path{NEGATIVE_OTHER}.
+\rev{The primary ranking metric for each track is weighted $F_1$ over all four labels. SoftCons is the first tie-break and HardCons the second; macro-$F_1$ and per-label $F_1$ are also reported. This fixed ordering keeps label correctness primary while making reversal stability visible. Official rankings are track-specific. We additionally report a monolingual macro-average over EN/ES/EU and an all-track macro-average over EN/ES/EU/Mixed; neither replaces the per-track rankings.}
+
+For reversible pair $i$, let $\hat y_i=f(x_i)$ and $\hat y_i^r=f(x_i^r)$. Define
+\begin{align*}
+s_i &= \mathbf{1}[\hat y_i^r=Rev(\hat y_i)],\\
+h_i &= \mathbf{1}[\hat y_i=y_i] \, \mathbf{1}[\hat y_i^r=Rev(y_i)],\\
+\mathrm{SoftCons} &= N^{-1}\sum_i s_i,\\
+\mathrm{HardCons} &= N^{-1}\sum_i h_i,
+\end{align*}
+where $N$ is the number of reversible source pairs.
+\rev{SoftCons measures directional compatibility independently of correctness and is the main diagnostic axis. HardCons is paired directional correctness: because reverse gold labels are deterministic, it gives credit only when both members of a reversible pair are correct. The analysis will foreground the weighted-$F_1$/SoftCons profile and report HardCons as the strict paired summary. Secondary diagnostics will stratify results by source domain and phrase construction whenever the metadata are reliable.}
+
+Run metadata is mandatory: access regime (open-weight, commercial/API, private/closed, or hybrid/ensemble), architecture family, model/API identifier and version, and model size when known. Teams also declare external data, retrieval, prompting or fine-tuning, and multilingual strategy. Access regime supports post-task analysis and does not define a separate leaderboard. Organizers will validate metadata against system papers, released code/configurations, and model/API documentation where available; unverifiable fields will be marked \texttt{undisclosed}.
+The public scorer will reproduce all leaderboard and diagnostic metrics after the competition.
+
+\section{Task Organizers}
+
+\noindent\textbf{Iñigo Lopez-Gazpio} (lead) works on semantic evaluation, STS, fine-grained semantics, and benchmark design and co-organized SemEval-2015 Task~2, SemEval-2016 Task~2, and SemEval-2017 Task~1. Contact: \url{inigo.lopez@ehu.eus}.\par
+\noindent\textbf{Jon Felix Apaolaza Larraya} (co-organizer) led the DiCo-NLI pilot and will coordinate data, scoring, and analysis. Contact: \url{jonfelix.apaolaza@ehu.eus}.\par
+\noindent\textbf{Aitor Soroa} (advisory) contributes expertise in semantic processing and robust evaluation. Contact: \url{a.soroa@ehu.eus}.\par
+\noindent\textbf{Rodrigo Agerri} (advisory) contributes multilingual NLP and system evaluation expertise. Contact: \url{rodrigo.agerri@ehu.eus}.
+All organizers are affiliated with the HiTZ Basque Center for Language Technology--Ixa NLP Group, University of the Basque Country UPV/EHU.\@
+The team will maintain participant communication and infrastructure, release data and software, manage submissions and reviewing, and write the task description paper.
+
+\bibliography{dico_nli_biblio}
+
+\end{document}
