@@ -4,11 +4,9 @@
 
 # SemEval 2027 Task X: DiCo-NLI - Directional Consistency in Fine-Grained Natural Language Inference
 
-DiCo-NLI is a SemEval-2027 shared task on **directional consistency** in fine-grained Natural Language Inference.
+DiCo-NLI is a multilingual shared task on **directional consistency** in fine-grained natural language inference. Given an ordered pair of phrases, systems predict equivalence, forward entailment, backward entailment, or another semantic relation. Each reversible source pair is evaluated in both directions, enabling joint measurement of classification performance and compatibility with the deterministic label-reversal mapping. The benchmark covers English, Spanish, Basque, and mixed-language settings, with source-pair-level splits that prevent directional and cross-lingual leakage. Systems are ranked by weighted F1, complemented by SoftCons and HardCons consistency metrics.
 
-DiCo-NLI evaluates whether NLI systems make **consistent direction-sensitive decisions** over paired phrase instances. Following the spirit of [Berglund et al.'s Reversal Curse work](https://proceedings.iclr.cc/paper_files/paper/2024/hash/5178b2f2d7c44aa390c0777dc77b3f0c-Abstract-Conference.html), the task treats reversal as a controlled stress test for semantic generalization: a system should not only identify the correct relation for an ordered phrase pair, but also produce the compatible relation when the same pair is presented in the opposite direction.
-
-The task is inspired by reversal-based evaluation, but it is not a direct test of Berglund-style parametric factual reversal. DiCo-NLI is a fine-grained NLI task: both phrases are given to the system, and the target is the label relation between them.
+It aims to evaluate whether NLI systems make **consistent direction-sensitive decisions** over paired phrase instances. Following the spirit of [Berglund et al.'s Reversal Curse work](https://proceedings.iclr.cc/paper_files/paper/2024/hash/5178b2f2d7c44aa390c0777dc77b3f0c-Abstract-Conference.html), the task treats reversal as a controlled stress test for semantic generalization: a system should not only identify the correct relation for an ordered phrase pair, but also produce the compatible relation when the same pair is presented in the opposite direction. The task is inspired by reversal-based evaluation, but it is not a direct test of Berglund-style parametric factual reversal.
 
 **If you use our data, code kits or evaluation scripts please cite:**
 
