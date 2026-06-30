@@ -1,0 +1,165 @@
+% DiCo-NLI SemEval-2027 advertising slide - QR/keyword refinement
+% Compile with: pdflatex dico_nli_ad_slide_final.tex
+% Change \TaskURL below if the official task website differs from the repository URL.
+
+\documentclass[aspectratio=169,professionalfonts]{beamer}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{tikz}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usetikzlibrary{positioning,calc}
+
+% ---------------------------------------------------------------------------
+% Editable task information
+% ---------------------------------------------------------------------------
+\newcommand{\TaskURL}{https://github.com/ilopezgazpio/SemEval-2027-Task-X-DiCo-NLI}
+\newcommand{\TaskContactLine}{Task page \ensuremath{\cdot} CodaBench \ensuremath{\cdot} mailing list}
+\newcommand{\OrganizerLine}{HiTZ-Ixa NLP Group - University of the Basque Country UPV/EHU}
+\newcommand{\OfficialTaskTitle}{SemEval 2027 SharedTask: DiCo-NLI - Directional Consistency in Fine-Grained NLI}
+\newcommand{\KeywordLine}{Multilingual \ensuremath{\cdot} Fine-grained Natural Language Inference \ensuremath{\cdot} Directional Consistency and Interpretability}
+
+% ---------------------------------------------------------------------------
+% Colors
+% ---------------------------------------------------------------------------
+\definecolor{DiCoNavy}{HTML}{081A2E}
+\definecolor{DiCoNavyTwo}{HTML}{102A45}
+\definecolor{DiCoCard}{HTML}{F7FAFC}
+\definecolor{DiCoInk}{HTML}{102033}
+\definecolor{DiCoAccent}{HTML}{24C6DC}
+\definecolor{DiCoAccentTwo}{HTML}{F6A623}
+\definecolor{DiCoSoft}{HTML}{DDF7FB}
+\definecolor{DiCoMuted}{HTML}{9FB6CC}
+
+% Optional QR support: if qrcode.sty is unavailable, the slide still compiles.
+\newif\ifhasqrcode
+\IfFileExists{qrcode.sty}{\hasqrcodetrue\usepackage{qrcode}}{\hasqrcodefalse}
+
+\hypersetup{
+  colorlinks=true,
+  urlcolor=DiCoAccent
+}
+
+\setbeamertemplate{navigation symbols}{}
+\setbeamersize{text margin left=0pt,text margin right=0pt}
+
+% ---------------------------------------------------------------------------
+% Reusable TikZ styles
+% ---------------------------------------------------------------------------
+\tikzset{
+  phrase/.style={
+    rounded corners=5pt,
+    fill=white,
+    draw=DiCoAccent!55,
+    line width=0.9pt,
+    minimum height=0.76cm,
+    text width=4.45cm,
+    align=center,
+    font=\Large\bfseries,
+    text=DiCoInk,
+    inner xsep=7pt,
+    inner ysep=5pt
+  },
+  relationline/.style={
+    line width=1.15pt,
+    draw=DiCoAccent
+  },
+  relationlabel/.style={
+    text=DiCoAccentTwo,
+    font=\small\bfseries,
+    fill=DiCoCard,
+    inner xsep=4pt,
+    inner ysep=1pt
+  },
+  chip/.style={
+    rounded corners=6pt,
+    fill=DiCoNavyTwo,
+    draw=DiCoAccent!35,
+    line width=0.65pt,
+    text=white,
+    text width=3.20cm,
+    minimum width=3.34cm,
+    minimum height=0.80cm,
+    align=center,
+    inner xsep=4pt,
+    inner ysep=4pt
+  },
+  joinbox/.style={
+    rounded corners=7pt,
+    fill=DiCoSoft,
+    draw=DiCoAccent!55,
+    line width=0.8pt,
+    text=DiCoNavy,
+    minimum width=3.15cm,
+    minimum height=1.55cm,
+    align=center,
+    inner sep=4pt
+  }
+}
+
+\begin{document}
+
+\begin{frame}[plain]
+\begin{tikzpicture}[x=1cm,y=1cm]
+  \path[use as bounding box] (0,0) rectangle (16,9);
+
+  % Background
+  \path[fill=DiCoNavy] (0,0) rectangle (16,9);
+  \path[fill=DiCoNavyTwo,opacity=.55] (11.2,0) .. controls (13.7,1.7) and (14.2,5.9) .. (16,9) -- (16,0) -- cycle;
+  \path[draw=DiCoAccent,opacity=.18,line width=.7pt] (0.55,7.12) -- (15.4,7.12);
+
+  % Header
+  \node[anchor=west,text=white,font=\fontsize{27}{30}\selectfont\bfseries] at (0.72,8.48) {DiCo-NLI};
+
+  % The official task name is forced to one visual line.
+  \node[anchor=west] at (0.72,7.92) {\resizebox{14.25cm}{!}{\textcolor{DiCoMuted}{\sffamily\bfseries \OfficialTaskTitle}}};
+
+  % Keywords, directly below the official task name.
+  \node[anchor=west] at (0.75,7.45) {\resizebox{13.65cm}{!}{\textcolor{DiCoSoft}{\sffamily\bfseries \KeywordLine}}};
+
+  % Central card
+  \path[fill=DiCoCard,rounded corners=11pt] (0.72,3.30) rectangle (15.28,6.82);
+  \node[anchor=center,text=DiCoInk,font=\large\bfseries] at (8.00,6.44) {Can your model keep meaning direction straight?};
+  \node[anchor=center,text=DiCoNavy,font=\scriptsize\bfseries] at (8.00,6.10) {predict the relation \ensuremath{\cdot} reverse the pair \ensuremath{\cdot} keep the logic consistent};
+
+  % Example: forward. Straight separators avoid adding visual directionality.
+  \node[phrase] (a1) at (3.56,5.25) {Everyone is hungry};
+  \node[phrase] (b1) at (12.02,5.25) {Someone is hungry};
+  \draw[relationline] (a1.east) -- node[midway,above,relationlabel,yshift=.03cm] {FORWARD} (b1.west);
+
+  % Example: backward. Direction is expressed by the label, not by the separator.
+  \node[phrase] (a2) at (3.56,4.20) {Someone is hungry};
+  \node[phrase] (b2) at (12.02,4.20) {Everyone is hungry};
+  \draw[relationline] (a2.east) -- node[midway,above,relationlabel,yshift=.03cm] {BACKWARD} (b2.west);
+
+  % Compatibility line
+  \node[anchor=center,text=DiCoInk,font=\normalsize] at (8.00,3.56) {Evaluation rewards both fine-grained relation prediction and directional consistency.};
+
+  % Bottom keypoints: smaller boxes, separated from the central card and from each other.
+  \node[chip] at (2.35,2.12) {{\small\textbf{4 tracks}}\\[-1pt]\scriptsize English \ensuremath{\cdot} Spanish\\[-1pt]\scriptsize Basque \ensuremath{\cdot} Mixed};
+  \node[chip] at (5.95,2.12) {{\small\textbf{4 labels}}\\[-1pt]\scriptsize EQUIV \ensuremath{\cdot} FORWARD\\[-1pt]\scriptsize BACKWARD \ensuremath{\cdot} OTHER};
+  \node[chip] at (9.55,2.12) {{\small\textbf{F1 + consistency}}\\[-1pt]\scriptsize weighted \ensuremath{F_1}\\[-1pt]\scriptsize SoftCons \ensuremath{\cdot} HardCons};
+
+  % Join box with the QR code centered in the box.
+  \node[joinbox] (join) at (13.55,2.12) {};
+  \node[anchor=north,text=DiCoNavy,font=\scriptsize\bfseries] at ($(join.north)+(0,-0.11)$) {JOIN THE TASK};
+  \node[fill=white,rounded corners=3pt,inner sep=2pt] at ($(join.center)+(0,-0.23)$) {%
+    \ifhasqrcode
+      \qrcode[height=0.68cm]{\TaskURL}%
+    \else
+      \begin{tikzpicture}[x=1cm,y=1cm]
+        \draw[DiCoInk,line width=.4pt] (0,0) rectangle (.68,.68);
+        \node[text=DiCoInk,font=\tiny,align=center] at (.34,.34) {QR\\code};
+      \end{tikzpicture}%
+    \fi
+  };
+
+  % Footer
+  \node[anchor=west,text=DiCoMuted,font=\scriptsize] at (0.78,0.52) {\TaskContactLine};
+  \node[anchor=east,text=DiCoMuted,font=\scriptsize] at (15.22,0.52) {\OrganizerLine};
+\end{tikzpicture}
+\end{frame}
+
+\end{document}
