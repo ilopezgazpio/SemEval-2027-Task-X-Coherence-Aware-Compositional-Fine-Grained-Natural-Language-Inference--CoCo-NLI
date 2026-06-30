@@ -8,10 +8,10 @@
 \usepackage[T1]{fontenc}
 \usepackage[utf8]{inputenc}
 \usepackage{microtype}
-\usepackage{inconsolata}
 \usepackage{graphicx}
 \usepackage{booktabs}
 \usepackage{url}
+\usepackage{amsmath}
 
 \title{SemEval-2027 Task Proposal: DiCo-NLI -- Directional Consistency in Fine-Grained Natural Language Inference}
 \author{
@@ -83,6 +83,7 @@ The official reversible subset uses three labels:
 \begin{table}[h]
 \centering
 \small
+\resizebox{\columnwidth}{!}{%
 \begin{tabular}{ll}
 \toprule
 Gold label & Reversed label \\
@@ -92,6 +93,7 @@ Gold label & Reversed label \\
 \texttt{BACKWARD\_ENTAILMENT} & \texttt{FORWARD\_ENTAILMENT} \\
 \bottomrule
 \end{tabular}
+}
 \caption{Deterministic label-reversal operator used by DiCo-NLI.}
 \label{tab:rev}
 \end{table}
@@ -103,6 +105,7 @@ If translation filtering or item removal substantially changes the Spanish or Ba
 \begin{table}[h]
 \centering
 \small
+\resizebox{\columnwidth}{!}{%
 \begin{tabular}{lrr}
 \toprule
 Gold label & Source pairs & Percentage \\
@@ -114,6 +117,7 @@ Gold label & Source pairs & Percentage \\
 \textbf{Total} & \textbf{1,946} & \textbf{100.0} \\
 \bottomrule
 \end{tabular}
+}
 \caption{Label distribution in the English reversible source subset.}
 \label{tab:label-balance}
 \end{table}
@@ -139,7 +143,7 @@ The construction protocol and label distributions will be documented in the rele
 
 DiCo-NLI will include four tracks:
 
-\begin{table}[h]
+\begin{table*}[t]
 \centering
 \small
 \begin{tabular}{lll}
@@ -154,7 +158,7 @@ Track & Name & Description \\
 \end{tabular}
 \caption{Planned DiCo-NLI tracks.}
 \label{tab:tracks}
-\end{table}
+\end{table*}
 
 The English, Spanish, and Basque tracks are independent monolingual tracks.
 Cross-lingual transfer is evaluated explicitly in the mixed multilingual track, where premise and hypothesis may appear in different languages.
@@ -187,14 +191,15 @@ The results show both feasibility and substantial room for improvement, especial
 
 \begin{table}[h]
 \centering
-\small
-\begin{tabular}{llrrr}
+\scriptsize
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{@{}llccc@{}}
 \toprule
 Family & Model & F & SoftCons & HardCons \\
 \midrule
-Encoder-only & DeBERTa v3-base & 0.75 & 0.84 & 0.79 \\
-Decoder-only & OPT-125M & 0.61 & 0.65 & 0.58 \\
-Encoder--decoder & BART-large & 0.68 & 0.80 & 0.72 \\
+Enc. & DeBERTa-v3-base & .75 & .84 & .79 \\
+Dec. & OPT-125M & .61 & .65 & .58 \\
+Enc-dec. & BART-large & .68 & .80 & .72 \\
 \bottomrule
 \end{tabular}
 \caption{Representative pilot results on the positive combined English track.}
@@ -203,14 +208,15 @@ Encoder--decoder & BART-large & 0.68 & 0.80 & 0.72 \\
 
 \begin{table}[h]
 \centering
-\small
-\begin{tabular}{lrrr}
+\scriptsize
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{@{}lccc@{}}
 \toprule
 Family & F & SoftCons & HardCons \\
 \midrule
-Encoder-only & \(0.713 \pm 0.031\) & \(0.770 \pm 0.049\) & \(0.721 \pm 0.048\) \\
-Decoder-only & \(0.583 \pm 0.038\) & \(0.568 \pm 0.060\) & \(0.498 \pm 0.070\) \\
-Encoder--decoder & \(0.655 \pm 0.024\) & \(0.768 \pm 0.025\) & \(0.693 \pm 0.019\) \\
+Enc. & \(.713{\pm}.031\) & \(.770{\pm}.049\) & \(.721{\pm}.048\) \\
+Dec. & \(.583{\pm}.038\) & \(.568{\pm}.060\) & \(.498{\pm}.070\) \\
+Enc-dec. & \(.655{\pm}.024\) & \(.768{\pm}.025\) & \(.693{\pm}.019\) \\
 \bottomrule
 \end{tabular}
 \caption{Family-level pilot mean and sample standard deviation.}
@@ -229,16 +235,19 @@ We will therefore prioritize smaller models that participants with limited GPU r
 
 \begin{table}[h]
 \centering
-\small
-\begin{tabular}{lll}
+\scriptsize
+\setlength{\tabcolsep}{3pt}
+\resizebox{\columnwidth}{!}{%
+\begin{tabular}{@{}lll@{}}
 \toprule
-Family & Planned baseline & Rationale \\
+Family & Baseline & Rationale \\
 \midrule
-Encoder-only & \texttt{roberta-base} or \texttt{deberta-v3-base} & compact supervised NLI baseline \\
-Decoder-only & \texttt{OPT-125M} or \texttt{GPT-2 small} & low-resource causal-LM baseline \\
-Encoder--decoder & \texttt{BART-base} or \texttt{Flan-T5-base} & compact sequence-to-sequence baseline \\
+Enc. & \texttt{roberta-base} or \texttt{deberta-v3-base} & supervised NLI \\
+Dec. & \texttt{OPT-125M} or \texttt{GPT-2 small} & low-resource causal LM \\
+Enc-dec. & \texttt{BART-base} or \texttt{Flan-T5-base} & sequence-to-sequence \\
 \bottomrule
 \end{tabular}
+}
 \caption{Planned starter-kit baselines.}
 \label{tab:starter}
 \end{table}
@@ -251,19 +260,53 @@ Where redistribution and storage constraints allow it, we will also provide trai
 Systems must predict one label for every ordered phrase pair:
 \texttt{EQUIVALENCE}, \texttt{FORWARD\_ENTAILMENT}, \texttt{BACKWARD\_ENTAILMENT}, or \texttt{NEGATIVE\_OTHER}.
 The official scorer will report three complementary measures.
-\textbf{F-measure} evaluates item-level label prediction, with the final scorer documenting the exact weighted, macro, or composite variant before evaluation.
-\textbf{SoftCons} evaluates prediction-level directional consistency under the reversal operator, independently of gold correctness.
-\textbf{HardCons} evaluates paired directional correctness: a reversible source pair receives credit only if both ordered instances are predicted correctly.
-
-For an item \(x\), its reversed counterpart \(x^{rev}\), a system prediction function \(f\), and the deterministic label-reversal operator \(Rev\), SoftCons is:
+\textbf{F-measure} evaluates item-level label prediction.
+Let \(L\) be the label set, \(n_\ell\) the support of label \(\ell\), and \(N=\sum_{\ell \in L}n_\ell\).
+For each label \(\ell\),
 \[
-  \text{SoftCons}(x)=1 \quad \text{iff} \quad f(x)=Rev(f(x^{rev})).
+  P_\ell=\frac{TP_\ell}{TP_\ell+FP_\ell}, \quad
+  R_\ell=\frac{TP_\ell}{TP_\ell+FN_\ell},
+\]
+\[
+  F_\ell=\frac{2P_\ell R_\ell}{P_\ell+R_\ell}, \qquad
+  F_{\mathrm{w}}=\sum_{\ell \in L}\frac{n_\ell}{N}F_\ell .
+\]
+The final scorer will document the exact weighted, macro, or composite variant before evaluation.
+
+\textbf{SoftCons} evaluates prediction-level directional consistency under the reversal operator, independently of gold correctness.
+Let \(\mathcal{P}\) be the set of reversible source pairs, where each \(p\in\mathcal{P}\) contains an ordered item \(x_p\) and its reversed counterpart \(x_p^{rev}\).
+Let \(f\) be the system prediction function and \(Rev\) the deterministic label-reversal operator.
+Then:
+\[
+  \mathrm{SoftCons}
+  =
+  \frac{1}{|\mathcal{P}|}
+  \sum_{p\in\mathcal{P}}
+  \mathbf{1}\!\left[f(x_p)=Rev(f(x_p^{rev}))\right].
 \]
 This metric can credit a system that is internally consistent even when it is wrong; it therefore separates directional stability from correctness.
 For example, predicting \texttt{EQUIVALENCE} in both directions is SoftCons-compatible, even if the gold labels are \texttt{FORWARD\_ENTAILMENT} and \texttt{BACKWARD\_ENTAILMENT}.
 Predicting \texttt{FORWARD\_ENTAILMENT} in both directions is not SoftCons-compatible.
 
-HardCons should be interpreted more conservatively.
+\textbf{HardCons} evaluates paired directional correctness.
+Let \(y(x)\) be the gold label of item \(x\).
+Then:
+\[
+  \begin{aligned}
+  h_p &=
+  \mathbf{1}\!\left[f(x_p)=y(x_p)\right] \\
+  &\quad \cdot
+  \mathbf{1}\!\left[f(x_p^{rev})=y(x_p^{rev})\right],
+  \end{aligned}
+\]
+\[
+  \mathrm{HardCons}
+  =
+  \frac{1}{|\mathcal{P}|}
+  \sum_{p\in\mathcal{P}}
+  h_p .
+\]
+HardCons should be interpreted conservatively.
 Because the reversed gold label is deterministic, correctness in both directions entails consistency automatically.
 Thus, for the reversible subset, HardCons is paired accuracy over reversal-defined semantic units rather than an independent consistency condition beyond correctness.
 It is still useful because it changes the unit of evaluation from isolated ordered instances to complete reversible pairs: a system that gets one direction right in many pairs but never solves both directions will have weaker HardCons than a system with the same item-level score that solves complete pairs.
