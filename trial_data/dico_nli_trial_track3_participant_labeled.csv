@@ -1,0 +1,211 @@
+instance_id,pair_id,text1_lang,text2_lang,text1,text2,label
+dico_trial_0001__eu-eu__forward,dico_trial_0001,eu,eu,91 urterekin,91 urte zituela,EQUIVALENCE
+dico_trial_0001__eu-eu__reverse,dico_trial_0001,eu,eu,91 urte zituela,91 urterekin,EQUIVALENCE
+dico_trial_0002__eu-eu__forward,dico_trial_0002,eu,eu,Olinpiar Jokoetan,Olinpiar Jokoetan,EQUIVALENCE
+dico_trial_0002__eu-eu__reverse,dico_trial_0002,eu,eu,Olinpiar Jokoetan,Olinpiar Jokoetan,EQUIVALENCE
+dico_trial_0003__eu-eu__forward,dico_trial_0003,eu,eu,baimentzeko,baimenduta,EQUIVALENCE
+dico_trial_0003__eu-eu__reverse,dico_trial_0003,eu,eu,baimenduta,baimentzeko,EQUIVALENCE
+dico_trial_0004__eu-eu__forward,dico_trial_0004,eu,eu,Txinako akzioak,Txinako akzioak,EQUIVALENCE
+dico_trial_0004__eu-eu__reverse,dico_trial_0004,eu,eu,Txinako akzioak,Txinako akzioak,EQUIVALENCE
+dico_trial_0005__eu-eu__forward,dico_trial_0005,eu,eu,erretiroa iragarri du,erretiratu da,EQUIVALENCE
+dico_trial_0005__eu-eu__reverse,dico_trial_0005,eu,eu,erretiratu da,erretiroa iragarri du,EQUIVALENCE
+dico_trial_0006__eu-eu__forward,dico_trial_0006,eu,eu,George W. Bush,George W. Bush,EQUIVALENCE
+dico_trial_0006__eu-eu__reverse,dico_trial_0006,eu,eu,George W. Bush,George W. Bush,EQUIVALENCE
+dico_trial_0007__eu-eu__forward,dico_trial_0007,eu,eu,bi kazetari frantses,bi kazetari frantses,EQUIVALENCE
+dico_trial_0007__eu-eu__reverse,dico_trial_0007,eu,eu,bi kazetari frantses,bi kazetari frantses,EQUIVALENCE
+dico_trial_0008__eu-eu__forward,dico_trial_0008,eu,eu,bi zauritu,bi zauritu,EQUIVALENCE
+dico_trial_0008__eu-eu__reverse,dico_trial_0008,eu,eu,bi zauritu,bi zauritu,EQUIVALENCE
+dico_trial_0009__eu-eu__forward,dico_trial_0009,eu,eu,AEBetako ipar-ekialdea,AEBetako ipar-ekialdea,EQUIVALENCE
+dico_trial_0009__eu-eu__reverse,dico_trial_0009,eu,eu,AEBetako ipar-ekialdea,AEBetako ipar-ekialdea,EQUIVALENCE
+dico_trial_0010__eu-eu__forward,dico_trial_0010,eu,eu,AEB,AEB,EQUIVALENCE
+dico_trial_0010__eu-eu__reverse,dico_trial_0010,eu,eu,AEB,AEB,EQUIVALENCE
+dico_trial_0011__eu-eu__forward,dico_trial_0011,eu,eu,2020ko Olinpiar Jokoak,2020ko Olinpiar Jokoak,EQUIVALENCE
+dico_trial_0011__eu-eu__reverse,dico_trial_0011,eu,eu,2020ko Olinpiar Jokoak,2020ko Olinpiar Jokoak,EQUIVALENCE
+dico_trial_0012__eu-eu__forward,dico_trial_0012,eu,eu,Ipar Korea,Ipar Korea,EQUIVALENCE
+dico_trial_0012__eu-eu__reverse,dico_trial_0012,eu,eu,Ipar Korea,Ipar Korea,EQUIVALENCE
+dico_trial_0013__eu-eu__forward,dico_trial_0013,eu,eu,Filipinak,Filipinak,EQUIVALENCE
+dico_trial_0013__eu-eu__reverse,dico_trial_0013,eu,eu,Filipinak,Filipinak,EQUIVALENCE
+dico_trial_0014__eu-eu__forward,dico_trial_0014,eu,eu,NBEren ebazpena,NBEren ebazpena,EQUIVALENCE
+dico_trial_0014__eu-eu__reverse,dico_trial_0014,eu,eu,NBEren ebazpena,NBEren ebazpena,EQUIVALENCE
+dico_trial_0015__eu-eu__forward,dico_trial_0015,eu,eu,Ipar Korea,Ipar Korea,EQUIVALENCE
+dico_trial_0015__eu-eu__reverse,dico_trial_0015,eu,eu,Ipar Korea,Ipar Korea,EQUIVALENCE
+dico_trial_0016__eu-eu__forward,dico_trial_0016,eu,eu,oinez,oinez ari da,EQUIVALENCE
+dico_trial_0016__eu-eu__reverse,dico_trial_0016,eu,eu,oinez ari da,oinez,EQUIVALENCE
+dico_trial_0017__eu-eu__forward,dico_trial_0017,eu,eu,posatzen ari dira,posatzen,EQUIVALENCE
+dico_trial_0017__eu-eu__reverse,dico_trial_0017,eu,eu,posatzen,posatzen ari dira,EQUIVALENCE
+dico_trial_0018__eu-eu__forward,dico_trial_0018,eu,eu,argazki baterako,argazki baterako,EQUIVALENCE
+dico_trial_0018__eu-eu__reverse,dico_trial_0018,eu,eu,argazki baterako,argazki baterako,EQUIVALENCE
+dico_trial_0019__eu-eu__forward,dico_trial_0019,eu,eu,mutil gazte bat,mutil gazte bat,EQUIVALENCE
+dico_trial_0019__eu-eu__reverse,dico_trial_0019,eu,eu,mutil gazte bat,mutil gazte bat,EQUIVALENCE
+dico_trial_0020__eu-eu__forward,dico_trial_0020,eu,eu,eusten,eusten ari da,EQUIVALENCE
+dico_trial_0020__eu-eu__reverse,dico_trial_0020,eu,eu,eusten ari da,eusten,EQUIVALENCE
+dico_trial_0021__eu-eu__forward,dico_trial_0021,eu,eu,emakumea,emakume bat,EQUIVALENCE
+dico_trial_0021__eu-eu__reverse,dico_trial_0021,eu,eu,emakume bat,emakumea,EQUIVALENCE
+dico_trial_0022__eu-eu__forward,dico_trial_0022,eu,eu,uretara,uretan,EQUIVALENCE
+dico_trial_0022__eu-eu__reverse,dico_trial_0022,eu,eu,uretan,uretara,EQUIVALENCE
+dico_trial_0023__eu-eu__forward,dico_trial_0023,eu,eu,saltoka ari da,saltoka,EQUIVALENCE
+dico_trial_0023__eu-eu__reverse,dico_trial_0023,eu,eu,saltoka,saltoka ari da,EQUIVALENCE
+dico_trial_0024__eu-eu__forward,dico_trial_0024,eu,eu,txakur pare bat,bi txakur,EQUIVALENCE
+dico_trial_0024__eu-eu__reverse,dico_trial_0024,eu,eu,bi txakur,txakur pare bat,EQUIVALENCE
+dico_trial_0025__eu-eu__forward,dico_trial_0025,eu,eu,jantzita,jantzita dago,EQUIVALENCE
+dico_trial_0025__eu-eu__reverse,dico_trial_0025,eu,eu,jantzita dago,jantzita,EQUIVALENCE
+dico_trial_0026__eu-eu__forward,dico_trial_0026,eu,eu,oinez ari dira,oinez,EQUIVALENCE
+dico_trial_0026__eu-eu__reverse,dico_trial_0026,eu,eu,oinez,oinez ari dira,EQUIVALENCE
+dico_trial_0027__eu-eu__forward,dico_trial_0027,eu,eu,txakur beltz bat,txakur beltza,EQUIVALENCE
+dico_trial_0027__eu-eu__reverse,dico_trial_0027,eu,eu,txakur beltza,txakur beltz bat,EQUIVALENCE
+dico_trial_0028__eu-eu__forward,dico_trial_0028,eu,eu,uretan,uretan,EQUIVALENCE
+dico_trial_0028__eu-eu__reverse,dico_trial_0028,eu,eu,uretan,uretan,EQUIVALENCE
+dico_trial_0029__eu-eu__forward,dico_trial_0029,eu,eu,geltoki batean,geltokian,EQUIVALENCE
+dico_trial_0029__eu-eu__reverse,dico_trial_0029,eu,eu,geltokian,geltoki batean,EQUIVALENCE
+dico_trial_0030__eu-eu__forward,dico_trial_0030,eu,eu,Apple ordenagailu bat,Macintosh ordenagailu bat,EQUIVALENCE
+dico_trial_0030__eu-eu__reverse,dico_trial_0030,eu,eu,Macintosh ordenagailu bat,Apple ordenagailu bat,EQUIVALENCE
+dico_trial_0031__eu-eu__forward,dico_trial_0031,eu,eu,AEBetako dron erasoa,dron eraso bat,FORWARD_ENTAILMENT
+dico_trial_0031__eu-eu__reverse,dico_trial_0031,eu,eu,dron eraso bat,AEBetako dron erasoa,BACKWARD_ENTAILMENT
+dico_trial_0032__eu-eu__forward,dico_trial_0032,eu,eu,merkataritza-guneko erasotzaileak,erasotzaileak,FORWARD_ENTAILMENT
+dico_trial_0032__eu-eu__reverse,dico_trial_0032,eu,eu,erasotzaileak,merkataritza-guneko erasotzaileak,BACKWARD_ENTAILMENT
+dico_trial_0033__eu-eu__forward,dico_trial_0033,eu,eu,Thailandiako oposizioko alderdia,Thailandiako oposizioa,FORWARD_ENTAILMENT
+dico_trial_0033__eu-eu__reverse,dico_trial_0033,eu,eu,Thailandiako oposizioa,Thailandiako oposizioko alderdia,BACKWARD_ENTAILMENT
+dico_trial_0034__eu-eu__forward,dico_trial_0034,eu,eu,immigrazioari buruzko eztabaida gogorra,immigrazioari buruzko eztabaida,FORWARD_ENTAILMENT
+dico_trial_0034__eu-eu__reverse,dico_trial_0034,eu,eu,immigrazioari buruzko eztabaida,immigrazioari buruzko eztabaida gogorra,BACKWARD_ENTAILMENT
+dico_trial_0035__eu-eu__forward,dico_trial_0035,eu,eu,AEBetako adopzio debekura,adopzio debekura,FORWARD_ENTAILMENT
+dico_trial_0035__eu-eu__reverse,dico_trial_0035,eu,eu,adopzio debekura,AEBetako adopzio debekura,BACKWARD_ENTAILMENT
+dico_trial_0036__eu-eu__forward,dico_trial_0036,eu,eu,sexu bereko ezkontzaren lege-proiektua,sexu bereko ezkontza,FORWARD_ENTAILMENT
+dico_trial_0036__eu-eu__reverse,dico_trial_0036,eu,eu,sexu bereko ezkontza,sexu bereko ezkontzaren lege-proiektua,BACKWARD_ENTAILMENT
+dico_trial_0037__eu-eu__forward,dico_trial_0037,eu,eu,Israelgo ordezkariak,Israelgo ordezkaria,FORWARD_ENTAILMENT
+dico_trial_0037__eu-eu__reverse,dico_trial_0037,eu,eu,Israelgo ordezkaria,Israelgo ordezkariak,BACKWARD_ENTAILMENT
+dico_trial_0038__eu-eu__forward,dico_trial_0038,eu,eu,kolonien planei buruz,koloniei buruz,FORWARD_ENTAILMENT
+dico_trial_0038__eu-eu__reverse,dico_trial_0038,eu,eu,koloniei buruz,kolonien planei buruz,BACKWARD_ENTAILMENT
+dico_trial_0039__eu-eu__forward,dico_trial_0039,eu,eu,bi auto-bonba,auto-bonba erasoa,FORWARD_ENTAILMENT
+dico_trial_0039__eu-eu__reverse,dico_trial_0039,eu,eu,auto-bonba erasoa,bi auto-bonba,BACKWARD_ENTAILMENT
+dico_trial_0040__eu-eu__forward,dico_trial_0040,eu,eu,Libiako Bengasin,Bengasin,FORWARD_ENTAILMENT
+dico_trial_0040__eu-eu__reverse,dico_trial_0040,eu,eu,Bengasin,Libiako Bengasin,BACKWARD_ENTAILMENT
+dico_trial_0041__eu-eu__forward,dico_trial_0041,eu,eu,sexu bereko ezkontzen entzunaldirako,sexu bereko ezkontzaren alde,FORWARD_ENTAILMENT
+dico_trial_0041__eu-eu__reverse,dico_trial_0041,eu,eu,sexu bereko ezkontzaren alde,sexu bereko ezkontzen entzunaldirako,BACKWARD_ENTAILMENT
+dico_trial_0042__eu-eu__forward,dico_trial_0042,eu,eu,akordio nuklear historikoa,akordio nuklearra,FORWARD_ENTAILMENT
+dico_trial_0042__eu-eu__reverse,dico_trial_0042,eu,eu,akordio nuklearra,akordio nuklear historikoa,BACKWARD_ENTAILMENT
+dico_trial_0043__eu-eu__forward,dico_trial_0043,eu,eu,eskuko ekipajeko likidoak eta gelak,eskuko ekipajeko likidoak,FORWARD_ENTAILMENT
+dico_trial_0043__eu-eu__reverse,dico_trial_0043,eu,eu,eskuko ekipajeko likidoak,eskuko ekipajeko likidoak eta gelak,BACKWARD_ENTAILMENT
+dico_trial_0044__eu-eu__forward,dico_trial_0044,eu,eu,AEBetako akzioak,akzioak,FORWARD_ENTAILMENT
+dico_trial_0044__eu-eu__reverse,dico_trial_0044,eu,eu,akzioak,AEBetako akzioak,BACKWARD_ENTAILMENT
+dico_trial_0045__eu-eu__forward,dico_trial_0045,eu,eu,Siriako hiriburuan,Sirian,FORWARD_ENTAILMENT
+dico_trial_0045__eu-eu__reverse,dico_trial_0045,eu,eu,Sirian,Siriako hiriburuan,BACKWARD_ENTAILMENT
+dico_trial_0046__eu-eu__forward,dico_trial_0046,eu,eu,futboleko baloi bat,pilota bat,FORWARD_ENTAILMENT
+dico_trial_0046__eu-eu__reverse,dico_trial_0046,eu,eu,pilota bat,futboleko baloi bat,BACKWARD_ENTAILMENT
+dico_trial_0047__eu-eu__forward,dico_trial_0047,eu,eu,txakur marroi bat,txakur bat,FORWARD_ENTAILMENT
+dico_trial_0047__eu-eu__reverse,dico_trial_0047,eu,eu,txakur bat,txakur marroi bat,BACKWARD_ENTAILMENT
+dico_trial_0048__eu-eu__forward,dico_trial_0048,eu,eu,bi neska gazte,bi neska,FORWARD_ENTAILMENT
+dico_trial_0048__eu-eu__reverse,dico_trial_0048,eu,eu,bi neska,bi neska gazte,BACKWARD_ENTAILMENT
+dico_trial_0049__eu-eu__forward,dico_trial_0049,eu,eu,txakur marroi argia,txakur marroi bat,FORWARD_ENTAILMENT
+dico_trial_0049__eu-eu__reverse,dico_trial_0049,eu,eu,txakur marroi bat,txakur marroi argia,BACKWARD_ENTAILMENT
+dico_trial_0050__eu-eu__forward,dico_trial_0050,eu,eu,lau haur txiki,lau haur,FORWARD_ENTAILMENT
+dico_trial_0050__eu-eu__reverse,dico_trial_0050,eu,eu,lau haur,lau haur txiki,BACKWARD_ENTAILMENT
+dico_trial_0051__eu-eu__forward,dico_trial_0051,eu,eu,mutil gazte bat,mutila,FORWARD_ENTAILMENT
+dico_trial_0051__eu-eu__reverse,dico_trial_0051,eu,eu,mutila,mutil gazte bat,BACKWARD_ENTAILMENT
+dico_trial_0052__eu-eu__forward,dico_trial_0052,eu,eu,gizon bat,pertsona bat,FORWARD_ENTAILMENT
+dico_trial_0052__eu-eu__reverse,dico_trial_0052,eu,eu,pertsona bat,gizon bat,BACKWARD_ENTAILMENT
+dico_trial_0053__eu-eu__forward,dico_trial_0053,eu,eu,uhal oso luze bat,uhal luze bat,FORWARD_ENTAILMENT
+dico_trial_0053__eu-eu__reverse,dico_trial_0053,eu,eu,uhal luze bat,uhal oso luze bat,BACKWARD_ENTAILMENT
+dico_trial_0054__eu-eu__forward,dico_trial_0054,eu,eu,kamisetarik gabeko gizon bat,gizon bat,FORWARD_ENTAILMENT
+dico_trial_0054__eu-eu__reverse,dico_trial_0054,eu,eu,gizon bat,kamisetarik gabeko gizon bat,BACKWARD_ENTAILMENT
+dico_trial_0055__eu-eu__forward,dico_trial_0055,eu,eu,txakur marroi handi bat,txakur marroi bat,FORWARD_ENTAILMENT
+dico_trial_0055__eu-eu__reverse,dico_trial_0055,eu,eu,txakur marroi bat,txakur marroi handi bat,BACKWARD_ENTAILMENT
+dico_trial_0056__eu-eu__forward,dico_trial_0056,eu,eu,bi txakur,txakur bat,FORWARD_ENTAILMENT
+dico_trial_0056__eu-eu__reverse,dico_trial_0056,eu,eu,txakur bat,bi txakur,BACKWARD_ENTAILMENT
+dico_trial_0057__eu-eu__forward,dico_trial_0057,eu,eu,bi gizon,gizon bat,FORWARD_ENTAILMENT
+dico_trial_0057__eu-eu__reverse,dico_trial_0057,eu,eu,gizon bat,bi gizon,BACKWARD_ENTAILMENT
+dico_trial_0058__eu-eu__forward,dico_trial_0058,eu,eu,bi nerabe,bi pertsona,FORWARD_ENTAILMENT
+dico_trial_0058__eu-eu__reverse,dico_trial_0058,eu,eu,bi pertsona,bi nerabe,BACKWARD_ENTAILMENT
+dico_trial_0059__eu-eu__forward,dico_trial_0059,eu,eu,tren beltza,tren bat,FORWARD_ENTAILMENT
+dico_trial_0059__eu-eu__reverse,dico_trial_0059,eu,eu,tren bat,tren beltza,BACKWARD_ENTAILMENT
+dico_trial_0060__eu-eu__forward,dico_trial_0060,eu,eu,katu grisa,katu bat,FORWARD_ENTAILMENT
+dico_trial_0060__eu-eu__reverse,dico_trial_0060,eu,eu,katu bat,katu grisa,BACKWARD_ENTAILMENT
+dico_trial_0061__eu-eu__forward,dico_trial_0061,eu,eu,emakumeak,emakume saudiarrak,BACKWARD_ENTAILMENT
+dico_trial_0061__eu-eu__reverse,dico_trial_0061,eu,eu,emakume saudiarrak,emakumeak,FORWARD_ENTAILMENT
+dico_trial_0062__eu-eu__forward,dico_trial_0062,eu,eu,aire-erasoa,aire-eraso berri bat,BACKWARD_ENTAILMENT
+dico_trial_0062__eu-eu__reverse,dico_trial_0062,eu,eu,aire-eraso berri bat,aire-erasoa,FORWARD_ENTAILMENT
+dico_trial_0063__eu-eu__forward,dico_trial_0063,eu,eu,panda gorria,desagertutako panda gorria,BACKWARD_ENTAILMENT
+dico_trial_0063__eu-eu__reverse,dico_trial_0063,eu,eu,desagertutako panda gorria,panda gorria,FORWARD_ENTAILMENT
+dico_trial_0064__eu-eu__forward,dico_trial_0064,eu,eu,auto-bonba erasoa,auto-bonba erasoak,BACKWARD_ENTAILMENT
+dico_trial_0064__eu-eu__reverse,dico_trial_0064,eu,eu,auto-bonba erasoak,auto-bonba erasoa,FORWARD_ENTAILMENT
+dico_trial_0065__eu-eu__forward,dico_trial_0065,eu,eu,Indiako polizia,Mumbaiko polizia,BACKWARD_ENTAILMENT
+dico_trial_0065__eu-eu__reverse,dico_trial_0065,eu,eu,Mumbaiko polizia,Indiako polizia,FORWARD_ENTAILMENT
+dico_trial_0066__eu-eu__forward,dico_trial_0066,eu,eu,batzordea,Senatuko Batzorde Judiziala,BACKWARD_ENTAILMENT
+dico_trial_0066__eu-eu__reverse,dico_trial_0066,eu,eu,Senatuko Batzorde Judiziala,batzordea,FORWARD_ENTAILMENT
+dico_trial_0067__eu-eu__forward,dico_trial_0067,eu,eu,osasun legea,osasun lege berria,BACKWARD_ENTAILMENT
+dico_trial_0067__eu-eu__reverse,dico_trial_0067,eu,eu,osasun lege berria,osasun legea,FORWARD_ENTAILMENT
+dico_trial_0068__eu-eu__forward,dico_trial_0068,eu,eu,bonba,bonba erasoa,BACKWARD_ENTAILMENT
+dico_trial_0068__eu-eu__reverse,dico_trial_0068,eu,eu,bonba erasoa,bonba,FORWARD_ENTAILMENT
+dico_trial_0069__eu-eu__forward,dico_trial_0069,eu,eu,Patriot misilen bateria,Patriot misilen bateriak,BACKWARD_ENTAILMENT
+dico_trial_0069__eu-eu__reverse,dico_trial_0069,eu,eu,Patriot misilen bateriak,Patriot misilen bateria,FORWARD_ENTAILMENT
+dico_trial_0070__eu-eu__forward,dico_trial_0070,eu,eu,erasotzaile suizida,erasotzaile suizidak,BACKWARD_ENTAILMENT
+dico_trial_0070__eu-eu__reverse,dico_trial_0070,eu,eu,erasotzaile suizidak,erasotzaile suizida,FORWARD_ENTAILMENT
+dico_trial_0071__eu-eu__forward,dico_trial_0071,eu,eu,gidaria,tren-gidaria,BACKWARD_ENTAILMENT
+dico_trial_0071__eu-eu__reverse,dico_trial_0071,eu,eu,tren-gidaria,gidaria,FORWARD_ENTAILMENT
+dico_trial_0072__eu-eu__forward,dico_trial_0072,eu,eu,itzulera,itzulerarako,BACKWARD_ENTAILMENT
+dico_trial_0072__eu-eu__reverse,dico_trial_0072,eu,eu,itzulerarako,itzulera,FORWARD_ENTAILMENT
+dico_trial_0073__eu-eu__forward,dico_trial_0073,eu,eu,kontserbadoreak,oposizio kontserbadorea,BACKWARD_ENTAILMENT
+dico_trial_0073__eu-eu__reverse,dico_trial_0073,eu,eu,oposizio kontserbadorea,kontserbadoreak,FORWARD_ENTAILMENT
+dico_trial_0074__eu-eu__forward,dico_trial_0074,eu,eu,misilak,misil balistikoak,BACKWARD_ENTAILMENT
+dico_trial_0074__eu-eu__reverse,dico_trial_0074,eu,eu,misil balistikoak,misilak,FORWARD_ENTAILMENT
+dico_trial_0075__eu-eu__forward,dico_trial_0075,eu,eu,bideoa,segurtasun-bideoa,BACKWARD_ENTAILMENT
+dico_trial_0075__eu-eu__reverse,dico_trial_0075,eu,eu,segurtasun-bideoa,bideoa,FORWARD_ENTAILMENT
+dico_trial_0076__eu-eu__forward,dico_trial_0076,eu,eu,haur bat,mutil gazte bat,BACKWARD_ENTAILMENT
+dico_trial_0076__eu-eu__reverse,dico_trial_0076,eu,eu,mutil gazte bat,haur bat,FORWARD_ENTAILMENT
+dico_trial_0077__eu-eu__forward,dico_trial_0077,eu,eu,txakur bat,txakur zuri bat,BACKWARD_ENTAILMENT
+dico_trial_0077__eu-eu__reverse,dico_trial_0077,eu,eu,txakur zuri bat,txakur bat,FORWARD_ENTAILMENT
+dico_trial_0078__eu-eu__forward,dico_trial_0078,eu,eu,mutil bat,mutil txiki bat,BACKWARD_ENTAILMENT
+dico_trial_0078__eu-eu__reverse,dico_trial_0078,eu,eu,mutil txiki bat,mutil bat,FORWARD_ENTAILMENT
+dico_trial_0079__eu-eu__forward,dico_trial_0079,eu,eu,txakur bat,txakur txiki bat,BACKWARD_ENTAILMENT
+dico_trial_0079__eu-eu__reverse,dico_trial_0079,eu,eu,txakur txiki bat,txakur bat,FORWARD_ENTAILMENT
+dico_trial_0080__eu-eu__forward,dico_trial_0080,eu,eu,mutil bat,mutil txiki bat,BACKWARD_ENTAILMENT
+dico_trial_0080__eu-eu__reverse,dico_trial_0080,eu,eu,mutil txiki bat,mutil bat,FORWARD_ENTAILMENT
+dico_trial_0081__eu-eu__forward,dico_trial_0081,eu,eu,haur bat,haur txiki bat,BACKWARD_ENTAILMENT
+dico_trial_0081__eu-eu__reverse,dico_trial_0081,eu,eu,haur txiki bat,haur bat,FORWARD_ENTAILMENT
+dico_trial_0082__eu-eu__forward,dico_trial_0082,eu,eu,txakur marroia,txakur marroi argala,BACKWARD_ENTAILMENT
+dico_trial_0082__eu-eu__reverse,dico_trial_0082,eu,eu,txakur marroi argala,txakur marroia,FORWARD_ENTAILMENT
+dico_trial_0083__eu-eu__forward,dico_trial_0083,eu,eu,pertsona,haur bat,BACKWARD_ENTAILMENT
+dico_trial_0083__eu-eu__reverse,dico_trial_0083,eu,eu,haur bat,pertsona,FORWARD_ENTAILMENT
+dico_trial_0084__eu-eu__forward,dico_trial_0084,eu,eu,mutil bat,mutil gazte bat,BACKWARD_ENTAILMENT
+dico_trial_0084__eu-eu__reverse,dico_trial_0084,eu,eu,mutil gazte bat,mutil bat,FORWARD_ENTAILMENT
+dico_trial_0085__eu-eu__forward,dico_trial_0085,eu,eu,bi txakur,bi txakur marroi,BACKWARD_ENTAILMENT
+dico_trial_0085__eu-eu__reverse,dico_trial_0085,eu,eu,bi txakur marroi,bi txakur,FORWARD_ENTAILMENT
+dico_trial_0086__eu-eu__forward,dico_trial_0086,eu,eu,txakur zuri bat,txakur zuri handi bat,BACKWARD_ENTAILMENT
+dico_trial_0086__eu-eu__reverse,dico_trial_0086,eu,eu,txakur zuri handi bat,txakur zuri bat,FORWARD_ENTAILMENT
+dico_trial_0087__eu-eu__forward,dico_trial_0087,eu,eu,neska bat,neska txiki bat,BACKWARD_ENTAILMENT
+dico_trial_0087__eu-eu__reverse,dico_trial_0087,eu,eu,neska txiki bat,neska bat,FORWARD_ENTAILMENT
+dico_trial_0088__eu-eu__forward,dico_trial_0088,eu,eu,bi neska,bi neska ilehori,BACKWARD_ENTAILMENT
+dico_trial_0088__eu-eu__reverse,dico_trial_0088,eu,eu,bi neska ilehori,bi neska,FORWARD_ENTAILMENT
+dico_trial_0089__eu-eu__forward,dico_trial_0089,eu,eu,emakume bat,neska gazte bat,BACKWARD_ENTAILMENT
+dico_trial_0089__eu-eu__reverse,dico_trial_0089,eu,eu,neska gazte bat,emakume bat,FORWARD_ENTAILMENT
+dico_trial_0090__eu-eu__forward,dico_trial_0090,eu,eu,emakume bat,emakume gazte bat,BACKWARD_ENTAILMENT
+dico_trial_0090__eu-eu__reverse,dico_trial_0090,eu,eu,emakume gazte bat,emakume bat,FORWARD_ENTAILMENT
+dico_trial_0091__eu-eu__forward,dico_trial_0091,eu,eu,dio,Siriako bakea,NEGATIVE_OTHER
+dico_trial_0092__eu-eu__forward,dico_trial_0092,eu,eu,ukatzen du,Houlako sarraskiagatik,NEGATIVE_OTHER
+dico_trial_0093__eu-eu__forward,dico_trial_0093,eu,eu,Siriako erregimena,matxinoak,NEGATIVE_OTHER
+dico_trial_0094__eu-eu__forward,dico_trial_0094,eu,eu,Salomon Uharteak,USGS,NEGATIVE_OTHER
+dico_trial_0095__eu-eu__forward,dico_trial_0095,eu,eu,gizon armatuak,zazpi langile atzerritar,NEGATIVE_OTHER
+dico_trial_0096__eu-eu__forward,dico_trial_0096,eu,eu,eski istripuaren ondoren,bere bizitzagatik,NEGATIVE_OTHER
+dico_trial_0097__eu-eu__forward,dico_trial_0097,eu,eu,erabakita,EBko ministroak,NEGATIVE_OTHER
+dico_trial_0098__eu-eu__forward,dico_trial_0098,eu,eu,Thailandiako oposizioko alderdia,iragartzen du,NEGATIVE_OTHER
+dico_trial_0099__eu-eu__forward,dico_trial_0099,eu,eu,jarraitzen du,gastatzeko,NEGATIVE_OTHER
+dico_trial_0100__eu-eu__forward,dico_trial_0100,eu,eu,exekutatzeko,preso palestinarren askapena,NEGATIVE_OTHER
+dico_trial_0101__eu-eu__forward,dico_trial_0101,eu,eu,preso palestinarrak,baimentzen du,NEGATIVE_OTHER
+dico_trial_0102__eu-eu__forward,dico_trial_0102,eu,eu,116 urterekin,Japonia,NEGATIVE_OTHER
+dico_trial_0103__eu-eu__forward,dico_trial_0103,eu,eu,gelditzeko,tentsioa,NEGATIVE_OTHER
+dico_trial_0104__eu-eu__forward,dico_trial_0104,eu,eu,kaleetan,Leninen estatua,NEGATIVE_OTHER
+dico_trial_0105__eu-eu__forward,dico_trial_0105,eu,eu,Ipar Korea,bi suziri,NEGATIVE_OTHER
+dico_trial_0106__eu-eu__forward,dico_trial_0106,eu,eu,katu bat,goian,NEGATIVE_OTHER
+dico_trial_0107__eu-eu__forward,dico_trial_0107,eu,eu,zaldi bat,hesi barruan,NEGATIVE_OTHER
+dico_trial_0108__eu-eu__forward,dico_trial_0108,eu,eu,gizon bat,aulki batean,NEGATIVE_OTHER
+dico_trial_0109__eu-eu__forward,dico_trial_0109,eu,eu,garagardo batekin,bi emakume,NEGATIVE_OTHER
+dico_trial_0110__eu-eu__forward,dico_trial_0110,eu,eu,belarretan,zuhaitzak atzean dituela,NEGATIVE_OTHER
+dico_trial_0111__eu-eu__forward,dico_trial_0111,eu,eu,hesi barruan,zaldi bat,NEGATIVE_OTHER
+dico_trial_0112__eu-eu__forward,dico_trial_0112,eu,eu,ibiltzen da,bide batean,NEGATIVE_OTHER
+dico_trial_0113__eu-eu__forward,dico_trial_0113,eu,eu,eserita dago,bizikleta batekin,NEGATIVE_OTHER
+dico_trial_0114__eu-eu__forward,dico_trial_0114,eu,eu,poltsa baten gainean,etxeko katua,NEGATIVE_OTHER
+dico_trial_0115__eu-eu__forward,dico_trial_0115,eu,eu,txakur bat,hozka ari da,NEGATIVE_OTHER
+dico_trial_0116__eu-eu__forward,dico_trial_0116,eu,eu,txakur bat,lanbasa bat,NEGATIVE_OTHER
+dico_trial_0117__eu-eu__forward,dico_trial_0117,eu,eu,koadrodun banderak,bi emakume,NEGATIVE_OTHER
+dico_trial_0118__eu-eu__forward,dico_trial_0118,eu,eu,emakume bat,jendetza batean,NEGATIVE_OTHER
+dico_trial_0119__eu-eu__forward,dico_trial_0119,eu,eu,txakur marroi bat,jarraitzen dio,NEGATIVE_OTHER
+dico_trial_0120__eu-eu__forward,dico_trial_0120,eu,eu,skate bat,pistako elementu baten alboan,NEGATIVE_OTHER

@@ -1,0 +1,211 @@
+instance_id,pair_id,text1_lang,text2_lang,text1,text2
+dico_trial_0001__es-es__forward,dico_trial_0001,es,es,a los 91 años,de 91 años
+dico_trial_0001__es-es__reverse,dico_trial_0001,es,es,de 91 años,a los 91 años
+dico_trial_0002__es-es__forward,dico_trial_0002,es,es,en los Juegos Olímpicos,en los Juegos Olímpicos
+dico_trial_0002__es-es__reverse,dico_trial_0002,es,es,en los Juegos Olímpicos,en los Juegos Olímpicos
+dico_trial_0003__es-es__forward,dico_trial_0003,es,es,permitir,permitido
+dico_trial_0003__es-es__reverse,dico_trial_0003,es,es,permitido,permitir
+dico_trial_0004__es-es__forward,dico_trial_0004,es,es,acciones chinas,acciones chinas
+dico_trial_0004__es-es__reverse,dico_trial_0004,es,es,acciones chinas,acciones chinas
+dico_trial_0005__es-es__forward,dico_trial_0005,es,es,anuncia su retirada,se retira
+dico_trial_0005__es-es__reverse,dico_trial_0005,es,es,se retira,anuncia su retirada
+dico_trial_0006__es-es__forward,dico_trial_0006,es,es,George W. Bush,George W. Bush
+dico_trial_0006__es-es__reverse,dico_trial_0006,es,es,George W. Bush,George W. Bush
+dico_trial_0007__es-es__forward,dico_trial_0007,es,es,dos periodistas franceses,dos periodistas franceses
+dico_trial_0007__es-es__reverse,dico_trial_0007,es,es,dos periodistas franceses,dos periodistas franceses
+dico_trial_0008__es-es__forward,dico_trial_0008,es,es,dos heridos,dos heridos
+dico_trial_0008__es-es__reverse,dico_trial_0008,es,es,dos heridos,dos heridos
+dico_trial_0009__es-es__forward,dico_trial_0009,es,es,noreste de EE. UU.,noreste de EE. UU.
+dico_trial_0009__es-es__reverse,dico_trial_0009,es,es,noreste de EE. UU.,noreste de EE. UU.
+dico_trial_0010__es-es__forward,dico_trial_0010,es,es,EE. UU.,EE. UU.
+dico_trial_0010__es-es__reverse,dico_trial_0010,es,es,EE. UU.,EE. UU.
+dico_trial_0011__es-es__forward,dico_trial_0011,es,es,Juegos Olímpicos de 2020,Olimpiadas de 2020
+dico_trial_0011__es-es__reverse,dico_trial_0011,es,es,Olimpiadas de 2020,Juegos Olímpicos de 2020
+dico_trial_0012__es-es__forward,dico_trial_0012,es,es,Corea del Norte,Corea del Norte
+dico_trial_0012__es-es__reverse,dico_trial_0012,es,es,Corea del Norte,Corea del Norte
+dico_trial_0013__es-es__forward,dico_trial_0013,es,es,Filipinas,Filipinas
+dico_trial_0013__es-es__reverse,dico_trial_0013,es,es,Filipinas,Filipinas
+dico_trial_0014__es-es__forward,dico_trial_0014,es,es,resolución de la ONU,resolución de la ONU
+dico_trial_0014__es-es__reverse,dico_trial_0014,es,es,resolución de la ONU,resolución de la ONU
+dico_trial_0015__es-es__forward,dico_trial_0015,es,es,Corea del Norte,Corea del Norte
+dico_trial_0015__es-es__reverse,dico_trial_0015,es,es,Corea del Norte,Corea del Norte
+dico_trial_0016__es-es__forward,dico_trial_0016,es,es,caminando,está caminando
+dico_trial_0016__es-es__reverse,dico_trial_0016,es,es,está caminando,caminando
+dico_trial_0017__es-es__forward,dico_trial_0017,es,es,están posando,posando
+dico_trial_0017__es-es__reverse,dico_trial_0017,es,es,posando,están posando
+dico_trial_0018__es-es__forward,dico_trial_0018,es,es,para una fotografía,para una foto
+dico_trial_0018__es-es__reverse,dico_trial_0018,es,es,para una foto,para una fotografía
+dico_trial_0019__es-es__forward,dico_trial_0019,es,es,niño joven,un niño joven
+dico_trial_0019__es-es__reverse,dico_trial_0019,es,es,un niño joven,niño joven
+dico_trial_0020__es-es__forward,dico_trial_0020,es,es,sosteniendo,está sosteniendo
+dico_trial_0020__es-es__reverse,dico_trial_0020,es,es,está sosteniendo,sosteniendo
+dico_trial_0021__es-es__forward,dico_trial_0021,es,es,mujer,una mujer
+dico_trial_0021__es-es__reverse,dico_trial_0021,es,es,una mujer,mujer
+dico_trial_0022__es-es__forward,dico_trial_0022,es,es,al agua,en el agua
+dico_trial_0022__es-es__reverse,dico_trial_0022,es,es,en el agua,al agua
+dico_trial_0023__es-es__forward,dico_trial_0023,es,es,está saltando,saltando
+dico_trial_0023__es-es__reverse,dico_trial_0023,es,es,saltando,está saltando
+dico_trial_0024__es-es__forward,dico_trial_0024,es,es,una pareja de perros,dos perros
+dico_trial_0024__es-es__reverse,dico_trial_0024,es,es,dos perros,una pareja de perros
+dico_trial_0025__es-es__forward,dico_trial_0025,es,es,llevando puesto,lleva puesto
+dico_trial_0025__es-es__reverse,dico_trial_0025,es,es,lleva puesto,llevando puesto
+dico_trial_0026__es-es__forward,dico_trial_0026,es,es,están caminando,caminando
+dico_trial_0026__es-es__reverse,dico_trial_0026,es,es,caminando,están caminando
+dico_trial_0027__es-es__forward,dico_trial_0027,es,es,un perro negro,perro negro
+dico_trial_0027__es-es__reverse,dico_trial_0027,es,es,perro negro,un perro negro
+dico_trial_0028__es-es__forward,dico_trial_0028,es,es,en el agua,en el agua
+dico_trial_0028__es-es__reverse,dico_trial_0028,es,es,en el agua,en el agua
+dico_trial_0029__es-es__forward,dico_trial_0029,es,es,en una estación,en la estación
+dico_trial_0029__es-es__reverse,dico_trial_0029,es,es,en la estación,en una estación
+dico_trial_0030__es-es__forward,dico_trial_0030,es,es,un ordenador Apple,un ordenador Macintosh
+dico_trial_0030__es-es__reverse,dico_trial_0030,es,es,un ordenador Macintosh,un ordenador Apple
+dico_trial_0031__es-es__forward,dico_trial_0031,es,es,ataque estadounidense con dron,ataque con dron
+dico_trial_0031__es-es__reverse,dico_trial_0031,es,es,ataque con dron,ataque estadounidense con dron
+dico_trial_0032__es-es__forward,dico_trial_0032,es,es,atacantes del centro comercial,atacantes
+dico_trial_0032__es-es__reverse,dico_trial_0032,es,es,atacantes,atacantes del centro comercial
+dico_trial_0033__es-es__forward,dico_trial_0033,es,es,partido opositor tailandés,oposición tailandesa
+dico_trial_0033__es-es__reverse,dico_trial_0033,es,es,oposición tailandesa,partido opositor tailandés
+dico_trial_0034__es-es__forward,dico_trial_0034,es,es,duro debate migratorio,debate migratorio
+dico_trial_0034__es-es__reverse,dico_trial_0034,es,es,debate migratorio,duro debate migratorio
+dico_trial_0035__es-es__forward,dico_trial_0035,es,es,a la prohibición estadounidense de adopción,a la prohibición de adopción
+dico_trial_0035__es-es__reverse,dico_trial_0035,es,es,a la prohibición de adopción,a la prohibición estadounidense de adopción
+dico_trial_0036__es-es__forward,dico_trial_0036,es,es,proyecto de ley de matrimonio igualitario,matrimonio igualitario
+dico_trial_0036__es-es__reverse,dico_trial_0036,es,es,matrimonio igualitario,proyecto de ley de matrimonio igualitario
+dico_trial_0037__es-es__forward,dico_trial_0037,es,es,enviados israelíes,enviado israelí
+dico_trial_0037__es-es__reverse,dico_trial_0037,es,es,enviado israelí,enviados israelíes
+dico_trial_0038__es-es__forward,dico_trial_0038,es,es,sobre planes de asentamientos,sobre asentamientos
+dico_trial_0038__es-es__reverse,dico_trial_0038,es,es,sobre asentamientos,sobre planes de asentamientos
+dico_trial_0039__es-es__forward,dico_trial_0039,es,es,dos coches bomba,atentado con coche bomba
+dico_trial_0039__es-es__reverse,dico_trial_0039,es,es,atentado con coche bomba,dos coches bomba
+dico_trial_0040__es-es__forward,dico_trial_0040,es,es,"en Bengasi, Libia",en Bengasi
+dico_trial_0040__es-es__reverse,dico_trial_0040,es,es,en Bengasi,"en Bengasi, Libia"
+dico_trial_0041__es-es__forward,dico_trial_0041,es,es,para la audiencia sobre matrimonio igualitario,por el matrimonio igualitario
+dico_trial_0041__es-es__reverse,dico_trial_0041,es,es,por el matrimonio igualitario,para la audiencia sobre matrimonio igualitario
+dico_trial_0042__es-es__forward,dico_trial_0042,es,es,acuerdo nuclear histórico,acuerdo nuclear
+dico_trial_0042__es-es__reverse,dico_trial_0042,es,es,acuerdo nuclear,acuerdo nuclear histórico
+dico_trial_0043__es-es__forward,dico_trial_0043,es,es,líquidos y geles de mano,líquidos de mano
+dico_trial_0043__es-es__reverse,dico_trial_0043,es,es,líquidos de mano,líquidos y geles de mano
+dico_trial_0044__es-es__forward,dico_trial_0044,es,es,acciones estadounidenses,acciones
+dico_trial_0044__es-es__reverse,dico_trial_0044,es,es,acciones,acciones estadounidenses
+dico_trial_0045__es-es__forward,dico_trial_0045,es,es,en la capital siria,en Siria
+dico_trial_0045__es-es__reverse,dico_trial_0045,es,es,en Siria,en la capital siria
+dico_trial_0046__es-es__forward,dico_trial_0046,es,es,un balón de fútbol,una pelota
+dico_trial_0046__es-es__reverse,dico_trial_0046,es,es,una pelota,un balón de fútbol
+dico_trial_0047__es-es__forward,dico_trial_0047,es,es,un perro marrón,un perro
+dico_trial_0047__es-es__reverse,dico_trial_0047,es,es,un perro,un perro marrón
+dico_trial_0048__es-es__forward,dico_trial_0048,es,es,dos niñas jóvenes,dos niñas
+dico_trial_0048__es-es__reverse,dico_trial_0048,es,es,dos niñas,dos niñas jóvenes
+dico_trial_0049__es-es__forward,dico_trial_0049,es,es,perro marrón claro,un perro marrón
+dico_trial_0049__es-es__reverse,dico_trial_0049,es,es,un perro marrón,perro marrón claro
+dico_trial_0050__es-es__forward,dico_trial_0050,es,es,cuatro niños pequeños,cuatro niños
+dico_trial_0050__es-es__reverse,dico_trial_0050,es,es,cuatro niños,cuatro niños pequeños
+dico_trial_0051__es-es__forward,dico_trial_0051,es,es,un niño joven,el niño
+dico_trial_0051__es-es__reverse,dico_trial_0051,es,es,el niño,un niño joven
+dico_trial_0052__es-es__forward,dico_trial_0052,es,es,un hombre,una persona
+dico_trial_0052__es-es__reverse,dico_trial_0052,es,es,una persona,un hombre
+dico_trial_0053__es-es__forward,dico_trial_0053,es,es,una correa muy larga,una correa larga
+dico_trial_0053__es-es__reverse,dico_trial_0053,es,es,una correa larga,una correa muy larga
+dico_trial_0054__es-es__forward,dico_trial_0054,es,es,un hombre sin camisa,un hombre
+dico_trial_0054__es-es__reverse,dico_trial_0054,es,es,un hombre,un hombre sin camisa
+dico_trial_0055__es-es__forward,dico_trial_0055,es,es,un perro marrón grande,un perro marrón
+dico_trial_0055__es-es__reverse,dico_trial_0055,es,es,un perro marrón,un perro marrón grande
+dico_trial_0056__es-es__forward,dico_trial_0056,es,es,dos perros,un perro
+dico_trial_0056__es-es__reverse,dico_trial_0056,es,es,un perro,dos perros
+dico_trial_0057__es-es__forward,dico_trial_0057,es,es,dos hombres,un hombre
+dico_trial_0057__es-es__reverse,dico_trial_0057,es,es,un hombre,dos hombres
+dico_trial_0058__es-es__forward,dico_trial_0058,es,es,dos adolescentes,dos personas
+dico_trial_0058__es-es__reverse,dico_trial_0058,es,es,dos personas,dos adolescentes
+dico_trial_0059__es-es__forward,dico_trial_0059,es,es,tren negro,un tren
+dico_trial_0059__es-es__reverse,dico_trial_0059,es,es,un tren,tren negro
+dico_trial_0060__es-es__forward,dico_trial_0060,es,es,gato gris,un gato
+dico_trial_0060__es-es__reverse,dico_trial_0060,es,es,un gato,gato gris
+dico_trial_0061__es-es__forward,dico_trial_0061,es,es,mujeres,mujeres saudíes
+dico_trial_0061__es-es__reverse,dico_trial_0061,es,es,mujeres saudíes,mujeres
+dico_trial_0062__es-es__forward,dico_trial_0062,es,es,ataque aéreo,nuevo ataque aéreo
+dico_trial_0062__es-es__reverse,dico_trial_0062,es,es,nuevo ataque aéreo,ataque aéreo
+dico_trial_0063__es-es__forward,dico_trial_0063,es,es,panda rojo,panda rojo desaparecido
+dico_trial_0063__es-es__reverse,dico_trial_0063,es,es,panda rojo desaparecido,panda rojo
+dico_trial_0064__es-es__forward,dico_trial_0064,es,es,atentado con coche bomba,atentados con coche bomba
+dico_trial_0064__es-es__reverse,dico_trial_0064,es,es,atentados con coche bomba,atentado con coche bomba
+dico_trial_0065__es-es__forward,dico_trial_0065,es,es,policía india,policía de Bombay
+dico_trial_0065__es-es__reverse,dico_trial_0065,es,es,policía de Bombay,policía india
+dico_trial_0066__es-es__forward,dico_trial_0066,es,es,comité,Comité Judicial del Senado
+dico_trial_0066__es-es__reverse,dico_trial_0066,es,es,Comité Judicial del Senado,comité
+dico_trial_0067__es-es__forward,dico_trial_0067,es,es,ley sanitaria,nueva ley sanitaria
+dico_trial_0067__es-es__reverse,dico_trial_0067,es,es,nueva ley sanitaria,ley sanitaria
+dico_trial_0068__es-es__forward,dico_trial_0068,es,es,bomba,atentado con bomba
+dico_trial_0068__es-es__reverse,dico_trial_0068,es,es,atentado con bomba,bomba
+dico_trial_0069__es-es__forward,dico_trial_0069,es,es,batería de misiles Patriot,baterías de misiles Patriot
+dico_trial_0069__es-es__reverse,dico_trial_0069,es,es,baterías de misiles Patriot,batería de misiles Patriot
+dico_trial_0070__es-es__forward,dico_trial_0070,es,es,terrorista suicida,terroristas suicidas
+dico_trial_0070__es-es__reverse,dico_trial_0070,es,es,terroristas suicidas,terrorista suicida
+dico_trial_0071__es-es__forward,dico_trial_0071,es,es,conductor,conductor de tren
+dico_trial_0071__es-es__reverse,dico_trial_0071,es,es,conductor de tren,conductor
+dico_trial_0072__es-es__forward,dico_trial_0072,es,es,regreso,para el regreso
+dico_trial_0072__es-es__reverse,dico_trial_0072,es,es,para el regreso,regreso
+dico_trial_0073__es-es__forward,dico_trial_0073,es,es,conservadores,oposición conservadora
+dico_trial_0073__es-es__reverse,dico_trial_0073,es,es,oposición conservadora,conservadores
+dico_trial_0074__es-es__forward,dico_trial_0074,es,es,misiles,misiles balísticos
+dico_trial_0074__es-es__reverse,dico_trial_0074,es,es,misiles balísticos,misiles
+dico_trial_0075__es-es__forward,dico_trial_0075,es,es,vídeo,vídeo de seguridad
+dico_trial_0075__es-es__reverse,dico_trial_0075,es,es,vídeo de seguridad,vídeo
+dico_trial_0076__es-es__forward,dico_trial_0076,es,es,un niño,un niño joven
+dico_trial_0076__es-es__reverse,dico_trial_0076,es,es,un niño joven,un niño
+dico_trial_0077__es-es__forward,dico_trial_0077,es,es,un perro,un perro blanco
+dico_trial_0077__es-es__reverse,dico_trial_0077,es,es,un perro blanco,un perro
+dico_trial_0078__es-es__forward,dico_trial_0078,es,es,un niño,un niño pequeño
+dico_trial_0078__es-es__reverse,dico_trial_0078,es,es,un niño pequeño,un niño
+dico_trial_0079__es-es__forward,dico_trial_0079,es,es,un perro,un perro pequeño
+dico_trial_0079__es-es__reverse,dico_trial_0079,es,es,un perro pequeño,un perro
+dico_trial_0080__es-es__forward,dico_trial_0080,es,es,un niño,un niño pequeño
+dico_trial_0080__es-es__reverse,dico_trial_0080,es,es,un niño pequeño,un niño
+dico_trial_0081__es-es__forward,dico_trial_0081,es,es,un bebé,un bebé pequeño
+dico_trial_0081__es-es__reverse,dico_trial_0081,es,es,un bebé pequeño,un bebé
+dico_trial_0082__es-es__forward,dico_trial_0082,es,es,el perro marrón,el perro marrón delgado
+dico_trial_0082__es-es__reverse,dico_trial_0082,es,es,el perro marrón delgado,el perro marrón
+dico_trial_0083__es-es__forward,dico_trial_0083,es,es,la persona,un niño
+dico_trial_0083__es-es__reverse,dico_trial_0083,es,es,un niño,la persona
+dico_trial_0084__es-es__forward,dico_trial_0084,es,es,un niño,un niño joven
+dico_trial_0084__es-es__reverse,dico_trial_0084,es,es,un niño joven,un niño
+dico_trial_0085__es-es__forward,dico_trial_0085,es,es,dos perros,dos perros marrones
+dico_trial_0085__es-es__reverse,dico_trial_0085,es,es,dos perros marrones,dos perros
+dico_trial_0086__es-es__forward,dico_trial_0086,es,es,un perro blanco,un perro blanco grande
+dico_trial_0086__es-es__reverse,dico_trial_0086,es,es,un perro blanco grande,un perro blanco
+dico_trial_0087__es-es__forward,dico_trial_0087,es,es,una niña,una niña pequeña
+dico_trial_0087__es-es__reverse,dico_trial_0087,es,es,una niña pequeña,una niña
+dico_trial_0088__es-es__forward,dico_trial_0088,es,es,dos niñas,dos niñas rubias
+dico_trial_0088__es-es__reverse,dico_trial_0088,es,es,dos niñas rubias,dos niñas
+dico_trial_0089__es-es__forward,dico_trial_0089,es,es,una mujer,una niña joven
+dico_trial_0089__es-es__reverse,dico_trial_0089,es,es,una niña joven,una mujer
+dico_trial_0090__es-es__forward,dico_trial_0090,es,es,una mujer,una mujer joven
+dico_trial_0090__es-es__reverse,dico_trial_0090,es,es,una mujer joven,una mujer
+dico_trial_0091__es-es__forward,dico_trial_0091,es,es,dice,paz en Siria
+dico_trial_0092__es-es__forward,dico_trial_0092,es,es,niega,por la masacre de Houla
+dico_trial_0093__es-es__forward,dico_trial_0093,es,es,régimen sirio,rebeldes
+dico_trial_0094__es-es__forward,dico_trial_0094,es,es,Islas Salomón,USGS
+dico_trial_0095__es-es__forward,dico_trial_0095,es,es,hombres armados,siete trabajadores extranjeros
+dico_trial_0096__es-es__forward,dico_trial_0096,es,es,tras el accidente de esquí,por su vida
+dico_trial_0097__es-es__forward,dico_trial_0097,es,es,decidido,ministros de la UE
+dico_trial_0098__es-es__forward,dico_trial_0098,es,es,partido opositor tailandés,anuncia
+dico_trial_0099__es-es__forward,dico_trial_0099,es,es,continúa,gastar
+dico_trial_0100__es-es__forward,dico_trial_0100,es,es,ejecutar,liberación de presos palestinos
+dico_trial_0101__es-es__forward,dico_trial_0101,es,es,cautivos palestinos,permite
+dico_trial_0102__es-es__forward,dico_trial_0102,es,es,a los 116 años,Japón
+dico_trial_0103__es-es__forward,dico_trial_0103,es,es,detener,tensión
+dico_trial_0104__es-es__forward,dico_trial_0104,es,es,en las calles,estatua de Lenin
+dico_trial_0105__es-es__forward,dico_trial_0105,es,es,Corea del Norte,dos cohetes
+dico_trial_0106__es-es__forward,dico_trial_0106,es,es,un gato,en lo alto
+dico_trial_0107__es-es__forward,dico_trial_0107,es,es,un caballo,en un cercado
+dico_trial_0108__es-es__forward,dico_trial_0108,es,es,un hombre,en una silla
+dico_trial_0109__es-es__forward,dico_trial_0109,es,es,con una cerveza,dos mujeres
+dico_trial_0110__es-es__forward,dico_trial_0110,es,es,en la hierba,con árboles detrás
+dico_trial_0111__es-es__forward,dico_trial_0111,es,es,en un cercado,un caballo
+dico_trial_0112__es-es__forward,dico_trial_0112,es,es,monta,en un camino
+dico_trial_0113__es-es__forward,dico_trial_0113,es,es,se sienta,con una bicicleta
+dico_trial_0114__es-es__forward,dico_trial_0114,es,es,sobre una bolsa,gato doméstico
+dico_trial_0115__es-es__forward,dico_trial_0115,es,es,un perro,está mordiendo
+dico_trial_0116__es-es__forward,dico_trial_0116,es,es,un perro,una fregona
+dico_trial_0117__es-es__forward,dico_trial_0117,es,es,banderas a cuadros,dos mujeres
+dico_trial_0118__es-es__forward,dico_trial_0118,es,es,una mujer,en una multitud
+dico_trial_0119__es-es__forward,dico_trial_0119,es,es,un perro marrón,persigue
+dico_trial_0120__es-es__forward,dico_trial_0120,es,es,un monopatín,junto a un elemento de la pista

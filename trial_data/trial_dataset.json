@@ -1,0 +1,3844 @@
+{
+  "pairs": [
+    {
+      "pair_id": "dico_trial_0001",
+      "split": "trial",
+      "gold_label": "EQUIVALENCE",
+      "languages": {
+        "en": {
+          "text1": "at 91",
+          "text2": "aged 91"
+        },
+        "es": {
+          "text1": "a los 91 años",
+          "text2": "de 91 años"
+        },
+        "eu": {
+          "text1": "91 urterekin",
+          "text2": "91 urte zituela"
+        }
+      },
+      "metadata": {
+        "origin": "PhrasIS",
+        "source_file": "PhrasIS.train.headlines.positives.txt",
+        "source_line": 1,
+        "source_split": "train",
+        "source_modality": "headlines",
+        "phrasis_label": "EQUI",
+        "phrasis_score": "5",
+        "phrasis_text1_span": "8 9",
+        "phrasis_text2_span": "11 12",
+        "phrasis_sentence_id": "1",
+        "curation_note": "manually selected as unambiguous trial example"
+      }
+    },
+    {
+      "pair_id": "dico_trial_0002",
+      "split": "trial",
+      "gold_label": "EQUIVALENCE",
+      "languages": {
+        "en": {
+          "text1": "in Olympics",
+          "text2": "At Olympics"
+        },
+        "es": {
+          "text1": "en los Juegos Olímpicos",
+          "text2": "en los Juegos Olímpicos"
+        },
+        "eu": {
+          "text1": "Olinpiar Jokoetan",
+          "text2": "Olinpiar Jokoetan"
+        }
+      },
+      "metadata": {
+        "origin": "PhrasIS",
+        "source_file": "PhrasIS.train.headlines.positives.txt",
+        "source_line": 4,
+        "source_split": "train",
+        "source_modality": "headlines",
+        "phrasis_label": "EQUI",
+        "phrasis_score": "5",
+        "phrasis_text1_span": "7 8",
+        "phrasis_text2_span": "6 7",
+        "phrasis_sentence_id": "2",
+        "curation_note": "manually selected as unambiguous trial example"
+      }
+    },
+    {
+      "pair_id": "dico_trial_0003",
+      "split": "trial",
+      "gold_label": "EQUIVALENCE",
+      "languages": {
+        "en": {
+          "text1": "to permit",
+          "text2": "Allowed"
+        },
+        "es": {
+          "text1": "permitir",
+          "text2": "permitido"
+        },
+        "eu": {
+          "text1": "baimentzeko",
+          "text2": "baimenduta"
+        }
+      },
+      "metadata": {
+        "origin": "PhrasIS",
+        "source_file": "PhrasIS.train.headlines.positives.txt",
+        "source_line": 6,
+        "source_split": "train",
+        "source_modality": "headlines",
+        "phrasis_label": "EQUI",
+        "phrasis_score": "5",
+        "phrasis_text1_span": "2 3",
+        "phrasis_text2_span": "3",
+        "phrasis_sentence_id": "2",
+        "curation_note": "manually selected as unambiguous trial example"
+      }
+    },
+    {
+      "pair_id": "dico_trial_0004",
+      "split": "trial",
+      "gold_label": "EQUIVALENCE",
+      "languages": {
+        "en": {
+          "text1": "China stocks",
+          "text2": "Chinese stocks"
+        },
+        "es": {
+          "text1": "acciones chinas",
+          "text2": "acciones chinas"
+        },
+        "eu": {
+          "text1": "Txinako akzioak",
+          "text2": "Txinako akzioak"
+        }
+      },
+      "metadata": {
+        "origin": "PhrasIS",
+        "source_file": "PhrasIS.train.headlines.positives.txt",
+        "source_line": 12,
+        "source_split": "train",
+        "source_modality": "headlines",
+        "phrasis_label": "EQUI",
+        "phrasis_score": "5",
+        "phrasis_text1_span": "1 2",
+        "phrasis_text2_span": "1 2",
+        "phrasis_sentence_id": "6",
+        "curation_note": "manually selected as unambiguous trial example"
+      }
+    },
+    {
+      "pair_id": "dico_trial_0005",
+      "split": "trial",
+      "gold_label": "EQUIVALENCE",
+      "languages": {
+        "en": {
+          "text1": "Announces Retirement",
+          "text2": "retires"
+        },
+        "es": {
+          "text1": "anuncia su retirada",
+          "text2": "se retira"
+        },
+        "eu": {
+          "text1": "erretiroa iragarri du",
+          "text2": "erretiratu da"
+        }
+      },
+      "metadata": {
+        "origin": "PhrasIS",
+        "source_file": "PhrasIS.train.headlines.positives.txt",
+        "source_line": 30,
+        "source_split": "train",
+        "source_modality": "headlines",
+        "phrasis_label": "EQUI",
+        "phrasis_score": "5",
+        "phrasis_text1_span": "3 4",
+        "phrasis_text2_span": "3",
+        "phrasis_sentence_id": "16",
+        "curation_note": "manually selected as unambiguous trial example"
+      }
+    },
+    {
+      "pair_id": "dico_trial_0006",
+      "split": "trial",
+      "gold_label": "EQUIVALENCE",
+      "languages": {
+        "en": {
+          "text1": "George W. Bush",
+          "text2": "George W Bush"
+        },
+        "es": {
+          "text1": "George W. Bush",
+          "text2": "George W. Bush"
+        },
+        "eu": {
+          "text1": "George W. Bush",
+          "text2": "George W. Bush"
+        }
+      },
+      "metadata": {
+        "origin": "PhrasIS",
+        "source_file": "PhrasIS.train.headlines.positives.txt",
+        "source_line": 46,
+        "source_split": "train",
+        "source_modality": "headlines",
+        "phrasis_label": "EQUI",
+        "phrasis_score": "5",
+        "phrasis_text1_span": "1 2 3",
+        "phrasis_text2_span": "1 2 3",
+        "phrasis_sentence_id": "25",
+        "curation_note": "manually selected as unambiguous trial example"
+      }
+    },
+    {
+      "pair_id": "dico_trial_0007",
+      "split": "trial",
+      "gold_label": "EQUIVALENCE",
+      "languages": {
+        "en": {
+          "text1": "2 French Journalists",
+          "text2": "Two French journalists"
+        },
+        "es": {
+          "text1": "dos periodistas franceses",
+          "text2": "dos periodistas franceses"
+        },
+        "eu": {
+          "text1": "bi kazetari frantses",
+          "text2": "bi kazetari frantses"
+        }
+      },
+      "metadata": {
+        "origin": "PhrasIS",
+        "source_file": "PhrasIS.train.headlines.positives.txt",
+        "source_line": 53,
+        "source_split": "train",
+        "source_modality": "headlines",
+        "phrasis_label": "EQUI",
+        "phrasis_score": "5",
+        "phrasis_text1_span": "1 2 3",
+        "phrasis_text2_span": "1 2 3",
+        "phrasis_sentence_id": "29",
+        "curation_note": "manually selected as unambiguous trial example"
+      }
+    },
+    {
+      "pair_id": "dico_trial_0008",
+      "split": "trial",
+      "gold_label": "EQUIVALENCE",
+      "languages": {
+        "en": {
+          "text1": "2 injured",
+          "text2": "2 hurt"
+        },
+        "es": {
+          "text1": "dos heridos",
+          "text2": "dos heridos"
+        },
+        "eu": {
+          "text1": "bi zauritu",
+          "text2": "bi zauritu"
+        }
+      },
+      "metadata": {
+        "origin": "PhrasIS",
+        "source_file": "PhrasIS.train.headlines.positives.txt",
+        "source_line": 70,
+        "source_split": "train",
+        "source_modality": "headlines",
+        "phrasis_label": "EQUI",
+        "phrasis_score": "5",
+        "phrasis_text1_span": "4 5",
+        "phrasis_text2_span": "6 7",
+        "phrasis_sentence_id": "41",
+        "curation_note": "manually selected as unambiguous trial example"
+      }
+    },
+    {
+      "pair_id": "dico_trial_0009",
+      "split": "trial",
+      "gold_label": "EQUIVALENCE",
+      "languages": {
+        "en": {
+          "text1": "U.S. Northeast",
+          "text2": "US Northeast"
+        },
+        "es": {
+          "text1": "noreste de EE. UU.",
+          "text2": "noreste de EE. UU."
+        },
+        "eu": {
+          "text1": "AEBetako ipar-ekialdea",
+          "text2": "AEBetako ipar-ekialdea"
+        }
+      },
+      "metadata": {
+        "origin": "PhrasIS",
+        "source_file": "PhrasIS.train.headlines.positives.txt",
+        "source_line": 105,
+        "source_split": "train",
+        "source_modality": "headlines",
+        "phrasis_label": "EQUI",
+        "phrasis_score": "5",
+        "phrasis_text1_span": "3 4",
+        "phrasis_text2_span": "3 4",
+        "phrasis_sentence_id": "64",
+        "curation_note": "manually selected as unambiguous trial example"
+      }
+    },
+    {
+      "pair_id": "dico_trial_0010",
+      "split": "trial",
+      "gold_label": "EQUIVALENCE",
+      "languages": {
+        "en": {
+          "text1": "the U.S.",
+          "text2": "US"
+        },
+        "es": {
+          "text1": "EE. UU.",
+          "text2": "EE. UU."
+        },
+        "eu": {
+          "text1": "AEB",
+          "text2": "AEB"
+        }
+      },
+      "metadata": {
+        "origin": "PhrasIS",
+        "source_file": "PhrasIS.train.headlines.positives.txt",
+        "source_line": 115,
+        "source_split": "train",
+        "source_modality": "headlines",
+        "phrasis_label": "EQUI",
+        "phrasis_score": "5",
+        "phrasis_text1_span": "2 3",
+        "phrasis_text2_span": "1",
+        "phrasis_sentence_id": "75",
+        "curation_note": "manually selected as unambiguous trial example"
+      }
+    },
+    {
+      "pair_id": "dico_trial_0011",
+      "split": "trial",
+      "gold_label": "EQUIVALENCE",
+      "languages": {
+        "en": {
+          "text1": "2020 Olympic Games",
+          "text2": "2020 Olympics"
+        },
+        "es": {
+          "text1": "Juegos Olímpicos de 2020",
+          "text2": "Olimpiadas de 2020"
+        },
+        "eu": {
+          "text1": "2020ko Olinpiar Jokoak",
+          "text2": "2020ko Olinpiar Jokoak"
+        }
+      },
+      "metadata": {
+        "origin": "PhrasIS",
+        "source_file": "PhrasIS.train.headlines.positives.txt",
+        "source_line": 169,
+        "source_split": "train",
+        "source_modality": "headlines",
+        "phrasis_label": "EQUI",
+        "phrasis_score": "5",
+        "phrasis_text1_span": "4 5 6",
+        "phrasis_text2_span": "6 7",
+        "phrasis_sentence_id": "112",
+        "curation_note": "manually selected as unambiguous trial example"
+      }
+    },
+    {
+      "pair_id": "dico_trial_0012",
+      "split": "trial",
+      "gold_label": "EQUIVALENCE",
+      "languages": {
+        "en": {
+          "text1": "N Korea",
+          "text2": "North Korea"
+        },
+        "es": {
+          "text1": "Corea del Norte",
+          "text2": "Corea del Norte"
+        },
+        "eu": {
+          "text1": "Ipar Korea",
+          "text2": "Ipar Korea"
+        }
+      },
+      "metadata": {
+        "origin": "PhrasIS",
+        "source_file": "PhrasIS.train.headlines.positives.txt",
+        "source_line": 184,
+        "source_split": "train",
+        "source_modality": "headlines",
+        "phrasis_label": "EQUI",
+        "phrasis_score": "5",
+        "phrasis_text1_span": "1 2",
+        "phrasis_text2_span": "1 2",
+        "phrasis_sentence_id": "119",
+        "curation_note": "manually selected as unambiguous trial example"
+      }
+    },
+    {
+      "pair_id": "dico_trial_0013",
+      "split": "trial",
+      "gold_label": "EQUIVALENCE",
+      "languages": {
+        "en": {
+          "text1": "the Philippines",
+          "text2": "Philippines"
+        },
+        "es": {
+          "text1": "Filipinas",
+          "text2": "Filipinas"
+        },
+        "eu": {
+          "text1": "Filipinak",
+          "text2": "Filipinak"
+        }
+      },
+      "metadata": {
+        "origin": "PhrasIS",
+        "source_file": "PhrasIS.train.headlines.positives.txt",
+        "source_line": 237,
+        "source_split": "train",
+        "source_modality": "headlines",
+        "phrasis_label": "EQUI",
+        "phrasis_score": "5",
+        "phrasis_text1_span": "7 8",
+        "phrasis_text2_span": "7",
+        "phrasis_sentence_id": "160",
+        "curation_note": "manually selected as unambiguous trial example"
+      }
+    },
+    {
+      "pair_id": "dico_trial_0014",
+      "split": "trial",
+      "gold_label": "EQUIVALENCE",
+      "languages": {
+        "en": {
+          "text1": "UN resolution",
+          "text2": "U.N. resolution"
+        },
+        "es": {
+          "text1": "resolución de la ONU",
+          "text2": "resolución de la ONU"
+        },
+        "eu": {
+          "text1": "NBEren ebazpena",
+          "text2": "NBEren ebazpena"
+        }
+      },
+      "metadata": {
+        "origin": "PhrasIS",
+        "source_file": "PhrasIS.test.headlines.positives.txt",
+        "source_line": 75,
+        "source_split": "test",
+        "source_modality": "headlines",
+        "phrasis_label": "EQUI",
+        "phrasis_score": "5",
+        "phrasis_text1_span": "3 4",
+        "phrasis_text2_span": "3 4",
+        "phrasis_sentence_id": "49",
+        "curation_note": "manually selected as unambiguous trial example"
+      }
+    },
+    {
+      "pair_id": "dico_trial_0015",
+      "split": "trial",
+      "gold_label": "EQUIVALENCE",
+      "languages": {
+        "en": {
+          "text1": "N. Korea",
+          "text2": "North Korea"
+        },
+        "es": {
+          "text1": "Corea del Norte",
+          "text2": "Corea del Norte"
+        },
+        "eu": {
+          "text1": "Ipar Korea",
+          "text2": "Ipar Korea"
+        }
+      },
+      "metadata": {
+        "origin": "PhrasIS",
+        "source_file": "PhrasIS.test.headlines.positives.txt",
+        "source_line": 421,
+        "source_split": "test",
+        "source_modality": "headlines",
+        "phrasis_label": "EQUI",
+        "phrasis_score": "5",
+        "phrasis_text1_span": "1 2",
+        "phrasis_text2_span": "1 2",
+        "phrasis_sentence_id": "304",
+        "curation_note": "manually selected as unambiguous trial example"
+      }
+    },
+    {
+      "pair_id": "dico_trial_0016",
+      "split": "trial",
+      "gold_label": "EQUIVALENCE",
+      "languages": {
+        "en": {
+          "text1": "walking",
+          "text2": "is walking"
+        },
+        "es": {
+          "text1": "caminando",
+          "text2": "está caminando"
+        },
+        "eu": {
+          "text1": "oinez",
+          "text2": "oinez ari da"
+        }
+      },
+      "metadata": {
+        "origin": "PhrasIS",
+        "source_file": "PhrasIS.test.images.positives.txt",
+        "source_line": 5,
+        "source_split": "test",
+        "source_modality": "images",
+        "phrasis_label": "EQUI",
+        "phrasis_score": "5",
+        "phrasis_text1_span": "4",
+        "phrasis_text2_span": "4 5",
+        "phrasis_sentence_id": "4",
+        "curation_note": "manually selected as unambiguous trial example"
+      }
+    },
+    {
+      "pair_id": "dico_trial_0017",
+      "split": "trial",
+      "gold_label": "EQUIVALENCE",
+      "languages": {
+        "en": {
+          "text1": "are posing",
+          "text2": "posing"
+        },
+        "es": {
+          "text1": "están posando",
+          "text2": "posando"
+        },
+        "eu": {
+          "text1": "posatzen ari dira",
+          "text2": "posatzen"
+        }
+      },
+      "metadata": {
+        "origin": "PhrasIS",
+        "source_file": "PhrasIS.test.images.positives.txt",
+        "source_line": 21,
+        "source_split": "test",
+        "source_modality": "images",
+        "phrasis_label": "EQUI",
+        "phrasis_score": "5",
+        "phrasis_text1_span": "10 11",
+        "phrasis_text2_span": "6",
+        "phrasis_sentence_id": "13",
+        "curation_note": "manually selected as unambiguous trial example"
+      }
+    },
+    {
+      "pair_id": "dico_trial_0018",
+      "split": "trial",
+      "gold_label": "EQUIVALENCE",
+      "languages": {
+        "en": {
+          "text1": "for a photograph",
+          "text2": "for a picture"
+        },
+        "es": {
+          "text1": "para una fotografía",
+          "text2": "para una foto"
+        },
+        "eu": {
+          "text1": "argazki baterako",
+          "text2": "argazki baterako"
+        }
+      },
+      "metadata": {
+        "origin": "PhrasIS",
+        "source_file": "PhrasIS.test.images.positives.txt",
+        "source_line": 23,
+        "source_split": "test",
+        "source_modality": "images",
+        "phrasis_label": "EQUI",
+        "phrasis_score": "5",
+        "phrasis_text1_span": "12 13 14",
+        "phrasis_text2_span": "7 8 9",
+        "phrasis_sentence_id": "13",
+        "curation_note": "manually selected as unambiguous trial example"
+      }
+    },
+    {
+      "pair_id": "dico_trial_0019",
+      "split": "trial",
+      "gold_label": "EQUIVALENCE",
+      "languages": {
+        "en": {
+          "text1": "Young boy",
+          "text2": "A young boy"
+        },
+        "es": {
+          "text1": "niño joven",
+          "text2": "un niño joven"
+        },
+        "eu": {
+          "text1": "mutil gazte bat",
+          "text2": "mutil gazte bat"
+        }
+      },
+      "metadata": {
+        "origin": "PhrasIS",
+        "source_file": "PhrasIS.test.images.positives.txt",
+        "source_line": 26,
+        "source_split": "test",
+        "source_modality": "images",
+        "phrasis_label": "EQUI",
+        "phrasis_score": "5",
+        "phrasis_text1_span": "1 2",
+        "phrasis_text2_span": "1 2 3",
+        "phrasis_sentence_id": "15",
+        "curation_note": "manually selected as unambiguous trial example"
+      }
+    },
+    {
+      "pair_id": "dico_trial_0020",
+      "split": "trial",
+      "gold_label": "EQUIVALENCE",
+      "languages": {
+        "en": {
+          "text1": "holding",
+          "text2": "is holding"
+        },
+        "es": {
+          "text1": "sosteniendo",
+          "text2": "está sosteniendo"
+        },
+        "eu": {
+          "text1": "eusten",
+          "text2": "eusten ari da"
+        }
+      },
+      "metadata": {
+        "origin": "PhrasIS",
+        "source_file": "PhrasIS.test.images.positives.txt",
+        "source_line": 44,
+        "source_split": "test",
+        "source_modality": "images",
+        "phrasis_label": "EQUI",
+        "phrasis_score": "5",
+        "phrasis_text1_span": "5",
+        "phrasis_text2_span": "4 5",
+        "phrasis_sentence_id": "25",
+        "curation_note": "manually selected as unambiguous trial example"
+      }
+    },
+    {
+      "pair_id": "dico_trial_0021",
+      "split": "trial",
+      "gold_label": "EQUIVALENCE",
+      "languages": {
+        "en": {
+          "text1": "Woman",
+          "text2": "A woman"
+        },
+        "es": {
+          "text1": "mujer",
+          "text2": "una mujer"
+        },
+        "eu": {
+          "text1": "emakumea",
+          "text2": "emakume bat"
+        }
+      },
+      "metadata": {
+        "origin": "PhrasIS",
+        "source_file": "PhrasIS.test.images.positives.txt",
+        "source_line": 55,
+        "source_split": "test",
+        "source_modality": "images",
+        "phrasis_label": "EQUI",
+        "phrasis_score": "5",
+        "phrasis_text1_span": "1",
+        "phrasis_text2_span": "1 2",
+        "phrasis_sentence_id": "30",
+        "curation_note": "manually selected as unambiguous trial example"
+      }
+    },
+    {
+      "pair_id": "dico_trial_0022",
+      "split": "trial",
+      "gold_label": "EQUIVALENCE",
+      "languages": {
+        "en": {
+          "text1": "into the water",
+          "text2": "in the water"
+        },
+        "es": {
+          "text1": "al agua",
+          "text2": "en el agua"
+        },
+        "eu": {
+          "text1": "uretara",
+          "text2": "uretan"
+        }
+      },
+      "metadata": {
+        "origin": "PhrasIS",
+        "source_file": "PhrasIS.test.images.positives.txt",
+        "source_line": 60,
+        "source_split": "test",
+        "source_modality": "images",
+        "phrasis_label": "EQUI",
+        "phrasis_score": "5",
+        "phrasis_text1_span": "4 5 6",
+        "phrasis_text2_span": "5 6 7",
+        "phrasis_sentence_id": "33",
+        "curation_note": "manually selected as unambiguous trial example"
+      }
+    },
+    {
+      "pair_id": "dico_trial_0023",
+      "split": "trial",
+      "gold_label": "EQUIVALENCE",
+      "languages": {
+        "en": {
+          "text1": "is jumping",
+          "text2": "jumping"
+        },
+        "es": {
+          "text1": "está saltando",
+          "text2": "saltando"
+        },
+        "eu": {
+          "text1": "saltoka ari da",
+          "text2": "saltoka"
+        }
+      },
+      "metadata": {
+        "origin": "PhrasIS",
+        "source_file": "PhrasIS.test.images.positives.txt",
+        "source_line": 68,
+        "source_split": "test",
+        "source_modality": "images",
+        "phrasis_label": "EQUI",
+        "phrasis_score": "5",
+        "phrasis_text1_span": "3 4",
+        "phrasis_text2_span": "3",
+        "phrasis_sentence_id": "38",
+        "curation_note": "manually selected as unambiguous trial example"
+      }
+    },
+    {
+      "pair_id": "dico_trial_0024",
+      "split": "trial",
+      "gold_label": "EQUIVALENCE",
+      "languages": {
+        "en": {
+          "text1": "A pair of dogs",
+          "text2": "Two dogs"
+        },
+        "es": {
+          "text1": "una pareja de perros",
+          "text2": "dos perros"
+        },
+        "eu": {
+          "text1": "txakur pare bat",
+          "text2": "bi txakur"
+        }
+      },
+      "metadata": {
+        "origin": "PhrasIS",
+        "source_file": "PhrasIS.test.images.positives.txt",
+        "source_line": 95,
+        "source_split": "test",
+        "source_modality": "images",
+        "phrasis_label": "EQUI",
+        "phrasis_score": "5",
+        "phrasis_text1_span": "1 2 3 4",
+        "phrasis_text2_span": "1 2",
+        "phrasis_sentence_id": "54",
+        "curation_note": "manually selected as unambiguous trial example"
+      }
+    },
+    {
+      "pair_id": "dico_trial_0025",
+      "split": "trial",
+      "gold_label": "EQUIVALENCE",
+      "languages": {
+        "en": {
+          "text1": "wearing",
+          "text2": "is wearing"
+        },
+        "es": {
+          "text1": "llevando puesto",
+          "text2": "lleva puesto"
+        },
+        "eu": {
+          "text1": "jantzita",
+          "text2": "jantzita dago"
+        }
+      },
+      "metadata": {
+        "origin": "PhrasIS",
+        "source_file": "PhrasIS.test.images.positives.txt",
+        "source_line": 97,
+        "source_split": "test",
+        "source_modality": "images",
+        "phrasis_label": "EQUI",
+        "phrasis_score": "5",
+        "phrasis_text1_span": "3",
+        "phrasis_text2_span": "4 5",
+        "phrasis_sentence_id": "56",
+        "curation_note": "manually selected as unambiguous trial example"
+      }
+    },
+    {
+      "pair_id": "dico_trial_0026",
+      "split": "trial",
+      "gold_label": "EQUIVALENCE",
+      "languages": {
+        "en": {
+          "text1": "are walking",
+          "text2": "walking"
+        },
+        "es": {
+          "text1": "están caminando",
+          "text2": "caminando"
+        },
+        "eu": {
+          "text1": "oinez ari dira",
+          "text2": "oinez"
+        }
+      },
+      "metadata": {
+        "origin": "PhrasIS",
+        "source_file": "PhrasIS.test.images.positives.txt",
+        "source_line": 99,
+        "source_split": "test",
+        "source_modality": "images",
+        "phrasis_label": "EQUI",
+        "phrasis_score": "5",
+        "phrasis_text1_span": "4 5",
+        "phrasis_text2_span": "4",
+        "phrasis_sentence_id": "57",
+        "curation_note": "manually selected as unambiguous trial example"
+      }
+    },
+    {
+      "pair_id": "dico_trial_0027",
+      "split": "trial",
+      "gold_label": "EQUIVALENCE",
+      "languages": {
+        "en": {
+          "text1": "A black dog",
+          "text2": "Black dog"
+        },
+        "es": {
+          "text1": "un perro negro",
+          "text2": "perro negro"
+        },
+        "eu": {
+          "text1": "txakur beltz bat",
+          "text2": "txakur beltza"
+        }
+      },
+      "metadata": {
+        "origin": "PhrasIS",
+        "source_file": "PhrasIS.test.images.positives.txt",
+        "source_line": 151,
+        "source_split": "test",
+        "source_modality": "images",
+        "phrasis_label": "EQUI",
+        "phrasis_score": "5",
+        "phrasis_text1_span": "1 2 3",
+        "phrasis_text2_span": "1 2",
+        "phrasis_sentence_id": "84",
+        "curation_note": "manually selected as unambiguous trial example"
+      }
+    },
+    {
+      "pair_id": "dico_trial_0028",
+      "split": "trial",
+      "gold_label": "EQUIVALENCE",
+      "languages": {
+        "en": {
+          "text1": "in water",
+          "text2": "in the water"
+        },
+        "es": {
+          "text1": "en el agua",
+          "text2": "en el agua"
+        },
+        "eu": {
+          "text1": "uretan",
+          "text2": "uretan"
+        }
+      },
+      "metadata": {
+        "origin": "PhrasIS",
+        "source_file": "PhrasIS.test.images.positives.txt",
+        "source_line": 232,
+        "source_split": "test",
+        "source_modality": "images",
+        "phrasis_label": "EQUI",
+        "phrasis_score": "5",
+        "phrasis_text1_span": "4 5",
+        "phrasis_text2_span": "5 6 7",
+        "phrasis_sentence_id": "127",
+        "curation_note": "manually selected as unambiguous trial example"
+      }
+    },
+    {
+      "pair_id": "dico_trial_0029",
+      "split": "trial",
+      "gold_label": "EQUIVALENCE",
+      "languages": {
+        "en": {
+          "text1": "in a station",
+          "text2": "in the station"
+        },
+        "es": {
+          "text1": "en una estación",
+          "text2": "en la estación"
+        },
+        "eu": {
+          "text1": "geltoki batean",
+          "text2": "geltokian"
+        }
+      },
+      "metadata": {
+        "origin": "PhrasIS",
+        "source_file": "PhrasIS.train.images.positives.txt",
+        "source_line": 3,
+        "source_split": "train",
+        "source_modality": "images",
+        "phrasis_label": "EQUI",
+        "phrasis_score": "5",
+        "phrasis_text1_span": "5 6 7",
+        "phrasis_text2_span": "5 6 7",
+        "phrasis_sentence_id": "3",
+        "curation_note": "manually selected as unambiguous trial example"
+      }
+    },
+    {
+      "pair_id": "dico_trial_0030",
+      "split": "trial",
+      "gold_label": "EQUIVALENCE",
+      "languages": {
+        "en": {
+          "text1": "An Apple computer",
+          "text2": "A Macintosh computer"
+        },
+        "es": {
+          "text1": "un ordenador Apple",
+          "text2": "un ordenador Macintosh"
+        },
+        "eu": {
+          "text1": "Apple ordenagailu bat",
+          "text2": "Macintosh ordenagailu bat"
+        }
+      },
+      "metadata": {
+        "origin": "PhrasIS",
+        "source_file": "PhrasIS.train.images.positives.txt",
+        "source_line": 4,
+        "source_split": "train",
+        "source_modality": "images",
+        "phrasis_label": "EQUI",
+        "phrasis_score": "5",
+        "phrasis_text1_span": "1 2 3",
+        "phrasis_text2_span": "1 2 3",
+        "phrasis_sentence_id": "4",
+        "curation_note": "manually selected as unambiguous trial example"
+      }
+    },
+    {
+      "pair_id": "dico_trial_0031",
+      "split": "trial",
+      "gold_label": "FORWARD_ENTAILMENT",
+      "languages": {
+        "en": {
+          "text1": "US drone strike",
+          "text2": "Drone strike"
+        },
+        "es": {
+          "text1": "ataque estadounidense con dron",
+          "text2": "ataque con dron"
+        },
+        "eu": {
+          "text1": "AEBetako dron erasoa",
+          "text2": "dron eraso bat"
+        }
+      },
+      "metadata": {
+        "origin": "PhrasIS",
+        "source_file": "PhrasIS.train.headlines.positives.txt",
+        "source_line": 7,
+        "source_split": "train",
+        "source_modality": "headlines",
+        "phrasis_label": "FORW",
+        "phrasis_score": "4",
+        "phrasis_text1_span": "1 2 3",
+        "phrasis_text2_span": "1 2",
+        "phrasis_sentence_id": "3",
+        "curation_note": "manually selected as unambiguous trial example"
+      }
+    },
+    {
+      "pair_id": "dico_trial_0032",
+      "split": "trial",
+      "gold_label": "FORWARD_ENTAILMENT",
+      "languages": {
+        "en": {
+          "text1": "Mall attackers",
+          "text2": "attackers"
+        },
+        "es": {
+          "text1": "atacantes del centro comercial",
+          "text2": "atacantes"
+        },
+        "eu": {
+          "text1": "merkataritza-guneko erasotzaileak",
+          "text2": "erasotzaileak"
+        }
+      },
+      "metadata": {
+        "origin": "PhrasIS",
+        "source_file": "PhrasIS.train.headlines.positives.txt",
+        "source_line": 14,
+        "source_split": "train",
+        "source_modality": "headlines",
+        "phrasis_label": "FORW",
+        "phrasis_score": "4",
+        "phrasis_text1_span": "1 2",
+        "phrasis_text2_span": "4",
+        "phrasis_sentence_id": "7",
+        "curation_note": "manually selected as unambiguous trial example"
+      }
+    },
+    {
+      "pair_id": "dico_trial_0033",
+      "split": "trial",
+      "gold_label": "FORWARD_ENTAILMENT",
+      "languages": {
+        "en": {
+          "text1": "Thai opposition party",
+          "text2": "Thai opposition"
+        },
+        "es": {
+          "text1": "partido opositor tailandés",
+          "text2": "oposición tailandesa"
+        },
+        "eu": {
+          "text1": "Thailandiako oposizioko alderdia",
+          "text2": "Thailandiako oposizioa"
+        }
+      },
+      "metadata": {
+        "origin": "PhrasIS",
+        "source_file": "PhrasIS.train.headlines.positives.txt",
+        "source_line": 39,
+        "source_split": "train",
+        "source_modality": "headlines",
+        "phrasis_label": "FORW",
+        "phrasis_score": "4",
+        "phrasis_text1_span": "1 2 3",
+        "phrasis_text2_span": "1 2",
+        "phrasis_sentence_id": "22",
+        "curation_note": "manually selected as unambiguous trial example"
+      }
+    },
+    {
+      "pair_id": "dico_trial_0034",
+      "split": "trial",
+      "gold_label": "FORWARD_ENTAILMENT",
+      "languages": {
+        "en": {
+          "text1": "bitter immigration debate",
+          "text2": "immigration debate"
+        },
+        "es": {
+          "text1": "duro debate migratorio",
+          "text2": "debate migratorio"
+        },
+        "eu": {
+          "text1": "immigrazioari buruzko eztabaida gogorra",
+          "text2": "immigrazioari buruzko eztabaida"
+        }
+      },
+      "metadata": {
+        "origin": "PhrasIS",
+        "source_file": "PhrasIS.train.headlines.positives.txt",
+        "source_line": 45,
+        "source_split": "train",
+        "source_modality": "headlines",
+        "phrasis_label": "FORW",
+        "phrasis_score": "4",
+        "phrasis_text1_span": "6 7 8",
+        "phrasis_text2_span": "6 7",
+        "phrasis_sentence_id": "25",
+        "curation_note": "manually selected as unambiguous trial example"
+      }
+    },
+    {
+      "pair_id": "dico_trial_0035",
+      "split": "trial",
+      "gold_label": "FORWARD_ENTAILMENT",
+      "languages": {
+        "en": {
+          "text1": "to American adoption ban",
+          "text2": "to adoption ban"
+        },
+        "es": {
+          "text1": "a la prohibición estadounidense de adopción",
+          "text2": "a la prohibición de adopción"
+        },
+        "eu": {
+          "text1": "AEBetako adopzio debekura",
+          "text2": "adopzio debekura"
+        }
+      },
+      "metadata": {
+        "origin": "PhrasIS",
+        "source_file": "PhrasIS.train.headlines.positives.txt",
+        "source_line": 73,
+        "source_split": "train",
+        "source_modality": "headlines",
+        "phrasis_label": "FORW",
+        "phrasis_score": "4",
+        "phrasis_text1_span": "5 6 7 8",
+        "phrasis_text2_span": "5 6 7",
+        "phrasis_sentence_id": "43",
+        "curation_note": "manually selected as unambiguous trial example"
+      }
+    },
+    {
+      "pair_id": "dico_trial_0036",
+      "split": "trial",
+      "gold_label": "FORWARD_ENTAILMENT",
+      "languages": {
+        "en": {
+          "text1": "gay marriage bill",
+          "text2": "gay marriage"
+        },
+        "es": {
+          "text1": "proyecto de ley de matrimonio igualitario",
+          "text2": "matrimonio igualitario"
+        },
+        "eu": {
+          "text1": "sexu bereko ezkontzaren lege-proiektua",
+          "text2": "sexu bereko ezkontza"
+        }
+      },
+      "metadata": {
+        "origin": "PhrasIS",
+        "source_file": "PhrasIS.train.headlines.positives.txt",
+        "source_line": 89,
+        "source_split": "train",
+        "source_modality": "headlines",
+        "phrasis_label": "FORW",
+        "phrasis_score": "4",
+        "phrasis_text1_span": "4 5 6",
+        "phrasis_text2_span": "4 5",
+        "phrasis_sentence_id": "53",
+        "curation_note": "manually selected as unambiguous trial example"
+      }
+    },
+    {
+      "pair_id": "dico_trial_0037",
+      "split": "trial",
+      "gold_label": "FORWARD_ENTAILMENT",
+      "languages": {
+        "en": {
+          "text1": "Israeli envoys",
+          "text2": "Israeli envoy"
+        },
+        "es": {
+          "text1": "enviados israelíes",
+          "text2": "enviado israelí"
+        },
+        "eu": {
+          "text1": "Israelgo ordezkariak",
+          "text2": "Israelgo ordezkaria"
+        }
+      },
+      "metadata": {
+        "origin": "PhrasIS",
+        "source_file": "PhrasIS.train.headlines.positives.txt",
+        "source_line": 122,
+        "source_split": "train",
+        "source_modality": "headlines",
+        "phrasis_label": "FORW",
+        "phrasis_score": "4",
+        "phrasis_text1_span": "1 2",
+        "phrasis_text2_span": "3 4",
+        "phrasis_sentence_id": "80",
+        "curation_note": "manually selected as unambiguous trial example"
+      }
+    },
+    {
+      "pair_id": "dico_trial_0038",
+      "split": "trial",
+      "gold_label": "FORWARD_ENTAILMENT",
+      "languages": {
+        "en": {
+          "text1": "over settlement plans",
+          "text2": "over settlements"
+        },
+        "es": {
+          "text1": "sobre planes de asentamientos",
+          "text2": "sobre asentamientos"
+        },
+        "eu": {
+          "text1": "kolonien planei buruz",
+          "text2": "koloniei buruz"
+        }
+      },
+      "metadata": {
+        "origin": "PhrasIS",
+        "source_file": "PhrasIS.train.headlines.positives.txt",
+        "source_line": 123,
+        "source_split": "train",
+        "source_modality": "headlines",
+        "phrasis_label": "FORW",
+        "phrasis_score": "3",
+        "phrasis_text1_span": "4 5 6",
+        "phrasis_text2_span": "5 6",
+        "phrasis_sentence_id": "80",
+        "curation_note": "manually selected as unambiguous trial example"
+      }
+    },
+    {
+      "pair_id": "dico_trial_0039",
+      "split": "trial",
+      "gold_label": "FORWARD_ENTAILMENT",
+      "languages": {
+        "en": {
+          "text1": "2 car bombs",
+          "text2": "Car bombing"
+        },
+        "es": {
+          "text1": "dos coches bomba",
+          "text2": "atentado con coche bomba"
+        },
+        "eu": {
+          "text1": "bi auto-bonba",
+          "text2": "auto-bonba erasoa"
+        }
+      },
+      "metadata": {
+        "origin": "PhrasIS",
+        "source_file": "PhrasIS.train.headlines.positives.txt",
+        "source_line": 132,
+        "source_split": "train",
+        "source_modality": "headlines",
+        "phrasis_label": "FORW",
+        "phrasis_score": "4",
+        "phrasis_text1_span": "1 2 3",
+        "phrasis_text2_span": "1 2",
+        "phrasis_sentence_id": "89",
+        "curation_note": "manually selected as unambiguous trial example"
+      }
+    },
+    {
+      "pair_id": "dico_trial_0040",
+      "split": "trial",
+      "gold_label": "FORWARD_ENTAILMENT",
+      "languages": {
+        "en": {
+          "text1": "in Libya 's Benghazi",
+          "text2": "in Benghazi"
+        },
+        "es": {
+          "text1": "en Bengasi, Libia",
+          "text2": "en Bengasi"
+        },
+        "eu": {
+          "text1": "Libiako Bengasin",
+          "text2": "Bengasin"
+        }
+      },
+      "metadata": {
+        "origin": "PhrasIS",
+        "source_file": "PhrasIS.train.headlines.positives.txt",
+        "source_line": 161,
+        "source_split": "train",
+        "source_modality": "headlines",
+        "phrasis_label": "FORW",
+        "phrasis_score": "4",
+        "phrasis_text1_span": "6 7 8 9",
+        "phrasis_text2_span": "6 7",
+        "phrasis_sentence_id": "107",
+        "curation_note": "manually selected as unambiguous trial example"
+      }
+    },
+    {
+      "pair_id": "dico_trial_0041",
+      "split": "trial",
+      "gold_label": "FORWARD_ENTAILMENT",
+      "languages": {
+        "en": {
+          "text1": "for Same-Sex Marriages Hearing",
+          "text2": "for same-sex marriage"
+        },
+        "es": {
+          "text1": "para la audiencia sobre matrimonio igualitario",
+          "text2": "por el matrimonio igualitario"
+        },
+        "eu": {
+          "text1": "sexu bereko ezkontzen entzunaldirako",
+          "text2": "sexu bereko ezkontzaren alde"
+        }
+      },
+      "metadata": {
+        "origin": "PhrasIS",
+        "source_file": "PhrasIS.train.headlines.positives.txt",
+        "source_line": 168,
+        "source_split": "train",
+        "source_modality": "headlines",
+        "phrasis_label": "FORW",
+        "phrasis_score": "3",
+        "phrasis_text1_span": "4 5 6 7",
+        "phrasis_text2_span": "7 8 9",
+        "phrasis_sentence_id": "111",
+        "curation_note": "manually selected as unambiguous trial example"
+      }
+    },
+    {
+      "pair_id": "dico_trial_0042",
+      "split": "trial",
+      "gold_label": "FORWARD_ENTAILMENT",
+      "languages": {
+        "en": {
+          "text1": "landmark nuclear deal",
+          "text2": "nuclear deal"
+        },
+        "es": {
+          "text1": "acuerdo nuclear histórico",
+          "text2": "acuerdo nuclear"
+        },
+        "eu": {
+          "text1": "akordio nuklear historikoa",
+          "text2": "akordio nuklearra"
+        }
+      },
+      "metadata": {
+        "origin": "PhrasIS",
+        "source_file": "PhrasIS.train.headlines.positives.txt",
+        "source_line": 217,
+        "source_split": "train",
+        "source_modality": "headlines",
+        "phrasis_label": "FORW",
+        "phrasis_score": "4",
+        "phrasis_text1_span": "7 8 9",
+        "phrasis_text2_span": "6 7",
+        "phrasis_sentence_id": "144",
+        "curation_note": "manually selected as unambiguous trial example"
+      }
+    },
+    {
+      "pair_id": "dico_trial_0043",
+      "split": "trial",
+      "gold_label": "FORWARD_ENTAILMENT",
+      "languages": {
+        "en": {
+          "text1": "carry-on liquids , gels",
+          "text2": "carry-on liquids"
+        },
+        "es": {
+          "text1": "líquidos y geles de mano",
+          "text2": "líquidos de mano"
+        },
+        "eu": {
+          "text1": "eskuko ekipajeko likidoak eta gelak",
+          "text2": "eskuko ekipajeko likidoak"
+        }
+      },
+      "metadata": {
+        "origin": "PhrasIS",
+        "source_file": "PhrasIS.train.headlines.positives.txt",
+        "source_line": 300,
+        "source_split": "train",
+        "source_modality": "headlines",
+        "phrasis_label": "FORW",
+        "phrasis_score": "4",
+        "phrasis_text1_span": "3 4 5 6",
+        "phrasis_text2_span": "3 4",
+        "phrasis_sentence_id": "206",
+        "curation_note": "manually selected as unambiguous trial example"
+      }
+    },
+    {
+      "pair_id": "dico_trial_0044",
+      "split": "trial",
+      "gold_label": "FORWARD_ENTAILMENT",
+      "languages": {
+        "en": {
+          "text1": "US stocks",
+          "text2": "stocks"
+        },
+        "es": {
+          "text1": "acciones estadounidenses",
+          "text2": "acciones"
+        },
+        "eu": {
+          "text1": "AEBetako akzioak",
+          "text2": "akzioak"
+        }
+      },
+      "metadata": {
+        "origin": "PhrasIS",
+        "source_file": "PhrasIS.train.headlines.positives.txt",
+        "source_line": 339,
+        "source_split": "train",
+        "source_modality": "headlines",
+        "phrasis_label": "FORW",
+        "phrasis_score": "4",
+        "phrasis_text1_span": "4 5",
+        "phrasis_text2_span": "4",
+        "phrasis_sentence_id": "229",
+        "curation_note": "manually selected as unambiguous trial example"
+      }
+    },
+    {
+      "pair_id": "dico_trial_0045",
+      "split": "trial",
+      "gold_label": "FORWARD_ENTAILMENT",
+      "languages": {
+        "en": {
+          "text1": "in Syrian capital",
+          "text2": "in Syria"
+        },
+        "es": {
+          "text1": "en la capital siria",
+          "text2": "en Siria"
+        },
+        "eu": {
+          "text1": "Siriako hiriburuan",
+          "text2": "Sirian"
+        }
+      },
+      "metadata": {
+        "origin": "PhrasIS",
+        "source_file": "PhrasIS.train.headlines.positives.txt",
+        "source_line": 400,
+        "source_split": "train",
+        "source_modality": "headlines",
+        "phrasis_label": "FORW",
+        "phrasis_score": "3",
+        "phrasis_text1_span": "6 7 8",
+        "phrasis_text2_span": "4 5",
+        "phrasis_sentence_id": "271",
+        "curation_note": "manually selected as unambiguous trial example"
+      }
+    },
+    {
+      "pair_id": "dico_trial_0046",
+      "split": "trial",
+      "gold_label": "FORWARD_ENTAILMENT",
+      "languages": {
+        "en": {
+          "text1": "a soccer ball",
+          "text2": "a ball"
+        },
+        "es": {
+          "text1": "un balón de fútbol",
+          "text2": "una pelota"
+        },
+        "eu": {
+          "text1": "futboleko baloi bat",
+          "text2": "pilota bat"
+        }
+      },
+      "metadata": {
+        "origin": "PhrasIS",
+        "source_file": "PhrasIS.test.images.positives.txt",
+        "source_line": 1,
+        "source_split": "test",
+        "source_modality": "images",
+        "phrasis_label": "FORW",
+        "phrasis_score": "4",
+        "phrasis_text1_span": "11 12 13",
+        "phrasis_text2_span": "10 11",
+        "phrasis_sentence_id": "1",
+        "curation_note": "manually selected as unambiguous trial example"
+      }
+    },
+    {
+      "pair_id": "dico_trial_0047",
+      "split": "trial",
+      "gold_label": "FORWARD_ENTAILMENT",
+      "languages": {
+        "en": {
+          "text1": "A brown dog",
+          "text2": "A dog"
+        },
+        "es": {
+          "text1": "un perro marrón",
+          "text2": "un perro"
+        },
+        "eu": {
+          "text1": "txakur marroi bat",
+          "text2": "txakur bat"
+        }
+      },
+      "metadata": {
+        "origin": "PhrasIS",
+        "source_file": "PhrasIS.test.images.positives.txt",
+        "source_line": 27,
+        "source_split": "test",
+        "source_modality": "images",
+        "phrasis_label": "FORW",
+        "phrasis_score": "4",
+        "phrasis_text1_span": "1 2 3",
+        "phrasis_text2_span": "1 2",
+        "phrasis_sentence_id": "16",
+        "curation_note": "manually selected as unambiguous trial example"
+      }
+    },
+    {
+      "pair_id": "dico_trial_0048",
+      "split": "trial",
+      "gold_label": "FORWARD_ENTAILMENT",
+      "languages": {
+        "en": {
+          "text1": "Two young girls",
+          "text2": "two girls"
+        },
+        "es": {
+          "text1": "dos niñas jóvenes",
+          "text2": "dos niñas"
+        },
+        "eu": {
+          "text1": "bi neska gazte",
+          "text2": "bi neska"
+        }
+      },
+      "metadata": {
+        "origin": "PhrasIS",
+        "source_file": "PhrasIS.test.images.positives.txt",
+        "source_line": 38,
+        "source_split": "test",
+        "source_modality": "images",
+        "phrasis_label": "FORW",
+        "phrasis_score": "4",
+        "phrasis_text1_span": "1 2 3",
+        "phrasis_text2_span": "1 2",
+        "phrasis_sentence_id": "22",
+        "curation_note": "manually selected as unambiguous trial example"
+      }
+    },
+    {
+      "pair_id": "dico_trial_0049",
+      "split": "trial",
+      "gold_label": "FORWARD_ENTAILMENT",
+      "languages": {
+        "en": {
+          "text1": "Light brown dog",
+          "text2": "A brown dog"
+        },
+        "es": {
+          "text1": "perro marrón claro",
+          "text2": "un perro marrón"
+        },
+        "eu": {
+          "text1": "txakur marroi argia",
+          "text2": "txakur marroi bat"
+        }
+      },
+      "metadata": {
+        "origin": "PhrasIS",
+        "source_file": "PhrasIS.test.images.positives.txt",
+        "source_line": 41,
+        "source_split": "test",
+        "source_modality": "images",
+        "phrasis_label": "FORW",
+        "phrasis_score": "4",
+        "phrasis_text1_span": "1 2 3",
+        "phrasis_text2_span": "1 2 3",
+        "phrasis_sentence_id": "23",
+        "curation_note": "manually selected as unambiguous trial example"
+      }
+    },
+    {
+      "pair_id": "dico_trial_0050",
+      "split": "trial",
+      "gold_label": "FORWARD_ENTAILMENT",
+      "languages": {
+        "en": {
+          "text1": "Four small children",
+          "text2": "Four children"
+        },
+        "es": {
+          "text1": "cuatro niños pequeños",
+          "text2": "cuatro niños"
+        },
+        "eu": {
+          "text1": "lau haur txiki",
+          "text2": "lau haur"
+        }
+      },
+      "metadata": {
+        "origin": "PhrasIS",
+        "source_file": "PhrasIS.test.images.positives.txt",
+        "source_line": 72,
+        "source_split": "test",
+        "source_modality": "images",
+        "phrasis_label": "FORW",
+        "phrasis_score": "4",
+        "phrasis_text1_span": "1 2 3",
+        "phrasis_text2_span": "1 2",
+        "phrasis_sentence_id": "39",
+        "curation_note": "manually selected as unambiguous trial example"
+      }
+    },
+    {
+      "pair_id": "dico_trial_0051",
+      "split": "trial",
+      "gold_label": "FORWARD_ENTAILMENT",
+      "languages": {
+        "en": {
+          "text1": "A young boy",
+          "text2": "The boy"
+        },
+        "es": {
+          "text1": "un niño joven",
+          "text2": "el niño"
+        },
+        "eu": {
+          "text1": "mutil gazte bat",
+          "text2": "mutila"
+        }
+      },
+      "metadata": {
+        "origin": "PhrasIS",
+        "source_file": "PhrasIS.test.images.positives.txt",
+        "source_line": 83,
+        "source_split": "test",
+        "source_modality": "images",
+        "phrasis_label": "FORW",
+        "phrasis_score": "4",
+        "phrasis_text1_span": "1 2 3",
+        "phrasis_text2_span": "1 2",
+        "phrasis_sentence_id": "47",
+        "curation_note": "manually selected as unambiguous trial example"
+      }
+    },
+    {
+      "pair_id": "dico_trial_0052",
+      "split": "trial",
+      "gold_label": "FORWARD_ENTAILMENT",
+      "languages": {
+        "en": {
+          "text1": "A man",
+          "text2": "A person"
+        },
+        "es": {
+          "text1": "un hombre",
+          "text2": "una persona"
+        },
+        "eu": {
+          "text1": "gizon bat",
+          "text2": "pertsona bat"
+        }
+      },
+      "metadata": {
+        "origin": "PhrasIS",
+        "source_file": "PhrasIS.test.images.positives.txt",
+        "source_line": 103,
+        "source_split": "test",
+        "source_modality": "images",
+        "phrasis_label": "FORW",
+        "phrasis_score": "4",
+        "phrasis_text1_span": "1 2",
+        "phrasis_text2_span": "1 2",
+        "phrasis_sentence_id": "59",
+        "curation_note": "manually selected as unambiguous trial example"
+      }
+    },
+    {
+      "pair_id": "dico_trial_0053",
+      "split": "trial",
+      "gold_label": "FORWARD_ENTAILMENT",
+      "languages": {
+        "en": {
+          "text1": "a very long leash",
+          "text2": "a long leash"
+        },
+        "es": {
+          "text1": "una correa muy larga",
+          "text2": "una correa larga"
+        },
+        "eu": {
+          "text1": "uhal oso luze bat",
+          "text2": "uhal luze bat"
+        }
+      },
+      "metadata": {
+        "origin": "PhrasIS",
+        "source_file": "PhrasIS.test.images.positives.txt",
+        "source_line": 113,
+        "source_split": "test",
+        "source_modality": "images",
+        "phrasis_label": "FORW",
+        "phrasis_score": "4",
+        "phrasis_text1_span": "5 6 7 8",
+        "phrasis_text2_span": "4 5 6",
+        "phrasis_sentence_id": "63",
+        "curation_note": "manually selected as unambiguous trial example"
+      }
+    },
+    {
+      "pair_id": "dico_trial_0054",
+      "split": "trial",
+      "gold_label": "FORWARD_ENTAILMENT",
+      "languages": {
+        "en": {
+          "text1": "A shirtless man",
+          "text2": "A man"
+        },
+        "es": {
+          "text1": "un hombre sin camisa",
+          "text2": "un hombre"
+        },
+        "eu": {
+          "text1": "kamisetarik gabeko gizon bat",
+          "text2": "gizon bat"
+        }
+      },
+      "metadata": {
+        "origin": "PhrasIS",
+        "source_file": "PhrasIS.test.images.positives.txt",
+        "source_line": 208,
+        "source_split": "test",
+        "source_modality": "images",
+        "phrasis_label": "FORW",
+        "phrasis_score": "4",
+        "phrasis_text1_span": "1 2 3",
+        "phrasis_text2_span": "1 2",
+        "phrasis_sentence_id": "111",
+        "curation_note": "manually selected as unambiguous trial example"
+      }
+    },
+    {
+      "pair_id": "dico_trial_0055",
+      "split": "trial",
+      "gold_label": "FORWARD_ENTAILMENT",
+      "languages": {
+        "en": {
+          "text1": "A large brown dog",
+          "text2": "A brown dog"
+        },
+        "es": {
+          "text1": "un perro marrón grande",
+          "text2": "un perro marrón"
+        },
+        "eu": {
+          "text1": "txakur marroi handi bat",
+          "text2": "txakur marroi bat"
+        }
+      },
+      "metadata": {
+        "origin": "PhrasIS",
+        "source_file": "PhrasIS.test.images.positives.txt",
+        "source_line": 220,
+        "source_split": "test",
+        "source_modality": "images",
+        "phrasis_label": "FORW",
+        "phrasis_score": "4",
+        "phrasis_text1_span": "1 2 3 4",
+        "phrasis_text2_span": "1 2 3",
+        "phrasis_sentence_id": "119",
+        "curation_note": "manually selected as unambiguous trial example"
+      }
+    },
+    {
+      "pair_id": "dico_trial_0056",
+      "split": "trial",
+      "gold_label": "FORWARD_ENTAILMENT",
+      "languages": {
+        "en": {
+          "text1": "Two dogs",
+          "text2": "A dog"
+        },
+        "es": {
+          "text1": "dos perros",
+          "text2": "un perro"
+        },
+        "eu": {
+          "text1": "bi txakur",
+          "text2": "txakur bat"
+        }
+      },
+      "metadata": {
+        "origin": "PhrasIS",
+        "source_file": "PhrasIS.test.images.positives.txt",
+        "source_line": 274,
+        "source_split": "test",
+        "source_modality": "images",
+        "phrasis_label": "FORW",
+        "phrasis_score": "4",
+        "phrasis_text1_span": "1 2",
+        "phrasis_text2_span": "1 2",
+        "phrasis_sentence_id": "147",
+        "curation_note": "manually selected as unambiguous trial example"
+      }
+    },
+    {
+      "pair_id": "dico_trial_0057",
+      "split": "trial",
+      "gold_label": "FORWARD_ENTAILMENT",
+      "languages": {
+        "en": {
+          "text1": "Two men",
+          "text2": "A man"
+        },
+        "es": {
+          "text1": "dos hombres",
+          "text2": "un hombre"
+        },
+        "eu": {
+          "text1": "bi gizon",
+          "text2": "gizon bat"
+        }
+      },
+      "metadata": {
+        "origin": "PhrasIS",
+        "source_file": "PhrasIS.test.images.positives.txt",
+        "source_line": 312,
+        "source_split": "test",
+        "source_modality": "images",
+        "phrasis_label": "FORW",
+        "phrasis_score": "4",
+        "phrasis_text1_span": "1 2",
+        "phrasis_text2_span": "1 2",
+        "phrasis_sentence_id": "168",
+        "curation_note": "manually selected as unambiguous trial example"
+      }
+    },
+    {
+      "pair_id": "dico_trial_0058",
+      "split": "trial",
+      "gold_label": "FORWARD_ENTAILMENT",
+      "languages": {
+        "en": {
+          "text1": "Two teenagers",
+          "text2": "Two people"
+        },
+        "es": {
+          "text1": "dos adolescentes",
+          "text2": "dos personas"
+        },
+        "eu": {
+          "text1": "bi nerabe",
+          "text2": "bi pertsona"
+        }
+      },
+      "metadata": {
+        "origin": "PhrasIS",
+        "source_file": "PhrasIS.test.images.positives.txt",
+        "source_line": 390,
+        "source_split": "test",
+        "source_modality": "images",
+        "phrasis_label": "FORW",
+        "phrasis_score": "4",
+        "phrasis_text1_span": "1 2",
+        "phrasis_text2_span": "1 2",
+        "phrasis_sentence_id": "214",
+        "curation_note": "manually selected as unambiguous trial example"
+      }
+    },
+    {
+      "pair_id": "dico_trial_0059",
+      "split": "trial",
+      "gold_label": "FORWARD_ENTAILMENT",
+      "languages": {
+        "en": {
+          "text1": "Black train",
+          "text2": "A train"
+        },
+        "es": {
+          "text1": "tren negro",
+          "text2": "un tren"
+        },
+        "eu": {
+          "text1": "tren beltza",
+          "text2": "tren bat"
+        }
+      },
+      "metadata": {
+        "origin": "PhrasIS",
+        "source_file": "PhrasIS.train.images.positives.txt",
+        "source_line": 53,
+        "source_split": "train",
+        "source_modality": "images",
+        "phrasis_label": "FORW",
+        "phrasis_score": "4",
+        "phrasis_text1_span": "1 2",
+        "phrasis_text2_span": "1 2",
+        "phrasis_sentence_id": "34",
+        "curation_note": "manually selected as unambiguous trial example"
+      }
+    },
+    {
+      "pair_id": "dico_trial_0060",
+      "split": "trial",
+      "gold_label": "FORWARD_ENTAILMENT",
+      "languages": {
+        "en": {
+          "text1": "Gray cat",
+          "text2": "A cat"
+        },
+        "es": {
+          "text1": "gato gris",
+          "text2": "un gato"
+        },
+        "eu": {
+          "text1": "katu grisa",
+          "text2": "katu bat"
+        }
+      },
+      "metadata": {
+        "origin": "PhrasIS",
+        "source_file": "PhrasIS.train.images.positives.txt",
+        "source_line": 65,
+        "source_split": "train",
+        "source_modality": "images",
+        "phrasis_label": "FORW",
+        "phrasis_score": "4",
+        "phrasis_text1_span": "1 2",
+        "phrasis_text2_span": "1 2",
+        "phrasis_sentence_id": "43",
+        "curation_note": "manually selected as unambiguous trial example"
+      }
+    },
+    {
+      "pair_id": "dico_trial_0061",
+      "split": "trial",
+      "gold_label": "BACKWARD_ENTAILMENT",
+      "languages": {
+        "en": {
+          "text1": "women",
+          "text2": "Saudi Women"
+        },
+        "es": {
+          "text1": "mujeres",
+          "text2": "mujeres saudíes"
+        },
+        "eu": {
+          "text1": "emakumeak",
+          "text2": "emakume saudiarrak"
+        }
+      },
+      "metadata": {
+        "origin": "PhrasIS",
+        "source_file": "PhrasIS.train.headlines.positives.txt",
+        "source_line": 5,
+        "source_split": "train",
+        "source_modality": "headlines",
+        "phrasis_label": "BACK",
+        "phrasis_score": "3",
+        "phrasis_text1_span": "4",
+        "phrasis_text2_span": "1 2",
+        "phrasis_sentence_id": "2",
+        "curation_note": "manually selected as unambiguous trial example"
+      }
+    },
+    {
+      "pair_id": "dico_trial_0062",
+      "split": "trial",
+      "gold_label": "BACKWARD_ENTAILMENT",
+      "languages": {
+        "en": {
+          "text1": "airstrike",
+          "text2": "new airstrike"
+        },
+        "es": {
+          "text1": "ataque aéreo",
+          "text2": "nuevo ataque aéreo"
+        },
+        "eu": {
+          "text1": "aire-erasoa",
+          "text2": "aire-eraso berri bat"
+        }
+      },
+      "metadata": {
+        "origin": "PhrasIS",
+        "source_file": "PhrasIS.train.headlines.positives.txt",
+        "source_line": 50,
+        "source_split": "train",
+        "source_modality": "headlines",
+        "phrasis_label": "BACK",
+        "phrasis_score": "4",
+        "phrasis_text1_span": "3",
+        "phrasis_text2_span": "3 4",
+        "phrasis_sentence_id": "27",
+        "curation_note": "manually selected as unambiguous trial example"
+      }
+    },
+    {
+      "pair_id": "dico_trial_0063",
+      "split": "trial",
+      "gold_label": "BACKWARD_ENTAILMENT",
+      "languages": {
+        "en": {
+          "text1": "Red panda",
+          "text2": "Missing red panda"
+        },
+        "es": {
+          "text1": "panda rojo",
+          "text2": "panda rojo desaparecido"
+        },
+        "eu": {
+          "text1": "panda gorria",
+          "text2": "desagertutako panda gorria"
+        }
+      },
+      "metadata": {
+        "origin": "PhrasIS",
+        "source_file": "PhrasIS.train.headlines.positives.txt",
+        "source_line": 136,
+        "source_split": "train",
+        "source_modality": "headlines",
+        "phrasis_label": "BACK",
+        "phrasis_score": "4",
+        "phrasis_text1_span": "5 6",
+        "phrasis_text2_span": "1 2 3",
+        "phrasis_sentence_id": "91",
+        "curation_note": "manually selected as unambiguous trial example"
+      }
+    },
+    {
+      "pair_id": "dico_trial_0064",
+      "split": "trial",
+      "gold_label": "BACKWARD_ENTAILMENT",
+      "languages": {
+        "en": {
+          "text1": "Car bombing",
+          "text2": "Car bombings"
+        },
+        "es": {
+          "text1": "atentado con coche bomba",
+          "text2": "atentados con coche bomba"
+        },
+        "eu": {
+          "text1": "auto-bonba erasoa",
+          "text2": "auto-bonba erasoak"
+        }
+      },
+      "metadata": {
+        "origin": "PhrasIS",
+        "source_file": "PhrasIS.train.headlines.positives.txt",
+        "source_line": 144,
+        "source_split": "train",
+        "source_modality": "headlines",
+        "phrasis_label": "BACK",
+        "phrasis_score": "4",
+        "phrasis_text1_span": "1 2",
+        "phrasis_text2_span": "1 2",
+        "phrasis_sentence_id": "95",
+        "curation_note": "manually selected as unambiguous trial example"
+      }
+    },
+    {
+      "pair_id": "dico_trial_0065",
+      "split": "trial",
+      "gold_label": "BACKWARD_ENTAILMENT",
+      "languages": {
+        "en": {
+          "text1": "Indian police",
+          "text2": "Mumbai police"
+        },
+        "es": {
+          "text1": "policía india",
+          "text2": "policía de Bombay"
+        },
+        "eu": {
+          "text1": "Indiako polizia",
+          "text2": "Mumbaiko polizia"
+        }
+      },
+      "metadata": {
+        "origin": "PhrasIS",
+        "source_file": "PhrasIS.train.headlines.positives.txt",
+        "source_line": 170,
+        "source_split": "train",
+        "source_modality": "headlines",
+        "phrasis_label": "BACK",
+        "phrasis_score": "4",
+        "phrasis_text1_span": "1 2",
+        "phrasis_text2_span": "1 2",
+        "phrasis_sentence_id": "113",
+        "curation_note": "manually selected as unambiguous trial example"
+      }
+    },
+    {
+      "pair_id": "dico_trial_0066",
+      "split": "trial",
+      "gold_label": "BACKWARD_ENTAILMENT",
+      "languages": {
+        "en": {
+          "text1": "Committee",
+          "text2": "Senate Judiciary Committee"
+        },
+        "es": {
+          "text1": "comité",
+          "text2": "Comité Judicial del Senado"
+        },
+        "eu": {
+          "text1": "batzordea",
+          "text2": "Senatuko Batzorde Judiziala"
+        }
+      },
+      "metadata": {
+        "origin": "PhrasIS",
+        "source_file": "PhrasIS.train.headlines.positives.txt",
+        "source_line": 187,
+        "source_split": "train",
+        "source_modality": "headlines",
+        "phrasis_label": "BACK",
+        "phrasis_score": "3",
+        "phrasis_text1_span": "1",
+        "phrasis_text2_span": "1 2 3",
+        "phrasis_sentence_id": "121",
+        "curation_note": "manually selected as unambiguous trial example"
+      }
+    },
+    {
+      "pair_id": "dico_trial_0067",
+      "split": "trial",
+      "gold_label": "BACKWARD_ENTAILMENT",
+      "languages": {
+        "en": {
+          "text1": "health care law",
+          "text2": "new health care law"
+        },
+        "es": {
+          "text1": "ley sanitaria",
+          "text2": "nueva ley sanitaria"
+        },
+        "eu": {
+          "text1": "osasun legea",
+          "text2": "osasun lege berria"
+        }
+      },
+      "metadata": {
+        "origin": "PhrasIS",
+        "source_file": "PhrasIS.train.headlines.positives.txt",
+        "source_line": 196,
+        "source_split": "train",
+        "source_modality": "headlines",
+        "phrasis_label": "BACK",
+        "phrasis_score": "4",
+        "phrasis_text1_span": "3 4 5",
+        "phrasis_text2_span": "5 6 7 8",
+        "phrasis_sentence_id": "128",
+        "curation_note": "manually selected as unambiguous trial example"
+      }
+    },
+    {
+      "pair_id": "dico_trial_0068",
+      "split": "trial",
+      "gold_label": "BACKWARD_ENTAILMENT",
+      "languages": {
+        "en": {
+          "text1": "bomb",
+          "text2": "bomb attack"
+        },
+        "es": {
+          "text1": "bomba",
+          "text2": "atentado con bomba"
+        },
+        "eu": {
+          "text1": "bonba",
+          "text2": "bonba erasoa"
+        }
+      },
+      "metadata": {
+        "origin": "PhrasIS",
+        "source_file": "PhrasIS.train.headlines.positives.txt",
+        "source_line": 204,
+        "source_split": "train",
+        "source_modality": "headlines",
+        "phrasis_label": "BACK",
+        "phrasis_score": "4",
+        "phrasis_text1_span": "5",
+        "phrasis_text2_span": "6 7",
+        "phrasis_sentence_id": "135",
+        "curation_note": "manually selected as unambiguous trial example"
+      }
+    },
+    {
+      "pair_id": "dico_trial_0069",
+      "split": "trial",
+      "gold_label": "BACKWARD_ENTAILMENT",
+      "languages": {
+        "en": {
+          "text1": "Patriot missile battery",
+          "text2": "Patriot missile batteries"
+        },
+        "es": {
+          "text1": "batería de misiles Patriot",
+          "text2": "baterías de misiles Patriot"
+        },
+        "eu": {
+          "text1": "Patriot misilen bateria",
+          "text2": "Patriot misilen bateriak"
+        }
+      },
+      "metadata": {
+        "origin": "PhrasIS",
+        "source_file": "PhrasIS.train.headlines.positives.txt",
+        "source_line": 225,
+        "source_split": "train",
+        "source_modality": "headlines",
+        "phrasis_label": "BACK",
+        "phrasis_score": "4",
+        "phrasis_text1_span": "3 4 5",
+        "phrasis_text2_span": "3 4 5",
+        "phrasis_sentence_id": "148",
+        "curation_note": "manually selected as unambiguous trial example"
+      }
+    },
+    {
+      "pair_id": "dico_trial_0070",
+      "split": "trial",
+      "gold_label": "BACKWARD_ENTAILMENT",
+      "languages": {
+        "en": {
+          "text1": "Suicide bomber",
+          "text2": "Suicide Bombers"
+        },
+        "es": {
+          "text1": "terrorista suicida",
+          "text2": "terroristas suicidas"
+        },
+        "eu": {
+          "text1": "erasotzaile suizida",
+          "text2": "erasotzaile suizidak"
+        }
+      },
+      "metadata": {
+        "origin": "PhrasIS",
+        "source_file": "PhrasIS.train.headlines.positives.txt",
+        "source_line": 256,
+        "source_split": "train",
+        "source_modality": "headlines",
+        "phrasis_label": "BACK",
+        "phrasis_score": "4",
+        "phrasis_text1_span": "1 2",
+        "phrasis_text2_span": "1 2",
+        "phrasis_sentence_id": "177",
+        "curation_note": "manually selected as unambiguous trial example"
+      }
+    },
+    {
+      "pair_id": "dico_trial_0071",
+      "split": "trial",
+      "gold_label": "BACKWARD_ENTAILMENT",
+      "languages": {
+        "en": {
+          "text1": "Driver",
+          "text2": "Train driver"
+        },
+        "es": {
+          "text1": "conductor",
+          "text2": "conductor de tren"
+        },
+        "eu": {
+          "text1": "gidaria",
+          "text2": "tren-gidaria"
+        }
+      },
+      "metadata": {
+        "origin": "PhrasIS",
+        "source_file": "PhrasIS.train.headlines.positives.txt",
+        "source_line": 328,
+        "source_split": "train",
+        "source_modality": "headlines",
+        "phrasis_label": "BACK",
+        "phrasis_score": "4",
+        "phrasis_text1_span": "1",
+        "phrasis_text2_span": "1 2",
+        "phrasis_sentence_id": "223",
+        "curation_note": "manually selected as unambiguous trial example"
+      }
+    },
+    {
+      "pair_id": "dico_trial_0072",
+      "split": "trial",
+      "gold_label": "BACKWARD_ENTAILMENT",
+      "languages": {
+        "en": {
+          "text1": "return",
+          "text2": "for return"
+        },
+        "es": {
+          "text1": "regreso",
+          "text2": "para el regreso"
+        },
+        "eu": {
+          "text1": "itzulera",
+          "text2": "itzulerarako"
+        }
+      },
+      "metadata": {
+        "origin": "PhrasIS",
+        "source_file": "PhrasIS.train.headlines.positives.txt",
+        "source_line": 341,
+        "source_split": "train",
+        "source_modality": "headlines",
+        "phrasis_label": "BACK",
+        "phrasis_score": "4",
+        "phrasis_text1_span": "5",
+        "phrasis_text2_span": "5 6",
+        "phrasis_sentence_id": "231",
+        "curation_note": "manually selected as unambiguous trial example"
+      }
+    },
+    {
+      "pair_id": "dico_trial_0073",
+      "split": "trial",
+      "gold_label": "BACKWARD_ENTAILMENT",
+      "languages": {
+        "en": {
+          "text1": "Conservatives",
+          "text2": "Conservative opposition"
+        },
+        "es": {
+          "text1": "conservadores",
+          "text2": "oposición conservadora"
+        },
+        "eu": {
+          "text1": "kontserbadoreak",
+          "text2": "oposizio kontserbadorea"
+        }
+      },
+      "metadata": {
+        "origin": "PhrasIS",
+        "source_file": "PhrasIS.test.headlines.positives.txt",
+        "source_line": 2,
+        "source_split": "test",
+        "source_modality": "headlines",
+        "phrasis_label": "BACK",
+        "phrasis_score": "4",
+        "phrasis_text1_span": "1",
+        "phrasis_text2_span": "1 2",
+        "phrasis_sentence_id": "2",
+        "curation_note": "manually selected as unambiguous trial example"
+      }
+    },
+    {
+      "pair_id": "dico_trial_0074",
+      "split": "trial",
+      "gold_label": "BACKWARD_ENTAILMENT",
+      "languages": {
+        "en": {
+          "text1": "missiles",
+          "text2": "ballistic missiles"
+        },
+        "es": {
+          "text1": "misiles",
+          "text2": "misiles balísticos"
+        },
+        "eu": {
+          "text1": "misilak",
+          "text2": "misil balistikoak"
+        }
+      },
+      "metadata": {
+        "origin": "PhrasIS",
+        "source_file": "PhrasIS.test.headlines.positives.txt",
+        "source_line": 10,
+        "source_split": "test",
+        "source_modality": "headlines",
+        "phrasis_label": "BACK",
+        "phrasis_score": "4",
+        "phrasis_text1_span": "4",
+        "phrasis_text2_span": "3 4",
+        "phrasis_sentence_id": "5",
+        "curation_note": "manually selected as unambiguous trial example"
+      }
+    },
+    {
+      "pair_id": "dico_trial_0075",
+      "split": "trial",
+      "gold_label": "BACKWARD_ENTAILMENT",
+      "languages": {
+        "en": {
+          "text1": "Video",
+          "text2": "Security video"
+        },
+        "es": {
+          "text1": "vídeo",
+          "text2": "vídeo de seguridad"
+        },
+        "eu": {
+          "text1": "bideoa",
+          "text2": "segurtasun-bideoa"
+        }
+      },
+      "metadata": {
+        "origin": "PhrasIS",
+        "source_file": "PhrasIS.test.headlines.positives.txt",
+        "source_line": 93,
+        "source_split": "test",
+        "source_modality": "headlines",
+        "phrasis_label": "BACK",
+        "phrasis_score": "4",
+        "phrasis_text1_span": "1",
+        "phrasis_text2_span": "1 2",
+        "phrasis_sentence_id": "65",
+        "curation_note": "manually selected as unambiguous trial example"
+      }
+    },
+    {
+      "pair_id": "dico_trial_0076",
+      "split": "trial",
+      "gold_label": "BACKWARD_ENTAILMENT",
+      "languages": {
+        "en": {
+          "text1": "A child",
+          "text2": "A young boy"
+        },
+        "es": {
+          "text1": "un niño",
+          "text2": "un niño joven"
+        },
+        "eu": {
+          "text1": "haur bat",
+          "text2": "mutil gazte bat"
+        }
+      },
+      "metadata": {
+        "origin": "PhrasIS",
+        "source_file": "PhrasIS.test.images.positives.txt",
+        "source_line": 3,
+        "source_split": "test",
+        "source_modality": "images",
+        "phrasis_label": "BACK",
+        "phrasis_score": "4",
+        "phrasis_text1_span": "1 2",
+        "phrasis_text2_span": "1 2 3",
+        "phrasis_sentence_id": "1",
+        "curation_note": "manually selected as unambiguous trial example"
+      }
+    },
+    {
+      "pair_id": "dico_trial_0077",
+      "split": "trial",
+      "gold_label": "BACKWARD_ENTAILMENT",
+      "languages": {
+        "en": {
+          "text1": "A dog",
+          "text2": "a white dog"
+        },
+        "es": {
+          "text1": "un perro",
+          "text2": "un perro blanco"
+        },
+        "eu": {
+          "text1": "txakur bat",
+          "text2": "txakur zuri bat"
+        }
+      },
+      "metadata": {
+        "origin": "PhrasIS",
+        "source_file": "PhrasIS.test.images.positives.txt",
+        "source_line": 20,
+        "source_split": "test",
+        "source_modality": "images",
+        "phrasis_label": "BACK",
+        "phrasis_score": "4",
+        "phrasis_text1_span": "1 2",
+        "phrasis_text2_span": "1 2 3",
+        "phrasis_sentence_id": "12",
+        "curation_note": "manually selected as unambiguous trial example"
+      }
+    },
+    {
+      "pair_id": "dico_trial_0078",
+      "split": "trial",
+      "gold_label": "BACKWARD_ENTAILMENT",
+      "languages": {
+        "en": {
+          "text1": "A boy",
+          "text2": "A little boy"
+        },
+        "es": {
+          "text1": "un niño",
+          "text2": "un niño pequeño"
+        },
+        "eu": {
+          "text1": "mutil bat",
+          "text2": "mutil txiki bat"
+        }
+      },
+      "metadata": {
+        "origin": "PhrasIS",
+        "source_file": "PhrasIS.test.images.positives.txt",
+        "source_line": 33,
+        "source_split": "test",
+        "source_modality": "images",
+        "phrasis_label": "BACK",
+        "phrasis_score": "4",
+        "phrasis_text1_span": "1 2",
+        "phrasis_text2_span": "1 2 3",
+        "phrasis_sentence_id": "20",
+        "curation_note": "manually selected as unambiguous trial example"
+      }
+    },
+    {
+      "pair_id": "dico_trial_0079",
+      "split": "trial",
+      "gold_label": "BACKWARD_ENTAILMENT",
+      "languages": {
+        "en": {
+          "text1": "a dog",
+          "text2": "A small dog"
+        },
+        "es": {
+          "text1": "un perro",
+          "text2": "un perro pequeño"
+        },
+        "eu": {
+          "text1": "txakur bat",
+          "text2": "txakur txiki bat"
+        }
+      },
+      "metadata": {
+        "origin": "PhrasIS",
+        "source_file": "PhrasIS.test.images.positives.txt",
+        "source_line": 59,
+        "source_split": "test",
+        "source_modality": "images",
+        "phrasis_label": "BACK",
+        "phrasis_score": "4",
+        "phrasis_text1_span": "1 2",
+        "phrasis_text2_span": "1 2 3",
+        "phrasis_sentence_id": "33",
+        "curation_note": "manually selected as unambiguous trial example"
+      }
+    },
+    {
+      "pair_id": "dico_trial_0080",
+      "split": "trial",
+      "gold_label": "BACKWARD_ENTAILMENT",
+      "languages": {
+        "en": {
+          "text1": "a boy",
+          "text2": "A small boy"
+        },
+        "es": {
+          "text1": "un niño",
+          "text2": "un niño pequeño"
+        },
+        "eu": {
+          "text1": "mutil bat",
+          "text2": "mutil txiki bat"
+        }
+      },
+      "metadata": {
+        "origin": "PhrasIS",
+        "source_file": "PhrasIS.test.images.positives.txt",
+        "source_line": 77,
+        "source_split": "test",
+        "source_modality": "images",
+        "phrasis_label": "BACK",
+        "phrasis_score": "4",
+        "phrasis_text1_span": "1 2",
+        "phrasis_text2_span": "1 2 3",
+        "phrasis_sentence_id": "43",
+        "curation_note": "manually selected as unambiguous trial example"
+      }
+    },
+    {
+      "pair_id": "dico_trial_0081",
+      "split": "trial",
+      "gold_label": "BACKWARD_ENTAILMENT",
+      "languages": {
+        "en": {
+          "text1": "a baby",
+          "text2": "a small baby"
+        },
+        "es": {
+          "text1": "un bebé",
+          "text2": "un bebé pequeño"
+        },
+        "eu": {
+          "text1": "haur bat",
+          "text2": "haur txiki bat"
+        }
+      },
+      "metadata": {
+        "origin": "PhrasIS",
+        "source_file": "PhrasIS.test.images.positives.txt",
+        "source_line": 82,
+        "source_split": "test",
+        "source_modality": "images",
+        "phrasis_label": "BACK",
+        "phrasis_score": "4",
+        "phrasis_text1_span": "4 5",
+        "phrasis_text2_span": "4 5 6",
+        "phrasis_sentence_id": "46",
+        "curation_note": "manually selected as unambiguous trial example"
+      }
+    },
+    {
+      "pair_id": "dico_trial_0082",
+      "split": "trial",
+      "gold_label": "BACKWARD_ENTAILMENT",
+      "languages": {
+        "en": {
+          "text1": "The brown dog",
+          "text2": "The skinny brown dog"
+        },
+        "es": {
+          "text1": "el perro marrón",
+          "text2": "el perro marrón delgado"
+        },
+        "eu": {
+          "text1": "txakur marroia",
+          "text2": "txakur marroi argala"
+        }
+      },
+      "metadata": {
+        "origin": "PhrasIS",
+        "source_file": "PhrasIS.test.images.positives.txt",
+        "source_line": 101,
+        "source_split": "test",
+        "source_modality": "images",
+        "phrasis_label": "BACK",
+        "phrasis_score": "4",
+        "phrasis_text1_span": "1 2 3",
+        "phrasis_text2_span": "1 2 3 4",
+        "phrasis_sentence_id": "58",
+        "curation_note": "manually selected as unambiguous trial example"
+      }
+    },
+    {
+      "pair_id": "dico_trial_0083",
+      "split": "trial",
+      "gold_label": "BACKWARD_ENTAILMENT",
+      "languages": {
+        "en": {
+          "text1": "The person",
+          "text2": "A kid"
+        },
+        "es": {
+          "text1": "la persona",
+          "text2": "un niño"
+        },
+        "eu": {
+          "text1": "pertsona",
+          "text2": "haur bat"
+        }
+      },
+      "metadata": {
+        "origin": "PhrasIS",
+        "source_file": "PhrasIS.test.images.positives.txt",
+        "source_line": 185,
+        "source_split": "test",
+        "source_modality": "images",
+        "phrasis_label": "BACK",
+        "phrasis_score": "4",
+        "phrasis_text1_span": "1 2",
+        "phrasis_text2_span": "1 2",
+        "phrasis_sentence_id": "98",
+        "curation_note": "manually selected as unambiguous trial example"
+      }
+    },
+    {
+      "pair_id": "dico_trial_0084",
+      "split": "trial",
+      "gold_label": "BACKWARD_ENTAILMENT",
+      "languages": {
+        "en": {
+          "text1": "A boy",
+          "text2": "A young boy"
+        },
+        "es": {
+          "text1": "un niño",
+          "text2": "un niño joven"
+        },
+        "eu": {
+          "text1": "mutil bat",
+          "text2": "mutil gazte bat"
+        }
+      },
+      "metadata": {
+        "origin": "PhrasIS",
+        "source_file": "PhrasIS.test.images.positives.txt",
+        "source_line": 223,
+        "source_split": "test",
+        "source_modality": "images",
+        "phrasis_label": "BACK",
+        "phrasis_score": "4",
+        "phrasis_text1_span": "1 2",
+        "phrasis_text2_span": "1 2 3",
+        "phrasis_sentence_id": "121",
+        "curation_note": "manually selected as unambiguous trial example"
+      }
+    },
+    {
+      "pair_id": "dico_trial_0085",
+      "split": "trial",
+      "gold_label": "BACKWARD_ENTAILMENT",
+      "languages": {
+        "en": {
+          "text1": "Two dogs",
+          "text2": "Two brown dogs"
+        },
+        "es": {
+          "text1": "dos perros",
+          "text2": "dos perros marrones"
+        },
+        "eu": {
+          "text1": "bi txakur",
+          "text2": "bi txakur marroi"
+        }
+      },
+      "metadata": {
+        "origin": "PhrasIS",
+        "source_file": "PhrasIS.test.images.positives.txt",
+        "source_line": 233,
+        "source_split": "test",
+        "source_modality": "images",
+        "phrasis_label": "BACK",
+        "phrasis_score": "4",
+        "phrasis_text1_span": "1 2",
+        "phrasis_text2_span": "1 2 3",
+        "phrasis_sentence_id": "127",
+        "curation_note": "manually selected as unambiguous trial example"
+      }
+    },
+    {
+      "pair_id": "dico_trial_0086",
+      "split": "trial",
+      "gold_label": "BACKWARD_ENTAILMENT",
+      "languages": {
+        "en": {
+          "text1": "A white dog",
+          "text2": "A large white dog"
+        },
+        "es": {
+          "text1": "un perro blanco",
+          "text2": "un perro blanco grande"
+        },
+        "eu": {
+          "text1": "txakur zuri bat",
+          "text2": "txakur zuri handi bat"
+        }
+      },
+      "metadata": {
+        "origin": "PhrasIS",
+        "source_file": "PhrasIS.test.images.positives.txt",
+        "source_line": 247,
+        "source_split": "test",
+        "source_modality": "images",
+        "phrasis_label": "BACK",
+        "phrasis_score": "4",
+        "phrasis_text1_span": "1 2 3",
+        "phrasis_text2_span": "1 2 3 4",
+        "phrasis_sentence_id": "134",
+        "curation_note": "manually selected as unambiguous trial example"
+      }
+    },
+    {
+      "pair_id": "dico_trial_0087",
+      "split": "trial",
+      "gold_label": "BACKWARD_ENTAILMENT",
+      "languages": {
+        "en": {
+          "text1": "A girl",
+          "text2": "A little girl"
+        },
+        "es": {
+          "text1": "una niña",
+          "text2": "una niña pequeña"
+        },
+        "eu": {
+          "text1": "neska bat",
+          "text2": "neska txiki bat"
+        }
+      },
+      "metadata": {
+        "origin": "PhrasIS",
+        "source_file": "PhrasIS.test.images.positives.txt",
+        "source_line": 256,
+        "source_split": "test",
+        "source_modality": "images",
+        "phrasis_label": "BACK",
+        "phrasis_score": "4",
+        "phrasis_text1_span": "1 2",
+        "phrasis_text2_span": "1 2 3",
+        "phrasis_sentence_id": "138",
+        "curation_note": "manually selected as unambiguous trial example"
+      }
+    },
+    {
+      "pair_id": "dico_trial_0088",
+      "split": "trial",
+      "gold_label": "BACKWARD_ENTAILMENT",
+      "languages": {
+        "en": {
+          "text1": "Two girls",
+          "text2": "Two blonde girls"
+        },
+        "es": {
+          "text1": "dos niñas",
+          "text2": "dos niñas rubias"
+        },
+        "eu": {
+          "text1": "bi neska",
+          "text2": "bi neska ilehori"
+        }
+      },
+      "metadata": {
+        "origin": "PhrasIS",
+        "source_file": "PhrasIS.test.images.positives.txt",
+        "source_line": 330,
+        "source_split": "test",
+        "source_modality": "images",
+        "phrasis_label": "BACK",
+        "phrasis_score": "4",
+        "phrasis_text1_span": "1 2",
+        "phrasis_text2_span": "1 2 3",
+        "phrasis_sentence_id": "178",
+        "curation_note": "manually selected as unambiguous trial example"
+      }
+    },
+    {
+      "pair_id": "dico_trial_0089",
+      "split": "trial",
+      "gold_label": "BACKWARD_ENTAILMENT",
+      "languages": {
+        "en": {
+          "text1": "A woman",
+          "text2": "A young girl"
+        },
+        "es": {
+          "text1": "una mujer",
+          "text2": "una niña joven"
+        },
+        "eu": {
+          "text1": "emakume bat",
+          "text2": "neska gazte bat"
+        }
+      },
+      "metadata": {
+        "origin": "PhrasIS",
+        "source_file": "PhrasIS.train.images.positives.txt",
+        "source_line": 5,
+        "source_split": "train",
+        "source_modality": "images",
+        "phrasis_label": "BACK",
+        "phrasis_score": "4",
+        "phrasis_text1_span": "1 2",
+        "phrasis_text2_span": "1 2 3",
+        "phrasis_sentence_id": "6",
+        "curation_note": "manually selected as unambiguous trial example"
+      }
+    },
+    {
+      "pair_id": "dico_trial_0090",
+      "split": "trial",
+      "gold_label": "BACKWARD_ENTAILMENT",
+      "languages": {
+        "en": {
+          "text1": "a woman",
+          "text2": "A young woman"
+        },
+        "es": {
+          "text1": "una mujer",
+          "text2": "una mujer joven"
+        },
+        "eu": {
+          "text1": "emakume bat",
+          "text2": "emakume gazte bat"
+        }
+      },
+      "metadata": {
+        "origin": "PhrasIS",
+        "source_file": "PhrasIS.train.images.positives.txt",
+        "source_line": 22,
+        "source_split": "train",
+        "source_modality": "images",
+        "phrasis_label": "BACK",
+        "phrasis_score": "4",
+        "phrasis_text1_span": "1 2",
+        "phrasis_text2_span": "1 2 3",
+        "phrasis_sentence_id": "18",
+        "curation_note": "manually selected as unambiguous trial example"
+      }
+    },
+    {
+      "pair_id": "dico_trial_0091",
+      "split": "trial",
+      "gold_label": "NEGATIVE_OTHER",
+      "languages": {
+        "en": {
+          "text1": "says",
+          "text2": "Syria peace"
+        },
+        "es": {
+          "text1": "dice",
+          "text2": "paz en Siria"
+        },
+        "eu": {
+          "text1": "dio",
+          "text2": "Siriako bakea"
+        }
+      },
+      "metadata": {
+        "origin": "PhrasIS",
+        "source_file": "PhrasIS.train.headlines.negatives.txt",
+        "source_line": 1,
+        "source_split": "train",
+        "source_modality": "headlines",
+        "phrasis_label": "UNR",
+        "phrasis_score": "0",
+        "phrasis_text1_span": "10",
+        "phrasis_text2_span": "1 2",
+        "phrasis_sentence_id": "4",
+        "curation_note": "manually selected as unambiguous trial example"
+      }
+    },
+    {
+      "pair_id": "dico_trial_0092",
+      "split": "trial",
+      "gold_label": "NEGATIVE_OTHER",
+      "languages": {
+        "en": {
+          "text1": "denies",
+          "text2": "for Houla massacre"
+        },
+        "es": {
+          "text1": "niega",
+          "text2": "por la masacre de Houla"
+        },
+        "eu": {
+          "text1": "ukatzen du",
+          "text2": "Houlako sarraskiagatik"
+        }
+      },
+      "metadata": {
+        "origin": "PhrasIS",
+        "source_file": "PhrasIS.train.headlines.negatives.txt",
+        "source_line": 6,
+        "source_split": "train",
+        "source_modality": "headlines",
+        "phrasis_label": "UNR",
+        "phrasis_score": "0",
+        "phrasis_text1_span": "3",
+        "phrasis_text2_span": "4 5 6",
+        "phrasis_sentence_id": "5",
+        "curation_note": "manually selected as unambiguous trial example"
+      }
+    },
+    {
+      "pair_id": "dico_trial_0093",
+      "split": "trial",
+      "gold_label": "NEGATIVE_OTHER",
+      "languages": {
+        "en": {
+          "text1": "Syrian regime",
+          "text2": "rebels"
+        },
+        "es": {
+          "text1": "régimen sirio",
+          "text2": "rebeldes"
+        },
+        "eu": {
+          "text1": "Siriako erregimena",
+          "text2": "matxinoak"
+        }
+      },
+      "metadata": {
+        "origin": "PhrasIS",
+        "source_file": "PhrasIS.train.headlines.negatives.txt",
+        "source_line": 10,
+        "source_split": "train",
+        "source_modality": "headlines",
+        "phrasis_label": "UNR",
+        "phrasis_score": "0",
+        "phrasis_text1_span": "1 2",
+        "phrasis_text2_span": "3",
+        "phrasis_sentence_id": "5",
+        "curation_note": "manually selected as unambiguous trial example"
+      }
+    },
+    {
+      "pair_id": "dico_trial_0094",
+      "split": "trial",
+      "gold_label": "NEGATIVE_OTHER",
+      "languages": {
+        "en": {
+          "text1": "Solomon Islands",
+          "text2": "USGS"
+        },
+        "es": {
+          "text1": "Islas Salomón",
+          "text2": "USGS"
+        },
+        "eu": {
+          "text1": "Salomon Uharteak",
+          "text2": "USGS"
+        }
+      },
+      "metadata": {
+        "origin": "PhrasIS",
+        "source_file": "PhrasIS.train.headlines.negatives.txt",
+        "source_line": 17,
+        "source_split": "train",
+        "source_modality": "headlines",
+        "phrasis_label": "UNR",
+        "phrasis_score": "0",
+        "phrasis_text1_span": "5 6",
+        "phrasis_text2_span": "9",
+        "phrasis_sentence_id": "8",
+        "curation_note": "manually selected as unambiguous trial example"
+      }
+    },
+    {
+      "pair_id": "dico_trial_0095",
+      "split": "trial",
+      "gold_label": "NEGATIVE_OTHER",
+      "languages": {
+        "en": {
+          "text1": "Gunmen",
+          "text2": "Seven foreign workers"
+        },
+        "es": {
+          "text1": "hombres armados",
+          "text2": "siete trabajadores extranjeros"
+        },
+        "eu": {
+          "text1": "gizon armatuak",
+          "text2": "zazpi langile atzerritar"
+        }
+      },
+      "metadata": {
+        "origin": "PhrasIS",
+        "source_file": "PhrasIS.train.headlines.negatives.txt",
+        "source_line": 29,
+        "source_split": "train",
+        "source_modality": "headlines",
+        "phrasis_label": "UNR",
+        "phrasis_score": "0",
+        "phrasis_text1_span": "1",
+        "phrasis_text2_span": "1 2 3",
+        "phrasis_sentence_id": "12",
+        "curation_note": "manually selected as unambiguous trial example"
+      }
+    },
+    {
+      "pair_id": "dico_trial_0096",
+      "split": "trial",
+      "gold_label": "NEGATIVE_OTHER",
+      "languages": {
+        "en": {
+          "text1": "after ski accident",
+          "text2": "for his life"
+        },
+        "es": {
+          "text1": "tras el accidente de esquí",
+          "text2": "por su vida"
+        },
+        "eu": {
+          "text1": "eski istripuaren ondoren",
+          "text2": "bere bizitzagatik"
+        }
+      },
+      "metadata": {
+        "origin": "PhrasIS",
+        "source_file": "PhrasIS.train.headlines.negatives.txt",
+        "source_line": 35,
+        "source_split": "train",
+        "source_modality": "headlines",
+        "phrasis_label": "UNR",
+        "phrasis_score": "0",
+        "phrasis_text1_span": "5 6 7",
+        "phrasis_text2_span": "8 9 10",
+        "phrasis_sentence_id": "19",
+        "curation_note": "manually selected as unambiguous trial example"
+      }
+    },
+    {
+      "pair_id": "dico_trial_0097",
+      "split": "trial",
+      "gold_label": "NEGATIVE_OTHER",
+      "languages": {
+        "en": {
+          "text1": "determined",
+          "text2": "EU ministers"
+        },
+        "es": {
+          "text1": "decidido",
+          "text2": "ministros de la UE"
+        },
+        "eu": {
+          "text1": "erabakita",
+          "text2": "EBko ministroak"
+        }
+      },
+      "metadata": {
+        "origin": "PhrasIS",
+        "source_file": "PhrasIS.train.headlines.negatives.txt",
+        "source_line": 42,
+        "source_split": "train",
+        "source_modality": "headlines",
+        "phrasis_label": "UNR",
+        "phrasis_score": "0",
+        "phrasis_text1_span": "4",
+        "phrasis_text2_span": "1 2",
+        "phrasis_sentence_id": "21",
+        "curation_note": "manually selected as unambiguous trial example"
+      }
+    },
+    {
+      "pair_id": "dico_trial_0098",
+      "split": "trial",
+      "gold_label": "NEGATIVE_OTHER",
+      "languages": {
+        "en": {
+          "text1": "Thai opposition party",
+          "text2": "announces"
+        },
+        "es": {
+          "text1": "partido opositor tailandés",
+          "text2": "anuncia"
+        },
+        "eu": {
+          "text1": "Thailandiako oposizioko alderdia",
+          "text2": "iragartzen du"
+        }
+      },
+      "metadata": {
+        "origin": "PhrasIS",
+        "source_file": "PhrasIS.train.headlines.negatives.txt",
+        "source_line": 50,
+        "source_split": "train",
+        "source_modality": "headlines",
+        "phrasis_label": "UNR",
+        "phrasis_score": "0",
+        "phrasis_text1_span": "1 2 3",
+        "phrasis_text2_span": "3",
+        "phrasis_sentence_id": "22",
+        "curation_note": "manually selected as unambiguous trial example"
+      }
+    },
+    {
+      "pair_id": "dico_trial_0099",
+      "split": "trial",
+      "gold_label": "NEGATIVE_OTHER",
+      "languages": {
+        "en": {
+          "text1": "continues",
+          "text2": "to spend"
+        },
+        "es": {
+          "text1": "continúa",
+          "text2": "gastar"
+        },
+        "eu": {
+          "text1": "jarraitzen du",
+          "text2": "gastatzeko"
+        }
+      },
+      "metadata": {
+        "origin": "PhrasIS",
+        "source_file": "PhrasIS.train.headlines.negatives.txt",
+        "source_line": 52,
+        "source_split": "train",
+        "source_modality": "headlines",
+        "phrasis_label": "UNR",
+        "phrasis_score": "0",
+        "phrasis_text1_span": "9",
+        "phrasis_text2_span": "4 5",
+        "phrasis_sentence_id": "23",
+        "curation_note": "manually selected as unambiguous trial example"
+      }
+    },
+    {
+      "pair_id": "dico_trial_0100",
+      "split": "trial",
+      "gold_label": "NEGATIVE_OTHER",
+      "languages": {
+        "en": {
+          "text1": "to execute",
+          "text2": "Palestinian prisoner release"
+        },
+        "es": {
+          "text1": "ejecutar",
+          "text2": "liberación de presos palestinos"
+        },
+        "eu": {
+          "text1": "exekutatzeko",
+          "text2": "preso palestinarren askapena"
+        }
+      },
+      "metadata": {
+        "origin": "PhrasIS",
+        "source_file": "PhrasIS.test.headlines.negatives.txt",
+        "source_line": 33,
+        "source_split": "test",
+        "source_modality": "headlines",
+        "phrasis_label": "UNR",
+        "phrasis_score": "0",
+        "phrasis_text1_span": "3 4",
+        "phrasis_text2_span": "3 4 5",
+        "phrasis_sentence_id": "10",
+        "curation_note": "manually selected as unambiguous trial example"
+      }
+    },
+    {
+      "pair_id": "dico_trial_0101",
+      "split": "trial",
+      "gold_label": "NEGATIVE_OTHER",
+      "languages": {
+        "en": {
+          "text1": "Palestinian captives",
+          "text2": "allows"
+        },
+        "es": {
+          "text1": "cautivos palestinos",
+          "text2": "permite"
+        },
+        "eu": {
+          "text1": "preso palestinarrak",
+          "text2": "baimentzen du"
+        }
+      },
+      "metadata": {
+        "origin": "PhrasIS",
+        "source_file": "PhrasIS.test.headlines.negatives.txt",
+        "source_line": 36,
+        "source_split": "test",
+        "source_modality": "headlines",
+        "phrasis_label": "UNR",
+        "phrasis_score": "0",
+        "phrasis_text1_span": "5 6",
+        "phrasis_text2_span": "2",
+        "phrasis_sentence_id": "10",
+        "curation_note": "manually selected as unambiguous trial example"
+      }
+    },
+    {
+      "pair_id": "dico_trial_0102",
+      "split": "trial",
+      "gold_label": "NEGATIVE_OTHER",
+      "languages": {
+        "en": {
+          "text1": "at 116",
+          "text2": "Japan"
+        },
+        "es": {
+          "text1": "a los 116 años",
+          "text2": "Japón"
+        },
+        "eu": {
+          "text1": "116 urterekin",
+          "text2": "Japonia"
+        }
+      },
+      "metadata": {
+        "origin": "PhrasIS",
+        "source_file": "PhrasIS.test.headlines.negatives.txt",
+        "source_line": 50,
+        "source_split": "test",
+        "source_modality": "headlines",
+        "phrasis_label": "UNR",
+        "phrasis_score": "0",
+        "phrasis_text1_span": "12 13",
+        "phrasis_text2_span": "1",
+        "phrasis_sentence_id": "12",
+        "curation_note": "manually selected as unambiguous trial example"
+      }
+    },
+    {
+      "pair_id": "dico_trial_0103",
+      "split": "trial",
+      "gold_label": "NEGATIVE_OTHER",
+      "languages": {
+        "en": {
+          "text1": "to stop",
+          "text2": "tension"
+        },
+        "es": {
+          "text1": "detener",
+          "text2": "tensión"
+        },
+        "eu": {
+          "text1": "gelditzeko",
+          "text2": "tentsioa"
+        }
+      },
+      "metadata": {
+        "origin": "PhrasIS",
+        "source_file": "PhrasIS.test.headlines.negatives.txt",
+        "source_line": 57,
+        "source_split": "test",
+        "source_modality": "headlines",
+        "phrasis_label": "UNR",
+        "phrasis_score": "0",
+        "phrasis_text1_span": "8 9",
+        "phrasis_text2_span": "16",
+        "phrasis_sentence_id": "14",
+        "curation_note": "manually selected as unambiguous trial example"
+      }
+    },
+    {
+      "pair_id": "dico_trial_0104",
+      "split": "trial",
+      "gold_label": "NEGATIVE_OTHER",
+      "languages": {
+        "en": {
+          "text1": "in streets",
+          "text2": "Lenin statue"
+        },
+        "es": {
+          "text1": "en las calles",
+          "text2": "estatua de Lenin"
+        },
+        "eu": {
+          "text1": "kaleetan",
+          "text2": "Leninen estatua"
+        }
+      },
+      "metadata": {
+        "origin": "PhrasIS",
+        "source_file": "PhrasIS.test.headlines.negatives.txt",
+        "source_line": 132,
+        "source_split": "test",
+        "source_modality": "headlines",
+        "phrasis_label": "UNR",
+        "phrasis_score": "0",
+        "phrasis_text1_span": "4 5",
+        "phrasis_text2_span": "4 5",
+        "phrasis_sentence_id": "32",
+        "curation_note": "manually selected as unambiguous trial example"
+      }
+    },
+    {
+      "pair_id": "dico_trial_0105",
+      "split": "trial",
+      "gold_label": "NEGATIVE_OTHER",
+      "languages": {
+        "en": {
+          "text1": "North Korea",
+          "text2": "2 rockets"
+        },
+        "es": {
+          "text1": "Corea del Norte",
+          "text2": "dos cohetes"
+        },
+        "eu": {
+          "text1": "Ipar Korea",
+          "text2": "bi suziri"
+        }
+      },
+      "metadata": {
+        "origin": "PhrasIS",
+        "source_file": "PhrasIS.test.headlines.negatives.txt",
+        "source_line": 168,
+        "source_split": "test",
+        "source_modality": "headlines",
+        "phrasis_label": "UNR",
+        "phrasis_score": "0",
+        "phrasis_text1_span": "1 2",
+        "phrasis_text2_span": "4 5",
+        "phrasis_sentence_id": "41",
+        "curation_note": "manually selected as unambiguous trial example"
+      }
+    },
+    {
+      "pair_id": "dico_trial_0106",
+      "split": "trial",
+      "gold_label": "NEGATIVE_OTHER",
+      "languages": {
+        "en": {
+          "text1": "A cat",
+          "text2": "high up"
+        },
+        "es": {
+          "text1": "un gato",
+          "text2": "en lo alto"
+        },
+        "eu": {
+          "text1": "katu bat",
+          "text2": "goian"
+        }
+      },
+      "metadata": {
+        "origin": "PhrasIS",
+        "source_file": "PhrasIS.train.images.negatives.txt",
+        "source_line": 1,
+        "source_split": "train",
+        "source_modality": "images",
+        "phrasis_label": "UNR",
+        "phrasis_score": "0",
+        "phrasis_text1_span": "1 2",
+        "phrasis_text2_span": "7 8",
+        "phrasis_sentence_id": "1",
+        "curation_note": "manually selected as unambiguous trial example"
+      }
+    },
+    {
+      "pair_id": "dico_trial_0107",
+      "split": "trial",
+      "gold_label": "NEGATIVE_OTHER",
+      "languages": {
+        "en": {
+          "text1": "a horse",
+          "text2": "in a pen"
+        },
+        "es": {
+          "text1": "un caballo",
+          "text2": "en un cercado"
+        },
+        "eu": {
+          "text1": "zaldi bat",
+          "text2": "hesi barruan"
+        }
+      },
+      "metadata": {
+        "origin": "PhrasIS",
+        "source_file": "PhrasIS.train.images.negatives.txt",
+        "source_line": 6,
+        "source_split": "train",
+        "source_modality": "images",
+        "phrasis_label": "UNR",
+        "phrasis_score": "0",
+        "phrasis_text1_span": "4 5",
+        "phrasis_text2_span": "6 7 8",
+        "phrasis_sentence_id": "5",
+        "curation_note": "manually selected as unambiguous trial example"
+      }
+    },
+    {
+      "pair_id": "dico_trial_0108",
+      "split": "trial",
+      "gold_label": "NEGATIVE_OTHER",
+      "languages": {
+        "en": {
+          "text1": "A man",
+          "text2": "in a chair"
+        },
+        "es": {
+          "text1": "un hombre",
+          "text2": "en una silla"
+        },
+        "eu": {
+          "text1": "gizon bat",
+          "text2": "aulki batean"
+        }
+      },
+      "metadata": {
+        "origin": "PhrasIS",
+        "source_file": "PhrasIS.train.images.negatives.txt",
+        "source_line": 9,
+        "source_split": "train",
+        "source_modality": "images",
+        "phrasis_label": "UNR",
+        "phrasis_score": "0",
+        "phrasis_text1_span": "1 2",
+        "phrasis_text2_span": "4 5 6",
+        "phrasis_sentence_id": "7",
+        "curation_note": "manually selected as unambiguous trial example"
+      }
+    },
+    {
+      "pair_id": "dico_trial_0109",
+      "split": "trial",
+      "gold_label": "NEGATIVE_OTHER",
+      "languages": {
+        "en": {
+          "text1": "with a beer",
+          "text2": "Two women"
+        },
+        "es": {
+          "text1": "con una cerveza",
+          "text2": "dos mujeres"
+        },
+        "eu": {
+          "text1": "garagardo batekin",
+          "text2": "bi emakume"
+        }
+      },
+      "metadata": {
+        "origin": "PhrasIS",
+        "source_file": "PhrasIS.train.images.negatives.txt",
+        "source_line": 22,
+        "source_split": "train",
+        "source_modality": "images",
+        "phrasis_label": "UNR",
+        "phrasis_score": "0",
+        "phrasis_text1_span": "4 5 6",
+        "phrasis_text2_span": "1 2",
+        "phrasis_sentence_id": "17",
+        "curation_note": "manually selected as unambiguous trial example"
+      }
+    },
+    {
+      "pair_id": "dico_trial_0110",
+      "split": "trial",
+      "gold_label": "NEGATIVE_OTHER",
+      "languages": {
+        "en": {
+          "text1": "in grass",
+          "text2": "with trees behind"
+        },
+        "es": {
+          "text1": "en la hierba",
+          "text2": "con árboles detrás"
+        },
+        "eu": {
+          "text1": "belarretan",
+          "text2": "zuhaitzak atzean dituela"
+        }
+      },
+      "metadata": {
+        "origin": "PhrasIS",
+        "source_file": "PhrasIS.train.images.negatives.txt",
+        "source_line": 26,
+        "source_split": "train",
+        "source_modality": "images",
+        "phrasis_label": "UNR",
+        "phrasis_score": "0",
+        "phrasis_text1_span": "6 7",
+        "phrasis_text2_span": "11 12 13",
+        "phrasis_sentence_id": "19",
+        "curation_note": "manually selected as unambiguous trial example"
+      }
+    },
+    {
+      "pair_id": "dico_trial_0111",
+      "split": "trial",
+      "gold_label": "NEGATIVE_OTHER",
+      "languages": {
+        "en": {
+          "text1": "in a pen",
+          "text2": "a horse"
+        },
+        "es": {
+          "text1": "en un cercado",
+          "text2": "un caballo"
+        },
+        "eu": {
+          "text1": "hesi barruan",
+          "text2": "zaldi bat"
+        }
+      },
+      "metadata": {
+        "origin": "PhrasIS",
+        "source_file": "PhrasIS.train.images.negatives.txt",
+        "source_line": 35,
+        "source_split": "train",
+        "source_modality": "images",
+        "phrasis_label": "UNR",
+        "phrasis_score": "0",
+        "phrasis_text1_span": "6 7 8",
+        "phrasis_text2_span": "4 5",
+        "phrasis_sentence_id": "20",
+        "curation_note": "manually selected as unambiguous trial example"
+      }
+    },
+    {
+      "pair_id": "dico_trial_0112",
+      "split": "trial",
+      "gold_label": "NEGATIVE_OTHER",
+      "languages": {
+        "en": {
+          "text1": "rides",
+          "text2": "on a path"
+        },
+        "es": {
+          "text1": "monta",
+          "text2": "en un camino"
+        },
+        "eu": {
+          "text1": "ibiltzen da",
+          "text2": "bide batean"
+        }
+      },
+      "metadata": {
+        "origin": "PhrasIS",
+        "source_file": "PhrasIS.train.images.negatives.txt",
+        "source_line": 41,
+        "source_split": "train",
+        "source_modality": "images",
+        "phrasis_label": "UNR",
+        "phrasis_score": "0",
+        "phrasis_text1_span": "6",
+        "phrasis_text2_span": "10 11 12",
+        "phrasis_sentence_id": "21",
+        "curation_note": "manually selected as unambiguous trial example"
+      }
+    },
+    {
+      "pair_id": "dico_trial_0113",
+      "split": "trial",
+      "gold_label": "NEGATIVE_OTHER",
+      "languages": {
+        "en": {
+          "text1": "sits",
+          "text2": "with a bicycle"
+        },
+        "es": {
+          "text1": "se sienta",
+          "text2": "con una bicicleta"
+        },
+        "eu": {
+          "text1": "eserita dago",
+          "text2": "bizikleta batekin"
+        }
+      },
+      "metadata": {
+        "origin": "PhrasIS",
+        "source_file": "PhrasIS.train.images.negatives.txt",
+        "source_line": 56,
+        "source_split": "train",
+        "source_modality": "images",
+        "phrasis_label": "UNR",
+        "phrasis_score": "0",
+        "phrasis_text1_span": "8",
+        "phrasis_text2_span": "8 9 10",
+        "phrasis_sentence_id": "23",
+        "curation_note": "manually selected as unambiguous trial example"
+      }
+    },
+    {
+      "pair_id": "dico_trial_0114",
+      "split": "trial",
+      "gold_label": "NEGATIVE_OTHER",
+      "languages": {
+        "en": {
+          "text1": "on a bag",
+          "text2": "Domestic cat"
+        },
+        "es": {
+          "text1": "sobre una bolsa",
+          "text2": "gato doméstico"
+        },
+        "eu": {
+          "text1": "poltsa baten gainean",
+          "text2": "etxeko katua"
+        }
+      },
+      "metadata": {
+        "origin": "PhrasIS",
+        "source_file": "PhrasIS.train.images.negatives.txt",
+        "source_line": 62,
+        "source_split": "train",
+        "source_modality": "images",
+        "phrasis_label": "UNR",
+        "phrasis_score": "0",
+        "phrasis_text1_span": "6 7 8",
+        "phrasis_text2_span": "1 2",
+        "phrasis_sentence_id": "24",
+        "curation_note": "manually selected as unambiguous trial example"
+      }
+    },
+    {
+      "pair_id": "dico_trial_0115",
+      "split": "trial",
+      "gold_label": "NEGATIVE_OTHER",
+      "languages": {
+        "en": {
+          "text1": "A dog",
+          "text2": "is biting"
+        },
+        "es": {
+          "text1": "un perro",
+          "text2": "está mordiendo"
+        },
+        "eu": {
+          "text1": "txakur bat",
+          "text2": "hozka ari da"
+        }
+      },
+      "metadata": {
+        "origin": "PhrasIS",
+        "source_file": "PhrasIS.test.images.negatives.txt",
+        "source_line": 7,
+        "source_split": "test",
+        "source_modality": "images",
+        "phrasis_label": "UNR",
+        "phrasis_score": "0",
+        "phrasis_text1_span": "1 2",
+        "phrasis_text2_span": "3 4",
+        "phrasis_sentence_id": "3",
+        "curation_note": "manually selected as unambiguous trial example"
+      }
+    },
+    {
+      "pair_id": "dico_trial_0116",
+      "split": "trial",
+      "gold_label": "NEGATIVE_OTHER",
+      "languages": {
+        "en": {
+          "text1": "A dog",
+          "text2": "a mop"
+        },
+        "es": {
+          "text1": "un perro",
+          "text2": "una fregona"
+        },
+        "eu": {
+          "text1": "txakur bat",
+          "text2": "lanbasa bat"
+        }
+      },
+      "metadata": {
+        "origin": "PhrasIS",
+        "source_file": "PhrasIS.test.images.negatives.txt",
+        "source_line": 8,
+        "source_split": "test",
+        "source_modality": "images",
+        "phrasis_label": "UNR",
+        "phrasis_score": "0",
+        "phrasis_text1_span": "1 2",
+        "phrasis_text2_span": "5 6",
+        "phrasis_sentence_id": "3",
+        "curation_note": "manually selected as unambiguous trial example"
+      }
+    },
+    {
+      "pair_id": "dico_trial_0117",
+      "split": "trial",
+      "gold_label": "NEGATIVE_OTHER",
+      "languages": {
+        "en": {
+          "text1": "checkered flags",
+          "text2": "Two ladies"
+        },
+        "es": {
+          "text1": "banderas a cuadros",
+          "text2": "dos mujeres"
+        },
+        "eu": {
+          "text1": "koadrodun banderak",
+          "text2": "bi emakume"
+        }
+      },
+      "metadata": {
+        "origin": "PhrasIS",
+        "source_file": "PhrasIS.test.images.negatives.txt",
+        "source_line": 21,
+        "source_split": "test",
+        "source_modality": "images",
+        "phrasis_label": "UNR",
+        "phrasis_score": "0",
+        "phrasis_text1_span": "4 5",
+        "phrasis_text2_span": "1 2",
+        "phrasis_sentence_id": "6",
+        "curation_note": "manually selected as unambiguous trial example"
+      }
+    },
+    {
+      "pair_id": "dico_trial_0118",
+      "split": "trial",
+      "gold_label": "NEGATIVE_OTHER",
+      "languages": {
+        "en": {
+          "text1": "A woman",
+          "text2": "in a crowd"
+        },
+        "es": {
+          "text1": "una mujer",
+          "text2": "en una multitud"
+        },
+        "eu": {
+          "text1": "emakume bat",
+          "text2": "jendetza batean"
+        }
+      },
+      "metadata": {
+        "origin": "PhrasIS",
+        "source_file": "PhrasIS.test.images.negatives.txt",
+        "source_line": 40,
+        "source_split": "test",
+        "source_modality": "images",
+        "phrasis_label": "UNR",
+        "phrasis_score": "0",
+        "phrasis_text1_span": "1 2",
+        "phrasis_text2_span": "4 5 6",
+        "phrasis_sentence_id": "11",
+        "curation_note": "manually selected as unambiguous trial example"
+      }
+    },
+    {
+      "pair_id": "dico_trial_0119",
+      "split": "trial",
+      "gold_label": "NEGATIVE_OTHER",
+      "languages": {
+        "en": {
+          "text1": "A brown dog",
+          "text2": "chases"
+        },
+        "es": {
+          "text1": "un perro marrón",
+          "text2": "persigue"
+        },
+        "eu": {
+          "text1": "txakur marroi bat",
+          "text2": "jarraitzen dio"
+        }
+      },
+      "metadata": {
+        "origin": "PhrasIS",
+        "source_file": "PhrasIS.test.images.negatives.txt",
+        "source_line": 58,
+        "source_split": "test",
+        "source_modality": "images",
+        "phrasis_label": "UNR",
+        "phrasis_score": "0",
+        "phrasis_text1_span": "1 2 3",
+        "phrasis_text2_span": "3",
+        "phrasis_sentence_id": "16",
+        "curation_note": "manually selected as unambiguous trial example"
+      }
+    },
+    {
+      "pair_id": "dico_trial_0120",
+      "split": "trial",
+      "gold_label": "NEGATIVE_OTHER",
+      "languages": {
+        "en": {
+          "text1": "a skateboard",
+          "text2": "along a track element"
+        },
+        "es": {
+          "text1": "un monopatín",
+          "text2": "junto a un elemento de la pista"
+        },
+        "eu": {
+          "text1": "skate bat",
+          "text2": "pistako elementu baten alboan"
+        }
+      },
+      "metadata": {
+        "origin": "PhrasIS",
+        "source_file": "PhrasIS.test.images.negatives.txt",
+        "source_line": 68,
+        "source_split": "test",
+        "source_modality": "images",
+        "phrasis_label": "UNR",
+        "phrasis_score": "0",
+        "phrasis_text1_span": "5 6",
+        "phrasis_text2_span": "5 6 7 8",
+        "phrasis_sentence_id": "18",
+        "curation_note": "manually selected as unambiguous trial example"
+      }
+    }
+  ]
+}

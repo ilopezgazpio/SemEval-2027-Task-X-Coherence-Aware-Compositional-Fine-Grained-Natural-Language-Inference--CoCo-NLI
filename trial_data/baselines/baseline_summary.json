@@ -1,0 +1,73 @@
+{
+  "seed": 2027,
+  "systems": {
+    "majority": {
+      "track1": {
+        "hard_cons": 0.3333333333333333,
+        "instances": 210,
+        "prediction_file": "trial/baselines/majority/dico_nli_trial_track1_majority_submission.csv",
+        "scores_dir": "trial/baselines/majority/dico_nli_trial_track1_majority_scores",
+        "soft_cons": 1.0,
+        "weighted_f1": 0.12698412698412698
+      },
+      "track2": {
+        "hard_cons": 0.3333333333333333,
+        "instances": 210,
+        "prediction_file": "trial/baselines/majority/dico_nli_trial_track2_majority_submission.csv",
+        "scores_dir": "trial/baselines/majority/dico_nli_trial_track2_majority_scores",
+        "soft_cons": 1.0,
+        "weighted_f1": 0.12698412698412698
+      },
+      "track3": {
+        "hard_cons": 0.3333333333333333,
+        "instances": 210,
+        "prediction_file": "trial/baselines/majority/dico_nli_trial_track3_majority_submission.csv",
+        "scores_dir": "trial/baselines/majority/dico_nli_trial_track3_majority_scores",
+        "soft_cons": 1.0,
+        "weighted_f1": 0.12698412698412698
+      },
+      "track4": {
+        "hard_cons": 0.3333333333333333,
+        "instances": 1260,
+        "prediction_file": "trial/baselines/majority/dico_nli_trial_track4_majority_submission.csv",
+        "scores_dir": "trial/baselines/majority/dico_nli_trial_track4_majority_scores",
+        "soft_cons": 1.0,
+        "weighted_f1": 0.12698412698412698
+      }
+    },
+    "random": {
+      "track1": {
+        "hard_cons": 0.07777777777777778,
+        "instances": 210,
+        "prediction_file": "trial/baselines/random/dico_nli_trial_track1_random_submission.csv",
+        "scores_dir": "trial/baselines/random/dico_nli_trial_track1_random_scores",
+        "soft_cons": 0.2222222222222222,
+        "weighted_f1": 0.2807271073462437
+      },
+      "track2": {
+        "hard_cons": 0.06666666666666667,
+        "instances": 210,
+        "prediction_file": "trial/baselines/random/dico_nli_trial_track2_random_submission.csv",
+        "scores_dir": "trial/baselines/random/dico_nli_trial_track2_random_scores",
+        "soft_cons": 0.17777777777777778,
+        "weighted_f1": 0.2184268988894673
+      },
+      "track3": {
+        "hard_cons": 0.06666666666666667,
+        "instances": 210,
+        "prediction_file": "trial/baselines/random/dico_nli_trial_track3_random_submission.csv",
+        "scores_dir": "trial/baselines/random/dico_nli_trial_track3_random_scores",
+        "soft_cons": 0.2222222222222222,
+        "weighted_f1": 0.24652171378790477
+      },
+      "track4": {
+        "hard_cons": 0.05185185185185185,
+        "instances": 1260,
+        "prediction_file": "trial/baselines/random/dico_nli_trial_track4_random_submission.csv",
+        "scores_dir": "trial/baselines/random/dico_nli_trial_track4_random_scores",
+        "soft_cons": 0.2074074074074074,
+        "weighted_f1": 0.22234035114354656
+      }
+    }
+  }
+}

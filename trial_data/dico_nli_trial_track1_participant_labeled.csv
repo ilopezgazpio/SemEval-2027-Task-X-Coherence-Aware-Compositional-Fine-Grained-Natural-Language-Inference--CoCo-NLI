@@ -1,0 +1,211 @@
+instance_id,pair_id,text1_lang,text2_lang,text1,text2,label
+dico_trial_0001__en-en__forward,dico_trial_0001,en,en,at 91,aged 91,EQUIVALENCE
+dico_trial_0001__en-en__reverse,dico_trial_0001,en,en,aged 91,at 91,EQUIVALENCE
+dico_trial_0002__en-en__forward,dico_trial_0002,en,en,in Olympics,At Olympics,EQUIVALENCE
+dico_trial_0002__en-en__reverse,dico_trial_0002,en,en,At Olympics,in Olympics,EQUIVALENCE
+dico_trial_0003__en-en__forward,dico_trial_0003,en,en,to permit,Allowed,EQUIVALENCE
+dico_trial_0003__en-en__reverse,dico_trial_0003,en,en,Allowed,to permit,EQUIVALENCE
+dico_trial_0004__en-en__forward,dico_trial_0004,en,en,China stocks,Chinese stocks,EQUIVALENCE
+dico_trial_0004__en-en__reverse,dico_trial_0004,en,en,Chinese stocks,China stocks,EQUIVALENCE
+dico_trial_0005__en-en__forward,dico_trial_0005,en,en,Announces Retirement,retires,EQUIVALENCE
+dico_trial_0005__en-en__reverse,dico_trial_0005,en,en,retires,Announces Retirement,EQUIVALENCE
+dico_trial_0006__en-en__forward,dico_trial_0006,en,en,George W. Bush,George W Bush,EQUIVALENCE
+dico_trial_0006__en-en__reverse,dico_trial_0006,en,en,George W Bush,George W. Bush,EQUIVALENCE
+dico_trial_0007__en-en__forward,dico_trial_0007,en,en,2 French Journalists,Two French journalists,EQUIVALENCE
+dico_trial_0007__en-en__reverse,dico_trial_0007,en,en,Two French journalists,2 French Journalists,EQUIVALENCE
+dico_trial_0008__en-en__forward,dico_trial_0008,en,en,2 injured,2 hurt,EQUIVALENCE
+dico_trial_0008__en-en__reverse,dico_trial_0008,en,en,2 hurt,2 injured,EQUIVALENCE
+dico_trial_0009__en-en__forward,dico_trial_0009,en,en,U.S. Northeast,US Northeast,EQUIVALENCE
+dico_trial_0009__en-en__reverse,dico_trial_0009,en,en,US Northeast,U.S. Northeast,EQUIVALENCE
+dico_trial_0010__en-en__forward,dico_trial_0010,en,en,the U.S.,US,EQUIVALENCE
+dico_trial_0010__en-en__reverse,dico_trial_0010,en,en,US,the U.S.,EQUIVALENCE
+dico_trial_0011__en-en__forward,dico_trial_0011,en,en,2020 Olympic Games,2020 Olympics,EQUIVALENCE
+dico_trial_0011__en-en__reverse,dico_trial_0011,en,en,2020 Olympics,2020 Olympic Games,EQUIVALENCE
+dico_trial_0012__en-en__forward,dico_trial_0012,en,en,N Korea,North Korea,EQUIVALENCE
+dico_trial_0012__en-en__reverse,dico_trial_0012,en,en,North Korea,N Korea,EQUIVALENCE
+dico_trial_0013__en-en__forward,dico_trial_0013,en,en,the Philippines,Philippines,EQUIVALENCE
+dico_trial_0013__en-en__reverse,dico_trial_0013,en,en,Philippines,the Philippines,EQUIVALENCE
+dico_trial_0014__en-en__forward,dico_trial_0014,en,en,UN resolution,U.N. resolution,EQUIVALENCE
+dico_trial_0014__en-en__reverse,dico_trial_0014,en,en,U.N. resolution,UN resolution,EQUIVALENCE
+dico_trial_0015__en-en__forward,dico_trial_0015,en,en,N. Korea,North Korea,EQUIVALENCE
+dico_trial_0015__en-en__reverse,dico_trial_0015,en,en,North Korea,N. Korea,EQUIVALENCE
+dico_trial_0016__en-en__forward,dico_trial_0016,en,en,walking,is walking,EQUIVALENCE
+dico_trial_0016__en-en__reverse,dico_trial_0016,en,en,is walking,walking,EQUIVALENCE
+dico_trial_0017__en-en__forward,dico_trial_0017,en,en,are posing,posing,EQUIVALENCE
+dico_trial_0017__en-en__reverse,dico_trial_0017,en,en,posing,are posing,EQUIVALENCE
+dico_trial_0018__en-en__forward,dico_trial_0018,en,en,for a photograph,for a picture,EQUIVALENCE
+dico_trial_0018__en-en__reverse,dico_trial_0018,en,en,for a picture,for a photograph,EQUIVALENCE
+dico_trial_0019__en-en__forward,dico_trial_0019,en,en,Young boy,A young boy,EQUIVALENCE
+dico_trial_0019__en-en__reverse,dico_trial_0019,en,en,A young boy,Young boy,EQUIVALENCE
+dico_trial_0020__en-en__forward,dico_trial_0020,en,en,holding,is holding,EQUIVALENCE
+dico_trial_0020__en-en__reverse,dico_trial_0020,en,en,is holding,holding,EQUIVALENCE
+dico_trial_0021__en-en__forward,dico_trial_0021,en,en,Woman,A woman,EQUIVALENCE
+dico_trial_0021__en-en__reverse,dico_trial_0021,en,en,A woman,Woman,EQUIVALENCE
+dico_trial_0022__en-en__forward,dico_trial_0022,en,en,into the water,in the water,EQUIVALENCE
+dico_trial_0022__en-en__reverse,dico_trial_0022,en,en,in the water,into the water,EQUIVALENCE
+dico_trial_0023__en-en__forward,dico_trial_0023,en,en,is jumping,jumping,EQUIVALENCE
+dico_trial_0023__en-en__reverse,dico_trial_0023,en,en,jumping,is jumping,EQUIVALENCE
+dico_trial_0024__en-en__forward,dico_trial_0024,en,en,A pair of dogs,Two dogs,EQUIVALENCE
+dico_trial_0024__en-en__reverse,dico_trial_0024,en,en,Two dogs,A pair of dogs,EQUIVALENCE
+dico_trial_0025__en-en__forward,dico_trial_0025,en,en,wearing,is wearing,EQUIVALENCE
+dico_trial_0025__en-en__reverse,dico_trial_0025,en,en,is wearing,wearing,EQUIVALENCE
+dico_trial_0026__en-en__forward,dico_trial_0026,en,en,are walking,walking,EQUIVALENCE
+dico_trial_0026__en-en__reverse,dico_trial_0026,en,en,walking,are walking,EQUIVALENCE
+dico_trial_0027__en-en__forward,dico_trial_0027,en,en,A black dog,Black dog,EQUIVALENCE
+dico_trial_0027__en-en__reverse,dico_trial_0027,en,en,Black dog,A black dog,EQUIVALENCE
+dico_trial_0028__en-en__forward,dico_trial_0028,en,en,in water,in the water,EQUIVALENCE
+dico_trial_0028__en-en__reverse,dico_trial_0028,en,en,in the water,in water,EQUIVALENCE
+dico_trial_0029__en-en__forward,dico_trial_0029,en,en,in a station,in the station,EQUIVALENCE
+dico_trial_0029__en-en__reverse,dico_trial_0029,en,en,in the station,in a station,EQUIVALENCE
+dico_trial_0030__en-en__forward,dico_trial_0030,en,en,An Apple computer,A Macintosh computer,EQUIVALENCE
+dico_trial_0030__en-en__reverse,dico_trial_0030,en,en,A Macintosh computer,An Apple computer,EQUIVALENCE
+dico_trial_0031__en-en__forward,dico_trial_0031,en,en,US drone strike,Drone strike,FORWARD_ENTAILMENT
+dico_trial_0031__en-en__reverse,dico_trial_0031,en,en,Drone strike,US drone strike,BACKWARD_ENTAILMENT
+dico_trial_0032__en-en__forward,dico_trial_0032,en,en,Mall attackers,attackers,FORWARD_ENTAILMENT
+dico_trial_0032__en-en__reverse,dico_trial_0032,en,en,attackers,Mall attackers,BACKWARD_ENTAILMENT
+dico_trial_0033__en-en__forward,dico_trial_0033,en,en,Thai opposition party,Thai opposition,FORWARD_ENTAILMENT
+dico_trial_0033__en-en__reverse,dico_trial_0033,en,en,Thai opposition,Thai opposition party,BACKWARD_ENTAILMENT
+dico_trial_0034__en-en__forward,dico_trial_0034,en,en,bitter immigration debate,immigration debate,FORWARD_ENTAILMENT
+dico_trial_0034__en-en__reverse,dico_trial_0034,en,en,immigration debate,bitter immigration debate,BACKWARD_ENTAILMENT
+dico_trial_0035__en-en__forward,dico_trial_0035,en,en,to American adoption ban,to adoption ban,FORWARD_ENTAILMENT
+dico_trial_0035__en-en__reverse,dico_trial_0035,en,en,to adoption ban,to American adoption ban,BACKWARD_ENTAILMENT
+dico_trial_0036__en-en__forward,dico_trial_0036,en,en,gay marriage bill,gay marriage,FORWARD_ENTAILMENT
+dico_trial_0036__en-en__reverse,dico_trial_0036,en,en,gay marriage,gay marriage bill,BACKWARD_ENTAILMENT
+dico_trial_0037__en-en__forward,dico_trial_0037,en,en,Israeli envoys,Israeli envoy,FORWARD_ENTAILMENT
+dico_trial_0037__en-en__reverse,dico_trial_0037,en,en,Israeli envoy,Israeli envoys,BACKWARD_ENTAILMENT
+dico_trial_0038__en-en__forward,dico_trial_0038,en,en,over settlement plans,over settlements,FORWARD_ENTAILMENT
+dico_trial_0038__en-en__reverse,dico_trial_0038,en,en,over settlements,over settlement plans,BACKWARD_ENTAILMENT
+dico_trial_0039__en-en__forward,dico_trial_0039,en,en,2 car bombs,Car bombing,FORWARD_ENTAILMENT
+dico_trial_0039__en-en__reverse,dico_trial_0039,en,en,Car bombing,2 car bombs,BACKWARD_ENTAILMENT
+dico_trial_0040__en-en__forward,dico_trial_0040,en,en,in Libya 's Benghazi,in Benghazi,FORWARD_ENTAILMENT
+dico_trial_0040__en-en__reverse,dico_trial_0040,en,en,in Benghazi,in Libya 's Benghazi,BACKWARD_ENTAILMENT
+dico_trial_0041__en-en__forward,dico_trial_0041,en,en,for Same-Sex Marriages Hearing,for same-sex marriage,FORWARD_ENTAILMENT
+dico_trial_0041__en-en__reverse,dico_trial_0041,en,en,for same-sex marriage,for Same-Sex Marriages Hearing,BACKWARD_ENTAILMENT
+dico_trial_0042__en-en__forward,dico_trial_0042,en,en,landmark nuclear deal,nuclear deal,FORWARD_ENTAILMENT
+dico_trial_0042__en-en__reverse,dico_trial_0042,en,en,nuclear deal,landmark nuclear deal,BACKWARD_ENTAILMENT
+dico_trial_0043__en-en__forward,dico_trial_0043,en,en,"carry-on liquids , gels",carry-on liquids,FORWARD_ENTAILMENT
+dico_trial_0043__en-en__reverse,dico_trial_0043,en,en,carry-on liquids,"carry-on liquids , gels",BACKWARD_ENTAILMENT
+dico_trial_0044__en-en__forward,dico_trial_0044,en,en,US stocks,stocks,FORWARD_ENTAILMENT
+dico_trial_0044__en-en__reverse,dico_trial_0044,en,en,stocks,US stocks,BACKWARD_ENTAILMENT
+dico_trial_0045__en-en__forward,dico_trial_0045,en,en,in Syrian capital,in Syria,FORWARD_ENTAILMENT
+dico_trial_0045__en-en__reverse,dico_trial_0045,en,en,in Syria,in Syrian capital,BACKWARD_ENTAILMENT
+dico_trial_0046__en-en__forward,dico_trial_0046,en,en,a soccer ball,a ball,FORWARD_ENTAILMENT
+dico_trial_0046__en-en__reverse,dico_trial_0046,en,en,a ball,a soccer ball,BACKWARD_ENTAILMENT
+dico_trial_0047__en-en__forward,dico_trial_0047,en,en,A brown dog,A dog,FORWARD_ENTAILMENT
+dico_trial_0047__en-en__reverse,dico_trial_0047,en,en,A dog,A brown dog,BACKWARD_ENTAILMENT
+dico_trial_0048__en-en__forward,dico_trial_0048,en,en,Two young girls,two girls,FORWARD_ENTAILMENT
+dico_trial_0048__en-en__reverse,dico_trial_0048,en,en,two girls,Two young girls,BACKWARD_ENTAILMENT
+dico_trial_0049__en-en__forward,dico_trial_0049,en,en,Light brown dog,A brown dog,FORWARD_ENTAILMENT
+dico_trial_0049__en-en__reverse,dico_trial_0049,en,en,A brown dog,Light brown dog,BACKWARD_ENTAILMENT
+dico_trial_0050__en-en__forward,dico_trial_0050,en,en,Four small children,Four children,FORWARD_ENTAILMENT
+dico_trial_0050__en-en__reverse,dico_trial_0050,en,en,Four children,Four small children,BACKWARD_ENTAILMENT
+dico_trial_0051__en-en__forward,dico_trial_0051,en,en,A young boy,The boy,FORWARD_ENTAILMENT
+dico_trial_0051__en-en__reverse,dico_trial_0051,en,en,The boy,A young boy,BACKWARD_ENTAILMENT
+dico_trial_0052__en-en__forward,dico_trial_0052,en,en,A man,A person,FORWARD_ENTAILMENT
+dico_trial_0052__en-en__reverse,dico_trial_0052,en,en,A person,A man,BACKWARD_ENTAILMENT
+dico_trial_0053__en-en__forward,dico_trial_0053,en,en,a very long leash,a long leash,FORWARD_ENTAILMENT
+dico_trial_0053__en-en__reverse,dico_trial_0053,en,en,a long leash,a very long leash,BACKWARD_ENTAILMENT
+dico_trial_0054__en-en__forward,dico_trial_0054,en,en,A shirtless man,A man,FORWARD_ENTAILMENT
+dico_trial_0054__en-en__reverse,dico_trial_0054,en,en,A man,A shirtless man,BACKWARD_ENTAILMENT
+dico_trial_0055__en-en__forward,dico_trial_0055,en,en,A large brown dog,A brown dog,FORWARD_ENTAILMENT
+dico_trial_0055__en-en__reverse,dico_trial_0055,en,en,A brown dog,A large brown dog,BACKWARD_ENTAILMENT
+dico_trial_0056__en-en__forward,dico_trial_0056,en,en,Two dogs,A dog,FORWARD_ENTAILMENT
+dico_trial_0056__en-en__reverse,dico_trial_0056,en,en,A dog,Two dogs,BACKWARD_ENTAILMENT
+dico_trial_0057__en-en__forward,dico_trial_0057,en,en,Two men,A man,FORWARD_ENTAILMENT
+dico_trial_0057__en-en__reverse,dico_trial_0057,en,en,A man,Two men,BACKWARD_ENTAILMENT
+dico_trial_0058__en-en__forward,dico_trial_0058,en,en,Two teenagers,Two people,FORWARD_ENTAILMENT
+dico_trial_0058__en-en__reverse,dico_trial_0058,en,en,Two people,Two teenagers,BACKWARD_ENTAILMENT
+dico_trial_0059__en-en__forward,dico_trial_0059,en,en,Black train,A train,FORWARD_ENTAILMENT
+dico_trial_0059__en-en__reverse,dico_trial_0059,en,en,A train,Black train,BACKWARD_ENTAILMENT
+dico_trial_0060__en-en__forward,dico_trial_0060,en,en,Gray cat,A cat,FORWARD_ENTAILMENT
+dico_trial_0060__en-en__reverse,dico_trial_0060,en,en,A cat,Gray cat,BACKWARD_ENTAILMENT
+dico_trial_0061__en-en__forward,dico_trial_0061,en,en,women,Saudi Women,BACKWARD_ENTAILMENT
+dico_trial_0061__en-en__reverse,dico_trial_0061,en,en,Saudi Women,women,FORWARD_ENTAILMENT
+dico_trial_0062__en-en__forward,dico_trial_0062,en,en,airstrike,new airstrike,BACKWARD_ENTAILMENT
+dico_trial_0062__en-en__reverse,dico_trial_0062,en,en,new airstrike,airstrike,FORWARD_ENTAILMENT
+dico_trial_0063__en-en__forward,dico_trial_0063,en,en,Red panda,Missing red panda,BACKWARD_ENTAILMENT
+dico_trial_0063__en-en__reverse,dico_trial_0063,en,en,Missing red panda,Red panda,FORWARD_ENTAILMENT
+dico_trial_0064__en-en__forward,dico_trial_0064,en,en,Car bombing,Car bombings,BACKWARD_ENTAILMENT
+dico_trial_0064__en-en__reverse,dico_trial_0064,en,en,Car bombings,Car bombing,FORWARD_ENTAILMENT
+dico_trial_0065__en-en__forward,dico_trial_0065,en,en,Indian police,Mumbai police,BACKWARD_ENTAILMENT
+dico_trial_0065__en-en__reverse,dico_trial_0065,en,en,Mumbai police,Indian police,FORWARD_ENTAILMENT
+dico_trial_0066__en-en__forward,dico_trial_0066,en,en,Committee,Senate Judiciary Committee,BACKWARD_ENTAILMENT
+dico_trial_0066__en-en__reverse,dico_trial_0066,en,en,Senate Judiciary Committee,Committee,FORWARD_ENTAILMENT
+dico_trial_0067__en-en__forward,dico_trial_0067,en,en,health care law,new health care law,BACKWARD_ENTAILMENT
+dico_trial_0067__en-en__reverse,dico_trial_0067,en,en,new health care law,health care law,FORWARD_ENTAILMENT
+dico_trial_0068__en-en__forward,dico_trial_0068,en,en,bomb,bomb attack,BACKWARD_ENTAILMENT
+dico_trial_0068__en-en__reverse,dico_trial_0068,en,en,bomb attack,bomb,FORWARD_ENTAILMENT
+dico_trial_0069__en-en__forward,dico_trial_0069,en,en,Patriot missile battery,Patriot missile batteries,BACKWARD_ENTAILMENT
+dico_trial_0069__en-en__reverse,dico_trial_0069,en,en,Patriot missile batteries,Patriot missile battery,FORWARD_ENTAILMENT
+dico_trial_0070__en-en__forward,dico_trial_0070,en,en,Suicide bomber,Suicide Bombers,BACKWARD_ENTAILMENT
+dico_trial_0070__en-en__reverse,dico_trial_0070,en,en,Suicide Bombers,Suicide bomber,FORWARD_ENTAILMENT
+dico_trial_0071__en-en__forward,dico_trial_0071,en,en,Driver,Train driver,BACKWARD_ENTAILMENT
+dico_trial_0071__en-en__reverse,dico_trial_0071,en,en,Train driver,Driver,FORWARD_ENTAILMENT
+dico_trial_0072__en-en__forward,dico_trial_0072,en,en,return,for return,BACKWARD_ENTAILMENT
+dico_trial_0072__en-en__reverse,dico_trial_0072,en,en,for return,return,FORWARD_ENTAILMENT
+dico_trial_0073__en-en__forward,dico_trial_0073,en,en,Conservatives,Conservative opposition,BACKWARD_ENTAILMENT
+dico_trial_0073__en-en__reverse,dico_trial_0073,en,en,Conservative opposition,Conservatives,FORWARD_ENTAILMENT
+dico_trial_0074__en-en__forward,dico_trial_0074,en,en,missiles,ballistic missiles,BACKWARD_ENTAILMENT
+dico_trial_0074__en-en__reverse,dico_trial_0074,en,en,ballistic missiles,missiles,FORWARD_ENTAILMENT
+dico_trial_0075__en-en__forward,dico_trial_0075,en,en,Video,Security video,BACKWARD_ENTAILMENT
+dico_trial_0075__en-en__reverse,dico_trial_0075,en,en,Security video,Video,FORWARD_ENTAILMENT
+dico_trial_0076__en-en__forward,dico_trial_0076,en,en,A child,A young boy,BACKWARD_ENTAILMENT
+dico_trial_0076__en-en__reverse,dico_trial_0076,en,en,A young boy,A child,FORWARD_ENTAILMENT
+dico_trial_0077__en-en__forward,dico_trial_0077,en,en,A dog,a white dog,BACKWARD_ENTAILMENT
+dico_trial_0077__en-en__reverse,dico_trial_0077,en,en,a white dog,A dog,FORWARD_ENTAILMENT
+dico_trial_0078__en-en__forward,dico_trial_0078,en,en,A boy,A little boy,BACKWARD_ENTAILMENT
+dico_trial_0078__en-en__reverse,dico_trial_0078,en,en,A little boy,A boy,FORWARD_ENTAILMENT
+dico_trial_0079__en-en__forward,dico_trial_0079,en,en,a dog,A small dog,BACKWARD_ENTAILMENT
+dico_trial_0079__en-en__reverse,dico_trial_0079,en,en,A small dog,a dog,FORWARD_ENTAILMENT
+dico_trial_0080__en-en__forward,dico_trial_0080,en,en,a boy,A small boy,BACKWARD_ENTAILMENT
+dico_trial_0080__en-en__reverse,dico_trial_0080,en,en,A small boy,a boy,FORWARD_ENTAILMENT
+dico_trial_0081__en-en__forward,dico_trial_0081,en,en,a baby,a small baby,BACKWARD_ENTAILMENT
+dico_trial_0081__en-en__reverse,dico_trial_0081,en,en,a small baby,a baby,FORWARD_ENTAILMENT
+dico_trial_0082__en-en__forward,dico_trial_0082,en,en,The brown dog,The skinny brown dog,BACKWARD_ENTAILMENT
+dico_trial_0082__en-en__reverse,dico_trial_0082,en,en,The skinny brown dog,The brown dog,FORWARD_ENTAILMENT
+dico_trial_0083__en-en__forward,dico_trial_0083,en,en,The person,A kid,BACKWARD_ENTAILMENT
+dico_trial_0083__en-en__reverse,dico_trial_0083,en,en,A kid,The person,FORWARD_ENTAILMENT
+dico_trial_0084__en-en__forward,dico_trial_0084,en,en,A boy,A young boy,BACKWARD_ENTAILMENT
+dico_trial_0084__en-en__reverse,dico_trial_0084,en,en,A young boy,A boy,FORWARD_ENTAILMENT
+dico_trial_0085__en-en__forward,dico_trial_0085,en,en,Two dogs,Two brown dogs,BACKWARD_ENTAILMENT
+dico_trial_0085__en-en__reverse,dico_trial_0085,en,en,Two brown dogs,Two dogs,FORWARD_ENTAILMENT
+dico_trial_0086__en-en__forward,dico_trial_0086,en,en,A white dog,A large white dog,BACKWARD_ENTAILMENT
+dico_trial_0086__en-en__reverse,dico_trial_0086,en,en,A large white dog,A white dog,FORWARD_ENTAILMENT
+dico_trial_0087__en-en__forward,dico_trial_0087,en,en,A girl,A little girl,BACKWARD_ENTAILMENT
+dico_trial_0087__en-en__reverse,dico_trial_0087,en,en,A little girl,A girl,FORWARD_ENTAILMENT
+dico_trial_0088__en-en__forward,dico_trial_0088,en,en,Two girls,Two blonde girls,BACKWARD_ENTAILMENT
+dico_trial_0088__en-en__reverse,dico_trial_0088,en,en,Two blonde girls,Two girls,FORWARD_ENTAILMENT
+dico_trial_0089__en-en__forward,dico_trial_0089,en,en,A woman,A young girl,BACKWARD_ENTAILMENT
+dico_trial_0089__en-en__reverse,dico_trial_0089,en,en,A young girl,A woman,FORWARD_ENTAILMENT
+dico_trial_0090__en-en__forward,dico_trial_0090,en,en,a woman,A young woman,BACKWARD_ENTAILMENT
+dico_trial_0090__en-en__reverse,dico_trial_0090,en,en,A young woman,a woman,FORWARD_ENTAILMENT
+dico_trial_0091__en-en__forward,dico_trial_0091,en,en,says,Syria peace,NEGATIVE_OTHER
+dico_trial_0092__en-en__forward,dico_trial_0092,en,en,denies,for Houla massacre,NEGATIVE_OTHER
+dico_trial_0093__en-en__forward,dico_trial_0093,en,en,Syrian regime,rebels,NEGATIVE_OTHER
+dico_trial_0094__en-en__forward,dico_trial_0094,en,en,Solomon Islands,USGS,NEGATIVE_OTHER
+dico_trial_0095__en-en__forward,dico_trial_0095,en,en,Gunmen,Seven foreign workers,NEGATIVE_OTHER
+dico_trial_0096__en-en__forward,dico_trial_0096,en,en,after ski accident,for his life,NEGATIVE_OTHER
+dico_trial_0097__en-en__forward,dico_trial_0097,en,en,determined,EU ministers,NEGATIVE_OTHER
+dico_trial_0098__en-en__forward,dico_trial_0098,en,en,Thai opposition party,announces,NEGATIVE_OTHER
+dico_trial_0099__en-en__forward,dico_trial_0099,en,en,continues,to spend,NEGATIVE_OTHER
+dico_trial_0100__en-en__forward,dico_trial_0100,en,en,to execute,Palestinian prisoner release,NEGATIVE_OTHER
+dico_trial_0101__en-en__forward,dico_trial_0101,en,en,Palestinian captives,allows,NEGATIVE_OTHER
+dico_trial_0102__en-en__forward,dico_trial_0102,en,en,at 116,Japan,NEGATIVE_OTHER
+dico_trial_0103__en-en__forward,dico_trial_0103,en,en,to stop,tension,NEGATIVE_OTHER
+dico_trial_0104__en-en__forward,dico_trial_0104,en,en,in streets,Lenin statue,NEGATIVE_OTHER
+dico_trial_0105__en-en__forward,dico_trial_0105,en,en,North Korea,2 rockets,NEGATIVE_OTHER
+dico_trial_0106__en-en__forward,dico_trial_0106,en,en,A cat,high up,NEGATIVE_OTHER
+dico_trial_0107__en-en__forward,dico_trial_0107,en,en,a horse,in a pen,NEGATIVE_OTHER
+dico_trial_0108__en-en__forward,dico_trial_0108,en,en,A man,in a chair,NEGATIVE_OTHER
+dico_trial_0109__en-en__forward,dico_trial_0109,en,en,with a beer,Two women,NEGATIVE_OTHER
+dico_trial_0110__en-en__forward,dico_trial_0110,en,en,in grass,with trees behind,NEGATIVE_OTHER
+dico_trial_0111__en-en__forward,dico_trial_0111,en,en,in a pen,a horse,NEGATIVE_OTHER
+dico_trial_0112__en-en__forward,dico_trial_0112,en,en,rides,on a path,NEGATIVE_OTHER
+dico_trial_0113__en-en__forward,dico_trial_0113,en,en,sits,with a bicycle,NEGATIVE_OTHER
+dico_trial_0114__en-en__forward,dico_trial_0114,en,en,on a bag,Domestic cat,NEGATIVE_OTHER
+dico_trial_0115__en-en__forward,dico_trial_0115,en,en,A dog,is biting,NEGATIVE_OTHER
+dico_trial_0116__en-en__forward,dico_trial_0116,en,en,A dog,a mop,NEGATIVE_OTHER
+dico_trial_0117__en-en__forward,dico_trial_0117,en,en,checkered flags,Two ladies,NEGATIVE_OTHER
+dico_trial_0118__en-en__forward,dico_trial_0118,en,en,A woman,in a crowd,NEGATIVE_OTHER
+dico_trial_0119__en-en__forward,dico_trial_0119,en,en,A brown dog,chases,NEGATIVE_OTHER
+dico_trial_0120__en-en__forward,dico_trial_0120,en,en,a skateboard,along a track element,NEGATIVE_OTHER
