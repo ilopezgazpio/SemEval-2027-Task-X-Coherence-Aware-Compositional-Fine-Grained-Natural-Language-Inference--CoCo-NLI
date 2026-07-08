@@ -4,7 +4,7 @@
 
 # SemEval 2027 Task X: DiCo-NLI - Directional Consistency in Fine-Grained Natural Language Inference
 
-DiCo-NLI is a multilingual shared task on **directional consistency** in fine-grained natural language inference. Given an ordered pair of phrases, systems predict equivalence, forward entailment, backward entailment, or another semantic relation. Each reversible source pair is evaluated in both directions, enabling joint measurement of classification performance and compatibility with the deterministic label-reversal mapping. The benchmark covers English, Spanish, Basque, and mixed-language settings, with source-pair-level splits that prevent directional and cross-lingual leakage. Systems are ranked by weighted F1, complemented by SoftCons and HardCons consistency metrics.
+DiCo-NLI is a multilingual shared task on **directional consistency** in fine-grained natural language inference. Given an ordered pair of phrases, systems predict equivalence, forward entailment, backward entailment, or another semantic relation. Each reversible source pair is evaluated in both directions, enabling joint measurement of classification performance and compatibility with the deterministic label-reversal mapping. The benchmark covers English, Spanish, Basque, and mixed-language settings, with source-pair-level splits that prevent directional and cross-lingual leakage. Official evaluation reports three main scores: weighted F1, SoftCons, and HardCons.
 
 It aims to evaluate whether NLI systems make **consistent direction-sensitive decisions** over paired phrase instances. Following the spirit of [Berglund et al.'s Reversal Curse work](https://proceedings.iclr.cc/paper_files/paper/2024/hash/5178b2f2d7c44aa390c0777dc77b3f0c-Abstract-Conference.html), the task treats reversal as a controlled stress test for semantic generalization: a system should not only identify the correct relation for an ordered phrase pair, but also produce the compatible relation when the same pair is presented in the opposite direction. The task is inspired by reversal-based evaluation, but it is not a direct test of Berglund-style parametric factual reversal.
 
@@ -92,7 +92,7 @@ DiCo-NLI will include four tracks.
 
 The English, Spanish, and Basque tracks are independent monolingual tracks. Cross-lingual transfer is evaluated explicitly in the Mixed multilingual track. Participants may submit to any subset of tracks. Results will be reported per track; any macro-average will specify exactly which tracks it aggregates.
 
-The Spanish and Basque data will be produced from the English source items through translation plus bilingual expert verification. Verification will check not only translation fidelity, but also whether the directional entailment relation is preserved after translation. Items whose relation is unstable after translation will be corrected or removed from the official split.
+The Spanish and Basque data will be produced from the English source items through translation plus bilingual expert verification. Candidate translations will initially use NLLB-200 and Google Cloud Translation; for Basque, we will also use the most recent Latxa version available through a HiTZ API. During internal preparation, we will additionally try selected open and closed translation-capable LLMs through OpenRouter or comparable providers when licensing, cost, and reproducibility constraints permit. Verification will check not only translation fidelity, but also whether the directional entailment relation is preserved after translation. Items whose relation is unstable after translation will be corrected or removed from the official split.
 
 For each target language, two bilingual annotators will independently validate a pilot audit of 100 source pairs. The audit will check phrase-level translation adequacy, preservation of the expected NLI label, and preservation of the reversed label after swapping premise and hypothesis. We will report raw agreement, Cohen's kappa, adjudication counts, and translation-induced label-flip rates. For the full release, each translated item will be reviewed by one bilingual annotator, with second-annotator adjudication for low-confidence, ambiguous, or relation-changing cases.
 
@@ -107,11 +107,11 @@ BACKWARD_ENTAILMENT
 NEGATIVE_OTHER
 ```
 
-The official scorer will report:
+The official scorer will report three main evaluation scores:
 
 | Metric | What it measures |
 |--------|------------------|
-| `F-measure` | Standard item-level label-prediction quality. The pilot reports weighted F-measure; final scorer details and any macro/composite variants will be documented before evaluation. |
+| `F-measure` | Standard item-level label-prediction quality. The official label-prediction score is weighted F-measure over all labels. |
 | `SoftCons` | Directional self-consistency under the reversal operator, independent of gold correctness. |
 | `HardCons` | Paired directional correctness under reversal: both directions must be predicted correctly. Because the reversed gold label is deterministic, this is a strict paired-accuracy measure over reversible pairs. |
 
@@ -149,7 +149,7 @@ For example:
 
 This pair receives `HardCons = 1`. If either direction is wrong, or if the two predictions are directionally incompatible, it receives `HardCons = 0`.
 
-The final leaderboard may use one primary metric or a mixture of `F-measure`, `SoftCons`, and `HardCons`; this will be fixed before the official evaluation phase and documented in the scorer.
+The official result for each track will be reported as a three-score profile: `F-measure`, `SoftCons`, and `HardCons`. We will not treat one of these as the sole main metric; the task analysis will interpret systems by their joint accuracy, directional self-consistency, and paired-correctness behavior. Any CodaBench display ordering or additional summary field will be preannounced and will not replace the three official scores.
 
 Scores will be reported per track. We also plan to report model metadata in the task analysis, including:
 
@@ -228,7 +228,7 @@ For each baseline, we will provide the model identifier, preprocessing steps, tr
 <details>
   <summary>1. Official ranking</summary>
 
-To be included in the official ranking, teams must submit a system description paper according to SemEval instructions. The official result will be based on the final selected submission for each track.
+To be included in the official ranking, teams must submit a system description paper according to SemEval instructions. The official result will be based on the final selected submission for each track and will report the three main scores: `F-measure`, `SoftCons`, and `HardCons`.
 </details>
 
 <details>
