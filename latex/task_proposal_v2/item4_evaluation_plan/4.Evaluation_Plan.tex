@@ -1,0 +1,195 @@
+\documentclass[10pt]{article}
+\usepackage[a4paper,margin=0.76in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{inconsolata}
+
+\newcommand{\SoftCons}{\textsc{SoftCons}}
+\newcommand{\HardCons}{\textsc{HardCons}}
+\newcommand{\Rev}{\operatorname{Rev}}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{4pt}
+\setlength{\tabcolsep}{4pt}
+\setlist{nosep,leftmargin=*}
+
+\title{\vspace{-1.2cm}DiCo-NLI: Evaluation Plan}
+\author{SemEval-2027 Task Proposal Supplementary Material, Item 4}
+\date{\vspace{-0.7cm}}
+
+\begin{document}
+\maketitle
+\vspace{-0.8cm}
+
+\section{Scope}
+
+DiCo-NLI evaluates directional consistency in fine-grained natural language inference.
+For each ordered phrase pair, a system predicts exactly one label.
+Each track is evaluated independently, and the official result for a system on a track is a three-score profile: weighted $F_1$, \SoftCons{}, and \HardCons{}.
+The scores are not collapsed into a single scientific metric because they measure different properties: item-level correctness, directional self-consistency, and paired directional correctness.
+
+The official tracks are English, Spanish, Basque, and Mixed multilingual.
+Results will be reported per track.
+The task overview may additionally include a monolingual macro-average over English/Spanish/Basque and an all-track macro-average over English/Spanish/Basque/Mixed, but these are secondary summaries and do not replace the per-track scores.
+
+\section{Submission Format and Validation}
+
+For each track, participants submit one prediction file with one row per released evaluation instance.
+The required fields are:
+
+\begin{center}
+\small
+\begin{tabular}{ll}
+\toprule
+Field & Requirement \\
+\midrule
+\texttt{instance\_id} & Must match an instance identifier in the evaluation file. \\
+\texttt{label} & Must be one of the four official labels. \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+The official label inventory is:
+\[
+L=\{\texttt{EQUIVALENCE},\texttt{FORWARD\_ENTAILMENT},
+\texttt{BACKWARD\_ENTAILMENT},\texttt{NEGATIVE\_OTHER}\}.
+\]
+
+The scorer will reject malformed submissions before scoring.
+Validation errors include missing instance identifiers, duplicate identifiers, unknown labels, extra predictions for unknown identifiers, empty predictions, invalid encodings, and files whose row count does not match the evaluation set.
+The scorer will produce a machine-readable validation report and a human-readable error message.
+
+Final evaluation labels will be hidden during the official evaluation phase.
+Gold labels, scorer code, and full result tables will be released after the evaluation phase.
+
+\section{Official Metrics}
+
+\begin{center}
+\small
+\begin{tabular}{lll}
+\toprule
+Metric & Unit & Purpose \\
+\midrule
+Weighted $F_1$ & ordered instances & Item-level label-prediction quality over all four labels. \\
+\SoftCons{} & reversible source pairs & Directional compatibility of the two system predictions. \\
+\HardCons{} & reversible source pairs & Both directions must be predicted correctly. \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\subsection{Weighted \texorpdfstring{$F_1$}{F1}}
+
+Weighted $F_1$ is computed over the full label set $L$, including \texttt{NEGATIVE\_OTHER}.
+Let $n_\ell$ be the gold support for label $\ell$ and $N=\sum_{\ell\in L}n_\ell$.
+For each label $\ell$:
+\[
+P_\ell=\frac{TP_\ell}{TP_\ell+FP_\ell}, \qquad
+R_\ell=\frac{TP_\ell}{TP_\ell+FN_\ell},
+\]
+\[
+F_\ell=
+\begin{cases}
+\frac{2P_\ell R_\ell}{P_\ell+R_\ell}, & P_\ell+R_\ell>0,\\
+0, & P_\ell+R_\ell=0.
+\end{cases}
+\]
+The official item-level score is:
+\[
+F_w=\sum_{\ell\in L}\frac{n_\ell}{N}F_\ell .
+\]
+If a precision or recall denominator is zero, the corresponding value is set to zero.
+This follows standard zero-division handling and prevents undefined scores.
+
+\subsection{Reversal Operator}
+
+The reversible label set is:
+\[
+R=\{\texttt{EQUIVALENCE},\texttt{FORWARD\_ENTAILMENT},
+\texttt{BACKWARD\_ENTAILMENT}\}.
+\]
+The deterministic reversal operator is:
+\[
+\Rev(\texttt{EQUIVALENCE})=\texttt{EQUIVALENCE},
+\]
+\[
+\Rev(\texttt{FORWARD\_ENTAILMENT})=\texttt{BACKWARD\_ENTAILMENT}, \qquad
+\Rev(\texttt{BACKWARD\_ENTAILMENT})=\texttt{FORWARD\_ENTAILMENT}.
+\]
+\texttt{NEGATIVE\_OTHER} is not part of the reversible label algebra.
+Gold \texttt{NEGATIVE\_OTHER} instances are included in weighted $F_1$ but excluded from \SoftCons{} and \HardCons{}.
+
+\subsection{\SoftCons{}}
+
+Let $\mathcal{P}$ be the set of reversible source pairs in a track.
+For pair $i\in\mathcal{P}$, let $x_i$ be one ordered instance and $x_i^r$ its reversed counterpart.
+Let $\hat{y}_i$ and $\hat{y}_i^r$ be the two system predictions.
+For each reversible source pair:
+\[
+s_i =
+\begin{cases}
+1, & \hat{y}_i\in R,\ \hat{y}_i^r\in R,\ \hat{y}_i^r=\Rev(\hat{y}_i),\\
+0, & \text{otherwise.}
+\end{cases}
+\]
+\[
+\SoftCons{}=|\mathcal{P}|^{-1}\sum_{i\in\mathcal{P}}s_i .
+\]
+\SoftCons{} ignores gold correctness and measures whether the two predictions made by the same system are directionally compatible.
+For example, predicting \texttt{EQUIVALENCE} in both directions is soft-consistent even if the gold labels are \texttt{FORWARD\_ENTAILMENT} and \texttt{BACKWARD\_ENTAILMENT}.
+Predicting \texttt{FORWARD\_ENTAILMENT} in both directions is not soft-consistent.
+If either prediction for a reversible pair is \texttt{NEGATIVE\_OTHER}, the pair receives $s_i=0$ because the prediction does not express a reversible directional relation.
+
+\subsection{\HardCons{}}
+
+For the same reversible source pair $i$, let $y_i$ be the gold label for $x_i$.
+The gold label for the reversed item is deterministically $\Rev(y_i)$.
+For each pair:
+\[
+h_i =
+\begin{cases}
+1, & \hat{y}_i=y_i\ \text{and}\ \hat{y}_i^r=\Rev(y_i),\\
+0, & \text{otherwise.}
+\end{cases}
+\]
+\[
+\HardCons{}=|\mathcal{P}|^{-1}\sum_{i\in\mathcal{P}}h_i .
+\]
+\HardCons{} is strict paired correctness over complete reversible phrase-pair units.
+A pair receives credit only when both directions are correct.
+Because the reverse gold label is deterministic, \HardCons{} is always less than or equal to paired item correctness and is expected to be more demanding than ordinary item-level scoring.
+
+\section{Reporting and Leaderboards}
+
+For each submitted run and each track, the scorer will report:
+
+\begin{itemize}
+\item the three main scores: weighted $F_1$, \SoftCons{}, and \HardCons{};
+\item secondary diagnostics: macro-$F_1$, per-label precision/recall/$F_1$, confusion matrix, number of scored instances, and number of reversible source pairs;
+\item validation metadata: accepted/rejected status, missing or duplicate identifiers if any, and timestamped scoring logs.
+\end{itemize}
+
+Official tables in the task overview paper will present the three main scores together.
+No single scalar will replace them.
+If CodaBench requires a display ordering, the sorting convention will be documented in the competition instructions and scorer README as an administrative display choice.
+It will not change the definition of the official result, which remains the three-score profile per track.
+
+\section{Evaluation Procedure}
+
+The evaluation pipeline will be frozen before the official evaluation period:
+\begin{enumerate}
+\item Release trial/training data, submission examples, format checker, scorer documentation, and starter baselines.
+\item During development, allow participants to run the scorer on public labeled data and validate submission format locally.
+\item During official evaluation, accept submissions on CodaBench against hidden labels.
+\item Score accepted submissions with the frozen scorer and hidden gold labels.
+\item Publish per-track official scores, secondary diagnostics, and required system metadata.
+\item After the evaluation phase, release final gold labels, the scorer, and complete data documentation.
+\end{enumerate}
+
+Participants must report use of external data, open-weight or closed/API models, private resources, retrieval systems, prompt engineering, fine-tuning, and ensembling.
+This metadata supports task analysis but does not define separate official leaderboards unless announced before the evaluation phase.
+
+\end{document}

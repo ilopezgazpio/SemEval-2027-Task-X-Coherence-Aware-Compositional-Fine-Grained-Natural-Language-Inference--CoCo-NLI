@@ -1,0 +1,101 @@
+\begin{thebibliography}{12}
+\providecommand{\natexlab}[1]{#1}
+
+\bibitem[{Apaolaza~Larraya et~al.(2026)Apaolaza~Larraya, Altuna, Soroa, and
+  Lopez-Gazpio}]{apaolaza2026assessing}
+Jon~Felix Apaolaza~Larraya, Begoña Altuna, Aitor Soroa, and Inigo
+  Lopez-Gazpio. 2026.
+\newblock \href {https://doi.org/10.63317/4prei82n6ev9} {Assessing logical
+  coherence of {LLM}s via fine-grained {NLI}}.
+\newblock In \emph{Proceedings of the Fifteenth Language Resources and
+  Evaluation Conference (LREC 2026)}, pages 5431--5444, Palma, Mallorca, Spain.
+  European Language Resources Association.
+
+\bibitem[{Berglund et~al.(2024)Berglund, Tong, Kaufmann, Balesni,
+  Cooper~Stickland, Korbak, and Evans}]{berglund2024reversal}
+Lukas Berglund, Meg Tong, Maximilian Kaufmann, Mikita Balesni, Asa
+  Cooper~Stickland, Tomasz Korbak, and Owain Evans. 2024.
+\newblock \href {https://openreview.net/forum?id=GPKTIktA0k} {The reversal
+  curse: {LLM}s trained on ``{A} is {B}'' fail to learn ``{B} is {A}''}.
+\newblock In \emph{The Twelfth International Conference on Learning
+  Representations}.
+
+\bibitem[{Blanck et~al.(2026)Blanck, Noble, and
+  Chatzikyriakidis}]{blanck2026reverse}
+Rasmus Blanck, Bill Noble, and Stergios Chatzikyriakidis. 2026.
+\newblock \href {https://arxiv.org/abs/2601.05170} {Reverse-engineering {NLI}:
+  A study of the meta-inferential properties of natural language inference}.
+\newblock \emph{arXiv preprint arXiv:2601.05170}.
+
+\bibitem[{Golovneva et~al.(2024)Golovneva, Allen-Zhu, Weston, and
+  Sukhbaatar}]{golovneva2024reverse}
+Olga Golovneva, Zeyuan Allen-Zhu, Jason Weston, and Sainbayar Sukhbaatar. 2024.
+\newblock \href {https://arxiv.org/abs/2403.13799} {Reverse training to nurse
+  the reversal curse}.
+\newblock \emph{arXiv preprint arXiv:2403.13799}.
+
+\bibitem[{Gururangan et~al.(2018)Gururangan, Swayamdipta, Levy, Schwartz,
+  Bowman, and Smith}]{gururangan2018annotation}
+Suchin Gururangan, Swabha Swayamdipta, Omer Levy, Roy Schwartz, Samuel~R.
+  Bowman, and Noah~A. Smith. 2018.
+\newblock \href {https://doi.org/10.18653/v1/N18-2017} {Annotation artifacts in
+  natural language inference data}.
+\newblock In \emph{Proceedings of the 2018 Conference of the North American
+  Chapter of the Association for Computational Linguistics: Human Language
+  Technologies, Volume 2}, pages 107--112. Association for Computational
+  Linguistics.
+
+\bibitem[{Jang et~al.(2022)Jang, Kwon, and Lukasiewicz}]{jang2022becel}
+Myeongjun Jang, Deuk~Sin Kwon, and Thomas Lukasiewicz. 2022.
+\newblock \href {https://aclanthology.org/2022.coling-1.324/} {{BECEL}:
+  Benchmark for consistency evaluation of language models}.
+\newblock In \emph{Proceedings of the 29th International Conference on
+  Computational Linguistics}, pages 3680--3696, Gyeongju, Republic of Korea.
+  International Committee on Computational Linguistics.
+
+\bibitem[{Lin et~al.(2024)Lin, Fu, Liu, Xie, Lin, Wang, Cai, Wu, and
+  Ye}]{lin2024delving}
+Zhengkai Lin, Zhihang Fu, Kai Liu, Liang Xie, Binbin Lin, Wenxiao Wang, Deng
+  Cai, Yue Wu, and Jieping Ye. 2024.
+\newblock \href {https://doi.org/10.52202/079017-0966} {Delving into the
+  reversal curse: How far can large language models generalize?}
+\newblock In \emph{Advances in Neural Information Processing Systems 37},
+  volume~37, pages 30686--30726.
+
+\bibitem[{Lopez-Gazpio et~al.(2024)Lopez-Gazpio, Gaviria, García,
+  Sanjurjo-González, Sanz, Zarranz, Maritxalar, and
+  Agirre}]{lopezgazpio2024phrasis}
+I.~Lopez-Gazpio, J.~Gaviria, P.~García, H.~Sanjurjo-González, B.~Sanz,
+  A.~Zarranz, M.~Maritxalar, and E.~Agirre. 2024.
+\newblock \href {https://doi.org/10.1093/jigpal/jzae037} {{PhrasIS}: Phrase
+  inference and similarity benchmark}.
+\newblock \emph{Logic Journal of the IGPL}, 32(6):1088--1101.
+
+\bibitem[{Lopez-Gazpio et~al.(2017)Lopez-Gazpio, Maritxalar, Gonzalez-Agirre,
+  Rigau, Uria, and Agirre}]{lopezgazpio2017interpretable}
+I.~Lopez-Gazpio, M.~Maritxalar, A.~Gonzalez-Agirre, G.~Rigau, L.~Uria, and
+  E.~Agirre. 2017.
+\newblock \href {https://doi.org/10.1016/j.knosys.2016.12.013} {Interpretable
+  semantic textual similarity: Finding and explaining differences between
+  sentences}.
+\newblock \emph{Knowledge-Based Systems}, 119:186--199.
+
+\bibitem[{Lopez-Gazpio(2024)}]{lopez2024revisiting}
+Inigo Lopez-Gazpio. 2024.
+\newblock Revisiting challenges and hazards in large language model evaluation.
+\newblock \emph{Procesamiento del Lenguaje Natural}, 72:15--30.
+
+\bibitem[{MacCartney(2009)}]{maccartney2009natural}
+Bill MacCartney. 2009.
+\newblock \emph{Natural Language Inference}.
+\newblock Ph.D. thesis, Stanford University.
+
+\bibitem[{Wu and Last(2025)}]{wu2025transitive}
+Wei Wu and Mark Last. 2025.
+\newblock \href {https://doi.org/10.18653/v1/2025.emnlp-main.1152} {Transitive
+  self-consistency evaluation of {NLI} models without gold labels}.
+\newblock In \emph{Proceedings of the 2025 Conference on Empirical Methods in
+  Natural Language Processing}, pages 22626--22642, Suzhou, China. Association
+  for Computational Linguistics.
+
+\end{thebibliography}

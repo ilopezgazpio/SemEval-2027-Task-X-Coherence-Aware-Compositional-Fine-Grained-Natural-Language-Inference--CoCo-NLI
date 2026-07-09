@@ -1,0 +1,157 @@
+\documentclass[10pt]{article}
+\usepackage[a4paper,margin=0.66in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{hyperref}
+\usepackage{inconsolata}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{3pt}
+\setlength{\tabcolsep}{4pt}
+
+\title{\vspace{-1.35cm}DiCo-NLI: Pilot/Trial Data Demonstration}
+\author{SemEval-2027 Task Proposal Supplementary Material, Item 2}
+\date{\vspace{-0.7cm}}
+
+\begin{document}
+\maketitle
+\vspace{-0.8cm}
+
+\section{Purpose}
+
+This item demonstrates that DiCo-NLI data production is operational before the
+full shared-task release. The accompanying \texttt{trial/} folder contains a
+curated pilot set built from the PhrasIS files supplied with the proposal,
+multilingual organizer data, participant-facing track files, hidden gold files,
+submission templates, and baseline submissions scored with the official scorer.
+
+The pilot contains 120 source pairs: 30 \texttt{EQUIVALENCE}, 30
+\texttt{FORWARD\_ENTAILMENT}, 30 \texttt{BACKWARD\_ENTAILMENT}, and 30
+\texttt{NEGATIVE\_OTHER}. For every label, 15 pairs come from PhrasIS image
+sources and 15 from headline sources. We deliberately excluded borderline
+\texttt{SIMI}/\texttt{REL} examples from this feasibility sample and used clear
+\texttt{UNR} examples for \texttt{NEGATIVE\_OTHER}, so the trial data is
+inspectable and unambiguous.
+
+\section{Organizer Format}
+
+The internal organizer format is \texttt{trial/trial\_dataset.json}. It is a
+grouped JSON file with one object per underlying source pair. Each object stores
+the English pair, Spanish and Basque translations, the DiCo-NLI gold label for
+\texttt{text1 -> text2}, and provenance metadata:
+
+\begin{verbatim}
+{
+  "pair_id": "dico_trial_0001",
+  "split": "trial",
+  "gold_label": "EQUIVALENCE",
+  "languages": {
+    "en": {"text1": "at 91", "text2": "aged 91"},
+    "es": {"text1": "a los 91 años", "text2": "de 91 años"},
+    "eu": {"text1": "91 urterekin", "text2": "91 urte zituela"}
+  },
+  "metadata": {
+    "origin": "PhrasIS",
+    "source_file": "PhrasIS.train.headlines.positives.txt",
+    "source_line": 1,
+    "source_modality": "headlines"
+  }
+}
+\end{verbatim}
+
+This grouped format is intentionally not the participant format. It is the
+organizer/annotation format: it keeps multilingual variants, source provenance,
+and split membership together, which prevents leakage across directions or
+languages when the final train, development, trial, and test splits are created.
+
+\section{Participant Files}
+
+Participant files are fixed CSV files generated from the grouped JSON by
+\texttt{participant\_dataset\_production}. Participants do not derive directions or mixed
+language combinations themselves. The four release tracks are:
+
+\begin{table}[h]
+\centering
+\small
+\begin{tabular}{llr}
+\toprule
+Track & Content & Trial rows \\
+\midrule
+\texttt{track1} & English monolingual & 210 \\
+\texttt{track2} & Spanish monolingual & 210 \\
+\texttt{track3} & Basque monolingual & 210 \\
+\texttt{track4} & Mixed cross-language only & 1260 \\
+\bottomrule
+\end{tabular}
+\caption{Files derived from the 120 grouped trial pairs.}
+\end{table}
+
+For train/trial releases, the participant file includes labels:
+\begin{verbatim}
+instance_id,pair_id,text1_lang,text2_lang,text1,text2,label
+\end{verbatim}
+
+For blind test releases, the participant file omits labels:
+\begin{verbatim}
+instance_id,pair_id,text1_lang,text2_lang,text1,text2
+\end{verbatim}
+
+The hidden gold file consumed by the scorer contains:
+\begin{verbatim}
+instance_id,pair_id,text1_lang,text2_lang,text1,text2,reverse_pair_id,label
+\end{verbatim}
+
+Participant submissions remain minimal:
+\begin{verbatim}
+instance_id,label
+\end{verbatim}
+
+Thus the public interface is simple, while the hidden gold retains the
+\texttt{reverse\_pair\_id} links needed for SoftCons and HardCons.
+
+\section{Baseline Feasibility Check}
+
+We simulated two naive participants on every produced track. The random system
+samples uniformly from the four labels with seed 2027. The majority system
+predicts the most frequent gold label in the produced track; ties are broken by
+the official label order, yielding \texttt{EQUIVALENCE} for this balanced trial
+set.
+
+\begin{table}[h]
+\centering
+\small
+\begin{tabular}{llrrr}
+\toprule
+System & Track & Weighted F1 & SoftCons & HardCons \\
+\midrule
+Random & track1 & 0.281 & 0.222 & 0.078 \\
+Random & track2 & 0.218 & 0.178 & 0.067 \\
+Random & track3 & 0.247 & 0.222 & 0.067 \\
+Random & track4 & 0.222 & 0.207 & 0.052 \\
+\midrule
+Majority & track1 & 0.127 & 1.000 & 0.333 \\
+Majority & track2 & 0.127 & 1.000 & 0.333 \\
+Majority & track3 & 0.127 & 1.000 & 0.333 \\
+Majority & track4 & 0.127 & 1.000 & 0.333 \\
+\bottomrule
+\end{tabular}
+\caption{Naive baseline scores generated with the official evaluator.}
+\end{table}
+
+These results align with the metric definitions. Random predictions have low
+directional consistency and low F1. The majority system is always internally
+consistent because \texttt{EQUIVALENCE} is self-reversing, so SoftCons is 1.0,
+but it performs poorly on item-level classification and is hard-correct only for
+the equivalence reciprocal pairs. This confirms that the three reported scores
+capture different failure modes and that the scorer is operational.
+
+\section{Reproducibility}
+
+The commands used to build the grouped JSON, generate the four track files, and
+run the baseline systems are documented in
+\texttt{participant\_dataset\_production/README.md}.
+The baseline submissions, per-track score directories, and
+\texttt{baseline\_summary.json} are included under \texttt{trial/baselines/}.
+
+\end{document}

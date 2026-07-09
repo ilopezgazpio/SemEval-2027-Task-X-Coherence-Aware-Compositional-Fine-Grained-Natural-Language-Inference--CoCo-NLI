@@ -1,0 +1,52 @@
+This is BibTeX, Version 0.99d (TeX Live 2023/Debian)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: dico_nli_proposal_v2.aux
+The style file: acl_natbib.bst
+Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
+Reallocated global_strs (elt_size=200001) to 20 items from 10.
+Reallocated glb_str_end (elt_size=4) to 20 items from 10.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Database file #1: dico_nli_biblio.bib
+You've used 12 entries,
+            3764 wiz_defined-function locations,
+            820 strings with 9077 characters,
+and the built_in function-call counts, 10593 in all, are:
+= -- 936
+> -- 535
+< -- 9
++ -- 218
+- -- 163
+* -- 723
+:= -- 1538
+add.period$ -- 52
+call.type$ -- 12
+change.case$ -- 125
+chr.to.int$ -- 13
+cite$ -- 12
+duplicate$ -- 621
+empty$ -- 731
+format.name$ -- 196
+if$ -- 2321
+int.to.chr$ -- 1
+int.to.str$ -- 1
+missing$ -- 138
+newline$ -- 64
+num.names$ -- 48
+pop$ -- 348
+preamble$ -- 1
+purify$ -- 102
+quote$ -- 0
+skip$ -- 553
+stack$ -- 0
+substring$ -- 423
+swap$ -- 368
+text.length$ -- 12
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 108
+warning$ -- 0
+while$ -- 57
+width$ -- 0
+write$ -- 164
