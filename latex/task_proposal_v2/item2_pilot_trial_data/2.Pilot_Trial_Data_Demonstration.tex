@@ -10,7 +10,7 @@
 \setlength{\parskip}{3pt}
 \setlength{\tabcolsep}{4pt}
 
-\title{\vspace{-1.35cm}DiCo-NLI: Pilot/Trial Data Demonstration}
+\title{\vspace{-1.35cm}DiCo-NLI: Trial Data Feasibility and Translation Validation}
 \author{SemEval-2027 Task Proposal Supplementary Material, Item 2}
 \date{\vspace{-0.7cm}}
 
@@ -18,105 +18,335 @@
 \maketitle
 \vspace{-0.8cm}
 
-\section{Purpose}
+\section{Reviewer Concern and Scope of This Item}
 
-This item demonstrates that DiCo-NLI data production is operational before the
-full shared-task release. The accompanying \texttt{trial/} folder contains a
-curated pilot set built from the PhrasIS files supplied with the proposal,
-multilingual organizer data, participant-facing track files, hidden gold files,
-submission templates, and baseline submissions scored with the official scorer.
+This item responds to the reviewer request for concrete evidence that the
+DiCo-NLI trial data can be constructed reliably before the full shared-task
+release.  The main multilingual feasibility risk is target-side translation
+collapse: some English pairs whose two phrases are distinct may translate to
+exactly the same phrase in Spanish or Basque.  Such cases are unusable for
+DiCo-NLI if the target-language pair collapses, because the translated item no
+longer presents two distinguishable phrase arguments for directional inference.
 
-The pilot contains 120 source pairs: 30 \texttt{EQUIVALENCE}, 30
-\texttt{FORWARD\_ENTAILMENT}, 30 \texttt{BACKWARD\_ENTAILMENT}, and 30
-\texttt{NEGATIVE\_OTHER}. For every label, 15 pairs come from PhrasIS image
-sources and 15 from headline sources. We deliberately excluded borderline
-\texttt{SIMI}/\texttt{REL} examples from this feasibility sample and used clear
-\texttt{UNR} examples for \texttt{NEGATIVE\_OTHER}, so the trial data is
-inspectable and unambiguous.
+This item documents the current trial-data construction.  The evidence shows
+that (i) the full English source inventory has been grouped and audited, (ii)
+the collapse risk is measurable before release, (iii) multiple high-quality
+translation models provide recoverable alternatives for many risky cases, and
+(iv) the released trial bundle is generated from accepted non-collapsed Spanish
+and Basque candidates.
 
-\section{Organizer Format}
+\section{Full English Source Inventory}
 
-The internal organizer format is \texttt{trial/trial\_dataset.json}. It is a
-grouped JSON file with one object per underlying source pair. Each object stores
-the English pair, Spanish and Basque translations, the DiCo-NLI gold label for
-\texttt{text1 -> text2}, and provenance metadata:
-
-\begin{verbatim}
-{
-  "pair_id": "dico_trial_0001",
-  "split": "trial",
-  "gold_label": "EQUIVALENCE",
-  "languages": {
-    "en": {"text1": "at 91", "text2": "aged 91"},
-    "es": {"text1": "a los 91 años", "text2": "de 91 años"},
-    "eu": {"text1": "91 urterekin", "text2": "91 urte zituela"}
-  },
-  "metadata": {
-    "origin": "PhrasIS",
-    "source_file": "PhrasIS.train.headlines.positives.txt",
-    "source_line": 1,
-    "source_modality": "headlines"
-  }
-}
-\end{verbatim}
-
-This grouped format is intentionally not the participant format. It is the
-organizer/annotation format: it keeps multilingual variants, source provenance,
-and split membership together, which prevents leakage across directions or
-languages when the final train, development, trial, and test splits are created.
-
-\section{Participant Files}
-
-Participant files are fixed CSV files generated from the grouped JSON by
-\texttt{participant\_dataset\_production}. Participants do not derive directions or mixed
-language combinations themselves. The four release tracks are:
+We rebuilt the grouped English database from the class-segregated PhrasIS
+layout.  The grouping unit is the source phrase pair; all directions, languages,
+and participant-track instances derived from the same source pair remain tied to
+that unit for splitting and leakage control.  Table~\ref{tab:full-source}
+summarizes the resulting English inventory.
 
 \begin{table}[h]
 \centering
 \small
-\begin{tabular}{llr}
+\begin{tabular}{lrr}
 \toprule
-Track & Content & Trial rows \\
+Source class & DiCo-NLI label & Pairs \\
 \midrule
-\texttt{track1} & English monolingual & 210 \\
-\texttt{track2} & Spanish monolingual & 210 \\
-\texttt{track3} & Basque monolingual & 210 \\
-\texttt{track4} & Mixed cross-language only & 1260 \\
+\texttt{BACK} & \texttt{BACKWARD\_ENTAILMENT} & 636 \\
+\texttt{EQUI} & \texttt{EQUIVALENCE} & 686 \\
+\texttt{FORW} & \texttt{FORWARD\_ENTAILMENT} & 624 \\
+\texttt{OPPO} & \texttt{NEGATIVE\_OTHER} & 19 \\
+\texttt{REL} & \texttt{NEGATIVE\_OTHER} & 411 \\
+\texttt{SIMI} & \texttt{NEGATIVE\_OTHER} & 945 \\
+\texttt{UNR} & \texttt{NEGATIVE\_OTHER} & 6893 \\
+\midrule
+\textbf{Total} & -- & \textbf{10214} \\
 \bottomrule
 \end{tabular}
-\caption{Files derived from the 120 grouped trial pairs.}
+\caption{Full grouped English source database derived from PhrasIS.}
+\label{tab:full-source}
 \end{table}
 
-For train/trial releases, the participant file includes labels:
-\begin{verbatim}
-instance_id,pair_id,text1_lang,text2_lang,text1,text2,label
-\end{verbatim}
+The reversible positive component contains 1946 pairs: 686
+\texttt{EQUIVALENCE}, 624 forward-entailment, and 636 backward-entailment
+examples.  The remaining 8268 pairs are available as \texttt{NEGATIVE\_OTHER};
+they will be capped and stratified so that the final task is not dominated by
+negative examples.
 
-For blind test releases, the participant file omits labels:
-\begin{verbatim}
-instance_id,pair_id,text1_lang,text2_lang,text1,text2
-\end{verbatim}
+\section{Translation Collapse Definition}
 
-The hidden gold file consumed by the scorer contains:
-\begin{verbatim}
-instance_id,pair_id,text1_lang,text2_lang,text1,text2,reverse_pair_id,label
-\end{verbatim}
+For each generated target-language candidate we compute a simple but strict
+automatic diagnostic:
 
-Participant submissions remain minimal:
-\begin{verbatim}
-instance_id,label
-\end{verbatim}
+\begin{quote}
+\textbf{collapse}: after Unicode normalization, case-folding, and whitespace
+normalization, translated \texttt{text1} is exactly equal to translated
+\texttt{text2}.
+\end{quote}
 
-Thus the public interface is simple, while the hidden gold retains the
-\texttt{reverse\_pair\_id} links needed for SoftCons and HardCons.
+Collapse is not the only validation criterion, but it is a necessary rejection
+criterion for target-language DiCo-NLI items.  If \emph{South Korean President}
+and \emph{S. Korean president} both become the identical Spanish phrase
+\emph{presidente surcoreano}, the target-language pair no longer tests the same
+fine-grained distinction as the English source.  This is especially frequent for
+\texttt{EQUIVALENCE}, where English often expresses the same meaning with
+article, abbreviation, morphology, or word-order variation that may naturally
+disappear under translation.
 
-\section{Baseline Feasibility Check}
+The translation prompt used in this experiment requested faithful phrase-pair
+translation and explicitly asked the model to preserve lexical or syntactic
+distinctions when a natural, relation-preserving alternative exists.  The prompt
+also allows identical translations when identity is genuinely the best
+translation.  Thus the automatic collapse flag is not treated as model failure:
+it is a data-quality signal telling us whether the resulting translated pair is
+suitable for the benchmark.
 
-We simulated two naive participants on every produced track. The random system
-samples uniformly from the four labels with seed 2027. The majority system
-predicts the most frequent gold label in the produced track; ties are broken by
-the official label order, yielding \texttt{EQUIVALENCE} for this balanced trial
-set.
+\section{Stratified 500-Pair Feasibility Experiment}
+
+We sampled 500 source pairs from the full grouped English database with a fixed
+seed and equal DICO label strata: 125 pairs per label.  The sample contains
+enough \texttt{EQUIVALENCE} examples to quantify the translation collapse risk
+directly, while also covering the directional and negative labels used in the
+task.
+
+\begin{table}[h]
+\centering
+\small
+\begin{tabular}{lr}
+\toprule
+DiCo-NLI label & Sampled pairs \\
+\midrule
+\texttt{BACKWARD\_ENTAILMENT} & 125 \\
+\texttt{EQUIVALENCE} & 125 \\
+\texttt{FORWARD\_ENTAILMENT} & 125 \\
+\texttt{NEGATIVE\_OTHER} & 125 \\
+\midrule
+\textbf{Total} & \textbf{500} \\
+\bottomrule
+\end{tabular}
+\caption{Stratified sample used for the translation-validation experiment.}
+\label{tab:sample}
+\end{table}
+
+Every sampled pair was translated independently into Spanish and Basque with
+two OpenAI models: \texttt{gpt-5.4} and \texttt{gpt-5.6-sol}.  This produced
+1000 translation calls per model: 500 Spanish and 500 Basque.  The
+\texttt{gpt-5.6-sol} run was executed in 20 persisted chunks of 25 pairs after a
+provider-side HTTP 500 interrupted an initial unchunked attempt.  This directly
+informs our production plan: all full-dataset translation runs will use
+checkpointed chunks rather than a single all-or-nothing process.
+
+\section{Single-Model Collapse Risk}
+
+Table~\ref{tab:collapse-single} reports the exact collapse counts for each
+model.  The results confirm the central risk: a substantial fraction of
+\texttt{EQUIVALENCE} pairs collapse in at least one target language if only one
+translation model is used.
+
+\begin{table}[h]
+\centering
+\small
+\begin{tabular}{lrrrr}
+\toprule
+Model & ES collapse & EU collapse & Any language & Both languages \\
+\midrule
+\texttt{gpt-5.4} & 41 & 52 & 67 & 26 \\
+\texttt{gpt-5.6-sol} & 28 & 44 & 50 & 22 \\
+\bottomrule
+\end{tabular}
+\caption{Target-side exact-collapse counts over the same 500 source pairs.}
+\label{tab:collapse-single}
+\end{table}
+
+For \texttt{gpt-5.4}, 65 of the 67 pairs that collapsed in Spanish or Basque
+were \texttt{EQUIVALENCE}.  This corresponds to 65/125 = 52.0\% of the sampled
+\texttt{EQUIVALENCE} stratum.  If applied naively to the full inventory of 686
+\texttt{EQUIVALENCE} pairs, a single-model deletion policy would remove roughly
+357 equivalence pairs, leaving about 329.  This is not acceptable as a final
+production strategy, but it is useful evidence that the risk is now measurable
+and can be controlled before release.
+
+\section{Benefit of Multiple Translation Models}
+
+The two models do not collapse exactly the same pairs.  Table~\ref{tab:overlap}
+shows the cross-model overlap by target language.  For Spanish, 19 pairs
+collapsed under \texttt{gpt-5.4} but not under \texttt{gpt-5.6-sol}; for Basque,
+20 such pairs were recovered.  Conversely, a smaller number collapsed only under
+\texttt{gpt-5.6-sol}.  This supports a multi-candidate workflow: generate more
+than one translation candidate, reject candidates that collapse, and send the
+remaining candidates to bilingual validation.
+
+\begin{table}[h]
+\centering
+\small
+\begin{tabular}{lrrrr}
+\toprule
+Language & Both collapse & 5.4 only & 5.6 only & Neither \\
+\midrule
+Spanish & 22 & 19 & 6 & 453 \\
+Basque & 32 & 20 & 12 & 436 \\
+\bottomrule
+\end{tabular}
+\caption{Cross-model collapse overlap.  ``5.4 only'' means the pair collapsed
+with \texttt{gpt-5.4} but had a non-collapsed \texttt{gpt-5.6-sol} candidate.}
+\label{tab:overlap}
+\end{table}
+
+The most relevant estimate is the best-available-candidate scenario: for each
+language, keep the pair if at least one model produced a non-collapsed candidate
+that can then be manually checked.  Under this policy, only 39 of the 500
+sampled pairs had unavoidable collapse in Spanish or Basque across both models.
+Within the \texttt{EQUIVALENCE} stratum, 86 of 125 pairs had a non-collapsed
+option for both target languages, while 39 remained unavoidable exact-collapse
+cases.  Projected to the full 686-pair \texttt{EQUIVALENCE} inventory, this
+would leave roughly 472 usable equivalence pairs before any additional
+translation engines or manual repair.
+
+\begin{table}[h]
+\centering
+\small
+\begin{tabular}{lr}
+\toprule
+Best-available-candidate metric & Pairs \\
+\midrule
+Sample pairs with unavoidable collapse in ES or EU & 39 / 500 \\
+Sample pairs with a non-collapsed option for both ES and EU & 461 / 500 \\
+\texttt{EQUIVALENCE} pairs with unavoidable collapse & 39 / 125 \\
+\texttt{EQUIVALENCE} pairs with usable non-collapsed options & 86 / 125 \\
+\bottomrule
+\end{tabular}
+\caption{Estimated effect of selecting the best non-collapsed candidate per
+language from the two tested models.}
+\label{tab:best}
+\end{table}
+
+This result changes the production plan.  We will not translate once and delete
+all flagged pairs.  Instead, we will maintain multiple translation candidates
+per language, use exact-collapse and source-copy diagnostics for automatic
+triage, and preserve all candidate provenance so that bilingual reviewers can
+select, correct, or reject items with full information.
+
+The collapse signal is also useful as a quality filter rather than only a loss
+mechanism.  If independent strong translation systems reduce an English
+equivalence pair to the same target-language unit, the source pair is often a
+near-trivial equivalence: the two phrases may differ only by punctuation,
+article choice, abbreviation, or a very small edit.  Removing persistent
+cross-model collapse cases therefore helps the final benchmark avoid easy
+surface-equivalence items and keeps the retained \texttt{EQUIVALENCE} examples
+more challenging for systems.
+
+\section{Cost and Operational Feasibility}
+
+The experiment also gives realistic cost and runtime evidence for full-data
+production.  Table~\ref{tab:cost} reports the recorded API usage for the
+successful 500-pair runs.  The \texttt{gpt-5.6-sol} model was more expensive and
+slower, partly because it used reasoning tokens, but it recovered a useful
+subset of \texttt{gpt-5.4} collapses.  This makes it appropriate as a second
+candidate generator or targeted repair model rather than necessarily as the only
+default generator.
+
+\begin{table}[h]
+\centering
+\small
+\begin{tabular}{lrrrr}
+\toprule
+Model & Input tok. & Output tok. & Reasoning tok. & Est. cost \\
+\midrule
+\texttt{gpt-5.4} & 198904 & 25156 & 0 & \$0.8746 \\
+\texttt{gpt-5.6-sol} & 198904 & 72558 & 44561 & \$3.1713 \\
+\bottomrule
+\end{tabular}
+\caption{Recorded usage for 500 pairs translated into Spanish and Basque.}
+\label{tab:cost}
+\end{table}
+
+The first unchunked \texttt{gpt-5.6-sol} attempt failed with an HTTP 500 before
+the final JSON could be written.  The successful rerun used 20 saved chunks.
+This is an important engineering conclusion: final production will include
+progress logging, checkpointed chunk outputs, and resumable merging before any
+large translation job is launched.
+
+\section{Validation Protocol for Trial and Full Release}
+
+The final trial and evaluation data will be produced by the following protocol.
+
+\begin{enumerate}
+\item Build the grouped English database from PhrasIS, with one source-pair
+record containing label, provenance, split metadata, and later all language
+candidates.
+\item Sample trial/dev/evaluation splits by source pair, never by ordered
+instance, so that no reverse direction or language variant crosses splits.
+\item Generate Spanish and Basque candidates from multiple translation systems,
+starting with the tested \texttt{gpt-5.4} and \texttt{gpt-5.6-sol} workflow and
+adding further providers if they improve non-collapsed coverage.
+\item Run automatic diagnostics: target-side collapse, source-copy detection,
+missing candidate detection, and later label-preservation checks after
+acceptance.
+\item Automatically reject collapsed candidates, not necessarily the whole
+source pair.  If another model gives a non-collapsed candidate, that candidate
+is retained for validation.
+\item Send retained candidates to bilingual review.  Reviewers check phrase
+adequacy, preservation of the intended NLI label, and preservation of the
+deterministic reverse label.
+\item Correct a candidate when a natural relation-preserving translation is
+available; otherwise remove the language-specific item from official release.
+\item Report final counts by source class, DiCo-NLI label, language, split,
+generator, and rejection reason.
+\end{enumerate}
+
+This protocol directly addresses the reviewer concern.  The multilingual data
+will not be accepted merely because an API produced fluent translations.  The
+translation process is auditable, model-diverse, checkpointed, automatically
+screened for structural failures, and followed by bilingual validation before
+release.
+
+\section{Current Trial Bundle}
+
+The accompanying \texttt{trial\_data/} folder is generated from the accepted
+non-collapsed candidates selected above.  It contains the grouped organizer JSON,
+monolingual and mixed-language participant files, hidden gold files, submission
+templates, translation-audit reports, and scored random/majority baselines.
+
+\begin{table}[h]
+\centering
+\small
+\begin{tabular}{lr}
+\toprule
+DiCo-NLI label & Trial pairs \\
+\midrule
+\texttt{BACKWARD\_ENTAILMENT} & 125 \\
+\texttt{EQUIVALENCE} & 86 \\
+\texttt{FORWARD\_ENTAILMENT} & 125 \\
+\texttt{NEGATIVE\_OTHER} & 125 \\
+\midrule
+\textbf{Total accepted} & \textbf{461} \\
+\textbf{Rejected by collapse filter} & \textbf{39} \\
+\bottomrule
+\end{tabular}
+\caption{Current trial grouped JSON after non-collapsed candidate selection.}
+\label{tab:trial-counts}
+\end{table}
+
+The accepted trial has zero Spanish or Basque exact-collapse pairs under the
+automatic audit.  Candidate provenance is retained in the grouped JSON metadata:
+Spanish uses 448 \texttt{gpt-5.4} candidates and 13 \texttt{gpt-5.6-sol}
+fallback candidates; Basque uses 444 \texttt{gpt-5.4} candidates and 17
+\texttt{gpt-5.6-sol} fallback candidates.
+
+\begin{table}[h]
+\centering
+\small
+\begin{tabular}{lrrrr}
+\toprule
+Track & Labeled & Unlabeled & Hidden gold & Template \\
+\midrule
+\texttt{track1} English & 797 & 797 & 797 & 797 \\
+\texttt{track2} Spanish & 797 & 797 & 797 & 797 \\
+\texttt{track3} Basque & 797 & 797 & 797 & 797 \\
+\texttt{track4} Mixed & 4782 & 4782 & 4782 & 4782 \\
+\bottomrule
+\end{tabular}
+\caption{Participant-facing files generated from the current trial bundle.}
+\label{tab:trial-files}
+\end{table}
 
 \begin{table}[h]
 \centering
@@ -125,33 +355,22 @@ set.
 \toprule
 System & Track & Weighted F1 & SoftCons & HardCons \\
 \midrule
-Random & track1 & 0.281 & 0.222 & 0.078 \\
-Random & track2 & 0.218 & 0.178 & 0.067 \\
-Random & track3 & 0.247 & 0.222 & 0.067 \\
-Random & track4 & 0.222 & 0.207 & 0.052 \\
+Random & \texttt{track1} & 0.270 & 0.208 & 0.077 \\
+Random & \texttt{track2} & 0.255 & 0.244 & 0.095 \\
+Random & \texttt{track3} & 0.226 & 0.205 & 0.062 \\
+Random & \texttt{track4} & 0.254 & 0.186 & 0.061 \\
 \midrule
-Majority & track1 & 0.127 & 1.000 & 0.333 \\
-Majority & track2 & 0.127 & 1.000 & 0.333 \\
-Majority & track3 & 0.127 & 1.000 & 0.333 \\
-Majority & track4 & 0.127 & 1.000 & 0.333 \\
+Majority & \texttt{track1} & 0.150 & 0.000 & 0.000 \\
+Majority & \texttt{track2} & 0.150 & 0.000 & 0.000 \\
+Majority & \texttt{track3} & 0.150 & 0.000 & 0.000 \\
+Majority & \texttt{track4} & 0.150 & 0.000 & 0.000 \\
 \bottomrule
 \end{tabular}
-\caption{Naive baseline scores generated with the official evaluator.}
+\caption{Naive baselines recomputed on the current trial files.}
+\label{tab:trial-baselines}
 \end{table}
 
-These results align with the metric definitions. Random predictions have low
-directional consistency and low F1. The majority system is always internally
-consistent because \texttt{EQUIVALENCE} is self-reversing, so SoftCons is 1.0,
-but it performs poorly on item-level classification and is hard-correct only for
-the equivalence reciprocal pairs. This confirms that the three reported scores
-capture different failure modes and that the scorer is operational.
-
-\section{Reproducibility}
-
-The commands used to build the grouped JSON, generate the four track files, and
-run the baseline systems are documented in
-\texttt{participant\_dataset\_production/README.md}.
-The baseline submissions, per-track score directories, and
-\texttt{baseline\_summary.json} are included under \texttt{trial/baselines/}.
+These files demonstrate the complete participant interface for the task while
+using the same translation-validation policy planned for the full release.
 
 \end{document}
