@@ -1,211 +1,798 @@
 instance_id,pair_id,text1_lang,text2_lang,text1,text2,label
-dico_trial_0001__eu-eu__forward,dico_trial_0001,eu,eu,91 urterekin,91 urte zituela,EQUIVALENCE
-dico_trial_0001__eu-eu__reverse,dico_trial_0001,eu,eu,91 urte zituela,91 urterekin,EQUIVALENCE
-dico_trial_0002__eu-eu__forward,dico_trial_0002,eu,eu,Olinpiar Jokoetan,Olinpiar Jokoetan,EQUIVALENCE
-dico_trial_0002__eu-eu__reverse,dico_trial_0002,eu,eu,Olinpiar Jokoetan,Olinpiar Jokoetan,EQUIVALENCE
-dico_trial_0003__eu-eu__forward,dico_trial_0003,eu,eu,baimentzeko,baimenduta,EQUIVALENCE
-dico_trial_0003__eu-eu__reverse,dico_trial_0003,eu,eu,baimenduta,baimentzeko,EQUIVALENCE
-dico_trial_0004__eu-eu__forward,dico_trial_0004,eu,eu,Txinako akzioak,Txinako akzioak,EQUIVALENCE
-dico_trial_0004__eu-eu__reverse,dico_trial_0004,eu,eu,Txinako akzioak,Txinako akzioak,EQUIVALENCE
-dico_trial_0005__eu-eu__forward,dico_trial_0005,eu,eu,erretiroa iragarri du,erretiratu da,EQUIVALENCE
-dico_trial_0005__eu-eu__reverse,dico_trial_0005,eu,eu,erretiratu da,erretiroa iragarri du,EQUIVALENCE
-dico_trial_0006__eu-eu__forward,dico_trial_0006,eu,eu,George W. Bush,George W. Bush,EQUIVALENCE
-dico_trial_0006__eu-eu__reverse,dico_trial_0006,eu,eu,George W. Bush,George W. Bush,EQUIVALENCE
-dico_trial_0007__eu-eu__forward,dico_trial_0007,eu,eu,bi kazetari frantses,bi kazetari frantses,EQUIVALENCE
-dico_trial_0007__eu-eu__reverse,dico_trial_0007,eu,eu,bi kazetari frantses,bi kazetari frantses,EQUIVALENCE
-dico_trial_0008__eu-eu__forward,dico_trial_0008,eu,eu,bi zauritu,bi zauritu,EQUIVALENCE
-dico_trial_0008__eu-eu__reverse,dico_trial_0008,eu,eu,bi zauritu,bi zauritu,EQUIVALENCE
-dico_trial_0009__eu-eu__forward,dico_trial_0009,eu,eu,AEBetako ipar-ekialdea,AEBetako ipar-ekialdea,EQUIVALENCE
-dico_trial_0009__eu-eu__reverse,dico_trial_0009,eu,eu,AEBetako ipar-ekialdea,AEBetako ipar-ekialdea,EQUIVALENCE
-dico_trial_0010__eu-eu__forward,dico_trial_0010,eu,eu,AEB,AEB,EQUIVALENCE
-dico_trial_0010__eu-eu__reverse,dico_trial_0010,eu,eu,AEB,AEB,EQUIVALENCE
-dico_trial_0011__eu-eu__forward,dico_trial_0011,eu,eu,2020ko Olinpiar Jokoak,2020ko Olinpiar Jokoak,EQUIVALENCE
-dico_trial_0011__eu-eu__reverse,dico_trial_0011,eu,eu,2020ko Olinpiar Jokoak,2020ko Olinpiar Jokoak,EQUIVALENCE
-dico_trial_0012__eu-eu__forward,dico_trial_0012,eu,eu,Ipar Korea,Ipar Korea,EQUIVALENCE
-dico_trial_0012__eu-eu__reverse,dico_trial_0012,eu,eu,Ipar Korea,Ipar Korea,EQUIVALENCE
-dico_trial_0013__eu-eu__forward,dico_trial_0013,eu,eu,Filipinak,Filipinak,EQUIVALENCE
-dico_trial_0013__eu-eu__reverse,dico_trial_0013,eu,eu,Filipinak,Filipinak,EQUIVALENCE
-dico_trial_0014__eu-eu__forward,dico_trial_0014,eu,eu,NBEren ebazpena,NBEren ebazpena,EQUIVALENCE
-dico_trial_0014__eu-eu__reverse,dico_trial_0014,eu,eu,NBEren ebazpena,NBEren ebazpena,EQUIVALENCE
-dico_trial_0015__eu-eu__forward,dico_trial_0015,eu,eu,Ipar Korea,Ipar Korea,EQUIVALENCE
-dico_trial_0015__eu-eu__reverse,dico_trial_0015,eu,eu,Ipar Korea,Ipar Korea,EQUIVALENCE
-dico_trial_0016__eu-eu__forward,dico_trial_0016,eu,eu,oinez,oinez ari da,EQUIVALENCE
-dico_trial_0016__eu-eu__reverse,dico_trial_0016,eu,eu,oinez ari da,oinez,EQUIVALENCE
-dico_trial_0017__eu-eu__forward,dico_trial_0017,eu,eu,posatzen ari dira,posatzen,EQUIVALENCE
-dico_trial_0017__eu-eu__reverse,dico_trial_0017,eu,eu,posatzen,posatzen ari dira,EQUIVALENCE
-dico_trial_0018__eu-eu__forward,dico_trial_0018,eu,eu,argazki baterako,argazki baterako,EQUIVALENCE
-dico_trial_0018__eu-eu__reverse,dico_trial_0018,eu,eu,argazki baterako,argazki baterako,EQUIVALENCE
-dico_trial_0019__eu-eu__forward,dico_trial_0019,eu,eu,mutil gazte bat,mutil gazte bat,EQUIVALENCE
-dico_trial_0019__eu-eu__reverse,dico_trial_0019,eu,eu,mutil gazte bat,mutil gazte bat,EQUIVALENCE
-dico_trial_0020__eu-eu__forward,dico_trial_0020,eu,eu,eusten,eusten ari da,EQUIVALENCE
-dico_trial_0020__eu-eu__reverse,dico_trial_0020,eu,eu,eusten ari da,eusten,EQUIVALENCE
-dico_trial_0021__eu-eu__forward,dico_trial_0021,eu,eu,emakumea,emakume bat,EQUIVALENCE
-dico_trial_0021__eu-eu__reverse,dico_trial_0021,eu,eu,emakume bat,emakumea,EQUIVALENCE
-dico_trial_0022__eu-eu__forward,dico_trial_0022,eu,eu,uretara,uretan,EQUIVALENCE
-dico_trial_0022__eu-eu__reverse,dico_trial_0022,eu,eu,uretan,uretara,EQUIVALENCE
-dico_trial_0023__eu-eu__forward,dico_trial_0023,eu,eu,saltoka ari da,saltoka,EQUIVALENCE
-dico_trial_0023__eu-eu__reverse,dico_trial_0023,eu,eu,saltoka,saltoka ari da,EQUIVALENCE
-dico_trial_0024__eu-eu__forward,dico_trial_0024,eu,eu,txakur pare bat,bi txakur,EQUIVALENCE
-dico_trial_0024__eu-eu__reverse,dico_trial_0024,eu,eu,bi txakur,txakur pare bat,EQUIVALENCE
-dico_trial_0025__eu-eu__forward,dico_trial_0025,eu,eu,jantzita,jantzita dago,EQUIVALENCE
-dico_trial_0025__eu-eu__reverse,dico_trial_0025,eu,eu,jantzita dago,jantzita,EQUIVALENCE
-dico_trial_0026__eu-eu__forward,dico_trial_0026,eu,eu,oinez ari dira,oinez,EQUIVALENCE
-dico_trial_0026__eu-eu__reverse,dico_trial_0026,eu,eu,oinez,oinez ari dira,EQUIVALENCE
-dico_trial_0027__eu-eu__forward,dico_trial_0027,eu,eu,txakur beltz bat,txakur beltza,EQUIVALENCE
-dico_trial_0027__eu-eu__reverse,dico_trial_0027,eu,eu,txakur beltza,txakur beltz bat,EQUIVALENCE
-dico_trial_0028__eu-eu__forward,dico_trial_0028,eu,eu,uretan,uretan,EQUIVALENCE
-dico_trial_0028__eu-eu__reverse,dico_trial_0028,eu,eu,uretan,uretan,EQUIVALENCE
-dico_trial_0029__eu-eu__forward,dico_trial_0029,eu,eu,geltoki batean,geltokian,EQUIVALENCE
-dico_trial_0029__eu-eu__reverse,dico_trial_0029,eu,eu,geltokian,geltoki batean,EQUIVALENCE
-dico_trial_0030__eu-eu__forward,dico_trial_0030,eu,eu,Apple ordenagailu bat,Macintosh ordenagailu bat,EQUIVALENCE
-dico_trial_0030__eu-eu__reverse,dico_trial_0030,eu,eu,Macintosh ordenagailu bat,Apple ordenagailu bat,EQUIVALENCE
-dico_trial_0031__eu-eu__forward,dico_trial_0031,eu,eu,AEBetako dron erasoa,dron eraso bat,FORWARD_ENTAILMENT
-dico_trial_0031__eu-eu__reverse,dico_trial_0031,eu,eu,dron eraso bat,AEBetako dron erasoa,BACKWARD_ENTAILMENT
-dico_trial_0032__eu-eu__forward,dico_trial_0032,eu,eu,merkataritza-guneko erasotzaileak,erasotzaileak,FORWARD_ENTAILMENT
-dico_trial_0032__eu-eu__reverse,dico_trial_0032,eu,eu,erasotzaileak,merkataritza-guneko erasotzaileak,BACKWARD_ENTAILMENT
-dico_trial_0033__eu-eu__forward,dico_trial_0033,eu,eu,Thailandiako oposizioko alderdia,Thailandiako oposizioa,FORWARD_ENTAILMENT
-dico_trial_0033__eu-eu__reverse,dico_trial_0033,eu,eu,Thailandiako oposizioa,Thailandiako oposizioko alderdia,BACKWARD_ENTAILMENT
-dico_trial_0034__eu-eu__forward,dico_trial_0034,eu,eu,immigrazioari buruzko eztabaida gogorra,immigrazioari buruzko eztabaida,FORWARD_ENTAILMENT
-dico_trial_0034__eu-eu__reverse,dico_trial_0034,eu,eu,immigrazioari buruzko eztabaida,immigrazioari buruzko eztabaida gogorra,BACKWARD_ENTAILMENT
-dico_trial_0035__eu-eu__forward,dico_trial_0035,eu,eu,AEBetako adopzio debekura,adopzio debekura,FORWARD_ENTAILMENT
-dico_trial_0035__eu-eu__reverse,dico_trial_0035,eu,eu,adopzio debekura,AEBetako adopzio debekura,BACKWARD_ENTAILMENT
-dico_trial_0036__eu-eu__forward,dico_trial_0036,eu,eu,sexu bereko ezkontzaren lege-proiektua,sexu bereko ezkontza,FORWARD_ENTAILMENT
-dico_trial_0036__eu-eu__reverse,dico_trial_0036,eu,eu,sexu bereko ezkontza,sexu bereko ezkontzaren lege-proiektua,BACKWARD_ENTAILMENT
-dico_trial_0037__eu-eu__forward,dico_trial_0037,eu,eu,Israelgo ordezkariak,Israelgo ordezkaria,FORWARD_ENTAILMENT
-dico_trial_0037__eu-eu__reverse,dico_trial_0037,eu,eu,Israelgo ordezkaria,Israelgo ordezkariak,BACKWARD_ENTAILMENT
-dico_trial_0038__eu-eu__forward,dico_trial_0038,eu,eu,kolonien planei buruz,koloniei buruz,FORWARD_ENTAILMENT
-dico_trial_0038__eu-eu__reverse,dico_trial_0038,eu,eu,koloniei buruz,kolonien planei buruz,BACKWARD_ENTAILMENT
-dico_trial_0039__eu-eu__forward,dico_trial_0039,eu,eu,bi auto-bonba,auto-bonba erasoa,FORWARD_ENTAILMENT
-dico_trial_0039__eu-eu__reverse,dico_trial_0039,eu,eu,auto-bonba erasoa,bi auto-bonba,BACKWARD_ENTAILMENT
-dico_trial_0040__eu-eu__forward,dico_trial_0040,eu,eu,Libiako Bengasin,Bengasin,FORWARD_ENTAILMENT
-dico_trial_0040__eu-eu__reverse,dico_trial_0040,eu,eu,Bengasin,Libiako Bengasin,BACKWARD_ENTAILMENT
-dico_trial_0041__eu-eu__forward,dico_trial_0041,eu,eu,sexu bereko ezkontzen entzunaldirako,sexu bereko ezkontzaren alde,FORWARD_ENTAILMENT
-dico_trial_0041__eu-eu__reverse,dico_trial_0041,eu,eu,sexu bereko ezkontzaren alde,sexu bereko ezkontzen entzunaldirako,BACKWARD_ENTAILMENT
-dico_trial_0042__eu-eu__forward,dico_trial_0042,eu,eu,akordio nuklear historikoa,akordio nuklearra,FORWARD_ENTAILMENT
-dico_trial_0042__eu-eu__reverse,dico_trial_0042,eu,eu,akordio nuklearra,akordio nuklear historikoa,BACKWARD_ENTAILMENT
-dico_trial_0043__eu-eu__forward,dico_trial_0043,eu,eu,eskuko ekipajeko likidoak eta gelak,eskuko ekipajeko likidoak,FORWARD_ENTAILMENT
-dico_trial_0043__eu-eu__reverse,dico_trial_0043,eu,eu,eskuko ekipajeko likidoak,eskuko ekipajeko likidoak eta gelak,BACKWARD_ENTAILMENT
-dico_trial_0044__eu-eu__forward,dico_trial_0044,eu,eu,AEBetako akzioak,akzioak,FORWARD_ENTAILMENT
-dico_trial_0044__eu-eu__reverse,dico_trial_0044,eu,eu,akzioak,AEBetako akzioak,BACKWARD_ENTAILMENT
-dico_trial_0045__eu-eu__forward,dico_trial_0045,eu,eu,Siriako hiriburuan,Sirian,FORWARD_ENTAILMENT
-dico_trial_0045__eu-eu__reverse,dico_trial_0045,eu,eu,Sirian,Siriako hiriburuan,BACKWARD_ENTAILMENT
-dico_trial_0046__eu-eu__forward,dico_trial_0046,eu,eu,futboleko baloi bat,pilota bat,FORWARD_ENTAILMENT
-dico_trial_0046__eu-eu__reverse,dico_trial_0046,eu,eu,pilota bat,futboleko baloi bat,BACKWARD_ENTAILMENT
-dico_trial_0047__eu-eu__forward,dico_trial_0047,eu,eu,txakur marroi bat,txakur bat,FORWARD_ENTAILMENT
-dico_trial_0047__eu-eu__reverse,dico_trial_0047,eu,eu,txakur bat,txakur marroi bat,BACKWARD_ENTAILMENT
-dico_trial_0048__eu-eu__forward,dico_trial_0048,eu,eu,bi neska gazte,bi neska,FORWARD_ENTAILMENT
-dico_trial_0048__eu-eu__reverse,dico_trial_0048,eu,eu,bi neska,bi neska gazte,BACKWARD_ENTAILMENT
-dico_trial_0049__eu-eu__forward,dico_trial_0049,eu,eu,txakur marroi argia,txakur marroi bat,FORWARD_ENTAILMENT
-dico_trial_0049__eu-eu__reverse,dico_trial_0049,eu,eu,txakur marroi bat,txakur marroi argia,BACKWARD_ENTAILMENT
-dico_trial_0050__eu-eu__forward,dico_trial_0050,eu,eu,lau haur txiki,lau haur,FORWARD_ENTAILMENT
-dico_trial_0050__eu-eu__reverse,dico_trial_0050,eu,eu,lau haur,lau haur txiki,BACKWARD_ENTAILMENT
-dico_trial_0051__eu-eu__forward,dico_trial_0051,eu,eu,mutil gazte bat,mutila,FORWARD_ENTAILMENT
-dico_trial_0051__eu-eu__reverse,dico_trial_0051,eu,eu,mutila,mutil gazte bat,BACKWARD_ENTAILMENT
-dico_trial_0052__eu-eu__forward,dico_trial_0052,eu,eu,gizon bat,pertsona bat,FORWARD_ENTAILMENT
-dico_trial_0052__eu-eu__reverse,dico_trial_0052,eu,eu,pertsona bat,gizon bat,BACKWARD_ENTAILMENT
-dico_trial_0053__eu-eu__forward,dico_trial_0053,eu,eu,uhal oso luze bat,uhal luze bat,FORWARD_ENTAILMENT
-dico_trial_0053__eu-eu__reverse,dico_trial_0053,eu,eu,uhal luze bat,uhal oso luze bat,BACKWARD_ENTAILMENT
-dico_trial_0054__eu-eu__forward,dico_trial_0054,eu,eu,kamisetarik gabeko gizon bat,gizon bat,FORWARD_ENTAILMENT
-dico_trial_0054__eu-eu__reverse,dico_trial_0054,eu,eu,gizon bat,kamisetarik gabeko gizon bat,BACKWARD_ENTAILMENT
-dico_trial_0055__eu-eu__forward,dico_trial_0055,eu,eu,txakur marroi handi bat,txakur marroi bat,FORWARD_ENTAILMENT
-dico_trial_0055__eu-eu__reverse,dico_trial_0055,eu,eu,txakur marroi bat,txakur marroi handi bat,BACKWARD_ENTAILMENT
-dico_trial_0056__eu-eu__forward,dico_trial_0056,eu,eu,bi txakur,txakur bat,FORWARD_ENTAILMENT
-dico_trial_0056__eu-eu__reverse,dico_trial_0056,eu,eu,txakur bat,bi txakur,BACKWARD_ENTAILMENT
-dico_trial_0057__eu-eu__forward,dico_trial_0057,eu,eu,bi gizon,gizon bat,FORWARD_ENTAILMENT
-dico_trial_0057__eu-eu__reverse,dico_trial_0057,eu,eu,gizon bat,bi gizon,BACKWARD_ENTAILMENT
-dico_trial_0058__eu-eu__forward,dico_trial_0058,eu,eu,bi nerabe,bi pertsona,FORWARD_ENTAILMENT
-dico_trial_0058__eu-eu__reverse,dico_trial_0058,eu,eu,bi pertsona,bi nerabe,BACKWARD_ENTAILMENT
-dico_trial_0059__eu-eu__forward,dico_trial_0059,eu,eu,tren beltza,tren bat,FORWARD_ENTAILMENT
-dico_trial_0059__eu-eu__reverse,dico_trial_0059,eu,eu,tren bat,tren beltza,BACKWARD_ENTAILMENT
-dico_trial_0060__eu-eu__forward,dico_trial_0060,eu,eu,katu grisa,katu bat,FORWARD_ENTAILMENT
-dico_trial_0060__eu-eu__reverse,dico_trial_0060,eu,eu,katu bat,katu grisa,BACKWARD_ENTAILMENT
-dico_trial_0061__eu-eu__forward,dico_trial_0061,eu,eu,emakumeak,emakume saudiarrak,BACKWARD_ENTAILMENT
-dico_trial_0061__eu-eu__reverse,dico_trial_0061,eu,eu,emakume saudiarrak,emakumeak,FORWARD_ENTAILMENT
-dico_trial_0062__eu-eu__forward,dico_trial_0062,eu,eu,aire-erasoa,aire-eraso berri bat,BACKWARD_ENTAILMENT
-dico_trial_0062__eu-eu__reverse,dico_trial_0062,eu,eu,aire-eraso berri bat,aire-erasoa,FORWARD_ENTAILMENT
-dico_trial_0063__eu-eu__forward,dico_trial_0063,eu,eu,panda gorria,desagertutako panda gorria,BACKWARD_ENTAILMENT
-dico_trial_0063__eu-eu__reverse,dico_trial_0063,eu,eu,desagertutako panda gorria,panda gorria,FORWARD_ENTAILMENT
-dico_trial_0064__eu-eu__forward,dico_trial_0064,eu,eu,auto-bonba erasoa,auto-bonba erasoak,BACKWARD_ENTAILMENT
-dico_trial_0064__eu-eu__reverse,dico_trial_0064,eu,eu,auto-bonba erasoak,auto-bonba erasoa,FORWARD_ENTAILMENT
-dico_trial_0065__eu-eu__forward,dico_trial_0065,eu,eu,Indiako polizia,Mumbaiko polizia,BACKWARD_ENTAILMENT
-dico_trial_0065__eu-eu__reverse,dico_trial_0065,eu,eu,Mumbaiko polizia,Indiako polizia,FORWARD_ENTAILMENT
-dico_trial_0066__eu-eu__forward,dico_trial_0066,eu,eu,batzordea,Senatuko Batzorde Judiziala,BACKWARD_ENTAILMENT
-dico_trial_0066__eu-eu__reverse,dico_trial_0066,eu,eu,Senatuko Batzorde Judiziala,batzordea,FORWARD_ENTAILMENT
-dico_trial_0067__eu-eu__forward,dico_trial_0067,eu,eu,osasun legea,osasun lege berria,BACKWARD_ENTAILMENT
-dico_trial_0067__eu-eu__reverse,dico_trial_0067,eu,eu,osasun lege berria,osasun legea,FORWARD_ENTAILMENT
-dico_trial_0068__eu-eu__forward,dico_trial_0068,eu,eu,bonba,bonba erasoa,BACKWARD_ENTAILMENT
-dico_trial_0068__eu-eu__reverse,dico_trial_0068,eu,eu,bonba erasoa,bonba,FORWARD_ENTAILMENT
-dico_trial_0069__eu-eu__forward,dico_trial_0069,eu,eu,Patriot misilen bateria,Patriot misilen bateriak,BACKWARD_ENTAILMENT
-dico_trial_0069__eu-eu__reverse,dico_trial_0069,eu,eu,Patriot misilen bateriak,Patriot misilen bateria,FORWARD_ENTAILMENT
-dico_trial_0070__eu-eu__forward,dico_trial_0070,eu,eu,erasotzaile suizida,erasotzaile suizidak,BACKWARD_ENTAILMENT
-dico_trial_0070__eu-eu__reverse,dico_trial_0070,eu,eu,erasotzaile suizidak,erasotzaile suizida,FORWARD_ENTAILMENT
-dico_trial_0071__eu-eu__forward,dico_trial_0071,eu,eu,gidaria,tren-gidaria,BACKWARD_ENTAILMENT
-dico_trial_0071__eu-eu__reverse,dico_trial_0071,eu,eu,tren-gidaria,gidaria,FORWARD_ENTAILMENT
-dico_trial_0072__eu-eu__forward,dico_trial_0072,eu,eu,itzulera,itzulerarako,BACKWARD_ENTAILMENT
-dico_trial_0072__eu-eu__reverse,dico_trial_0072,eu,eu,itzulerarako,itzulera,FORWARD_ENTAILMENT
-dico_trial_0073__eu-eu__forward,dico_trial_0073,eu,eu,kontserbadoreak,oposizio kontserbadorea,BACKWARD_ENTAILMENT
-dico_trial_0073__eu-eu__reverse,dico_trial_0073,eu,eu,oposizio kontserbadorea,kontserbadoreak,FORWARD_ENTAILMENT
-dico_trial_0074__eu-eu__forward,dico_trial_0074,eu,eu,misilak,misil balistikoak,BACKWARD_ENTAILMENT
-dico_trial_0074__eu-eu__reverse,dico_trial_0074,eu,eu,misil balistikoak,misilak,FORWARD_ENTAILMENT
-dico_trial_0075__eu-eu__forward,dico_trial_0075,eu,eu,bideoa,segurtasun-bideoa,BACKWARD_ENTAILMENT
-dico_trial_0075__eu-eu__reverse,dico_trial_0075,eu,eu,segurtasun-bideoa,bideoa,FORWARD_ENTAILMENT
-dico_trial_0076__eu-eu__forward,dico_trial_0076,eu,eu,haur bat,mutil gazte bat,BACKWARD_ENTAILMENT
-dico_trial_0076__eu-eu__reverse,dico_trial_0076,eu,eu,mutil gazte bat,haur bat,FORWARD_ENTAILMENT
-dico_trial_0077__eu-eu__forward,dico_trial_0077,eu,eu,txakur bat,txakur zuri bat,BACKWARD_ENTAILMENT
-dico_trial_0077__eu-eu__reverse,dico_trial_0077,eu,eu,txakur zuri bat,txakur bat,FORWARD_ENTAILMENT
-dico_trial_0078__eu-eu__forward,dico_trial_0078,eu,eu,mutil bat,mutil txiki bat,BACKWARD_ENTAILMENT
-dico_trial_0078__eu-eu__reverse,dico_trial_0078,eu,eu,mutil txiki bat,mutil bat,FORWARD_ENTAILMENT
-dico_trial_0079__eu-eu__forward,dico_trial_0079,eu,eu,txakur bat,txakur txiki bat,BACKWARD_ENTAILMENT
-dico_trial_0079__eu-eu__reverse,dico_trial_0079,eu,eu,txakur txiki bat,txakur bat,FORWARD_ENTAILMENT
-dico_trial_0080__eu-eu__forward,dico_trial_0080,eu,eu,mutil bat,mutil txiki bat,BACKWARD_ENTAILMENT
-dico_trial_0080__eu-eu__reverse,dico_trial_0080,eu,eu,mutil txiki bat,mutil bat,FORWARD_ENTAILMENT
-dico_trial_0081__eu-eu__forward,dico_trial_0081,eu,eu,haur bat,haur txiki bat,BACKWARD_ENTAILMENT
-dico_trial_0081__eu-eu__reverse,dico_trial_0081,eu,eu,haur txiki bat,haur bat,FORWARD_ENTAILMENT
-dico_trial_0082__eu-eu__forward,dico_trial_0082,eu,eu,txakur marroia,txakur marroi argala,BACKWARD_ENTAILMENT
-dico_trial_0082__eu-eu__reverse,dico_trial_0082,eu,eu,txakur marroi argala,txakur marroia,FORWARD_ENTAILMENT
-dico_trial_0083__eu-eu__forward,dico_trial_0083,eu,eu,pertsona,haur bat,BACKWARD_ENTAILMENT
-dico_trial_0083__eu-eu__reverse,dico_trial_0083,eu,eu,haur bat,pertsona,FORWARD_ENTAILMENT
-dico_trial_0084__eu-eu__forward,dico_trial_0084,eu,eu,mutil bat,mutil gazte bat,BACKWARD_ENTAILMENT
-dico_trial_0084__eu-eu__reverse,dico_trial_0084,eu,eu,mutil gazte bat,mutil bat,FORWARD_ENTAILMENT
-dico_trial_0085__eu-eu__forward,dico_trial_0085,eu,eu,bi txakur,bi txakur marroi,BACKWARD_ENTAILMENT
-dico_trial_0085__eu-eu__reverse,dico_trial_0085,eu,eu,bi txakur marroi,bi txakur,FORWARD_ENTAILMENT
-dico_trial_0086__eu-eu__forward,dico_trial_0086,eu,eu,txakur zuri bat,txakur zuri handi bat,BACKWARD_ENTAILMENT
-dico_trial_0086__eu-eu__reverse,dico_trial_0086,eu,eu,txakur zuri handi bat,txakur zuri bat,FORWARD_ENTAILMENT
-dico_trial_0087__eu-eu__forward,dico_trial_0087,eu,eu,neska bat,neska txiki bat,BACKWARD_ENTAILMENT
-dico_trial_0087__eu-eu__reverse,dico_trial_0087,eu,eu,neska txiki bat,neska bat,FORWARD_ENTAILMENT
-dico_trial_0088__eu-eu__forward,dico_trial_0088,eu,eu,bi neska,bi neska ilehori,BACKWARD_ENTAILMENT
-dico_trial_0088__eu-eu__reverse,dico_trial_0088,eu,eu,bi neska ilehori,bi neska,FORWARD_ENTAILMENT
-dico_trial_0089__eu-eu__forward,dico_trial_0089,eu,eu,emakume bat,neska gazte bat,BACKWARD_ENTAILMENT
-dico_trial_0089__eu-eu__reverse,dico_trial_0089,eu,eu,neska gazte bat,emakume bat,FORWARD_ENTAILMENT
-dico_trial_0090__eu-eu__forward,dico_trial_0090,eu,eu,emakume bat,emakume gazte bat,BACKWARD_ENTAILMENT
-dico_trial_0090__eu-eu__reverse,dico_trial_0090,eu,eu,emakume gazte bat,emakume bat,FORWARD_ENTAILMENT
-dico_trial_0091__eu-eu__forward,dico_trial_0091,eu,eu,dio,Siriako bakea,NEGATIVE_OTHER
-dico_trial_0092__eu-eu__forward,dico_trial_0092,eu,eu,ukatzen du,Houlako sarraskiagatik,NEGATIVE_OTHER
-dico_trial_0093__eu-eu__forward,dico_trial_0093,eu,eu,Siriako erregimena,matxinoak,NEGATIVE_OTHER
-dico_trial_0094__eu-eu__forward,dico_trial_0094,eu,eu,Salomon Uharteak,USGS,NEGATIVE_OTHER
-dico_trial_0095__eu-eu__forward,dico_trial_0095,eu,eu,gizon armatuak,zazpi langile atzerritar,NEGATIVE_OTHER
-dico_trial_0096__eu-eu__forward,dico_trial_0096,eu,eu,eski istripuaren ondoren,bere bizitzagatik,NEGATIVE_OTHER
-dico_trial_0097__eu-eu__forward,dico_trial_0097,eu,eu,erabakita,EBko ministroak,NEGATIVE_OTHER
-dico_trial_0098__eu-eu__forward,dico_trial_0098,eu,eu,Thailandiako oposizioko alderdia,iragartzen du,NEGATIVE_OTHER
-dico_trial_0099__eu-eu__forward,dico_trial_0099,eu,eu,jarraitzen du,gastatzeko,NEGATIVE_OTHER
-dico_trial_0100__eu-eu__forward,dico_trial_0100,eu,eu,exekutatzeko,preso palestinarren askapena,NEGATIVE_OTHER
-dico_trial_0101__eu-eu__forward,dico_trial_0101,eu,eu,preso palestinarrak,baimentzen du,NEGATIVE_OTHER
-dico_trial_0102__eu-eu__forward,dico_trial_0102,eu,eu,116 urterekin,Japonia,NEGATIVE_OTHER
-dico_trial_0103__eu-eu__forward,dico_trial_0103,eu,eu,gelditzeko,tentsioa,NEGATIVE_OTHER
-dico_trial_0104__eu-eu__forward,dico_trial_0104,eu,eu,kaleetan,Leninen estatua,NEGATIVE_OTHER
-dico_trial_0105__eu-eu__forward,dico_trial_0105,eu,eu,Ipar Korea,bi suziri,NEGATIVE_OTHER
-dico_trial_0106__eu-eu__forward,dico_trial_0106,eu,eu,katu bat,goian,NEGATIVE_OTHER
-dico_trial_0107__eu-eu__forward,dico_trial_0107,eu,eu,zaldi bat,hesi barruan,NEGATIVE_OTHER
-dico_trial_0108__eu-eu__forward,dico_trial_0108,eu,eu,gizon bat,aulki batean,NEGATIVE_OTHER
-dico_trial_0109__eu-eu__forward,dico_trial_0109,eu,eu,garagardo batekin,bi emakume,NEGATIVE_OTHER
-dico_trial_0110__eu-eu__forward,dico_trial_0110,eu,eu,belarretan,zuhaitzak atzean dituela,NEGATIVE_OTHER
-dico_trial_0111__eu-eu__forward,dico_trial_0111,eu,eu,hesi barruan,zaldi bat,NEGATIVE_OTHER
-dico_trial_0112__eu-eu__forward,dico_trial_0112,eu,eu,ibiltzen da,bide batean,NEGATIVE_OTHER
-dico_trial_0113__eu-eu__forward,dico_trial_0113,eu,eu,eserita dago,bizikleta batekin,NEGATIVE_OTHER
-dico_trial_0114__eu-eu__forward,dico_trial_0114,eu,eu,poltsa baten gainean,etxeko katua,NEGATIVE_OTHER
-dico_trial_0115__eu-eu__forward,dico_trial_0115,eu,eu,txakur bat,hozka ari da,NEGATIVE_OTHER
-dico_trial_0116__eu-eu__forward,dico_trial_0116,eu,eu,txakur bat,lanbasa bat,NEGATIVE_OTHER
-dico_trial_0117__eu-eu__forward,dico_trial_0117,eu,eu,koadrodun banderak,bi emakume,NEGATIVE_OTHER
-dico_trial_0118__eu-eu__forward,dico_trial_0118,eu,eu,emakume bat,jendetza batean,NEGATIVE_OTHER
-dico_trial_0119__eu-eu__forward,dico_trial_0119,eu,eu,txakur marroi bat,jarraitzen dio,NEGATIVE_OTHER
-dico_trial_0120__eu-eu__forward,dico_trial_0120,eu,eu,skate bat,pistako elementu baten alboan,NEGATIVE_OTHER
+dico_phrasis_0000022__eu-eu__forward,dico_phrasis_0000022,eu,eu,Ontzia,Australiako ontzia,BACKWARD_ENTAILMENT
+dico_phrasis_0000022__eu-eu__reverse,dico_phrasis_0000022,eu,eu,Australiako ontzia,Ontzia,FORWARD_ENTAILMENT
+dico_phrasis_0000024__eu-eu__forward,dico_phrasis_0000024,eu,eu,suntsitu,suntsitzean,BACKWARD_ENTAILMENT
+dico_phrasis_0000024__eu-eu__reverse,dico_phrasis_0000024,eu,eu,suntsitzean,suntsitu,FORWARD_ENTAILMENT
+dico_phrasis_0000028__eu-eu__forward,dico_phrasis_0000028,eu,eu,proposamena,planerako,BACKWARD_ENTAILMENT
+dico_phrasis_0000028__eu-eu__reverse,dico_phrasis_0000028,eu,eu,planerako,proposamena,FORWARD_ENTAILMENT
+dico_phrasis_0000036__eu-eu__forward,dico_phrasis_0000036,eu,eu,Australiako lehen ministro gisa,Australiako lehen ministro berri gisa,BACKWARD_ENTAILMENT
+dico_phrasis_0000036__eu-eu__reverse,dico_phrasis_0000036,eu,eu,Australiako lehen ministro berri gisa,Australiako lehen ministro gisa,FORWARD_ENTAILMENT
+dico_phrasis_0000040__eu-eu__forward,dico_phrasis_0000040,eu,eu,polizia,Turkiako polizia,BACKWARD_ENTAILMENT
+dico_phrasis_0000040__eu-eu__reverse,dico_phrasis_0000040,eu,eu,Turkiako polizia,polizia,FORWARD_ENTAILMENT
+dico_phrasis_0000041__eu-eu__forward,dico_phrasis_0000041,eu,eu,ur-kanoia,"gas negar-eragilea, ur-kanoia",BACKWARD_ENTAILMENT
+dico_phrasis_0000041__eu-eu__reverse,dico_phrasis_0000041,eu,eu,"gas negar-eragilea, ur-kanoia",ur-kanoia,FORWARD_ENTAILMENT
+dico_phrasis_0000054__eu-eu__forward,dico_phrasis_0000054,eu,eu,Benghazikoa,Benghazin,BACKWARD_ENTAILMENT
+dico_phrasis_0000054__eu-eu__reverse,dico_phrasis_0000054,eu,eu,Benghazin,Benghazikoa,FORWARD_ENTAILMENT
+dico_phrasis_0000056__eu-eu__forward,dico_phrasis_0000056,eu,eu,irismen laburreko 30 misil,irismen laburreko misilak,BACKWARD_ENTAILMENT
+dico_phrasis_0000056__eu-eu__reverse,dico_phrasis_0000056,eu,eu,irismen laburreko misilak,irismen laburreko 30 misil,FORWARD_ENTAILMENT
+dico_phrasis_0000057__eu-eu__forward,dico_phrasis_0000057,eu,eu,Gurutzadunen gaztelua,Gurutzadunen gaztelu historikoa,BACKWARD_ENTAILMENT
+dico_phrasis_0000057__eu-eu__reverse,dico_phrasis_0000057,eu,eu,Gurutzadunen gaztelu historikoa,Gurutzadunen gaztelua,FORWARD_ENTAILMENT
+dico_phrasis_0000060__eu-eu__forward,dico_phrasis_0000060,eu,eu,Bost pertsona,bost gizon,BACKWARD_ENTAILMENT
+dico_phrasis_0000060__eu-eu__reverse,dico_phrasis_0000060,eu,eu,bost gizon,Bost pertsona,FORWARD_ENTAILMENT
+dico_phrasis_0000074__eu-eu__forward,dico_phrasis_0000074,eu,eu,epailea,AEBetako epailea,BACKWARD_ENTAILMENT
+dico_phrasis_0000074__eu-eu__reverse,dico_phrasis_0000074,eu,eu,AEBetako epailea,epailea,FORWARD_ENTAILMENT
+dico_phrasis_0000083__eu-eu__forward,dico_phrasis_0000083,eu,eu,Kanada,Kanadako gobernua,BACKWARD_ENTAILMENT
+dico_phrasis_0000083__eu-eu__reverse,dico_phrasis_0000083,eu,eu,Kanadako gobernua,Kanada,FORWARD_ENTAILMENT
+dico_phrasis_0000084__eu-eu__forward,dico_phrasis_0000084,eu,eu,petrolio-hodia,petrolio-hodi polemikoa,BACKWARD_ENTAILMENT
+dico_phrasis_0000084__eu-eu__reverse,dico_phrasis_0000084,eu,eu,petrolio-hodi polemikoa,petrolio-hodia,FORWARD_ENTAILMENT
+dico_phrasis_0000085__eu-eu__forward,dico_phrasis_0000085,eu,eu,zigorrak,armen trafikoari buruzko karguak,BACKWARD_ENTAILMENT
+dico_phrasis_0000085__eu-eu__reverse,dico_phrasis_0000085,eu,eu,armen trafikoari buruzko karguak,zigorrak,FORWARD_ENTAILMENT
+dico_phrasis_0000094__eu-eu__forward,dico_phrasis_0000094,eu,eu,Palestinako diplomatikoa,Palestinako enbaxadorea,BACKWARD_ENTAILMENT
+dico_phrasis_0000094__eu-eu__reverse,dico_phrasis_0000094,eu,eu,Palestinako enbaxadorea,Palestinako diplomatikoa,FORWARD_ENTAILMENT
+dico_phrasis_0000097__eu-eu__forward,dico_phrasis_0000097,eu,eu,Bi emakume,Bi andre,BACKWARD_ENTAILMENT
+dico_phrasis_0000097__eu-eu__reverse,dico_phrasis_0000097,eu,eu,Bi andre,Bi emakume,FORWARD_ENTAILMENT
+dico_phrasis_0000101__eu-eu__forward,dico_phrasis_0000101,eu,eu,Pertsona bat,Motozale bat,BACKWARD_ENTAILMENT
+dico_phrasis_0000101__eu-eu__reverse,dico_phrasis_0000101,eu,eu,Motozale bat,Pertsona bat,FORWARD_ENTAILMENT
+dico_phrasis_0000107__eu-eu__forward,dico_phrasis_0000107,eu,eu,Txakur bat,Txakur marroi eta zuri bat,BACKWARD_ENTAILMENT
+dico_phrasis_0000107__eu-eu__reverse,dico_phrasis_0000107,eu,eu,Txakur marroi eta zuri bat,Txakur bat,FORWARD_ENTAILMENT
+dico_phrasis_0000118__eu-eu__forward,dico_phrasis_0000118,eu,eu,belarraren gainean,belar berde altuaren artean zehar,BACKWARD_ENTAILMENT
+dico_phrasis_0000118__eu-eu__reverse,dico_phrasis_0000118,eu,eu,belar berde altuaren artean zehar,belarraren gainean,FORWARD_ENTAILMENT
+dico_phrasis_0000121__eu-eu__forward,dico_phrasis_0000121,eu,eu,ur gainean,ur leunaren gainean,BACKWARD_ENTAILMENT
+dico_phrasis_0000121__eu-eu__reverse,dico_phrasis_0000121,eu,eu,ur leunaren gainean,ur gainean,FORWARD_ENTAILMENT
+dico_phrasis_0000124__eu-eu__forward,dico_phrasis_0000124,eu,eu,Pertsona bat,Emakume gazte bat,BACKWARD_ENTAILMENT
+dico_phrasis_0000124__eu-eu__reverse,dico_phrasis_0000124,eu,eu,Emakume gazte bat,Pertsona bat,FORWARD_ENTAILMENT
+dico_phrasis_0000125__eu-eu__forward,dico_phrasis_0000125,eu,eu,belar berdean zehar,belarrez gainezka dagoen zelai batean,BACKWARD_ENTAILMENT
+dico_phrasis_0000125__eu-eu__reverse,dico_phrasis_0000125,eu,eu,belarrez gainezka dagoen zelai batean,belar berdean zehar,FORWARD_ENTAILMENT
+dico_phrasis_0000131__eu-eu__forward,dico_phrasis_0000131,eu,eu,burbuila bat,burbuilak,BACKWARD_ENTAILMENT
+dico_phrasis_0000131__eu-eu__reverse,dico_phrasis_0000131,eu,eu,burbuilak,burbuila bat,FORWARD_ENTAILMENT
+dico_phrasis_0000136__eu-eu__forward,dico_phrasis_0000136,eu,eu,zuhaitz bat,zuhaitz baten ondoan,BACKWARD_ENTAILMENT
+dico_phrasis_0000136__eu-eu__reverse,dico_phrasis_0000136,eu,eu,zuhaitz baten ondoan,zuhaitz bat,FORWARD_ENTAILMENT
+dico_phrasis_0000151__eu-eu__forward,dico_phrasis_0000151,eu,eu,elur artean,elurrez estalitako zelai batean barrena,BACKWARD_ENTAILMENT
+dico_phrasis_0000151__eu-eu__reverse,dico_phrasis_0000151,eu,eu,elurrez estalitako zelai batean barrena,elur artean,FORWARD_ENTAILMENT
+dico_phrasis_0000155__eu-eu__forward,dico_phrasis_0000155,eu,eu,jaka urdin bat,jaka urdin batean,BACKWARD_ENTAILMENT
+dico_phrasis_0000155__eu-eu__reverse,dico_phrasis_0000155,eu,eu,jaka urdin batean,jaka urdin bat,FORWARD_ENTAILMENT
+dico_phrasis_0000157__eu-eu__forward,dico_phrasis_0000157,eu,eu,Bi txakur,Bi txakur beltz,BACKWARD_ENTAILMENT
+dico_phrasis_0000157__eu-eu__reverse,dico_phrasis_0000157,eu,eu,Bi txakur beltz,Bi txakur,FORWARD_ENTAILMENT
+dico_phrasis_0000158__eu-eu__forward,dico_phrasis_0000158,eu,eu,Txakur beltz bat,Txakur beltzaran bat,BACKWARD_ENTAILMENT
+dico_phrasis_0000158__eu-eu__reverse,dico_phrasis_0000158,eu,eu,Txakur beltzaran bat,Txakur beltz bat,FORWARD_ENTAILMENT
+dico_phrasis_0000161__eu-eu__forward,dico_phrasis_0000161,eu,eu,hankarena,hankan,BACKWARD_ENTAILMENT
+dico_phrasis_0000161__eu-eu__reverse,dico_phrasis_0000161,eu,eu,hankan,hankarena,FORWARD_ENTAILMENT
+dico_phrasis_0000162__eu-eu__forward,dico_phrasis_0000162,eu,eu,zaldi bat,zaldi baten,BACKWARD_ENTAILMENT
+dico_phrasis_0000162__eu-eu__reverse,dico_phrasis_0000162,eu,eu,zaldi baten,zaldi bat,FORWARD_ENTAILMENT
+dico_phrasis_0000168__eu-eu__forward,dico_phrasis_0000168,eu,eu,Txakur zuri-beltz bat,"Txakur beltz, marroi eta zuri bat",BACKWARD_ENTAILMENT
+dico_phrasis_0000168__eu-eu__reverse,dico_phrasis_0000168,eu,eu,"Txakur beltz, marroi eta zuri bat",Txakur zuri-beltz bat,FORWARD_ENTAILMENT
+dico_phrasis_0000172__eu-eu__forward,dico_phrasis_0000172,eu,eu,belarraren gainean,belartsu lautada batean,BACKWARD_ENTAILMENT
+dico_phrasis_0000172__eu-eu__reverse,dico_phrasis_0000172,eu,eu,belartsu lautada batean,belarraren gainean,FORWARD_ENTAILMENT
+dico_phrasis_0000180__eu-eu__forward,dico_phrasis_0000180,eu,eu,makila batekin,makilekin,BACKWARD_ENTAILMENT
+dico_phrasis_0000180__eu-eu__reverse,dico_phrasis_0000180,eu,eu,makilekin,makila batekin,FORWARD_ENTAILMENT
+dico_phrasis_0000188__eu-eu__forward,dico_phrasis_0000188,eu,eu,txakur zuri bat,txakur zuri txiki bat,BACKWARD_ENTAILMENT
+dico_phrasis_0000188__eu-eu__reverse,dico_phrasis_0000188,eu,eu,txakur zuri txiki bat,txakur zuri bat,FORWARD_ENTAILMENT
+dico_phrasis_0000193__eu-eu__forward,dico_phrasis_0000193,eu,eu,Txakur bat,Txakur marroi bat,BACKWARD_ENTAILMENT
+dico_phrasis_0000193__eu-eu__reverse,dico_phrasis_0000193,eu,eu,Txakur marroi bat,Txakur bat,FORWARD_ENTAILMENT
+dico_phrasis_0000208__eu-eu__forward,dico_phrasis_0000208,eu,eu,Haurtxoa,Neskatila txikia,BACKWARD_ENTAILMENT
+dico_phrasis_0000208__eu-eu__reverse,dico_phrasis_0000208,eu,eu,Neskatila txikia,Haurtxoa,FORWARD_ENTAILMENT
+dico_phrasis_0000213__eu-eu__forward,dico_phrasis_0000213,eu,eu,Bi txakur,Bi txakur arre,BACKWARD_ENTAILMENT
+dico_phrasis_0000213__eu-eu__reverse,dico_phrasis_0000213,eu,eu,Bi txakur arre,Bi txakur,FORWARD_ENTAILMENT
+dico_phrasis_0000219__eu-eu__forward,dico_phrasis_0000219,eu,eu,elurretan zehar,elurrez estalitako kale lauaren inguruan,BACKWARD_ENTAILMENT
+dico_phrasis_0000219__eu-eu__reverse,dico_phrasis_0000219,eu,eu,elurrez estalitako kale lauaren inguruan,elurretan zehar,FORWARD_ENTAILMENT
+dico_phrasis_0000220__eu-eu__forward,dico_phrasis_0000220,eu,eu,pilota bat,pilota laranja bat,BACKWARD_ENTAILMENT
+dico_phrasis_0000220__eu-eu__reverse,dico_phrasis_0000220,eu,eu,pilota laranja bat,pilota bat,FORWARD_ENTAILMENT
+dico_phrasis_0000221__eu-eu__forward,dico_phrasis_0000221,eu,eu,patio batean,belarrezko zelai batean,BACKWARD_ENTAILMENT
+dico_phrasis_0000221__eu-eu__reverse,dico_phrasis_0000221,eu,eu,belarrezko zelai batean,patio batean,FORWARD_ENTAILMENT
+dico_phrasis_0000223__eu-eu__forward,dico_phrasis_0000223,eu,eu,zezen bat den bitartean,zezen arre batena,BACKWARD_ENTAILMENT
+dico_phrasis_0000223__eu-eu__reverse,dico_phrasis_0000223,eu,eu,zezen arre batena,zezen bat den bitartean,FORWARD_ENTAILMENT
+dico_phrasis_0000229__eu-eu__forward,dico_phrasis_0000229,eu,eu,ostirala,ostiral eguerdia,BACKWARD_ENTAILMENT
+dico_phrasis_0000229__eu-eu__reverse,dico_phrasis_0000229,eu,eu,ostiral eguerdia,ostirala,FORWARD_ENTAILMENT
+dico_phrasis_0000230__eu-eu__forward,dico_phrasis_0000230,eu,eu,Boeing 787 Dreamliner,787 Dreamliner-en gainean,BACKWARD_ENTAILMENT
+dico_phrasis_0000230__eu-eu__reverse,dico_phrasis_0000230,eu,eu,787 Dreamliner-en gainean,Boeing 787 Dreamliner,FORWARD_ENTAILMENT
+dico_phrasis_0000240__eu-eu__forward,dico_phrasis_0000240,eu,eu,oposizioko buruzagiak,Kanbodiako oposizioko buruzagiak,BACKWARD_ENTAILMENT
+dico_phrasis_0000240__eu-eu__reverse,dico_phrasis_0000240,eu,eu,Kanbodiako oposizioko buruzagiak,oposizioko buruzagiak,FORWARD_ENTAILMENT
+dico_phrasis_0000242__eu-eu__forward,dico_phrasis_0000242,eu,eu,Ipar Koreako proba nuklearra,Ipar Koreako hirugarren proba nuklear eztabaidagarria,BACKWARD_ENTAILMENT
+dico_phrasis_0000242__eu-eu__reverse,dico_phrasis_0000242,eu,eu,Ipar Koreako hirugarren proba nuklear eztabaidagarria,Ipar Koreako proba nuklearra,FORWARD_ENTAILMENT
+dico_phrasis_0000248__eu-eu__forward,dico_phrasis_0000248,eu,eu,50. urteurrena,50. urteurrenean,BACKWARD_ENTAILMENT
+dico_phrasis_0000248__eu-eu__reverse,dico_phrasis_0000248,eu,eu,50. urteurrenean,50. urteurrena,FORWARD_ENTAILMENT
+dico_phrasis_0000251__eu-eu__forward,dico_phrasis_0000251,eu,eu,itxaropenak,Itxaropen Handiak,BACKWARD_ENTAILMENT
+dico_phrasis_0000251__eu-eu__reverse,dico_phrasis_0000251,eu,eu,Itxaropen Handiak,itxaropenak,FORWARD_ENTAILMENT
+dico_phrasis_0000257__eu-eu__forward,dico_phrasis_0000257,eu,eu,Batzordea,Senatuko Botere Judizialaren Batzordea,BACKWARD_ENTAILMENT
+dico_phrasis_0000257__eu-eu__reverse,dico_phrasis_0000257,eu,eu,Senatuko Botere Judizialaren Batzordea,Batzordea,FORWARD_ENTAILMENT
+dico_phrasis_0000259__eu-eu__forward,dico_phrasis_0000259,eu,eu,osasun-arloko legea,osasun-arloko lege berria,BACKWARD_ENTAILMENT
+dico_phrasis_0000259__eu-eu__reverse,dico_phrasis_0000259,eu,eu,osasun-arloko lege berria,osasun-arloko legea,FORWARD_ENTAILMENT
+dico_phrasis_0000264__eu-eu__forward,dico_phrasis_0000264,eu,eu,Oprahri,Oprahri egindako elkarrizketan,BACKWARD_ENTAILMENT
+dico_phrasis_0000264__eu-eu__reverse,dico_phrasis_0000264,eu,eu,Oprahri egindako elkarrizketan,Oprahri,FORWARD_ENTAILMENT
+dico_phrasis_0000265__eu-eu__forward,dico_phrasis_0000265,eu,eu,mundu mailako sei potentzia,munduko potentziak,BACKWARD_ENTAILMENT
+dico_phrasis_0000265__eu-eu__reverse,dico_phrasis_0000265,eu,eu,munduko potentziak,mundu mailako sei potentzia,FORWARD_ENTAILMENT
+dico_phrasis_0000283__eu-eu__forward,dico_phrasis_0000283,eu,eu,Musulmanen Anaidiaren jarraitzailea,Musulmanen Anaidiaren jarraitzaileak,BACKWARD_ENTAILMENT
+dico_phrasis_0000283__eu-eu__reverse,dico_phrasis_0000283,eu,eu,Musulmanen Anaidiaren jarraitzaileak,Musulmanen Anaidiaren jarraitzailea,FORWARD_ENTAILMENT
+dico_phrasis_0000284__eu-eu__forward,dico_phrasis_0000284,eu,eu,osteguna,ostegunean,BACKWARD_ENTAILMENT
+dico_phrasis_0000284__eu-eu__reverse,dico_phrasis_0000284,eu,eu,ostegunean,osteguna,FORWARD_ENTAILMENT
+dico_phrasis_0000288__eu-eu__forward,dico_phrasis_0000288,eu,eu,Espainiako tren istripuan,Espainiako abiadura handiko tren istripuan,BACKWARD_ENTAILMENT
+dico_phrasis_0000288__eu-eu__reverse,dico_phrasis_0000288,eu,eu,Espainiako abiadura handiko tren istripuan,Espainiako tren istripuan,FORWARD_ENTAILMENT
+dico_phrasis_0000289__eu-eu__forward,dico_phrasis_0000289,eu,eu,Gehienez 50 hildako,70 hildako baino gehiago,BACKWARD_ENTAILMENT
+dico_phrasis_0000289__eu-eu__reverse,dico_phrasis_0000289,eu,eu,70 hildako baino gehiago,Gehienez 50 hildako,FORWARD_ENTAILMENT
+dico_phrasis_0000292__eu-eu__forward,dico_phrasis_0000292,eu,eu,900 kokaleku-etxe,kolonoen etxe berrientzat,BACKWARD_ENTAILMENT
+dico_phrasis_0000292__eu-eu__reverse,dico_phrasis_0000292,eu,eu,kolonoen etxe berrientzat,900 kokaleku-etxe,FORWARD_ENTAILMENT
+dico_phrasis_0000297__eu-eu__forward,dico_phrasis_0000297,eu,eu,Tornadoak,"Tornadoak, ekaitz kaltegarriak",BACKWARD_ENTAILMENT
+dico_phrasis_0000297__eu-eu__reverse,dico_phrasis_0000297,eu,eu,"Tornadoak, ekaitz kaltegarriak",Tornadoak,FORWARD_ENTAILMENT
+dico_phrasis_0000298__eu-eu__forward,dico_phrasis_0000298,eu,eu,AEBetako hackeatze salaketak,'oinarririk gabeko' AEBetako hackeatze akusazioak,BACKWARD_ENTAILMENT
+dico_phrasis_0000298__eu-eu__reverse,dico_phrasis_0000298,eu,eu,'oinarririk gabeko' AEBetako hackeatze akusazioak,AEBetako hackeatze salaketak,FORWARD_ENTAILMENT
+dico_phrasis_0000300__eu-eu__forward,dico_phrasis_0000300,eu,eu,Senatua,AEBetako Senatua,BACKWARD_ENTAILMENT
+dico_phrasis_0000300__eu-eu__reverse,dico_phrasis_0000300,eu,eu,AEBetako Senatua,Senatua,FORWARD_ENTAILMENT
+dico_phrasis_0000310__eu-eu__forward,dico_phrasis_0000310,eu,eu,AEB,AEBetako Ordezkarien Ganbera,BACKWARD_ENTAILMENT
+dico_phrasis_0000310__eu-eu__reverse,dico_phrasis_0000310,eu,eu,AEBetako Ordezkarien Ganbera,AEB,FORWARD_ENTAILMENT
+dico_phrasis_0000313__eu-eu__forward,dico_phrasis_0000313,eu,eu,5,gutxienez hamar,BACKWARD_ENTAILMENT
+dico_phrasis_0000313__eu-eu__reverse,dico_phrasis_0000313,eu,eu,gutxienez hamar,5,FORWARD_ENTAILMENT
+dico_phrasis_0000330__eu-eu__forward,dico_phrasis_0000330,eu,eu,iPhone,iPhone 4 inportazioak,BACKWARD_ENTAILMENT
+dico_phrasis_0000330__eu-eu__reverse,dico_phrasis_0000330,eu,eu,iPhone 4 inportazioak,iPhone,FORWARD_ENTAILMENT
+dico_phrasis_0000331__eu-eu__forward,dico_phrasis_0000331,eu,eu,Txina,Txina eta Taiwan,BACKWARD_ENTAILMENT
+dico_phrasis_0000331__eu-eu__reverse,dico_phrasis_0000331,eu,eu,Txina eta Taiwan,Txina,FORWARD_ENTAILMENT
+dico_phrasis_0000337__eu-eu__forward,dico_phrasis_0000337,eu,eu,pakistandarra,Pakistanen,BACKWARD_ENTAILMENT
+dico_phrasis_0000337__eu-eu__reverse,dico_phrasis_0000337,eu,eu,Pakistanen,pakistandarra,FORWARD_ENTAILMENT
+dico_phrasis_0000345__eu-eu__forward,dico_phrasis_0000345,eu,eu,George Zimmerman,Zimmerman ondoren,BACKWARD_ENTAILMENT
+dico_phrasis_0000345__eu-eu__reverse,dico_phrasis_0000345,eu,eu,Zimmerman ondoren,George Zimmerman,FORWARD_ENTAILMENT
+dico_phrasis_0000347__eu-eu__forward,dico_phrasis_0000347,eu,eu,Mubarak,Mubaraken,BACKWARD_ENTAILMENT
+dico_phrasis_0000347__eu-eu__reverse,dico_phrasis_0000347,eu,eu,Mubaraken,Mubarak,FORWARD_ENTAILMENT
+dico_phrasis_0000349__eu-eu__forward,dico_phrasis_0000349,eu,eu,semearentzat,semearen alde,BACKWARD_ENTAILMENT
+dico_phrasis_0000349__eu-eu__reverse,dico_phrasis_0000349,eu,eu,semearen alde,semearentzat,FORWARD_ENTAILMENT
+dico_phrasis_0000350__eu-eu__forward,dico_phrasis_0000350,eu,eu,8-10 pertsona,pertsonen,BACKWARD_ENTAILMENT
+dico_phrasis_0000350__eu-eu__reverse,dico_phrasis_0000350,eu,eu,pertsonen,8-10 pertsona,FORWARD_ENTAILMENT
+dico_phrasis_0000354__eu-eu__forward,dico_phrasis_0000354,eu,eu,Atzerriko 11 turista,atzerriko 11 eskalatzaile,BACKWARD_ENTAILMENT
+dico_phrasis_0000354__eu-eu__reverse,dico_phrasis_0000354,eu,eu,atzerriko 11 eskalatzaile,Atzerriko 11 turista,FORWARD_ENTAILMENT
+dico_phrasis_0000355__eu-eu__forward,dico_phrasis_0000355,eu,eu,easyJet konpainiakoa,British no-frills airline easyJet konpainiakoa,BACKWARD_ENTAILMENT
+dico_phrasis_0000355__eu-eu__reverse,dico_phrasis_0000355,eu,eu,British no-frills airline easyJet konpainiakoa,easyJet konpainiakoa,FORWARD_ENTAILMENT
+dico_phrasis_0000360__eu-eu__forward,dico_phrasis_0000360,eu,eu,Washington Post,The Washington Post-erako,BACKWARD_ENTAILMENT
+dico_phrasis_0000360__eu-eu__reverse,dico_phrasis_0000360,eu,eu,The Washington Post-erako,Washington Post,FORWARD_ENTAILMENT
+dico_phrasis_0000372__eu-eu__forward,dico_phrasis_0000372,eu,eu,3 militante,4 militante,BACKWARD_ENTAILMENT
+dico_phrasis_0000372__eu-eu__reverse,dico_phrasis_0000372,eu,eu,4 militante,3 militante,FORWARD_ENTAILMENT
+dico_phrasis_0000376__eu-eu__forward,dico_phrasis_0000376,eu,eu,Lau hildako,Bost hildako,BACKWARD_ENTAILMENT
+dico_phrasis_0000376__eu-eu__reverse,dico_phrasis_0000376,eu,eu,Bost hildako,Lau hildako,FORWARD_ENTAILMENT
+dico_phrasis_0000378__eu-eu__forward,dico_phrasis_0000378,eu,eu,Miss Americako koroa,Miss America,BACKWARD_ENTAILMENT
+dico_phrasis_0000378__eu-eu__reverse,dico_phrasis_0000378,eu,eu,Miss America,Miss Americako koroa,FORWARD_ENTAILMENT
+dico_phrasis_0000384__eu-eu__forward,dico_phrasis_0000384,eu,eu,Kenyako polizia,Kenyako terrorismoaren aurkako poliziak,BACKWARD_ENTAILMENT
+dico_phrasis_0000384__eu-eu__reverse,dico_phrasis_0000384,eu,eu,Kenyako terrorismoaren aurkako poliziak,Kenyako polizia,FORWARD_ENTAILMENT
+dico_phrasis_0000401__eu-eu__forward,dico_phrasis_0000401,eu,eu,Buckingham Jauregira atxilotuta,Buckingham Jauregiko atxiloketaren ondoren,BACKWARD_ENTAILMENT
+dico_phrasis_0000401__eu-eu__reverse,dico_phrasis_0000401,eu,eu,Buckingham Jauregiko atxiloketaren ondoren,Buckingham Jauregira atxilotuta,FORWARD_ENTAILMENT
+dico_phrasis_0000402__eu-eu__forward,dico_phrasis_0000402,eu,eu,Anaitasuna,Musulmanen Anaitasuna,BACKWARD_ENTAILMENT
+dico_phrasis_0000402__eu-eu__reverse,dico_phrasis_0000402,eu,eu,Musulmanen Anaitasuna,Anaitasuna,FORWARD_ENTAILMENT
+dico_phrasis_0000404__eu-eu__forward,dico_phrasis_0000404,eu,eu,-ren Anaitasuna,-ren Anaia Musulmanak,BACKWARD_ENTAILMENT
+dico_phrasis_0000404__eu-eu__reverse,dico_phrasis_0000404,eu,eu,-ren Anaia Musulmanak,-ren Anaitasuna,FORWARD_ENTAILMENT
+dico_phrasis_0000413__eu-eu__forward,dico_phrasis_0000413,eu,eu,Bi suhiltzaile,New Yorkeko bi suhiltzaile,BACKWARD_ENTAILMENT
+dico_phrasis_0000413__eu-eu__reverse,dico_phrasis_0000413,eu,eu,New Yorkeko bi suhiltzaile,Bi suhiltzaile,FORWARD_ENTAILMENT
+dico_phrasis_0000421__eu-eu__forward,dico_phrasis_0000421,eu,eu,Mubaraken askapena,Mubaraken askapen eskaera,BACKWARD_ENTAILMENT
+dico_phrasis_0000421__eu-eu__reverse,dico_phrasis_0000421,eu,eu,Mubaraken askapen eskaera,Mubaraken askapena,FORWARD_ENTAILMENT
+dico_phrasis_0000423__eu-eu__forward,dico_phrasis_0000423,eu,eu,Irakeko bonba-eztandetan,Baqoubako eztandetan,BACKWARD_ENTAILMENT
+dico_phrasis_0000423__eu-eu__reverse,dico_phrasis_0000423,eu,eu,Baqoubako eztandetan,Irakeko bonba-eztandetan,FORWARD_ENTAILMENT
+dico_phrasis_0000427__eu-eu__forward,dico_phrasis_0000427,eu,eu,uretan,itsasoan,BACKWARD_ENTAILMENT
+dico_phrasis_0000427__eu-eu__reverse,dico_phrasis_0000427,eu,eu,itsasoan,uretan,FORWARD_ENTAILMENT
+dico_phrasis_0000431__eu-eu__forward,dico_phrasis_0000431,eu,eu,emakume bat,emakume gazte bat,BACKWARD_ENTAILMENT
+dico_phrasis_0000431__eu-eu__reverse,dico_phrasis_0000431,eu,eu,emakume gazte bat,emakume bat,FORWARD_ENTAILMENT
+dico_phrasis_0000432__eu-eu__forward,dico_phrasis_0000432,eu,eu,lepoko handi batekin,goialde beltz batekin eta lepoko batekin,BACKWARD_ENTAILMENT
+dico_phrasis_0000432__eu-eu__reverse,dico_phrasis_0000432,eu,eu,goialde beltz batekin eta lepoko batekin,lepoko handi batekin,FORWARD_ENTAILMENT
+dico_phrasis_0000440__eu-eu__forward,dico_phrasis_0000440,eu,eu,Katu bat,"Katu gris, beltz eta zuri bat",BACKWARD_ENTAILMENT
+dico_phrasis_0000440__eu-eu__reverse,dico_phrasis_0000440,eu,eu,"Katu gris, beltz eta zuri bat",Katu bat,FORWARD_ENTAILMENT
+dico_phrasis_0000444__eu-eu__forward,dico_phrasis_0000444,eu,eu,zelai batean,zelai berde oparo batean,BACKWARD_ENTAILMENT
+dico_phrasis_0000444__eu-eu__reverse,dico_phrasis_0000444,eu,eu,zelai berde oparo batean,zelai batean,FORWARD_ENTAILMENT
+dico_phrasis_0000454__eu-eu__forward,dico_phrasis_0000454,eu,eu,txalupa bat,txalupa batean,BACKWARD_ENTAILMENT
+dico_phrasis_0000454__eu-eu__reverse,dico_phrasis_0000454,eu,eu,txalupa batean,txalupa bat,FORWARD_ENTAILMENT
+dico_phrasis_0000458__eu-eu__forward,dico_phrasis_0000458,eu,eu,jangela-mahai batekin,sofa handiekin eta jangela-mahai batekin,BACKWARD_ENTAILMENT
+dico_phrasis_0000458__eu-eu__reverse,dico_phrasis_0000458,eu,eu,sofa handiekin eta jangela-mahai batekin,jangela-mahai batekin,FORWARD_ENTAILMENT
+dico_phrasis_0000460__eu-eu__forward,dico_phrasis_0000460,eu,eu,hurbileko plano bat,hurbileko irudia,BACKWARD_ENTAILMENT
+dico_phrasis_0000460__eu-eu__reverse,dico_phrasis_0000460,eu,eu,hurbileko irudia,hurbileko plano bat,FORWARD_ENTAILMENT
+dico_phrasis_0000464__eu-eu__forward,dico_phrasis_0000464,eu,eu,alkandora urdinarekin,alkandora urdin batekin eta praka marroi argiekin,BACKWARD_ENTAILMENT
+dico_phrasis_0000464__eu-eu__reverse,dico_phrasis_0000464,eu,eu,alkandora urdin batekin eta praka marroi argiekin,alkandora urdinarekin,FORWARD_ENTAILMENT
+dico_phrasis_0000465__eu-eu__forward,dico_phrasis_0000465,eu,eu,liburutegi baten aurrean,liburu-apalen aurrean,BACKWARD_ENTAILMENT
+dico_phrasis_0000465__eu-eu__reverse,dico_phrasis_0000465,eu,eu,liburu-apalen aurrean,liburutegi baten aurrean,FORWARD_ENTAILMENT
+dico_phrasis_0000469__eu-eu__forward,dico_phrasis_0000469,eu,eu,Autobus gorri eta zuri bat,Ingalaterrako autobus gorri eta zuri bat,BACKWARD_ENTAILMENT
+dico_phrasis_0000469__eu-eu__reverse,dico_phrasis_0000469,eu,eu,Ingalaterrako autobus gorri eta zuri bat,Autobus gorri eta zuri bat,FORWARD_ENTAILMENT
+dico_phrasis_0000470__eu-eu__forward,dico_phrasis_0000470,eu,eu,Txori bat,Txori beltz handi bat,BACKWARD_ENTAILMENT
+dico_phrasis_0000470__eu-eu__reverse,dico_phrasis_0000470,eu,eu,Txori beltz handi bat,Txori bat,FORWARD_ENTAILMENT
+dico_phrasis_0000474__eu-eu__forward,dico_phrasis_0000474,eu,eu,Garagardo botilak (( Harp Lager )),Garagardo botilen ilara bat,BACKWARD_ENTAILMENT
+dico_phrasis_0000474__eu-eu__reverse,dico_phrasis_0000474,eu,eu,Garagardo botilen ilara bat,Garagardo botilak (( Harp Lager )),FORWARD_ENTAILMENT
+dico_phrasis_0000479__eu-eu__forward,dico_phrasis_0000479,eu,eu,kanpoan,autobus baten kanpoaldean,BACKWARD_ENTAILMENT
+dico_phrasis_0000479__eu-eu__reverse,dico_phrasis_0000479,eu,eu,autobus baten kanpoaldean,kanpoan,FORWARD_ENTAILMENT
+dico_phrasis_0000482__eu-eu__forward,dico_phrasis_0000482,eu,eu,Auto bat,Zilar koloreko auto bat,BACKWARD_ENTAILMENT
+dico_phrasis_0000482__eu-eu__reverse,dico_phrasis_0000482,eu,eu,Zilar koloreko auto bat,Auto bat,FORWARD_ENTAILMENT
+dico_phrasis_0000486__eu-eu__forward,dico_phrasis_0000486,eu,eu,auto bat,auto klasiko batean,BACKWARD_ENTAILMENT
+dico_phrasis_0000486__eu-eu__reverse,dico_phrasis_0000486,eu,eu,auto klasiko batean,auto bat,FORWARD_ENTAILMENT
+dico_phrasis_0000490__eu-eu__forward,dico_phrasis_0000490,eu,eu,jatetxe batean,italiar jatetxe batean,BACKWARD_ENTAILMENT
+dico_phrasis_0000490__eu-eu__reverse,dico_phrasis_0000490,eu,eu,italiar jatetxe batean,jatetxe batean,FORWARD_ENTAILMENT
+dico_phrasis_0000495__eu-eu__forward,dico_phrasis_0000495,eu,eu,Trena,Lurrunezko tren beltz bat,BACKWARD_ENTAILMENT
+dico_phrasis_0000495__eu-eu__reverse,dico_phrasis_0000495,eu,eu,Lurrunezko tren beltz bat,Trena,FORWARD_ENTAILMENT
+dico_phrasis_0000512__eu-eu__forward,dico_phrasis_0000512,eu,eu,Txori bat,Txori hori bat,BACKWARD_ENTAILMENT
+dico_phrasis_0000512__eu-eu__reverse,dico_phrasis_0000512,eu,eu,Txori hori bat,Txori bat,FORWARD_ENTAILMENT
+dico_phrasis_0000514__eu-eu__forward,dico_phrasis_0000514,eu,eu,elikagailutik,txorientzako elikagailu batetik,BACKWARD_ENTAILMENT
+dico_phrasis_0000514__eu-eu__reverse,dico_phrasis_0000514,eu,eu,txorientzako elikagailu batetik,elikagailutik,FORWARD_ENTAILMENT
+dico_phrasis_0000517__eu-eu__forward,dico_phrasis_0000517,eu,eu,Mutila,Mutil txiki bat,BACKWARD_ENTAILMENT
+dico_phrasis_0000517__eu-eu__reverse,dico_phrasis_0000517,eu,eu,Mutil txiki bat,Mutila,FORWARD_ENTAILMENT
+dico_phrasis_0000522__eu-eu__forward,dico_phrasis_0000522,eu,eu,tren baten aurrean,zilar koloreko tren baten aurrean,BACKWARD_ENTAILMENT
+dico_phrasis_0000522__eu-eu__reverse,dico_phrasis_0000522,eu,eu,zilar koloreko tren baten aurrean,tren baten aurrean,FORWARD_ENTAILMENT
+dico_phrasis_0000531__eu-eu__forward,dico_phrasis_0000531,eu,eu,zaldi zuri bat,zaldi zuri baten gainean,BACKWARD_ENTAILMENT
+dico_phrasis_0000531__eu-eu__reverse,dico_phrasis_0000531,eu,eu,zaldi zuri baten gainean,zaldi zuri bat,FORWARD_ENTAILMENT
+dico_phrasis_0000537__eu-eu__forward,dico_phrasis_0000537,eu,eu,motozikleta bat,motozikleta gorri bat,BACKWARD_ENTAILMENT
+dico_phrasis_0000537__eu-eu__reverse,dico_phrasis_0000537,eu,eu,motozikleta gorri bat,motozikleta bat,FORWARD_ENTAILMENT
+dico_phrasis_0000540__eu-eu__forward,dico_phrasis_0000540,eu,eu,belarran,lastoa duen hesolan,BACKWARD_ENTAILMENT
+dico_phrasis_0000540__eu-eu__reverse,dico_phrasis_0000540,eu,eu,lastoa duen hesolan,belarran,FORWARD_ENTAILMENT
+dico_phrasis_0000541__eu-eu__forward,dico_phrasis_0000541,eu,eu,kale bat,kalean zehar,BACKWARD_ENTAILMENT
+dico_phrasis_0000541__eu-eu__reverse,dico_phrasis_0000541,eu,eu,kalean zehar,kale bat,FORWARD_ENTAILMENT
+dico_phrasis_0000546__eu-eu__forward,dico_phrasis_0000546,eu,eu,txori beltza,zozoa,BACKWARD_ENTAILMENT
+dico_phrasis_0000546__eu-eu__reverse,dico_phrasis_0000546,eu,eu,zozoa,txori beltza,FORWARD_ENTAILMENT
+dico_phrasis_0000548__eu-eu__forward,dico_phrasis_0000548,eu,eu,zaldi zuri eta gris bat,zaldi gris eta zuri baten,BACKWARD_ENTAILMENT
+dico_phrasis_0000548__eu-eu__reverse,dico_phrasis_0000548,eu,eu,zaldi gris eta zuri baten,zaldi zuri eta gris bat,FORWARD_ENTAILMENT
+dico_phrasis_0000559__eu-eu__forward,dico_phrasis_0000559,eu,eu,Pertsona bat,Gizon bat,BACKWARD_ENTAILMENT
+dico_phrasis_0000559__eu-eu__reverse,dico_phrasis_0000559,eu,eu,Gizon bat,Pertsona bat,FORWARD_ENTAILMENT
+dico_phrasis_0000566__eu-eu__forward,dico_phrasis_0000566,eu,eu,ostrukarena,ostrukaren aurpegiarena,BACKWARD_ENTAILMENT
+dico_phrasis_0000566__eu-eu__reverse,dico_phrasis_0000566,eu,eu,ostrukaren aurpegiarena,ostrukarena,FORWARD_ENTAILMENT
+dico_phrasis_0000568__eu-eu__forward,dico_phrasis_0000568,eu,eu,Aparkatuta dagoen autobus zuri bi solairukoa,Autobus gorri eta zuri bi solairukoa aparkatuta dago,BACKWARD_ENTAILMENT
+dico_phrasis_0000568__eu-eu__reverse,dico_phrasis_0000568,eu,eu,Autobus gorri eta zuri bi solairukoa aparkatuta dago,Aparkatuta dagoen autobus zuri bi solairukoa,FORWARD_ENTAILMENT
+dico_phrasis_0000581__eu-eu__forward,dico_phrasis_0000581,eu,eu,Gizon bat eta emakume bat,Lau emakume eta bi gizon,BACKWARD_ENTAILMENT
+dico_phrasis_0000581__eu-eu__reverse,dico_phrasis_0000581,eu,eu,Lau emakume eta bi gizon,Gizon bat eta emakume bat,FORWARD_ENTAILMENT
+dico_phrasis_0000582__eu-eu__forward,dico_phrasis_0000582,eu,eu,Hiru emakume gazte,Ile iluneko hiru emakume gazte,BACKWARD_ENTAILMENT
+dico_phrasis_0000582__eu-eu__reverse,dico_phrasis_0000582,eu,eu,Ile iluneko hiru emakume gazte,Hiru emakume gazte,FORWARD_ENTAILMENT
+dico_phrasis_0000583__eu-eu__forward,dico_phrasis_0000583,eu,eu,behi zuri-beltz bat,adardun behi zuri-beltz bat,BACKWARD_ENTAILMENT
+dico_phrasis_0000583__eu-eu__reverse,dico_phrasis_0000583,eu,eu,adardun behi zuri-beltz bat,behi zuri-beltz bat,FORWARD_ENTAILMENT
+dico_phrasis_0000589__eu-eu__forward,dico_phrasis_0000589,eu,eu,Norbait,Gizon bat,BACKWARD_ENTAILMENT
+dico_phrasis_0000589__eu-eu__reverse,dico_phrasis_0000589,eu,eu,Gizon bat,Norbait,FORWARD_ENTAILMENT
+dico_phrasis_0000599__eu-eu__forward,dico_phrasis_0000599,eu,eu,hegazkin zuri bat,Suitzako hegazkin zuri bat,BACKWARD_ENTAILMENT
+dico_phrasis_0000599__eu-eu__reverse,dico_phrasis_0000599,eu,eu,Suitzako hegazkin zuri bat,hegazkin zuri bat,FORWARD_ENTAILMENT
+dico_phrasis_0000603__eu-eu__forward,dico_phrasis_0000603,eu,eu,konketa batean,bainugelako konketan,BACKWARD_ENTAILMENT
+dico_phrasis_0000603__eu-eu__reverse,dico_phrasis_0000603,eu,eu,bainugelako konketan,konketa batean,FORWARD_ENTAILMENT
+dico_phrasis_0000606__eu-eu__forward,dico_phrasis_0000606,eu,eu,kale bat,hiriko kale batean,BACKWARD_ENTAILMENT
+dico_phrasis_0000606__eu-eu__reverse,dico_phrasis_0000606,eu,eu,hiriko kale batean,kale bat,FORWARD_ENTAILMENT
+dico_phrasis_0000608__eu-eu__forward,dico_phrasis_0000608,eu,eu,laztatua izaten,eutsia eta laztatua izaten,BACKWARD_ENTAILMENT
+dico_phrasis_0000608__eu-eu__reverse,dico_phrasis_0000608,eu,eu,eutsia eta laztatua izaten,laztatua izaten,FORWARD_ENTAILMENT
+dico_phrasis_0000614__eu-eu__forward,dico_phrasis_0000614,eu,eu,txakurrarekin,txakurkume batekin,BACKWARD_ENTAILMENT
+dico_phrasis_0000614__eu-eu__reverse,dico_phrasis_0000614,eu,eu,txakurkume batekin,txakurrarekin,FORWARD_ENTAILMENT
+dico_phrasis_0000616__eu-eu__forward,dico_phrasis_0000616,eu,eu,telebista-pantaila batekoa,horman muntatutako pantaila lauko telebista,BACKWARD_ENTAILMENT
+dico_phrasis_0000616__eu-eu__reverse,dico_phrasis_0000616,eu,eu,horman muntatutako pantaila lauko telebista,telebista-pantaila batekoa,FORWARD_ENTAILMENT
+dico_phrasis_0000629__eu-eu__forward,dico_phrasis_0000629,eu,eu,gizon bat dagoen bitartean,kaskodun gizon baten ondoan,BACKWARD_ENTAILMENT
+dico_phrasis_0000629__eu-eu__reverse,dico_phrasis_0000629,eu,eu,kaskodun gizon baten ondoan,gizon bat dagoen bitartean,FORWARD_ENTAILMENT
+dico_phrasis_0000630__eu-eu__forward,dico_phrasis_0000630,eu,eu,errepide baten eta laku baten ondoan,"errepide baten ertzean, laku batekin eta atzealdean mendi batekin",BACKWARD_ENTAILMENT
+dico_phrasis_0000630__eu-eu__reverse,dico_phrasis_0000630,eu,eu,"errepide baten ertzean, laku batekin eta atzealdean mendi batekin",errepide baten eta laku baten ondoan,FORWARD_ENTAILMENT
+dico_phrasis_0000636__eu-eu__forward,dico_phrasis_0000636,eu,eu,eserita,eserita dagoen bitartean,BACKWARD_ENTAILMENT
+dico_phrasis_0000636__eu-eu__reverse,dico_phrasis_0000636,eu,eu,eserita dagoen bitartean,eserita,FORWARD_ENTAILMENT
+dico_phrasis_0000638__eu-eu__forward,dico_phrasis_0000638,eu,eu,indargabetzen du,indargabetzea,EQUIVALENCE
+dico_phrasis_0000638__eu-eu__reverse,dico_phrasis_0000638,eu,eu,indargabetzea,indargabetzen du,EQUIVALENCE
+dico_phrasis_0000642__eu-eu__forward,dico_phrasis_0000642,eu,eu,manifestari ukrainarrak,Ukrainako manifestariak,EQUIVALENCE
+dico_phrasis_0000642__eu-eu__reverse,dico_phrasis_0000642,eu,eu,Ukrainako manifestariak,manifestari ukrainarrak,EQUIVALENCE
+dico_phrasis_0000646__eu-eu__forward,dico_phrasis_0000646,eu,eu,Hego Koreako presidentea,H. Koreako presidentea,EQUIVALENCE
+dico_phrasis_0000646__eu-eu__reverse,dico_phrasis_0000646,eu,eu,H. Koreako presidentea,Hego Koreako presidentea,EQUIVALENCE
+dico_phrasis_0000650__eu-eu__forward,dico_phrasis_0000650,eu,eu,116 urterekin,116 urte zituela,EQUIVALENCE
+dico_phrasis_0000650__eu-eu__reverse,dico_phrasis_0000650,eu,eu,116 urte zituela,116 urterekin,EQUIVALENCE
+dico_phrasis_0000652__eu-eu__forward,dico_phrasis_0000652,eu,eu,erantzuten,erantzuten ari da,EQUIVALENCE
+dico_phrasis_0000652__eu-eu__reverse,dico_phrasis_0000652,eu,eu,erantzuten ari da,erantzuten,EQUIVALENCE
+dico_phrasis_0000654__eu-eu__forward,dico_phrasis_0000654,eu,eu,"AEB, Errusia",AEB eta Errusia,EQUIVALENCE
+dico_phrasis_0000654__eu-eu__reverse,dico_phrasis_0000654,eu,eu,AEB eta Errusia,"AEB, Errusia",EQUIVALENCE
+dico_phrasis_0000673__eu-eu__forward,dico_phrasis_0000673,eu,eu,Gurutze Gorriko langileak,Gurutze Gorriko kideak,EQUIVALENCE
+dico_phrasis_0000673__eu-eu__reverse,dico_phrasis_0000673,eu,eu,Gurutze Gorriko kideak,Gurutze Gorriko langileak,EQUIVALENCE
+dico_phrasis_0000683__eu-eu__forward,dico_phrasis_0000683,eu,eu,Putin,Vladimir Putin,EQUIVALENCE
+dico_phrasis_0000683__eu-eu__reverse,dico_phrasis_0000683,eu,eu,Vladimir Putin,Putin,EQUIVALENCE
+dico_phrasis_0000685__eu-eu__forward,dico_phrasis_0000685,eu,eu,"Australiako lehen ministro berria, Tony Abbott","Australiako lehen ministro hautatua, Tony Abbott",EQUIVALENCE
+dico_phrasis_0000685__eu-eu__reverse,dico_phrasis_0000685,eu,eu,"Australiako lehen ministro hautatua, Tony Abbott","Australiako lehen ministro berria, Tony Abbott",EQUIVALENCE
+dico_phrasis_0000687__eu-eu__forward,dico_phrasis_0000687,eu,eu,martxa jendetsurako,elkarretaratze jendetsurako,EQUIVALENCE
+dico_phrasis_0000687__eu-eu__reverse,dico_phrasis_0000687,eu,eu,elkarretaratze jendetsurako,martxa jendetsurako,EQUIVALENCE
+dico_phrasis_0000689__eu-eu__forward,dico_phrasis_0000689,eu,eu,Sutea Errusiako ospitale psikiatriko batean,Errusiako ospitale psikiatriko bateko sutea,EQUIVALENCE
+dico_phrasis_0000689__eu-eu__reverse,dico_phrasis_0000689,eu,eu,Errusiako ospitale psikiatriko bateko sutea,Sutea Errusiako ospitale psikiatriko batean,EQUIVALENCE
+dico_phrasis_0000690__eu-eu__forward,dico_phrasis_0000690,eu,eu,sumendia erupzioan sartzen da,sumendi-erupzioa,EQUIVALENCE
+dico_phrasis_0000690__eu-eu__reverse,dico_phrasis_0000690,eu,eu,sumendi-erupzioa,sumendia erupzioan sartzen da,EQUIVALENCE
+dico_phrasis_0000694__eu-eu__forward,dico_phrasis_0000694,eu,eu,irailaren 7rako hauteskundeak,irailaren 7ko bozketa,EQUIVALENCE
+dico_phrasis_0000694__eu-eu__reverse,dico_phrasis_0000694,eu,eu,irailaren 7ko bozketa,irailaren 7rako hauteskundeak,EQUIVALENCE
+dico_phrasis_0000713__eu-eu__forward,dico_phrasis_0000713,eu,eu,Glee telesaileko izarra Cory Monteith,'Glee' telesaileko izarra Cory Monteith,EQUIVALENCE
+dico_phrasis_0000713__eu-eu__reverse,dico_phrasis_0000713,eu,eu,'Glee' telesaileko izarra Cory Monteith,Glee telesaileko izarra Cory Monteith,EQUIVALENCE
+dico_phrasis_0000720__eu-eu__forward,dico_phrasis_0000720,eu,eu,6 urte inguruko neska indiarrari buruz,6 urteko neska indiarraren ondoren,EQUIVALENCE
+dico_phrasis_0000720__eu-eu__reverse,dico_phrasis_0000720,eu,eu,6 urteko neska indiarraren ondoren,6 urte inguruko neska indiarrari buruz,EQUIVALENCE
+dico_phrasis_0000724__eu-eu__forward,dico_phrasis_0000724,eu,eu,Emakume bat eta gizon bat,gizon bat eta emakume bat,EQUIVALENCE
+dico_phrasis_0000724__eu-eu__reverse,dico_phrasis_0000724,eu,eu,gizon bat eta emakume bat,Emakume bat eta gizon bat,EQUIVALENCE
+dico_phrasis_0000725__eu-eu__forward,dico_phrasis_0000725,eu,eu,argazki baterako,irudi baterako,EQUIVALENCE
+dico_phrasis_0000725__eu-eu__reverse,dico_phrasis_0000725,eu,eu,irudi baterako,argazki baterako,EQUIVALENCE
+dico_phrasis_0000729__eu-eu__forward,dico_phrasis_0000729,eu,eu,emakumea,emakume bat,EQUIVALENCE
+dico_phrasis_0000729__eu-eu__reverse,dico_phrasis_0000729,eu,eu,emakume bat,emakumea,EQUIVALENCE
+dico_phrasis_0000743__eu-eu__forward,dico_phrasis_0000743,eu,eu,uretan murgilduta,ur azpian dago,EQUIVALENCE
+dico_phrasis_0000743__eu-eu__reverse,dico_phrasis_0000743,eu,eu,ur azpian dago,uretan murgilduta,EQUIVALENCE
+dico_phrasis_0000748__eu-eu__forward,dico_phrasis_0000748,eu,eu,lepoko urdin batekin,lepoko urdinarekin,EQUIVALENCE
+dico_phrasis_0000748__eu-eu__reverse,dico_phrasis_0000748,eu,eu,lepoko urdinarekin,lepoko urdin batekin,EQUIVALENCE
+dico_phrasis_0000750__eu-eu__forward,dico_phrasis_0000750,eu,eu,Txakur beltz bat,Txakur beltza,EQUIVALENCE
+dico_phrasis_0000750__eu-eu__reverse,dico_phrasis_0000750,eu,eu,Txakur beltza,Txakur beltz bat,EQUIVALENCE
+dico_phrasis_0000753__eu-eu__forward,dico_phrasis_0000753,eu,eu,haize-boladak,haizea dabil,EQUIVALENCE
+dico_phrasis_0000753__eu-eu__reverse,dico_phrasis_0000753,eu,eu,haizea dabil,haize-boladak,EQUIVALENCE
+dico_phrasis_0000755__eu-eu__forward,dico_phrasis_0000755,eu,eu,koloretako blokeak,koloretako kaxak,EQUIVALENCE
+dico_phrasis_0000755__eu-eu__reverse,dico_phrasis_0000755,eu,eu,koloretako kaxak,koloretako blokeak,EQUIVALENCE
+dico_phrasis_0000775__eu-eu__forward,dico_phrasis_0000775,eu,eu,usaintzen ari da,usaintzen,EQUIVALENCE
+dico_phrasis_0000775__eu-eu__reverse,dico_phrasis_0000775,eu,eu,usaintzen,usaintzen ari da,EQUIVALENCE
+dico_phrasis_0000809__eu-eu__forward,dico_phrasis_0000809,eu,eu,ibiltzen ari da,ibiltzen da,EQUIVALENCE
+dico_phrasis_0000809__eu-eu__reverse,dico_phrasis_0000809,eu,eu,ibiltzen da,ibiltzen ari da,EQUIVALENCE
+dico_phrasis_0000823__eu-eu__forward,dico_phrasis_0000823,eu,eu,belarraren gainean,belarrean,EQUIVALENCE
+dico_phrasis_0000823__eu-eu__reverse,dico_phrasis_0000823,eu,eu,belarrean,belarraren gainean,EQUIVALENCE
+dico_phrasis_0000831__eu-eu__forward,dico_phrasis_0000831,eu,eu,Txakurra,Txakur bat,EQUIVALENCE
+dico_phrasis_0000831__eu-eu__reverse,dico_phrasis_0000831,eu,eu,Txakur bat,Txakurra,EQUIVALENCE
+dico_phrasis_0000835__eu-eu__forward,dico_phrasis_0000835,eu,eu,jendaurrean,leku publiko batean,EQUIVALENCE
+dico_phrasis_0000835__eu-eu__reverse,dico_phrasis_0000835,eu,eu,leku publiko batean,jendaurrean,EQUIVALENCE
+dico_phrasis_0000837__eu-eu__forward,dico_phrasis_0000837,eu,eu,hitz egiten,hitz egiten ari da,EQUIVALENCE
+dico_phrasis_0000837__eu-eu__reverse,dico_phrasis_0000837,eu,eu,hitz egiten ari da,hitz egiten,EQUIVALENCE
+dico_phrasis_0000840__eu-eu__forward,dico_phrasis_0000840,eu,eu,mutil bat,mutila,EQUIVALENCE
+dico_phrasis_0000840__eu-eu__reverse,dico_phrasis_0000840,eu,eu,mutila,mutil bat,EQUIVALENCE
+dico_phrasis_0000849__eu-eu__forward,dico_phrasis_0000849,eu,eu,elur-geruza sakonean zehar,elur sakonean zehar,EQUIVALENCE
+dico_phrasis_0000849__eu-eu__reverse,dico_phrasis_0000849,eu,eu,elur sakonean zehar,elur-geruza sakonean zehar,EQUIVALENCE
+dico_phrasis_0000851__eu-eu__forward,dico_phrasis_0000851,eu,eu,txakurra,txakur bat,EQUIVALENCE
+dico_phrasis_0000851__eu-eu__reverse,dico_phrasis_0000851,eu,eu,txakur bat,txakurra,EQUIVALENCE
+dico_phrasis_0000857__eu-eu__forward,dico_phrasis_0000857,eu,eu,Txakur zuri bat,Txakur zuria,EQUIVALENCE
+dico_phrasis_0000857__eu-eu__reverse,dico_phrasis_0000857,eu,eu,Txakur zuria,Txakur zuri bat,EQUIVALENCE
+dico_phrasis_0000868__eu-eu__forward,dico_phrasis_0000868,eu,eu,erretiroa iragartzen du,erretiratzen da,EQUIVALENCE
+dico_phrasis_0000868__eu-eu__reverse,dico_phrasis_0000868,eu,eu,erretiratzen da,erretiroa iragartzen du,EQUIVALENCE
+dico_phrasis_0000875__eu-eu__forward,dico_phrasis_0000875,eu,eu,gaixo,gaixotu,EQUIVALENCE
+dico_phrasis_0000875__eu-eu__reverse,dico_phrasis_0000875,eu,eu,gaixotu,gaixo,EQUIVALENCE
+dico_phrasis_0000877__eu-eu__forward,dico_phrasis_0000877,eu,eu,sutan,sutan utzita,EQUIVALENCE
+dico_phrasis_0000877__eu-eu__reverse,dico_phrasis_0000877,eu,eu,sutan utzita,sutan,EQUIVALENCE
+dico_phrasis_0000878__eu-eu__forward,dico_phrasis_0000878,eu,eu,amildegia fiskalari buruzko akordioa,«amildegia fiskala»ri buruzko akordioa,EQUIVALENCE
+dico_phrasis_0000878__eu-eu__reverse,dico_phrasis_0000878,eu,eu,«amildegia fiskala»ri buruzko akordioa,amildegia fiskalari buruzko akordioa,EQUIVALENCE
+dico_phrasis_0000879__eu-eu__forward,dico_phrasis_0000879,eu,eu,Jenni Rivera abeslari mexikarra,Jenni Rivera musika izar mexikarra,EQUIVALENCE
+dico_phrasis_0000879__eu-eu__reverse,dico_phrasis_0000879,eu,eu,Jenni Rivera musika izar mexikarra,Jenni Rivera abeslari mexikarra,EQUIVALENCE
+dico_phrasis_0000889__eu-eu__forward,dico_phrasis_0000889,eu,eu,onartzeari buruz,debekua kentzeari buruz,EQUIVALENCE
+dico_phrasis_0000889__eu-eu__reverse,dico_phrasis_0000889,eu,eu,debekua kentzeari buruz,onartzeari buruz,EQUIVALENCE
+dico_phrasis_0000900__eu-eu__forward,dico_phrasis_0000900,eu,eu,aske uzten du,askatzea onartzen du,EQUIVALENCE
+dico_phrasis_0000900__eu-eu__reverse,dico_phrasis_0000900,eu,eu,askatzea onartzen du,aske uzten du,EQUIVALENCE
+dico_phrasis_0000901__eu-eu__forward,dico_phrasis_0000901,eu,eu,3 hiritan,hiru hiritan,EQUIVALENCE
+dico_phrasis_0000901__eu-eu__reverse,dico_phrasis_0000901,eu,eu,hiru hiritan,3 hiritan,EQUIVALENCE
+dico_phrasis_0000912__eu-eu__forward,dico_phrasis_0000912,eu,eu,lanean ari da,lan egin,EQUIVALENCE
+dico_phrasis_0000912__eu-eu__reverse,dico_phrasis_0000912,eu,eu,lan egin,lanean ari da,EQUIVALENCE
+dico_phrasis_0000937__eu-eu__forward,dico_phrasis_0000937,eu,eu,bost akusatuak,bost akusatuak guztiak,EQUIVALENCE
+dico_phrasis_0000937__eu-eu__reverse,dico_phrasis_0000937,eu,eu,bost akusatuak guztiak,bost akusatuak,EQUIVALENCE
+dico_phrasis_0000939__eu-eu__forward,dico_phrasis_0000939,eu,eu,epailearengandik,epaileak egina,EQUIVALENCE
+dico_phrasis_0000939__eu-eu__reverse,dico_phrasis_0000939,eu,eu,epaileak egina,epailearengandik,EQUIVALENCE
+dico_phrasis_0000943__eu-eu__forward,dico_phrasis_0000943,eu,eu,igotzen,gora irristatzea,EQUIVALENCE
+dico_phrasis_0000943__eu-eu__reverse,dico_phrasis_0000943,eu,eu,gora irristatzea,igotzen,EQUIVALENCE
+dico_phrasis_0000969__eu-eu__forward,dico_phrasis_0000969,eu,eu,omenaldia egiten du,omenaldia egin,EQUIVALENCE
+dico_phrasis_0000969__eu-eu__reverse,dico_phrasis_0000969,eu,eu,omenaldia egin,omenaldia egiten du,EQUIVALENCE
+dico_phrasis_0000970__eu-eu__forward,dico_phrasis_0000970,eu,eu,Nelson Mandelari,Mandelari,EQUIVALENCE
+dico_phrasis_0000970__eu-eu__reverse,dico_phrasis_0000970,eu,eu,Mandelari,Nelson Mandelari,EQUIVALENCE
+dico_phrasis_0000971__eu-eu__forward,dico_phrasis_0000971,eu,eu,kazetarien afarian,prentsaren afarian,EQUIVALENCE
+dico_phrasis_0000971__eu-eu__reverse,dico_phrasis_0000971,eu,eu,prentsaren afarian,kazetarien afarian,EQUIVALENCE
+dico_phrasis_0000972__eu-eu__forward,dico_phrasis_0000972,eu,eu,txantxak,iseka egiten dio,EQUIVALENCE
+dico_phrasis_0000972__eu-eu__reverse,dico_phrasis_0000972,eu,eu,iseka egiten dio,txantxak,EQUIVALENCE
+dico_phrasis_0000974__eu-eu__forward,dico_phrasis_0000974,eu,eu,bukatu,amaitu,EQUIVALENCE
+dico_phrasis_0000974__eu-eu__reverse,dico_phrasis_0000974,eu,eu,amaitu,bukatu,EQUIVALENCE
+dico_phrasis_0000978__eu-eu__forward,dico_phrasis_0000978,eu,eu,AEBetako drone eraso susmagarria,AEBetako drone erasoa,EQUIVALENCE
+dico_phrasis_0000978__eu-eu__reverse,dico_phrasis_0000978,eu,eu,AEBetako drone erasoa,AEBetako drone eraso susmagarria,EQUIVALENCE
+dico_phrasis_0000988__eu-eu__forward,dico_phrasis_0000988,eu,eu,irteteko,uzten du,EQUIVALENCE
+dico_phrasis_0000988__eu-eu__reverse,dico_phrasis_0000988,eu,eu,uzten du,irteteko,EQUIVALENCE
+dico_phrasis_0000993__eu-eu__forward,dico_phrasis_0000993,eu,eu,Pussy Riot taldeko kide Alyokhina,Pussy Riot taldeko kide Maria Alyokhina,EQUIVALENCE
+dico_phrasis_0000993__eu-eu__reverse,dico_phrasis_0000993,eu,eu,Pussy Riot taldeko kide Maria Alyokhina,Pussy Riot taldeko kide Alyokhina,EQUIVALENCE
+dico_phrasis_0001004__eu-eu__forward,dico_phrasis_0001004,eu,eu,protesten artean,manifestarien aurrean,EQUIVALENCE
+dico_phrasis_0001004__eu-eu__reverse,dico_phrasis_0001004,eu,eu,manifestarien aurrean,protesten artean,EQUIVALENCE
+dico_phrasis_0001029__eu-eu__forward,dico_phrasis_0001029,eu,eu,tiroz hil,hildako,EQUIVALENCE
+dico_phrasis_0001029__eu-eu__reverse,dico_phrasis_0001029,eu,eu,hildako,tiroz hil,EQUIVALENCE
+dico_phrasis_0001034__eu-eu__forward,dico_phrasis_0001034,eu,eu,erretiratzea,erretiratzen da,EQUIVALENCE
+dico_phrasis_0001034__eu-eu__reverse,dico_phrasis_0001034,eu,eu,erretiratzen da,erretiratzea,EQUIVALENCE
+dico_phrasis_0001039__eu-eu__forward,dico_phrasis_0001039,eu,eu,Singapurreko ospitalean,Singapurreko ospitalera,EQUIVALENCE
+dico_phrasis_0001039__eu-eu__reverse,dico_phrasis_0001039,eu,eu,Singapurreko ospitalera,Singapurreko ospitalean,EQUIVALENCE
+dico_phrasis_0001040__eu-eu__forward,dico_phrasis_0001040,eu,eu,Ban Ki-moon,Ban,EQUIVALENCE
+dico_phrasis_0001040__eu-eu__reverse,dico_phrasis_0001040,eu,eu,Ban,Ban Ki-moon,EQUIVALENCE
+dico_phrasis_0001045__eu-eu__forward,dico_phrasis_0001045,eu,eu,Frantzisko,Frantzisko aita santua,EQUIVALENCE
+dico_phrasis_0001045__eu-eu__reverse,dico_phrasis_0001045,eu,eu,Frantzisko aita santua,Frantzisko,EQUIVALENCE
+dico_phrasis_0001061__eu-eu__forward,dico_phrasis_0001061,eu,eu,"Iran, energia atomikoaren agentzia","IAEA, Iran",EQUIVALENCE
+dico_phrasis_0001061__eu-eu__reverse,dico_phrasis_0001061,eu,eu,"IAEA, Iran","Iran, energia atomikoaren agentzia",EQUIVALENCE
+dico_phrasis_0001069__eu-eu__forward,dico_phrasis_0001069,eu,eu,asiloaren alde,asiloa ematearen alde,EQUIVALENCE
+dico_phrasis_0001069__eu-eu__reverse,dico_phrasis_0001069,eu,eu,asiloa ematearen alde,asiloaren alde,EQUIVALENCE
+dico_phrasis_0001072__eu-eu__forward,dico_phrasis_0001072,eu,eu,ohartarazten du,ohartarazi du,EQUIVALENCE
+dico_phrasis_0001072__eu-eu__reverse,dico_phrasis_0001072,eu,eu,ohartarazi du,ohartarazten du,EQUIVALENCE
+dico_phrasis_0001089__eu-eu__forward,dico_phrasis_0001089,eu,eu,zelaian,zelai batean,EQUIVALENCE
+dico_phrasis_0001089__eu-eu__reverse,dico_phrasis_0001089,eu,eu,zelai batean,zelaian,EQUIVALENCE
+dico_phrasis_0001106__eu-eu__forward,dico_phrasis_0001106,eu,eu,nabigatzen ari da,nabigatzen,EQUIVALENCE
+dico_phrasis_0001106__eu-eu__reverse,dico_phrasis_0001106,eu,eu,nabigatzen,nabigatzen ari da,EQUIVALENCE
+dico_phrasis_0001132__eu-eu__forward,dico_phrasis_0001132,eu,eu,hegan,hegaldian,EQUIVALENCE
+dico_phrasis_0001132__eu-eu__reverse,dico_phrasis_0001132,eu,eu,hegaldian,hegan,EQUIVALENCE
+dico_phrasis_0001133__eu-eu__forward,dico_phrasis_0001133,eu,eu,jatetxekoa,jatetxe batean,EQUIVALENCE
+dico_phrasis_0001133__eu-eu__reverse,dico_phrasis_0001133,eu,eu,jatetxe batean,jatetxekoa,EQUIVALENCE
+dico_phrasis_0001134__eu-eu__forward,dico_phrasis_0001134,eu,eu,edaten,edaten ari dira,EQUIVALENCE
+dico_phrasis_0001134__eu-eu__reverse,dico_phrasis_0001134,eu,eu,edaten ari dira,edaten,EQUIVALENCE
+dico_phrasis_0001143__eu-eu__forward,dico_phrasis_0001143,eu,eu,txakur beltza,txakur beltz bat,EQUIVALENCE
+dico_phrasis_0001143__eu-eu__reverse,dico_phrasis_0001143,eu,eu,txakur beltz bat,txakur beltza,EQUIVALENCE
+dico_phrasis_0001146__eu-eu__forward,dico_phrasis_0001146,eu,eu,jarlekuak,jarrita dago,EQUIVALENCE
+dico_phrasis_0001146__eu-eu__reverse,dico_phrasis_0001146,eu,eu,jarrita dago,jarlekuak,EQUIVALENCE
+dico_phrasis_0001147__eu-eu__forward,dico_phrasis_0001147,eu,eu,gainean ibiltzen,ibiltzen,EQUIVALENCE
+dico_phrasis_0001147__eu-eu__reverse,dico_phrasis_0001147,eu,eu,ibiltzen,gainean ibiltzen,EQUIVALENCE
+dico_phrasis_0001173__eu-eu__forward,dico_phrasis_0001173,eu,eu,Zuri-beltzeko irudi bat,Zuri-beltzeko argazkia,EQUIVALENCE
+dico_phrasis_0001173__eu-eu__reverse,dico_phrasis_0001173,eu,eu,Zuri-beltzeko argazkia,Zuri-beltzeko irudi bat,EQUIVALENCE
+dico_phrasis_0001176__eu-eu__forward,dico_phrasis_0001176,eu,eu,aulki batekin,aulkiarekin,EQUIVALENCE
+dico_phrasis_0001176__eu-eu__reverse,dico_phrasis_0001176,eu,eu,aulkiarekin,aulki batekin,EQUIVALENCE
+dico_phrasis_0001185__eu-eu__forward,dico_phrasis_0001185,eu,eu,sofan,sofa batean,EQUIVALENCE
+dico_phrasis_0001185__eu-eu__reverse,dico_phrasis_0001185,eu,eu,sofa batean,sofan,EQUIVALENCE
+dico_phrasis_0001186__eu-eu__forward,dico_phrasis_0001186,eu,eu,Gizona,Gizon bat,EQUIVALENCE
+dico_phrasis_0001186__eu-eu__reverse,dico_phrasis_0001186,eu,eu,Gizon bat,Gizona,EQUIVALENCE
+dico_phrasis_0001217__eu-eu__forward,dico_phrasis_0001217,eu,eu,mahai batean,mahaian,EQUIVALENCE
+dico_phrasis_0001217__eu-eu__reverse,dico_phrasis_0001217,eu,eu,mahaian,mahai batean,EQUIVALENCE
+dico_phrasis_0001219__eu-eu__forward,dico_phrasis_0001219,eu,eu,estalpean,estalpe batean,EQUIVALENCE
+dico_phrasis_0001219__eu-eu__reverse,dico_phrasis_0001219,eu,eu,estalpe batean,estalpean,EQUIVALENCE
+dico_phrasis_0001227__eu-eu__forward,dico_phrasis_0001227,eu,eu,Tren beltz bat,Tren beltza,EQUIVALENCE
+dico_phrasis_0001227__eu-eu__reverse,dico_phrasis_0001227,eu,eu,Tren beltza,Tren beltz bat,EQUIVALENCE
+dico_phrasis_0001233__eu-eu__forward,dico_phrasis_0001233,eu,eu,behera gidatzea,behera gidatzen du,EQUIVALENCE
+dico_phrasis_0001233__eu-eu__reverse,dico_phrasis_0001233,eu,eu,behera gidatzen du,behera gidatzea,EQUIVALENCE
+dico_phrasis_0001240__eu-eu__forward,dico_phrasis_0001240,eu,eu,afari-mahai batean,afari-mahaian,EQUIVALENCE
+dico_phrasis_0001240__eu-eu__reverse,dico_phrasis_0001240,eu,eu,afari-mahaian,afari-mahai batean,EQUIVALENCE
+dico_phrasis_0001253__eu-eu__forward,dico_phrasis_0001253,eu,eu,hesi batean,itxitura batean,EQUIVALENCE
+dico_phrasis_0001253__eu-eu__reverse,dico_phrasis_0001253,eu,eu,itxitura batean,hesi batean,EQUIVALENCE
+dico_phrasis_0001261__eu-eu__forward,dico_phrasis_0001261,eu,eu,tren-geltoki batean,tren-geltokian,EQUIVALENCE
+dico_phrasis_0001261__eu-eu__reverse,dico_phrasis_0001261,eu,eu,tren-geltokian,tren-geltoki batean,EQUIVALENCE
+dico_phrasis_0001278__eu-eu__forward,dico_phrasis_0001278,eu,eu,Aeromexico hegazkin zilarrezko bat,Aeromexicoren hegazkin zilarrezko bat,EQUIVALENCE
+dico_phrasis_0001278__eu-eu__reverse,dico_phrasis_0001278,eu,eu,Aeromexicoren hegazkin zilarrezko bat,Aeromexico hegazkin zilarrezko bat,EQUIVALENCE
+dico_phrasis_0001279__eu-eu__forward,dico_phrasis_0001279,eu,eu,Bi pertsona,Bikote,EQUIVALENCE
+dico_phrasis_0001279__eu-eu__reverse,dico_phrasis_0001279,eu,eu,Bikote,Bi pertsona,EQUIVALENCE
+dico_phrasis_0001295__eu-eu__forward,dico_phrasis_0001295,eu,eu,mozten ari dira,moztea,EQUIVALENCE
+dico_phrasis_0001295__eu-eu__reverse,dico_phrasis_0001295,eu,eu,moztea,mozten ari dira,EQUIVALENCE
+dico_phrasis_0001306__eu-eu__forward,dico_phrasis_0001306,eu,eu,bere bi urrutiko aginteekin,bi urrutiko aginterekin,EQUIVALENCE
+dico_phrasis_0001306__eu-eu__reverse,dico_phrasis_0001306,eu,eu,bi urrutiko aginterekin,bere bi urrutiko aginteekin,EQUIVALENCE
+dico_phrasis_0001315__eu-eu__forward,dico_phrasis_0001315,eu,eu,Argazki zuri-beltz bat,Argazki zuri-beltza,EQUIVALENCE
+dico_phrasis_0001315__eu-eu__reverse,dico_phrasis_0001315,eu,eu,Argazki zuri-beltza,Argazki zuri-beltz bat,EQUIVALENCE
+dico_phrasis_0001323__eu-eu__forward,dico_phrasis_0001323,eu,eu,Australiara hauteskunde garaipena,Australiako hauteskundeak irabazten ditu,FORWARD_ENTAILMENT
+dico_phrasis_0001323__eu-eu__reverse,dico_phrasis_0001323,eu,eu,Australiako hauteskundeak irabazten ditu,Australiara hauteskunde garaipena,BACKWARD_ENTAILMENT
+dico_phrasis_0001327__eu-eu__forward,dico_phrasis_0001327,eu,eu,Hego Korearekin,Hego Korea,FORWARD_ENTAILMENT
+dico_phrasis_0001327__eu-eu__reverse,dico_phrasis_0001327,eu,eu,Hego Korea,Hego Korearekin,BACKWARD_ENTAILMENT
+dico_phrasis_0001328__eu-eu__forward,dico_phrasis_0001328,eu,eu,"-ko pertsonarik zaharrena, eta gizonik zaharrena",-ko gizonik zaharrena,FORWARD_ENTAILMENT
+dico_phrasis_0001328__eu-eu__reverse,dico_phrasis_0001328,eu,eu,-ko gizonik zaharrena,"-ko pertsonarik zaharrena, eta gizonik zaharrena",BACKWARD_ENTAILMENT
+dico_phrasis_0001330__eu-eu__forward,dico_phrasis_0001330,eu,eu,Kanadako merkantzia-trenaren leherketaren hildako kopurua,tren-leherketaren egoera,FORWARD_ENTAILMENT
+dico_phrasis_0001330__eu-eu__reverse,dico_phrasis_0001330,eu,eu,tren-leherketaren egoera,Kanadako merkantzia-trenaren leherketaren hildako kopurua,BACKWARD_ENTAILMENT
+dico_phrasis_0001334__eu-eu__forward,dico_phrasis_0001334,eu,eu,Egipto gisa,Egipto,FORWARD_ENTAILMENT
+dico_phrasis_0001334__eu-eu__reverse,dico_phrasis_0001334,eu,eu,Egipto,Egipto gisa,BACKWARD_ENTAILMENT
+dico_phrasis_0001337__eu-eu__forward,dico_phrasis_0001337,eu,eu,Espainian tren istripua,Espainiako tren hondamendia,FORWARD_ENTAILMENT
+dico_phrasis_0001337__eu-eu__reverse,dico_phrasis_0001337,eu,eu,Espainiako tren hondamendia,Espainian tren istripua,BACKWARD_ENTAILMENT
+dico_phrasis_0001352__eu-eu__forward,dico_phrasis_0001352,eu,eu,AEBetako ekialdeko kostaldera,ekialdeko kostaldera,FORWARD_ENTAILMENT
+dico_phrasis_0001352__eu-eu__reverse,dico_phrasis_0001352,eu,eu,ekialdeko kostaldera,AEBetako ekialdeko kostaldera,BACKWARD_ENTAILMENT
+dico_phrasis_0001359__eu-eu__forward,dico_phrasis_0001359,eu,eu,Txinako flota handiena,Txinako ontziak,FORWARD_ENTAILMENT
+dico_phrasis_0001359__eu-eu__reverse,dico_phrasis_0001359,eu,eu,Txinako ontziak,Txinako flota handiena,BACKWARD_ENTAILMENT
+dico_phrasis_0001361__eu-eu__forward,dico_phrasis_0001361,eu,eu,indarkerian,haren indarkeria,FORWARD_ENTAILMENT
+dico_phrasis_0001361__eu-eu__reverse,dico_phrasis_0001361,eu,eu,haren indarkeria,indarkerian,BACKWARD_ENTAILMENT
+dico_phrasis_0001366__eu-eu__forward,dico_phrasis_0001366,eu,eu,Nobel saria irabazi zuen Doris Lessing idazle britainiarra,Nobel saria irabazi zuen Doris Lessing idazlea,FORWARD_ENTAILMENT
+dico_phrasis_0001366__eu-eu__reverse,dico_phrasis_0001366,eu,eu,Nobel saria irabazi zuen Doris Lessing idazlea,Nobel saria irabazi zuen Doris Lessing idazle britainiarra,BACKWARD_ENTAILMENT
+dico_phrasis_0001377__eu-eu__forward,dico_phrasis_0001377,eu,eu,dimisioarena,dimititu,FORWARD_ENTAILMENT
+dico_phrasis_0001377__eu-eu__reverse,dico_phrasis_0001377,eu,eu,dimititu,dimisioarena,BACKWARD_ENTAILMENT
+dico_phrasis_0001378__eu-eu__forward,dico_phrasis_0001378,eu,eu,Berlusconiren alderdiko ministroak,Berlusconiren ministroak,FORWARD_ENTAILMENT
+dico_phrasis_0001378__eu-eu__reverse,dico_phrasis_0001378,eu,eu,Berlusconiren ministroak,Berlusconiren alderdiko ministroak,BACKWARD_ENTAILMENT
+dico_phrasis_0001379__eu-eu__forward,dico_phrasis_0001379,eu,eu,"Nikaragua, Venezuela",Venezuela,FORWARD_ENTAILMENT
+dico_phrasis_0001379__eu-eu__reverse,dico_phrasis_0001379,eu,eu,Venezuela,"Nikaragua, Venezuela",BACKWARD_ENTAILMENT
+dico_phrasis_0001381__eu-eu__forward,dico_phrasis_0001381,eu,eu,40 milioi euroko harribitxiak,40 milioi euro balio duten bitxiak,FORWARD_ENTAILMENT
+dico_phrasis_0001381__eu-eu__reverse,dico_phrasis_0001381,eu,eu,40 milioi euro balio duten bitxiak,40 milioi euroko harribitxiak,BACKWARD_ENTAILMENT
+dico_phrasis_0001387__eu-eu__forward,dico_phrasis_0001387,eu,eu,AEBetako dronen erasoa,AEBetako drona,FORWARD_ENTAILMENT
+dico_phrasis_0001387__eu-eu__reverse,dico_phrasis_0001387,eu,eu,AEBetako drona,AEBetako dronen erasoa,BACKWARD_ENTAILMENT
+dico_phrasis_0001389__eu-eu__forward,dico_phrasis_0001389,eu,eu,Egiptoko islamista kolpatuak,Egiptoko islamistak,FORWARD_ENTAILMENT
+dico_phrasis_0001389__eu-eu__reverse,dico_phrasis_0001389,eu,eu,Egiptoko islamistak,Egiptoko islamista kolpatuak,BACKWARD_ENTAILMENT
+dico_phrasis_0001404__eu-eu__forward,dico_phrasis_0001404,eu,eu,Irakeko armadako 23 errekruta,Irakeko armadako 13 errekruta,FORWARD_ENTAILMENT
+dico_phrasis_0001404__eu-eu__reverse,dico_phrasis_0001404,eu,eu,Irakeko armadako 13 errekruta,Irakeko armadako 23 errekruta,BACKWARD_ENTAILMENT
+dico_phrasis_0001419__eu-eu__forward,dico_phrasis_0001419,eu,eu,mastektomia bikoitzaren ondoren,mastektomia bikoitza,FORWARD_ENTAILMENT
+dico_phrasis_0001419__eu-eu__reverse,dico_phrasis_0001419,eu,eu,mastektomia bikoitza,mastektomia bikoitzaren ondoren,BACKWARD_ENTAILMENT
+dico_phrasis_0001421__eu-eu__forward,dico_phrasis_0001421,eu,eu,Irak iparraldean,Iraken,FORWARD_ENTAILMENT
+dico_phrasis_0001421__eu-eu__reverse,dico_phrasis_0001421,eu,eu,Iraken,Irak iparraldean,BACKWARD_ENTAILMENT
+dico_phrasis_0001422__eu-eu__forward,dico_phrasis_0001422,eu,eu,Greenpeaceko aktibisten aurka,Greenpeaceren aurka,FORWARD_ENTAILMENT
+dico_phrasis_0001422__eu-eu__reverse,dico_phrasis_0001422,eu,eu,Greenpeaceren aurka,Greenpeaceko aktibisten aurka,BACKWARD_ENTAILMENT
+dico_phrasis_0001425__eu-eu__forward,dico_phrasis_0001425,eu,eu,Atlantako aldirietako suhiltzaileak bahituta,Suhiltzaileak bahituta Georgian,FORWARD_ENTAILMENT
+dico_phrasis_0001425__eu-eu__reverse,dico_phrasis_0001425,eu,eu,Suhiltzaileak bahituta Georgian,Atlantako aldirietako suhiltzaileak bahituta,BACKWARD_ENTAILMENT
+dico_phrasis_0001435__eu-eu__forward,dico_phrasis_0001435,eu,eu,pilota batekin,jostailu batekin,FORWARD_ENTAILMENT
+dico_phrasis_0001435__eu-eu__reverse,dico_phrasis_0001435,eu,eu,jostailu batekin,pilota batekin,BACKWARD_ENTAILMENT
+dico_phrasis_0001438__eu-eu__forward,dico_phrasis_0001438,eu,eu,txakur marroi argia,txakur marroi bat,FORWARD_ENTAILMENT
+dico_phrasis_0001438__eu-eu__reverse,dico_phrasis_0001438,eu,eu,txakur marroi bat,txakur marroi argia,BACKWARD_ENTAILMENT
+dico_phrasis_0001441__eu-eu__forward,dico_phrasis_0001441,eu,eu,Lau haur txiki,Lau haur,FORWARD_ENTAILMENT
+dico_phrasis_0001441__eu-eu__reverse,dico_phrasis_0001441,eu,eu,Lau haur,Lau haur txiki,BACKWARD_ENTAILMENT
+dico_phrasis_0001452__eu-eu__forward,dico_phrasis_0001452,eu,eu,hausten ari den olatu batean,olatu bat,FORWARD_ENTAILMENT
+dico_phrasis_0001452__eu-eu__reverse,dico_phrasis_0001452,eu,eu,olatu bat,hausten ari den olatu batean,BACKWARD_ENTAILMENT
+dico_phrasis_0001453__eu-eu__forward,dico_phrasis_0001453,eu,eu,belarrezko zelai batean zehar,belarrean zehar,FORWARD_ENTAILMENT
+dico_phrasis_0001453__eu-eu__reverse,dico_phrasis_0001453,eu,eu,belarrean zehar,belarrezko zelai batean zehar,BACKWARD_ENTAILMENT
+dico_phrasis_0001457__eu-eu__forward,dico_phrasis_0001457,eu,eu,lorezko bikini batean,loredun bainujantzi batean,FORWARD_ENTAILMENT
+dico_phrasis_0001457__eu-eu__reverse,dico_phrasis_0001457,eu,eu,loredun bainujantzi batean,lorezko bikini batean,BACKWARD_ENTAILMENT
+dico_phrasis_0001459__eu-eu__forward,dico_phrasis_0001459,eu,eu,aizkora batekin,tresna bat,FORWARD_ENTAILMENT
+dico_phrasis_0001459__eu-eu__reverse,dico_phrasis_0001459,eu,eu,tresna bat,aizkora batekin,BACKWARD_ENTAILMENT
+dico_phrasis_0001464__eu-eu__forward,dico_phrasis_0001464,eu,eu,ezkerrera,aldera,FORWARD_ENTAILMENT
+dico_phrasis_0001464__eu-eu__reverse,dico_phrasis_0001464,eu,eu,aldera,ezkerrera,BACKWARD_ENTAILMENT
+dico_phrasis_0001473__eu-eu__forward,dico_phrasis_0001473,eu,eu,putzu handi batetik zehar,putzu batetik zehar,FORWARD_ENTAILMENT
+dico_phrasis_0001473__eu-eu__reverse,dico_phrasis_0001473,eu,eu,putzu batetik zehar,putzu handi batetik zehar,BACKWARD_ENTAILMENT
+dico_phrasis_0001481__eu-eu__forward,dico_phrasis_0001481,eu,eu,kolore argiko errugbi pilota bat,pilota bat,FORWARD_ENTAILMENT
+dico_phrasis_0001481__eu-eu__reverse,dico_phrasis_0001481,eu,eu,pilota bat,kolore argiko errugbi pilota bat,BACKWARD_ENTAILMENT
+dico_phrasis_0001491__eu-eu__forward,dico_phrasis_0001491,eu,eu,belar altuan,belarrean,FORWARD_ENTAILMENT
+dico_phrasis_0001491__eu-eu__reverse,dico_phrasis_0001491,eu,eu,belarrean,belar altuan,BACKWARD_ENTAILMENT
+dico_phrasis_0001492__eu-eu__forward,dico_phrasis_0001492,eu,eu,hondarrezko hondartzan,hondartzaren ondoan,FORWARD_ENTAILMENT
+dico_phrasis_0001492__eu-eu__reverse,dico_phrasis_0001492,eu,eu,hondartzaren ondoan,hondarrezko hondartzan,BACKWARD_ENTAILMENT
+dico_phrasis_0001497__eu-eu__forward,dico_phrasis_0001497,eu,eu,Bi gizon zaharrago,Bi gizon,FORWARD_ENTAILMENT
+dico_phrasis_0001497__eu-eu__reverse,dico_phrasis_0001497,eu,eu,Bi gizon,Bi gizon zaharrago,BACKWARD_ENTAILMENT
+dico_phrasis_0001501__eu-eu__forward,dico_phrasis_0001501,eu,eu,txakur zuri busti bat,txakur zuriak,FORWARD_ENTAILMENT
+dico_phrasis_0001501__eu-eu__reverse,dico_phrasis_0001501,eu,eu,txakur zuriak,txakur zuri busti bat,BACKWARD_ENTAILMENT
+dico_phrasis_0001510__eu-eu__forward,dico_phrasis_0001510,eu,eu,haur hauek,lau haur,FORWARD_ENTAILMENT
+dico_phrasis_0001510__eu-eu__reverse,dico_phrasis_0001510,eu,eu,lau haur,haur hauek,BACKWARD_ENTAILMENT
+dico_phrasis_0001521__eu-eu__forward,dico_phrasis_0001521,eu,eu,scooter batean,scooter bat,FORWARD_ENTAILMENT
+dico_phrasis_0001521__eu-eu__reverse,dico_phrasis_0001521,eu,eu,scooter bat,scooter batean,BACKWARD_ENTAILMENT
+dico_phrasis_0001522__eu-eu__forward,dico_phrasis_0001522,eu,eu,belarrezko zelaian,belarrean,FORWARD_ENTAILMENT
+dico_phrasis_0001522__eu-eu__reverse,dico_phrasis_0001522,eu,eu,belarrean,belarrezko zelaian,BACKWARD_ENTAILMENT
+dico_phrasis_0001525__eu-eu__forward,dico_phrasis_0001525,eu,eu,belarretatik,belarrean,FORWARD_ENTAILMENT
+dico_phrasis_0001525__eu-eu__reverse,dico_phrasis_0001525,eu,eu,belarrean,belarretatik,BACKWARD_ENTAILMENT
+dico_phrasis_0001529__eu-eu__forward,dico_phrasis_0001529,eu,eu,ekarri-jolasean ari dira,jolasean ari dira,FORWARD_ENTAILMENT
+dico_phrasis_0001529__eu-eu__reverse,dico_phrasis_0001529,eu,eu,jolasean ari dira,ekarri-jolasean ari dira,BACKWARD_ENTAILMENT
+dico_phrasis_0001533__eu-eu__forward,dico_phrasis_0001533,eu,eu,korrika ari da,da,FORWARD_ENTAILMENT
+dico_phrasis_0001533__eu-eu__reverse,dico_phrasis_0001533,eu,eu,da,korrika ari da,BACKWARD_ENTAILMENT
+dico_phrasis_0001539__eu-eu__forward,dico_phrasis_0001539,eu,eu,snowboarda eta salto egitea,salto egitea,FORWARD_ENTAILMENT
+dico_phrasis_0001539__eu-eu__reverse,dico_phrasis_0001539,eu,eu,salto egitea,snowboarda eta salto egitea,BACKWARD_ENTAILMENT
+dico_phrasis_0001540__eu-eu__forward,dico_phrasis_0001540,eu,eu,elur sakonean zehar,elurrean zehar,FORWARD_ENTAILMENT
+dico_phrasis_0001540__eu-eu__reverse,dico_phrasis_0001540,eu,eu,elurrean zehar,elur sakonean zehar,BACKWARD_ENTAILMENT
+dico_phrasis_0001542__eu-eu__forward,dico_phrasis_0001542,eu,eu,zuhaitz goroldiotsu baten ondoan,zuhaitz baten inguruan,FORWARD_ENTAILMENT
+dico_phrasis_0001542__eu-eu__reverse,dico_phrasis_0001542,eu,eu,zuhaitz baten inguruan,zuhaitz goroldiotsu baten ondoan,BACKWARD_ENTAILMENT
+dico_phrasis_0001543__eu-eu__forward,dico_phrasis_0001543,eu,eu,egurrezko bloke batzuekin,egurrezko blokeak,FORWARD_ENTAILMENT
+dico_phrasis_0001543__eu-eu__reverse,dico_phrasis_0001543,eu,eu,egurrezko blokeak,egurrezko bloke batzuekin,BACKWARD_ENTAILMENT
+dico_phrasis_0001544__eu-eu__forward,dico_phrasis_0001544,eu,eu,zelai erraldoi batekoa,zelai batean,FORWARD_ENTAILMENT
+dico_phrasis_0001544__eu-eu__reverse,dico_phrasis_0001544,eu,eu,zelai batean,zelai erraldoi batekoa,BACKWARD_ENTAILMENT
+dico_phrasis_0001552__eu-eu__forward,dico_phrasis_0001552,eu,eu,AEBetako drone eraso,Drone eraso,FORWARD_ENTAILMENT
+dico_phrasis_0001552__eu-eu__reverse,dico_phrasis_0001552,eu,eu,Drone eraso,AEBetako drone eraso,BACKWARD_ENTAILMENT
+dico_phrasis_0001553__eu-eu__forward,dico_phrasis_0001553,eu,eu,5 militante,susmatutako lau militante,FORWARD_ENTAILMENT
+dico_phrasis_0001553__eu-eu__reverse,dico_phrasis_0001553,eu,eu,susmatutako lau militante,5 militante,BACKWARD_ENTAILMENT
+dico_phrasis_0001565__eu-eu__forward,dico_phrasis_0001565,eu,eu,100 hildako,9 hildako,FORWARD_ENTAILMENT
+dico_phrasis_0001565__eu-eu__reverse,dico_phrasis_0001565,eu,eu,9 hildako,100 hildako,BACKWARD_ENTAILMENT
+dico_phrasis_0001575__eu-eu__forward,dico_phrasis_0001575,eu,eu,Googlek eta IBMk irabazi sendoak argitaratu dituzte,irabazi sendoei esker,FORWARD_ENTAILMENT
+dico_phrasis_0001575__eu-eu__reverse,dico_phrasis_0001575,eu,eu,irabazi sendoei esker,Googlek eta IBMk irabazi sendoak argitaratu dituzte,BACKWARD_ENTAILMENT
+dico_phrasis_0001588__eu-eu__forward,dico_phrasis_0001588,eu,eu,Militanteak,250 militante,FORWARD_ENTAILMENT
+dico_phrasis_0001588__eu-eu__reverse,dico_phrasis_0001588,eu,eu,250 militante,Militanteak,BACKWARD_ENTAILMENT
+dico_phrasis_0001591__eu-eu__forward,dico_phrasis_0001591,eu,eu,mugarri den akordio nuklearra,akordio nuklearra,FORWARD_ENTAILMENT
+dico_phrasis_0001591__eu-eu__reverse,dico_phrasis_0001591,eu,eu,akordio nuklearra,mugarri den akordio nuklearra,BACKWARD_ENTAILMENT
+dico_phrasis_0001599__eu-eu__forward,dico_phrasis_0001599,eu,eu,Pakistango talibanen buruzagi Hakimullah Mehsud,Pakistango talibanak,FORWARD_ENTAILMENT
+dico_phrasis_0001599__eu-eu__reverse,dico_phrasis_0001599,eu,eu,Pakistango talibanak,Pakistango talibanen buruzagi Hakimullah Mehsud,BACKWARD_ENTAILMENT
+dico_phrasis_0001611__eu-eu__forward,dico_phrasis_0001611,eu,eu,hiru hilabetearen barruan,hilabeteetan,FORWARD_ENTAILMENT
+dico_phrasis_0001611__eu-eu__reverse,dico_phrasis_0001611,eu,eu,hilabeteetan,hiru hilabetearen barruan,BACKWARD_ENTAILMENT
+dico_phrasis_0001612__eu-eu__forward,dico_phrasis_0001612,eu,eu,Mumbaiko fotokazetariaren talde-bortxaketa kasua,Mumbaiko kazetariaren talde-bortxaketa kasua,FORWARD_ENTAILMENT
+dico_phrasis_0001612__eu-eu__reverse,dico_phrasis_0001612,eu,eu,Mumbaiko kazetariaren talde-bortxaketa kasua,Mumbaiko fotokazetariaren talde-bortxaketa kasua,BACKWARD_ENTAILMENT
+dico_phrasis_0001613__eu-eu__forward,dico_phrasis_0001613,eu,eu,Espainiako tren-istripuan,Espainiako istripuan,FORWARD_ENTAILMENT
+dico_phrasis_0001613__eu-eu__reverse,dico_phrasis_0001613,eu,eu,Espainiako istripuan,Espainiako tren-istripuan,BACKWARD_ENTAILMENT
+dico_phrasis_0001617__eu-eu__forward,dico_phrasis_0001617,eu,eu,AEBetako Capitol Hill,AEBetako Kapitolioa,FORWARD_ENTAILMENT
+dico_phrasis_0001617__eu-eu__reverse,dico_phrasis_0001617,eu,eu,AEBetako Kapitolioa,AEBetako Capitol Hill,BACKWARD_ENTAILMENT
+dico_phrasis_0001623__eu-eu__forward,dico_phrasis_0001623,eu,eu,Siriako hiriburuan,Sirian,FORWARD_ENTAILMENT
+dico_phrasis_0001623__eu-eu__reverse,dico_phrasis_0001623,eu,eu,Sirian,Siriako hiriburuan,BACKWARD_ENTAILMENT
+dico_phrasis_0001626__eu-eu__forward,dico_phrasis_0001626,eu,eu,iraniar erbesteratuak,gutxienez 47 iraniar erbesteratu,FORWARD_ENTAILMENT
+dico_phrasis_0001626__eu-eu__reverse,dico_phrasis_0001626,eu,eu,gutxienez 47 iraniar erbesteratu,iraniar erbesteratuak,BACKWARD_ENTAILMENT
+dico_phrasis_0001630__eu-eu__forward,dico_phrasis_0001630,eu,eu,Thailandiako oposizioko manifestariak,Thailandiako manifestariak,FORWARD_ENTAILMENT
+dico_phrasis_0001630__eu-eu__reverse,dico_phrasis_0001630,eu,eu,Thailandiako manifestariak,Thailandiako oposizioko manifestariak,BACKWARD_ENTAILMENT
+dico_phrasis_0001633__eu-eu__forward,dico_phrasis_0001633,eu,eu,zanpatuta hil,hilda,FORWARD_ENTAILMENT
+dico_phrasis_0001633__eu-eu__reverse,dico_phrasis_0001633,eu,eu,hilda,zanpatuta hil,BACKWARD_ENTAILMENT
+dico_phrasis_0001639__eu-eu__forward,dico_phrasis_0001639,eu,eu,hildako 14en artean,sei hildako,FORWARD_ENTAILMENT
+dico_phrasis_0001639__eu-eu__reverse,dico_phrasis_0001639,eu,eu,sei hildako,hildako 14en artean,BACKWARD_ENTAILMENT
+dico_phrasis_0001645__eu-eu__forward,dico_phrasis_0001645,eu,eu,ospitalean,ospitalea,FORWARD_ENTAILMENT
+dico_phrasis_0001645__eu-eu__reverse,dico_phrasis_0001645,eu,eu,ospitalea,ospitalean,BACKWARD_ENTAILMENT
+dico_phrasis_0001648__eu-eu__forward,dico_phrasis_0001648,eu,eu,P.G.ko polizia,Polizia,FORWARD_ENTAILMENT
+dico_phrasis_0001648__eu-eu__reverse,dico_phrasis_0001648,eu,eu,Polizia,P.G.ko polizia,BACKWARD_ENTAILMENT
+dico_phrasis_0001651__eu-eu__forward,dico_phrasis_0001651,eu,eu,"Afganistango polizia, 5 taliban borrokalari","5 taliban, 5 Afganistango polizia",FORWARD_ENTAILMENT
+dico_phrasis_0001651__eu-eu__reverse,dico_phrasis_0001651,eu,eu,"5 taliban, 5 Afganistango polizia","Afganistango polizia, 5 taliban borrokalari",BACKWARD_ENTAILMENT
+dico_phrasis_0001653__eu-eu__forward,dico_phrasis_0001653,eu,eu,NZko sexu berekoen arteko ezkontzara,Zeelanda Berriko sexu berekoen arteko ezkontza,FORWARD_ENTAILMENT
+dico_phrasis_0001653__eu-eu__reverse,dico_phrasis_0001653,eu,eu,Zeelanda Berriko sexu berekoen arteko ezkontza,NZko sexu berekoen arteko ezkontzara,BACKWARD_ENTAILMENT
+dico_phrasis_0001658__eu-eu__forward,dico_phrasis_0001658,eu,eu,Egiptoko oposizio nagusia,Egiptoko oposizioa,FORWARD_ENTAILMENT
+dico_phrasis_0001658__eu-eu__reverse,dico_phrasis_0001658,eu,eu,Egiptoko oposizioa,Egiptoko oposizio nagusia,BACKWARD_ENTAILMENT
+dico_phrasis_0001659__eu-eu__forward,dico_phrasis_0001659,eu,eu,30.000 milioi dolarreko petrolio-lotura,25.000 milioi dolarreko petrolio-lotura,FORWARD_ENTAILMENT
+dico_phrasis_0001659__eu-eu__reverse,dico_phrasis_0001659,eu,eu,25.000 milioi dolarreko petrolio-lotura,30.000 milioi dolarreko petrolio-lotura,BACKWARD_ENTAILMENT
+dico_phrasis_0001663__eu-eu__forward,dico_phrasis_0001663,eu,eu,Siriako arma kimikoen garraiorako,Siriako arma kimikoak,FORWARD_ENTAILMENT
+dico_phrasis_0001663__eu-eu__reverse,dico_phrasis_0001663,eu,eu,Siriako arma kimikoak,Siriako arma kimikoen garraiorako,BACKWARD_ENTAILMENT
+dico_phrasis_0001665__eu-eu__forward,dico_phrasis_0001665,eu,eu,palestinarrak,bi palestinar,FORWARD_ENTAILMENT
+dico_phrasis_0001665__eu-eu__reverse,dico_phrasis_0001665,eu,eu,bi palestinar,palestinarrak,BACKWARD_ENTAILMENT
+dico_phrasis_0001674__eu-eu__forward,dico_phrasis_0001674,eu,eu,Obamaren bira ekonomikoa,Obama,FORWARD_ENTAILMENT
+dico_phrasis_0001674__eu-eu__reverse,dico_phrasis_0001674,eu,eu,Obama,Obamaren bira ekonomikoa,BACKWARD_ENTAILMENT
+dico_phrasis_0001686__eu-eu__forward,dico_phrasis_0001686,eu,eu,bere mugak,mugak,FORWARD_ENTAILMENT
+dico_phrasis_0001686__eu-eu__reverse,dico_phrasis_0001686,eu,eu,mugak,bere mugak,BACKWARD_ENTAILMENT
+dico_phrasis_0001687__eu-eu__forward,dico_phrasis_0001687,eu,eu,Australiako lehen ministro berri gisa,Australiako lehen ministro gisa,FORWARD_ENTAILMENT
+dico_phrasis_0001687__eu-eu__reverse,dico_phrasis_0001687,eu,eu,Australiako lehen ministro gisa,Australiako lehen ministro berri gisa,BACKWARD_ENTAILMENT
+dico_phrasis_0001688__eu-eu__forward,dico_phrasis_0001688,eu,eu,Venezuelako Asanblada,Asanblada,FORWARD_ENTAILMENT
+dico_phrasis_0001688__eu-eu__reverse,dico_phrasis_0001688,eu,eu,Asanblada,Venezuelako Asanblada,BACKWARD_ENTAILMENT
+dico_phrasis_0001698__eu-eu__forward,dico_phrasis_0001698,eu,eu,aberastasuna partekatzeko akordioa lortu,aberastasun akordioa lortu,FORWARD_ENTAILMENT
+dico_phrasis_0001698__eu-eu__reverse,dico_phrasis_0001698,eu,eu,aberastasun akordioa lortu,aberastasuna partekatzeko akordioa lortu,BACKWARD_ENTAILMENT
+dico_phrasis_0001699__eu-eu__forward,dico_phrasis_0001699,eu,eu,Pakistan aldeko talibanen gerra-jauna,talibanen komandantea,FORWARD_ENTAILMENT
+dico_phrasis_0001699__eu-eu__reverse,dico_phrasis_0001699,eu,eu,talibanen komandantea,Pakistan aldeko talibanen gerra-jauna,BACKWARD_ENTAILMENT
+dico_phrasis_0001713__eu-eu__forward,dico_phrasis_0001713,eu,eu,AEBetako akzioen etorkizuneko kontratuak,akzioen etorkizuneko kontratuak,FORWARD_ENTAILMENT
+dico_phrasis_0001713__eu-eu__reverse,dico_phrasis_0001713,eu,eu,akzioen etorkizuneko kontratuak,AEBetako akzioen etorkizuneko kontratuak,BACKWARD_ENTAILMENT
+dico_phrasis_0001714__eu-eu__forward,dico_phrasis_0001714,eu,eu,Moskuko bilera,bilera,FORWARD_ENTAILMENT
+dico_phrasis_0001714__eu-eu__reverse,dico_phrasis_0001714,eu,eu,bilera,Moskuko bilera,BACKWARD_ENTAILMENT
+dico_phrasis_0001718__eu-eu__forward,dico_phrasis_0001718,eu,eu,Fred Talbot telebistako eguraldi-iragarlea,Fred Talbot eguraldi-iragarlea,FORWARD_ENTAILMENT
+dico_phrasis_0001718__eu-eu__reverse,dico_phrasis_0001718,eu,eu,Fred Talbot eguraldi-iragarlea,Fred Talbot telebistako eguraldi-iragarlea,BACKWARD_ENTAILMENT
+dico_phrasis_0001737__eu-eu__forward,dico_phrasis_0001737,eu,eu,Gutxienez 66,Gutxienez 47,FORWARD_ENTAILMENT
+dico_phrasis_0001737__eu-eu__reverse,dico_phrasis_0001737,eu,eu,Gutxienez 47,Gutxienez 66,BACKWARD_ENTAILMENT
+dico_phrasis_0001739__eu-eu__forward,dico_phrasis_0001739,eu,eu,haurtxo bat magalean duela,haurtxo bat eusten,FORWARD_ENTAILMENT
+dico_phrasis_0001739__eu-eu__reverse,dico_phrasis_0001739,eu,eu,haurtxo bat eusten,haurtxo bat magalean duela,BACKWARD_ENTAILMENT
+dico_phrasis_0001744__eu-eu__forward,dico_phrasis_0001744,eu,eu,bizikleta gorri batekin,bizikleta batekin,FORWARD_ENTAILMENT
+dico_phrasis_0001744__eu-eu__reverse,dico_phrasis_0001744,eu,eu,bizikleta batekin,bizikleta gorri batekin,BACKWARD_ENTAILMENT
+dico_phrasis_0001746__eu-eu__forward,dico_phrasis_0001746,eu,eu,espaloian,kalean,FORWARD_ENTAILMENT
+dico_phrasis_0001746__eu-eu__reverse,dico_phrasis_0001746,eu,eu,kalean,espaloian,BACKWARD_ENTAILMENT
+dico_phrasis_0001749__eu-eu__forward,dico_phrasis_0001749,eu,eu,larruzko aulki beltz batean,larruzko aulki batean,FORWARD_ENTAILMENT
+dico_phrasis_0001749__eu-eu__reverse,dico_phrasis_0001749,eu,eu,larruzko aulki batean,larruzko aulki beltz batean,BACKWARD_ENTAILMENT
+dico_phrasis_0001755__eu-eu__forward,dico_phrasis_0001755,eu,eu,haurtxo txiki bat,haurtxo bat,FORWARD_ENTAILMENT
+dico_phrasis_0001755__eu-eu__reverse,dico_phrasis_0001755,eu,eu,haurtxo bat,haurtxo txiki bat,BACKWARD_ENTAILMENT
+dico_phrasis_0001760__eu-eu__forward,dico_phrasis_0001760,eu,eu,aulki baten azpian,zoruan,FORWARD_ENTAILMENT
+dico_phrasis_0001760__eu-eu__reverse,dico_phrasis_0001760,eu,eu,zoruan,aulki baten azpian,BACKWARD_ENTAILMENT
+dico_phrasis_0001761__eu-eu__forward,dico_phrasis_0001761,eu,eu,Katu zuri txiki bat,Katu zuri bat,FORWARD_ENTAILMENT
+dico_phrasis_0001761__eu-eu__reverse,dico_phrasis_0001761,eu,eu,Katu zuri bat,Katu zuri txiki bat,BACKWARD_ENTAILMENT
+dico_phrasis_0001774__eu-eu__forward,dico_phrasis_0001774,eu,eu,ordenagailuko hainbat monitorekin,ordenagailuko lau monitorekin,FORWARD_ENTAILMENT
+dico_phrasis_0001774__eu-eu__reverse,dico_phrasis_0001774,eu,eu,ordenagailuko lau monitorekin,ordenagailuko hainbat monitorekin,BACKWARD_ENTAILMENT
+dico_phrasis_0001777__eu-eu__forward,dico_phrasis_0001777,eu,eu,Egongela edo familia-gela,Egongela,FORWARD_ENTAILMENT
+dico_phrasis_0001777__eu-eu__reverse,dico_phrasis_0001777,eu,eu,Egongela,Egongela edo familia-gela,BACKWARD_ENTAILMENT
+dico_phrasis_0001779__eu-eu__forward,dico_phrasis_0001779,eu,eu,Ingalaterrako kale bat,kalea,FORWARD_ENTAILMENT
+dico_phrasis_0001779__eu-eu__reverse,dico_phrasis_0001779,eu,eu,kalea,Ingalaterrako kale bat,BACKWARD_ENTAILMENT
+dico_phrasis_0001780__eu-eu__forward,dico_phrasis_0001780,eu,eu,egurrezko armairuekin eta jangelako mahaiarekin,egurrezko armairuekin eta altzariekin,FORWARD_ENTAILMENT
+dico_phrasis_0001780__eu-eu__reverse,dico_phrasis_0001780,eu,eu,egurrezko armairuekin eta altzariekin,egurrezko armairuekin eta jangelako mahaiarekin,BACKWARD_ENTAILMENT
+dico_phrasis_0001789__eu-eu__forward,dico_phrasis_0001789,eu,eu,Gurutzaldi-ontzi zuri handia,Gurutzaldi-ontzi handia,FORWARD_ENTAILMENT
+dico_phrasis_0001789__eu-eu__reverse,dico_phrasis_0001789,eu,eu,Gurutzaldi-ontzi handia,Gurutzaldi-ontzi zuri handia,BACKWARD_ENTAILMENT
+dico_phrasis_0001794__eu-eu__forward,dico_phrasis_0001794,eu,eu,ukuiluko animaliak,ardi bat,FORWARD_ENTAILMENT
+dico_phrasis_0001794__eu-eu__reverse,dico_phrasis_0001794,eu,eu,ardi bat,ukuiluko animaliak,BACKWARD_ENTAILMENT
+dico_phrasis_0001795__eu-eu__forward,dico_phrasis_0001795,eu,eu,mahai luze batean,mahai batean,FORWARD_ENTAILMENT
+dico_phrasis_0001795__eu-eu__reverse,dico_phrasis_0001795,eu,eu,mahai batean,mahai luze batean,BACKWARD_ENTAILMENT
+dico_phrasis_0001814__eu-eu__forward,dico_phrasis_0001814,eu,eu,gizon bat moto baten gainean,motozale bat,FORWARD_ENTAILMENT
+dico_phrasis_0001814__eu-eu__reverse,dico_phrasis_0001814,eu,eu,motozale bat,gizon bat moto baten gainean,BACKWARD_ENTAILMENT
+dico_phrasis_0001819__eu-eu__forward,dico_phrasis_0001819,eu,eu,neska ilehori gazte bat,neska gazte bat,FORWARD_ENTAILMENT
+dico_phrasis_0001819__eu-eu__reverse,dico_phrasis_0001819,eu,eu,neska gazte bat,neska ilehori gazte bat,BACKWARD_ENTAILMENT
+dico_phrasis_0001821__eu-eu__forward,dico_phrasis_0001821,eu,eu,Bi zaldi marroi,Zaldi marroi,FORWARD_ENTAILMENT
+dico_phrasis_0001821__eu-eu__reverse,dico_phrasis_0001821,eu,eu,Zaldi marroi,Bi zaldi marroi,BACKWARD_ENTAILMENT
+dico_phrasis_0001826__eu-eu__forward,dico_phrasis_0001826,eu,eu,hegazkin txiki baten ondoan,hegazkin txiki bat,FORWARD_ENTAILMENT
+dico_phrasis_0001826__eu-eu__reverse,dico_phrasis_0001826,eu,eu,hegazkin txiki bat,hegazkin txiki baten ondoan,BACKWARD_ENTAILMENT
+dico_phrasis_0001827__eu-eu__forward,dico_phrasis_0001827,eu,eu,eskularrudun esku baten gainean,-ren eskularrudun eskua,FORWARD_ENTAILMENT
+dico_phrasis_0001827__eu-eu__reverse,dico_phrasis_0001827,eu,eu,-ren eskularrudun eskua,eskularrudun esku baten gainean,BACKWARD_ENTAILMENT
+dico_phrasis_0001831__eu-eu__forward,dico_phrasis_0001831,eu,eu,Emakume bat,Pertsona bat,FORWARD_ENTAILMENT
+dico_phrasis_0001831__eu-eu__reverse,dico_phrasis_0001831,eu,eu,Pertsona bat,Emakume bat,BACKWARD_ENTAILMENT
+dico_phrasis_0001834__eu-eu__forward,dico_phrasis_0001834,eu,eu,Gizon bat eta bi emakume,Gizon bat eta emakumeak,FORWARD_ENTAILMENT
+dico_phrasis_0001834__eu-eu__reverse,dico_phrasis_0001834,eu,eu,Gizon bat eta emakumeak,Gizon bat eta bi emakume,BACKWARD_ENTAILMENT
+dico_phrasis_0001843__eu-eu__forward,dico_phrasis_0001843,eu,eu,kale batean,kalea,FORWARD_ENTAILMENT
+dico_phrasis_0001843__eu-eu__reverse,dico_phrasis_0001843,eu,eu,kalea,kale batean,BACKWARD_ENTAILMENT
+dico_phrasis_0001850__eu-eu__forward,dico_phrasis_0001850,eu,eu,eserita daude,eserita,FORWARD_ENTAILMENT
+dico_phrasis_0001850__eu-eu__reverse,dico_phrasis_0001850,eu,eu,eserita,eserita daude,BACKWARD_ENTAILMENT
+dico_phrasis_0001851__eu-eu__forward,dico_phrasis_0001851,eu,eu,etxeko bulego bat,gela,FORWARD_ENTAILMENT
+dico_phrasis_0001851__eu-eu__reverse,dico_phrasis_0001851,eu,eu,gela,etxeko bulego bat,BACKWARD_ENTAILMENT
+dico_phrasis_0001858__eu-eu__forward,dico_phrasis_0001858,eu,eu,Sofa urdina eta ohe bikiak,Sofa urdina,FORWARD_ENTAILMENT
+dico_phrasis_0001858__eu-eu__reverse,dico_phrasis_0001858,eu,eu,Sofa urdina,Sofa urdina eta ohe bikiak,BACKWARD_ENTAILMENT
+dico_phrasis_0001871__eu-eu__forward,dico_phrasis_0001871,eu,eu,Apple ordenagailu zuri bat,Apple ordenagailu bat,FORWARD_ENTAILMENT
+dico_phrasis_0001871__eu-eu__reverse,dico_phrasis_0001871,eu,eu,Apple ordenagailu bat,Apple ordenagailu zuri bat,BACKWARD_ENTAILMENT
+dico_phrasis_0001873__eu-eu__forward,dico_phrasis_0001873,eu,eu,Autobus gorri eta zuria,Autobus bat,FORWARD_ENTAILMENT
+dico_phrasis_0001873__eu-eu__reverse,dico_phrasis_0001873,eu,eu,Autobus bat,Autobus gorri eta zuria,BACKWARD_ENTAILMENT
+dico_phrasis_0001878__eu-eu__forward,dico_phrasis_0001878,eu,eu,sofa urdinaren gainean,sofa gainean,FORWARD_ENTAILMENT
+dico_phrasis_0001878__eu-eu__reverse,dico_phrasis_0001878,eu,eu,sofa gainean,sofa urdinaren gainean,BACKWARD_ENTAILMENT
+dico_phrasis_0001880__eu-eu__forward,dico_phrasis_0001880,eu,eu,Zuri-beltzeko adardun behi bat,zuri-beltzeko behi bat,FORWARD_ENTAILMENT
+dico_phrasis_0001880__eu-eu__reverse,dico_phrasis_0001880,eu,eu,zuri-beltzeko behi bat,Zuri-beltzeko adardun behi bat,BACKWARD_ENTAILMENT
+dico_phrasis_0001883__eu-eu__forward,dico_phrasis_0001883,eu,eu,Txori marroi txiki batzuk,Txori txiki bat,FORWARD_ENTAILMENT
+dico_phrasis_0001883__eu-eu__reverse,dico_phrasis_0001883,eu,eu,Txori txiki bat,Txori marroi txiki batzuk,BACKWARD_ENTAILMENT
+dico_phrasis_0001885__eu-eu__forward,dico_phrasis_0001885,eu,eu,belarrezko zelai batean,zelai batean,FORWARD_ENTAILMENT
+dico_phrasis_0001885__eu-eu__reverse,dico_phrasis_0001885,eu,eu,zelai batean,belarrezko zelai batean,BACKWARD_ENTAILMENT
+dico_phrasis_0001889__eu-eu__forward,dico_phrasis_0001889,eu,eu,pertsona talde bat,lau pertsona,FORWARD_ENTAILMENT
+dico_phrasis_0001889__eu-eu__reverse,dico_phrasis_0001889,eu,eu,lau pertsona,pertsona talde bat,BACKWARD_ENTAILMENT
+dico_phrasis_0001891__eu-eu__forward,dico_phrasis_0001891,eu,eu,Bi zaldi zuri,Bi zaldi,FORWARD_ENTAILMENT
+dico_phrasis_0001891__eu-eu__reverse,dico_phrasis_0001891,eu,eu,Bi zaldi,Bi zaldi zuri,BACKWARD_ENTAILMENT
+dico_phrasis_0001896__eu-eu__forward,dico_phrasis_0001896,eu,eu,portu batean,kostalde batean,FORWARD_ENTAILMENT
+dico_phrasis_0001896__eu-eu__reverse,dico_phrasis_0001896,eu,eu,kostalde batean,portu batean,BACKWARD_ENTAILMENT
+dico_phrasis_0001898__eu-eu__forward,dico_phrasis_0001898,eu,eu,Emakume irribarretsu bat,emakume bat,FORWARD_ENTAILMENT
+dico_phrasis_0001898__eu-eu__reverse,dico_phrasis_0001898,eu,eu,emakume bat,Emakume irribarretsu bat,BACKWARD_ENTAILMENT
+dico_phrasis_0001901__eu-eu__forward,dico_phrasis_0001901,eu,eu,eserita dagoen bitartean,eserita,FORWARD_ENTAILMENT
+dico_phrasis_0001901__eu-eu__reverse,dico_phrasis_0001901,eu,eu,eserita,eserita dagoen bitartean,BACKWARD_ENTAILMENT
+dico_phrasis_0001904__eu-eu__forward,dico_phrasis_0001904,eu,eu,Bi gazte,Bi pertsona,FORWARD_ENTAILMENT
+dico_phrasis_0001904__eu-eu__reverse,dico_phrasis_0001904,eu,eu,Bi pertsona,Bi gazte,BACKWARD_ENTAILMENT
+dico_phrasis_0001909__eu-eu__forward,dico_phrasis_0001909,eu,eu,belarrezko zelai batean,zelai batean,FORWARD_ENTAILMENT
+dico_phrasis_0001909__eu-eu__reverse,dico_phrasis_0001909,eu,eu,zelai batean,belarrezko zelai batean,BACKWARD_ENTAILMENT
+dico_phrasis_0001910__eu-eu__forward,dico_phrasis_0001910,eu,eu,Tren beltz bat,Tren bat,FORWARD_ENTAILMENT
+dico_phrasis_0001910__eu-eu__reverse,dico_phrasis_0001910,eu,eu,Tren bat,Tren beltz bat,BACKWARD_ENTAILMENT
+dico_phrasis_0001924__eu-eu__forward,dico_phrasis_0001924,eu,eu,ile luzeko gizon bat,gizon bat,FORWARD_ENTAILMENT
+dico_phrasis_0001924__eu-eu__reverse,dico_phrasis_0001924,eu,eu,gizon bat,ile luzeko gizon bat,BACKWARD_ENTAILMENT
+dico_phrasis_0001925__eu-eu__forward,dico_phrasis_0001925,eu,eu,bi Coca-Cola botila handi erdi-hutsen artean,bi botila handiren artean,FORWARD_ENTAILMENT
+dico_phrasis_0001925__eu-eu__reverse,dico_phrasis_0001925,eu,eu,bi botila handiren artean,bi Coca-Cola botila handi erdi-hutsen artean,BACKWARD_ENTAILMENT
+dico_phrasis_0001927__eu-eu__forward,dico_phrasis_0001927,eu,eu,kolore marroiko bi solairuko turismo-autobus bat,bi solairuko autobus bat,FORWARD_ENTAILMENT
+dico_phrasis_0001927__eu-eu__reverse,dico_phrasis_0001927,eu,eu,bi solairuko autobus bat,kolore marroiko bi solairuko turismo-autobus bat,BACKWARD_ENTAILMENT
+dico_phrasis_0001930__eu-eu__forward,dico_phrasis_0001930,eu,eu,betaurrekoekin eta plastikozko bi botilarekin,ur botila birekin,FORWARD_ENTAILMENT
+dico_phrasis_0001930__eu-eu__reverse,dico_phrasis_0001930,eu,eu,ur botila birekin,betaurrekoekin eta plastikozko bi botilarekin,BACKWARD_ENTAILMENT
+dico_phrasis_0001941__eu-eu__forward,dico_phrasis_0001941,eu,eu,pertsonena,sei pertsonena,FORWARD_ENTAILMENT
+dico_phrasis_0001941__eu-eu__reverse,dico_phrasis_0001941,eu,eu,sei pertsonena,pertsonena,BACKWARD_ENTAILMENT
+dico_phrasis_0001944__eu-eu__forward,dico_phrasis_0001944,eu,eu,Bi behi,Behia,FORWARD_ENTAILMENT
+dico_phrasis_0001944__eu-eu__reverse,dico_phrasis_0001944,eu,eu,Behia,Bi behi,BACKWARD_ENTAILMENT
+dico_phrasis_0002031__eu-eu__forward,dico_phrasis_0002031,eu,eu,ikuskizun berrirako,agertokian,NEGATIVE_OTHER
+dico_phrasis_0002081__eu-eu__forward,dico_phrasis_0002081,eu,eu,haren gainean,bere ahoan,NEGATIVE_OTHER
+dico_phrasis_0002147__eu-eu__forward,dico_phrasis_0002147,eu,eu,Siriako arma kimikoei buruz,Siriako aldarrikapen kimikoei buruz,NEGATIVE_OTHER
+dico_phrasis_0002296__eu-eu__forward,dico_phrasis_0002296,eu,eu,estalki batean,geltoki batean,NEGATIVE_OTHER
+dico_phrasis_0002310__eu-eu__forward,dico_phrasis_0002310,eu,eu,ibilaldiak,jaisten da,NEGATIVE_OTHER
+dico_phrasis_0002348__eu-eu__forward,dico_phrasis_0002348,eu,eu,zaldiz ibiltzeko jantzita,zaldiz dabil,NEGATIVE_OTHER
+dico_phrasis_0002385__eu-eu__forward,dico_phrasis_0002385,eu,eu,aireportu militarrak,aireportu militarrean,NEGATIVE_OTHER
+dico_phrasis_0002454__eu-eu__forward,dico_phrasis_0002454,eu,eu,Bangkoken izandako tiroketan,AEBetako eskolako tiroketan,NEGATIVE_OTHER
+dico_phrasis_0002615__eu-eu__forward,dico_phrasis_0002615,eu,eu,teilatu baten gainekoa,balkoi batetik,NEGATIVE_OTHER
+dico_phrasis_0002630__eu-eu__forward,dico_phrasis_0002630,eu,eu,jolasean ari dira,igeri egin,NEGATIVE_OTHER
+dico_phrasis_0002684__eu-eu__forward,dico_phrasis_0002684,eu,eu,bola-zulo gorri batean,bola urdinen zulo baten gainean,NEGATIVE_OTHER
+dico_phrasis_0002803__eu-eu__forward,dico_phrasis_0002803,eu,eu,AEBetako Erreserba Federaleko buru gisa,Erreserba Federaleko hurrengo presidente gisa,NEGATIVE_OTHER
+dico_phrasis_0003058__eu-eu__forward,dico_phrasis_0003058,eu,eu,zaldi zuri bat,zaldi marroi bat,NEGATIVE_OTHER
+dico_phrasis_0003147__eu-eu__forward,dico_phrasis_0003147,eu,eu,Katu txiki bat,Txakur txiki hura,NEGATIVE_OTHER
+dico_phrasis_0003160__eu-eu__forward,dico_phrasis_0003160,eu,eu,emakumea bitartean,emakume irribarretsu bat,NEGATIVE_OTHER
+dico_phrasis_0003230__eu-eu__forward,dico_phrasis_0003230,eu,eu,Bi emakume,Hiru gizon,NEGATIVE_OTHER
+dico_phrasis_0003261__eu-eu__forward,dico_phrasis_0003261,eu,eu,Txakur beltz bat,Ile luzeko txakur bat,NEGATIVE_OTHER
+dico_phrasis_0003286__eu-eu__forward,dico_phrasis_0003286,eu,eu,Antzara bat,Beltxarga beltz bat,NEGATIVE_OTHER
+dico_phrasis_0003558__eu-eu__forward,dico_phrasis_0003558,eu,eu,Siriaren gaineko arma kimikoak,erabilita,NEGATIVE_OTHER
+dico_phrasis_0003600__eu-eu__forward,dico_phrasis_0003600,eu,eu,"% 0,7",eskaerak,NEGATIVE_OTHER
+dico_phrasis_0003681__eu-eu__forward,dico_phrasis_0003681,eu,eu,Fed-eko batzordea,borondatea,NEGATIVE_OTHER
+dico_phrasis_0003754__eu-eu__forward,dico_phrasis_0003754,eu,eu,sua,Istanbulean,NEGATIVE_OTHER
+dico_phrasis_0003795__eu-eu__forward,dico_phrasis_0003795,eu,eu,prest,ospitaleratuta,NEGATIVE_OTHER
+dico_phrasis_0003800__eu-eu__forward,dico_phrasis_0003800,eu,eu,Kazakhstango,Iran,NEGATIVE_OTHER
+dico_phrasis_0003857__eu-eu__forward,dico_phrasis_0003857,eu,eu,Pakistanen autobus-bonbardaketan,gutxienez,NEGATIVE_OTHER
+dico_phrasis_0003892__eu-eu__forward,dico_phrasis_0003892,eu,eu,hauteskunde orokorrak,iragartzen du,NEGATIVE_OTHER
+dico_phrasis_0003938__eu-eu__forward,dico_phrasis_0003938,eu,eu,Estatuko Dumara,batzeko,NEGATIVE_OTHER
+dico_phrasis_0003972__eu-eu__forward,dico_phrasis_0003972,eu,eu,zauriak,bonba suizida,NEGATIVE_OTHER
+dico_phrasis_0003995__eu-eu__forward,dico_phrasis_0003995,eu,eu,Amaierak,Glasgowko helikoptero istripua,NEGATIVE_OTHER
+dico_phrasis_0004023__eu-eu__forward,dico_phrasis_0004023,eu,eu,preso palestinarrak,suntsitu,NEGATIVE_OTHER
+dico_phrasis_0004029__eu-eu__forward,dico_phrasis_0004029,eu,eu,100.000,3 aireportu,NEGATIVE_OTHER
+dico_phrasis_0004038__eu-eu__forward,dico_phrasis_0004038,eu,eu,Hegoafrika,ontziratu,NEGATIVE_OTHER
+dico_phrasis_0004052__eu-eu__forward,dico_phrasis_0004052,eu,eu,5 hildako,kolpeak,NEGATIVE_OTHER
+dico_phrasis_0004056__eu-eu__forward,dico_phrasis_0004056,eu,eu,«prezio handikoa»,Kabinetea,NEGATIVE_OTHER
+dico_phrasis_0004145__eu-eu__forward,dico_phrasis_0004145,eu,eu,ados egon,arma kimikoen akordioari buruzkoa,NEGATIVE_OTHER
+dico_phrasis_0004245__eu-eu__forward,dico_phrasis_0004245,eu,eu,sakatu,EBko Atzerri ministroak,NEGATIVE_OTHER
+dico_phrasis_0004262__eu-eu__forward,dico_phrasis_0004262,eu,eu,Sei,autobus istripuan,NEGATIVE_OTHER
+dico_phrasis_0004271__eu-eu__forward,dico_phrasis_0004271,eu,eu,txingorra,kaleratzearen atzean,NEGATIVE_OTHER
+dico_phrasis_0004281__eu-eu__forward,dico_phrasis_0004281,eu,eu,Sudandar haurdun dagoen emakumea,askatzen du,NEGATIVE_OTHER
+dico_phrasis_0004414__eu-eu__forward,dico_phrasis_0004414,eu,eu,iragartzea,Sisirena,NEGATIVE_OTHER
+dico_phrasis_0004432__eu-eu__forward,dico_phrasis_0004432,eu,eu,Ukraina,hango auzitegi gorena,NEGATIVE_OTHER
+dico_phrasis_0004530__eu-eu__forward,dico_phrasis_0004530,eu,eu,Bi emakume,posatzen,NEGATIVE_OTHER
+dico_phrasis_0004719__eu-eu__forward,dico_phrasis_0004719,eu,eu,jantzita,harmailan,NEGATIVE_OTHER
+dico_phrasis_0004743__eu-eu__forward,dico_phrasis_0004743,eu,eu,atzeko patio batean,haurrena,NEGATIVE_OTHER
+dico_phrasis_0004755__eu-eu__forward,dico_phrasis_0004755,eu,eu,usaintzen ari da,uhal luze bat,NEGATIVE_OTHER
+dico_phrasis_0004825__eu-eu__forward,dico_phrasis_0004825,eu,eu,beroki laranja bat,gizon bat eta emakume bat,NEGATIVE_OTHER
+dico_phrasis_0004931__eu-eu__forward,dico_phrasis_0004931,eu,eu,txakur zuri-beltz bat,zelai berde batean zehar,NEGATIVE_OTHER
+dico_phrasis_0004965__eu-eu__forward,dico_phrasis_0004965,eu,eu,bengala bat,bihurritzen ari da,NEGATIVE_OTHER
+dico_phrasis_0005233__eu-eu__forward,dico_phrasis_0005233,eu,eu,gizon zaharrena,bikote bat,NEGATIVE_OTHER
+dico_phrasis_0005355__eu-eu__forward,dico_phrasis_0005355,eu,eu,pantaila handian,kamerara,NEGATIVE_OTHER
+dico_phrasis_0005451__eu-eu__forward,dico_phrasis_0005451,eu,eu,joko bat,jolasten ari dira,NEGATIVE_OTHER
+dico_phrasis_0005509__eu-eu__forward,dico_phrasis_0005509,eu,eu,jaka bat,jolasten,NEGATIVE_OTHER
+dico_phrasis_0005541__eu-eu__forward,dico_phrasis_0005541,eu,eu,eta,lurrean,NEGATIVE_OTHER
+dico_phrasis_0005636__eu-eu__forward,dico_phrasis_0005636,eu,eu,altxatzen du,horma urdin baten ondoan,NEGATIVE_OTHER
+dico_phrasis_0005736__eu-eu__forward,dico_phrasis_0005736,eu,eu,Frisbee berde bat,behera etortzea,NEGATIVE_OTHER
+dico_phrasis_0005741__eu-eu__forward,dico_phrasis_0005741,eu,eu,harrapatzear,hori,NEGATIVE_OTHER
+dico_phrasis_0005768__eu-eu__forward,dico_phrasis_0005768,eu,eu,gizon bat,gauez,NEGATIVE_OTHER
+dico_phrasis_0005778__eu-eu__forward,dico_phrasis_0005778,eu,eu,korrika egiten ari da,pilota hori batekin,NEGATIVE_OTHER
+dico_phrasis_0005889__eu-eu__forward,dico_phrasis_0005889,eu,eu,eskiko istripuaren ondoren,bere bizitzaren alde,NEGATIVE_OTHER
+dico_phrasis_0005934__eu-eu__forward,dico_phrasis_0005934,eu,eu,bilera ekonomikoaren ondoren,gertu,NEGATIVE_OTHER
+dico_phrasis_0005972__eu-eu__forward,dico_phrasis_0005972,eu,eu,onartu dena,informazioa jaso ondoren,NEGATIVE_OTHER
+dico_phrasis_0006046__eu-eu__forward,dico_phrasis_0006046,eu,eu,bilatu,Texasko leherketa-gunera,NEGATIVE_OTHER
+dico_phrasis_0006109__eu-eu__forward,dico_phrasis_0006109,eu,eu,eskatzen du,askatzeko,NEGATIVE_OTHER
+dico_phrasis_0006155__eu-eu__forward,dico_phrasis_0006155,eu,eu,Siria,eraso hilgarrien,NEGATIVE_OTHER
+dico_phrasis_0006381__eu-eu__forward,dico_phrasis_0006381,eu,eu,Erregearen atsekabea,erizainaren gainean,NEGATIVE_OTHER
+dico_phrasis_0006390__eu-eu__forward,dico_phrasis_0006390,eu,eu,Afrika Erdiko Errepublikara,Tiroketa armatuak,NEGATIVE_OTHER
+dico_phrasis_0006408__eu-eu__forward,dico_phrasis_0006408,eu,eu,Erresuma Batuko polizia,bilatu,NEGATIVE_OTHER
+dico_phrasis_0006543__eu-eu__forward,dico_phrasis_0006543,eu,eu,merkataritzaren hasieran,arrastatu,NEGATIVE_OTHER
+dico_phrasis_0006556__eu-eu__forward,dico_phrasis_0006556,eu,eu,iruzkin nazkagarriak,kenduz,NEGATIVE_OTHER
+dico_phrasis_0006564__eu-eu__forward,dico_phrasis_0006564,eu,eu,Angela Merkel,handia,NEGATIVE_OTHER
+dico_phrasis_0006665__eu-eu__forward,dico_phrasis_0006665,eu,eu,tren geltokiaren ondoan,istripuak,NEGATIVE_OTHER
+dico_phrasis_0006671__eu-eu__forward,dico_phrasis_0006671,eu,eu,Pakistanen,hiltzen du,NEGATIVE_OTHER
+dico_phrasis_0006843__eu-eu__forward,dico_phrasis_0006843,eu,eu,itsasoan,AEB,NEGATIVE_OTHER
+dico_phrasis_0006876__eu-eu__forward,dico_phrasis_0006876,eu,eu,Israelgo kartzelatik,minbiziarena,NEGATIVE_OTHER
+dico_phrasis_0007026__eu-eu__forward,dico_phrasis_0007026,eu,eu,suhiltzaile gisa,funtzionarioak,NEGATIVE_OTHER
+dico_phrasis_0007053__eu-eu__forward,dico_phrasis_0007053,eu,eu,irandarrak,Maliko presidentetzarako hauteskundeak,NEGATIVE_OTHER
+dico_phrasis_0007137__eu-eu__forward,dico_phrasis_0007137,eu,eu,Trena,Siriako arma kimikoak,NEGATIVE_OTHER
+dico_phrasis_0007233__eu-eu__forward,dico_phrasis_0007233,eu,eu,Libanoko enpresak,krisi politikoa,NEGATIVE_OTHER
+dico_phrasis_0007240__eu-eu__forward,dico_phrasis_0007240,eu,eu,Hego Korea,Ipar Korea,NEGATIVE_OTHER
+dico_phrasis_0007332__eu-eu__forward,dico_phrasis_0007332,eu,eu,Britainia Handia,zaldi-haragiaren eskandala,NEGATIVE_OTHER
+dico_phrasis_0007400__eu-eu__forward,dico_phrasis_0007400,eu,eu,Ados dago,printzipioz,NEGATIVE_OTHER
+dico_phrasis_0007467__eu-eu__forward,dico_phrasis_0007467,eu,eu,Putinen aliatua,nazkagarria,NEGATIVE_OTHER
+dico_phrasis_0007510__eu-eu__forward,dico_phrasis_0007510,eu,eu,AEBetako eraikinik altuena,izendatua,NEGATIVE_OTHER
+dico_phrasis_0007531__eu-eu__forward,dico_phrasis_0007531,eu,eu,barne,3 hildako,NEGATIVE_OTHER
+dico_phrasis_0007655__eu-eu__forward,dico_phrasis_0007655,eu,eu,hilketen ondoren,Musulmanen Anaitasuna,NEGATIVE_OTHER
+dico_phrasis_0007672__eu-eu__forward,dico_phrasis_0007672,eu,eu,'s Brotherhood,Multzoa,NEGATIVE_OTHER
+dico_phrasis_0007705__eu-eu__forward,dico_phrasis_0007705,eu,eu,zehaztu du,Siria,NEGATIVE_OTHER
+dico_phrasis_0007721__eu-eu__forward,dico_phrasis_0007721,eu,eu,Emakume bular biluziak,Bulgariako presidentea,NEGATIVE_OTHER
+dico_phrasis_0007783__eu-eu__forward,dico_phrasis_0007783,eu,eu,eraso kimikorako,kontuan hartzeko,NEGATIVE_OTHER
+dico_phrasis_0007935__eu-eu__forward,dico_phrasis_0007935,eu,eu,Musulmanen Anaidiaren egunkaria,atxilotuta,NEGATIVE_OTHER
+dico_phrasis_0007963__eu-eu__forward,dico_phrasis_0007963,eu,eu,aginduak,Mubaraken askatasun eskaera,NEGATIVE_OTHER
+dico_phrasis_0007964__eu-eu__forward,dico_phrasis_0007964,eu,eu,bonba-eztanda,Pakistanen,NEGATIVE_OTHER
+dico_phrasis_0008005__eu-eu__forward,dico_phrasis_0008005,eu,eu,Kieven,botatzea,NEGATIVE_OTHER
+dico_phrasis_0008019__eu-eu__forward,dico_phrasis_0008019,eu,eu,katu bat,oso gora,NEGATIVE_OTHER
+dico_phrasis_0008083__eu-eu__forward,dico_phrasis_0008083,eu,eu,Katu marradun bat,bizkarrez,NEGATIVE_OTHER
+dico_phrasis_0008099__eu-eu__forward,dico_phrasis_0008099,eu,eu,Talde bat,janariarekin,NEGATIVE_OTHER
+dico_phrasis_0008155__eu-eu__forward,dico_phrasis_0008155,eu,eu,zelai batean,larrean,NEGATIVE_OTHER
+dico_phrasis_0008180__eu-eu__forward,dico_phrasis_0008180,eu,eu,da,arkume zuri-beltza,NEGATIVE_OTHER
+dico_phrasis_0008278__eu-eu__forward,dico_phrasis_0008278,eu,eu,jantzita,eserita,NEGATIVE_OTHER
+dico_phrasis_0008478__eu-eu__forward,dico_phrasis_0008478,eu,eu,begira,bi emakume,NEGATIVE_OTHER
+dico_phrasis_0008753__eu-eu__forward,dico_phrasis_0008753,eu,eu,argazki baterako,zilarrezko tren baten aurrean,NEGATIVE_OTHER
+dico_phrasis_0008762__eu-eu__forward,dico_phrasis_0008762,eu,eu,Emakume bat,gidatzen,NEGATIVE_OTHER
+dico_phrasis_0008794__eu-eu__forward,dico_phrasis_0008794,eu,eu,kameran,eseri,NEGATIVE_OTHER
+dico_phrasis_0008870__eu-eu__forward,dico_phrasis_0008870,eu,eu,haurtxo neska gaztea,emakume bat,NEGATIVE_OTHER
+dico_phrasis_0008880__eu-eu__forward,dico_phrasis_0008880,eu,eu,zelai batean,eserita,NEGATIVE_OTHER
+dico_phrasis_0009015__eu-eu__forward,dico_phrasis_0009015,eu,eu,hormigoi gainean,zutik,NEGATIVE_OTHER
+dico_phrasis_0009042__eu-eu__forward,dico_phrasis_0009042,eu,eu,gora begira,jertse bat,NEGATIVE_OTHER
+dico_phrasis_0009047__eu-eu__forward,dico_phrasis_0009047,eu,eu,kamerari begira,komuneko konketa batean,NEGATIVE_OTHER
+dico_phrasis_0009118__eu-eu__forward,dico_phrasis_0009118,eu,eu,alkandora urdin batean,Pertsona bat,NEGATIVE_OTHER
+dico_phrasis_0009131__eu-eu__forward,dico_phrasis_0009131,eu,eu,Gizon zaharragoa,hondoan,NEGATIVE_OTHER
+dico_phrasis_0009232__eu-eu__forward,dico_phrasis_0009232,eu,eu,Ardi zuri-beltz bat,etiketa batekin,NEGATIVE_OTHER
+dico_phrasis_0009249__eu-eu__forward,dico_phrasis_0009249,eu,eu,aurpegi luzearekin,plano hurbila,NEGATIVE_OTHER
+dico_phrasis_0009265__eu-eu__forward,dico_phrasis_0009265,eu,eu,kaioa,ur gainean,NEGATIVE_OTHER
+dico_phrasis_0009379__eu-eu__forward,dico_phrasis_0009379,eu,eu,eserita,kamerari begira,NEGATIVE_OTHER
+dico_phrasis_0009404__eu-eu__forward,dico_phrasis_0009404,eu,eu,bikini gainalde beltz batekin eta bakeroekin,zutik dago,NEGATIVE_OTHER
+dico_phrasis_0009547__eu-eu__forward,dico_phrasis_0009547,eu,eu,etzanda,Bi emakume,NEGATIVE_OTHER
+dico_phrasis_0009593__eu-eu__forward,dico_phrasis_0009593,eu,eu,Argazki zuri-beltz bat,Txakur zuri-beltz bat,NEGATIVE_OTHER
+dico_phrasis_0009709__eu-eu__forward,dico_phrasis_0009709,eu,eu,Hiru ardi,erdian,NEGATIVE_OTHER
+dico_phrasis_0009722__eu-eu__forward,dico_phrasis_0009722,eu,eu,eta,bestean,NEGATIVE_OTHER
+dico_phrasis_0009724__eu-eu__forward,dico_phrasis_0009724,eu,eu,eta,bat bezala,NEGATIVE_OTHER
+dico_phrasis_0009760__eu-eu__forward,dico_phrasis_0009760,eu,eu,ur ondoan,Hiru pertsona,NEGATIVE_OTHER
+dico_phrasis_0009771__eu-eu__forward,dico_phrasis_0009771,eu,eu,islatzen dira,kanoa gorri batean,NEGATIVE_OTHER
+dico_phrasis_0009838__eu-eu__forward,dico_phrasis_0009838,eu,eu,Julia hitzarekin,urarekin eta gabarra batekin,NEGATIVE_OTHER
+dico_phrasis_0010095__eu-eu__forward,dico_phrasis_0010095,eu,eu,Argazki zuri-beltz bat,bizikleta baten,NEGATIVE_OTHER
+dico_phrasis_0010173__eu-eu__forward,dico_phrasis_0010173,eu,eu,behi zuri-beltz bat,etzanda,NEGATIVE_OTHER

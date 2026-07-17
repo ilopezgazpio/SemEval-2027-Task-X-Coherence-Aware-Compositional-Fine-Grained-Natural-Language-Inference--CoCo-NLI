@@ -3,70 +3,70 @@
   "systems": {
     "majority": {
       "track1": {
-        "hard_cons": 0.3333333333333333,
-        "instances": 210,
-        "prediction_file": "trial/baselines/majority/dico_nli_trial_track1_majority_submission.csv",
-        "scores_dir": "trial/baselines/majority/dico_nli_trial_track1_majority_scores",
-        "soft_cons": 1.0,
-        "weighted_f1": 0.12698412698412698
+        "hard_cons": 0.0,
+        "instances": 797,
+        "prediction_file": "trial_data/baselines/majority/dico_nli_trial_track1_majority_submission.csv",
+        "scores_dir": "trial_data/baselines/majority/dico_nli_trial_track1_majority_scores",
+        "soft_cons": 0.0,
+        "weighted_f1": 0.14979765332988204
       },
       "track2": {
-        "hard_cons": 0.3333333333333333,
-        "instances": 210,
-        "prediction_file": "trial/baselines/majority/dico_nli_trial_track2_majority_submission.csv",
-        "scores_dir": "trial/baselines/majority/dico_nli_trial_track2_majority_scores",
-        "soft_cons": 1.0,
-        "weighted_f1": 0.12698412698412698
+        "hard_cons": 0.0,
+        "instances": 797,
+        "prediction_file": "trial_data/baselines/majority/dico_nli_trial_track2_majority_submission.csv",
+        "scores_dir": "trial_data/baselines/majority/dico_nli_trial_track2_majority_scores",
+        "soft_cons": 0.0,
+        "weighted_f1": 0.14979765332988204
       },
       "track3": {
-        "hard_cons": 0.3333333333333333,
-        "instances": 210,
-        "prediction_file": "trial/baselines/majority/dico_nli_trial_track3_majority_submission.csv",
-        "scores_dir": "trial/baselines/majority/dico_nli_trial_track3_majority_scores",
-        "soft_cons": 1.0,
-        "weighted_f1": 0.12698412698412698
+        "hard_cons": 0.0,
+        "instances": 797,
+        "prediction_file": "trial_data/baselines/majority/dico_nli_trial_track3_majority_submission.csv",
+        "scores_dir": "trial_data/baselines/majority/dico_nli_trial_track3_majority_scores",
+        "soft_cons": 0.0,
+        "weighted_f1": 0.14979765332988204
       },
       "track4": {
-        "hard_cons": 0.3333333333333333,
-        "instances": 1260,
-        "prediction_file": "trial/baselines/majority/dico_nli_trial_track4_majority_submission.csv",
-        "scores_dir": "trial/baselines/majority/dico_nli_trial_track4_majority_scores",
-        "soft_cons": 1.0,
-        "weighted_f1": 0.12698412698412698
+        "hard_cons": 0.0,
+        "instances": 4782,
+        "prediction_file": "trial_data/baselines/majority/dico_nli_trial_track4_majority_submission.csv",
+        "scores_dir": "trial_data/baselines/majority/dico_nli_trial_track4_majority_scores",
+        "soft_cons": 0.0,
+        "weighted_f1": 0.14979765332988204
       }
     },
     "random": {
       "track1": {
-        "hard_cons": 0.07777777777777778,
-        "instances": 210,
-        "prediction_file": "trial/baselines/random/dico_nli_trial_track1_random_submission.csv",
-        "scores_dir": "trial/baselines/random/dico_nli_trial_track1_random_scores",
-        "soft_cons": 0.2222222222222222,
-        "weighted_f1": 0.2807271073462437
+        "hard_cons": 0.07738095238095238,
+        "instances": 797,
+        "prediction_file": "trial_data/baselines/random/dico_nli_trial_track1_random_submission.csv",
+        "scores_dir": "trial_data/baselines/random/dico_nli_trial_track1_random_scores",
+        "soft_cons": 0.20833333333333334,
+        "weighted_f1": 0.26963821098074553
       },
       "track2": {
-        "hard_cons": 0.06666666666666667,
-        "instances": 210,
-        "prediction_file": "trial/baselines/random/dico_nli_trial_track2_random_submission.csv",
-        "scores_dir": "trial/baselines/random/dico_nli_trial_track2_random_scores",
-        "soft_cons": 0.17777777777777778,
-        "weighted_f1": 0.2184268988894673
+        "hard_cons": 0.09523809523809523,
+        "instances": 797,
+        "prediction_file": "trial_data/baselines/random/dico_nli_trial_track2_random_submission.csv",
+        "scores_dir": "trial_data/baselines/random/dico_nli_trial_track2_random_scores",
+        "soft_cons": 0.24404761904761904,
+        "weighted_f1": 0.25490731632516184
       },
       "track3": {
-        "hard_cons": 0.06666666666666667,
-        "instances": 210,
-        "prediction_file": "trial/baselines/random/dico_nli_trial_track3_random_submission.csv",
-        "scores_dir": "trial/baselines/random/dico_nli_trial_track3_random_scores",
-        "soft_cons": 0.2222222222222222,
-        "weighted_f1": 0.24652171378790477
+        "hard_cons": 0.0625,
+        "instances": 797,
+        "prediction_file": "trial_data/baselines/random/dico_nli_trial_track3_random_submission.csv",
+        "scores_dir": "trial_data/baselines/random/dico_nli_trial_track3_random_scores",
+        "soft_cons": 0.20535714285714285,
+        "weighted_f1": 0.22565755830745307
       },
       "track4": {
-        "hard_cons": 0.05185185185185185,
-        "instances": 1260,
-        "prediction_file": "trial/baselines/random/dico_nli_trial_track4_random_submission.csv",
-        "scores_dir": "trial/baselines/random/dico_nli_trial_track4_random_scores",
-        "soft_cons": 0.2074074074074074,
-        "weighted_f1": 0.22234035114354656
+        "hard_cons": 0.060515873015873016,
+        "instances": 4782,
+        "prediction_file": "trial_data/baselines/random/dico_nli_trial_track4_random_submission.csv",
+        "scores_dir": "trial_data/baselines/random/dico_nli_trial_track4_random_scores",
+        "soft_cons": 0.18551587301587302,
+        "weighted_f1": 0.25423997083411637
       }
     }
   }

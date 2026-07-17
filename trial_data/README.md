@@ -1,16 +1,22 @@
 # DiCo-NLI Trial Data Bundle
 
-Trial folder contains the trial data produced for DICO-NLI task.
+The trial data folder contains the trial data produced for DICO-NLI task.
 
 ## Organizer Source
 
-- `trial_dataset.json`: grouped organizer JSON with 120 source pairs.
-- Label balance: 30 `EQUIVALENCE`, 30 `FORWARD_ENTAILMENT`, 30
-  `BACKWARD_ENTAILMENT`, 30 `NEGATIVE_OTHER`.
-- Source balance: for each label, 15 pairs come from PhrasIS image files and 15
-  from PhrasIS headline files.
-- Each pair contains `en`, `es`, and `eu` text fields and metadata tracing the
-  pair to the original PhrasIS file and line.
+- `trial_dataset.json`: grouped organizer JSON with 461 source pairs selected
+  from the 500-pair stratified translation experiment.
+- Label distribution: 86 `EQUIVALENCE`, 125 `FORWARD_ENTAILMENT`, 125
+  `BACKWARD_ENTAILMENT`, and 125 `NEGATIVE_OTHER`.
+- Each pair contains accepted `en`, `es`, and `eu` text fields and metadata
+  tracing the pair to the original PhrasIS source and accepted translation
+  candidate.
+- Spanish and Basque candidates were selected with an exact-collapse filter:
+  prefer `gpt-5.4`, fall back to `gpt-5.6-sol` when needed, and reject a source
+  pair if either target language has no non-collapsed candidate.
+- `trial_translation_audit.json` and `trial_translation_audit.md` summarize the
+  accepted translation audit. The accepted trial has zero collapsed Spanish or
+  Basque pairs.
 
 ## Track Files
 

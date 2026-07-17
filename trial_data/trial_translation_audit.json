@@ -1,0 +1,1120 @@
+{
+  "collapse_overlap": {
+    "all_target_languages": {
+      "label_distribution": {},
+      "non_equivalence_pair_ids": [],
+      "non_equivalence_pairs": 0,
+      "pair_ids": [],
+      "pairs": 0,
+      "source_modality_distribution": {}
+    },
+    "any_target_language": {
+      "label_distribution": {},
+      "non_equivalence_pair_ids": [],
+      "non_equivalence_pairs": 0,
+      "pair_ids": [],
+      "pairs": 0,
+      "source_modality_distribution": {}
+    },
+    "by_language": {
+      "es": {
+        "label_distribution": {},
+        "non_equivalence_pair_ids": [],
+        "non_equivalence_pairs": 0,
+        "pair_ids": [],
+        "pairs": 0,
+        "source_modality_distribution": {}
+      },
+      "eu": {
+        "label_distribution": {},
+        "non_equivalence_pair_ids": [],
+        "non_equivalence_pairs": 0,
+        "pair_ids": [],
+        "pairs": 0,
+        "source_modality_distribution": {}
+      }
+    },
+    "by_language_combination": []
+  },
+  "languages": {
+    "es": {
+      "by_label": {
+        "BACKWARD_ENTAILMENT": {
+          "exact_unchanged_segments": 8,
+          "expected_copy_like_segments": 5,
+          "needs_review_copy_like_segments": 3,
+          "norm_unchanged_segments": 8,
+          "pairs": 125,
+          "pairs_any_exact_unchanged": 8,
+          "pairs_any_norm_unchanged": 8,
+          "segments": 250
+        },
+        "EQUIVALENCE": {
+          "exact_unchanged_segments": 4,
+          "expected_copy_like_segments": 2,
+          "needs_review_copy_like_segments": 2,
+          "norm_unchanged_segments": 4,
+          "pairs": 86,
+          "pairs_any_exact_unchanged": 2,
+          "pairs_any_norm_unchanged": 2,
+          "pairs_both_exact_unchanged": 2,
+          "pairs_both_norm_unchanged": 2,
+          "segments": 172
+        },
+        "FORWARD_ENTAILMENT": {
+          "exact_unchanged_segments": 3,
+          "needs_review_copy_like_segments": 3,
+          "norm_unchanged_segments": 3,
+          "pairs": 125,
+          "pairs_any_exact_unchanged": 3,
+          "pairs_any_norm_unchanged": 3,
+          "segments": 250
+        },
+        "NEGATIVE_OTHER": {
+          "exact_unchanged_segments": 1,
+          "expected_copy_like_segments": 1,
+          "norm_unchanged_segments": 1,
+          "pairs": 125,
+          "pairs_any_exact_unchanged": 1,
+          "pairs_any_norm_unchanged": 1,
+          "segments": 250
+        }
+      },
+      "by_modality": {
+        "headlines": {
+          "exact_unchanged_segments": 16,
+          "expected_copy_like_segments": 8,
+          "needs_review_copy_like_segments": 8,
+          "norm_unchanged_segments": 16,
+          "pairs": 217,
+          "pairs_any_exact_unchanged": 14,
+          "pairs_any_norm_unchanged": 14,
+          "pairs_both_exact_unchanged": 2,
+          "pairs_both_norm_unchanged": 2,
+          "segments": 434
+        },
+        "images": {
+          "pairs": 244,
+          "segments": 488
+        }
+      },
+      "examples": {
+        "expected_copy_like_segments": [
+          {
+            "label": "EQUIVALENCE",
+            "pair_id": "dico_phrasis_0001040",
+            "sides": [
+              "text1"
+            ],
+            "source": {
+              "text1": "Ban Ki-moon"
+            },
+            "target": {
+              "text1": "Ban Ki-moon"
+            },
+            "target_language": "es"
+          },
+          {
+            "label": "BACKWARD_ENTAILMENT",
+            "pair_id": "dico_phrasis_0000378",
+            "sides": [
+              "text2"
+            ],
+            "source": {
+              "text2": "Miss America"
+            },
+            "target": {
+              "text2": "Miss America"
+            },
+            "target_language": "es"
+          },
+          {
+            "label": "BACKWARD_ENTAILMENT",
+            "pair_id": "dico_phrasis_0000360",
+            "sides": [
+              "text1"
+            ],
+            "source": {
+              "text1": "Washington Post"
+            },
+            "target": {
+              "text1": "Washington Post"
+            },
+            "target_language": "es"
+          },
+          {
+            "label": "BACKWARD_ENTAILMENT",
+            "pair_id": "dico_phrasis_0000345",
+            "sides": [
+              "text1"
+            ],
+            "source": {
+              "text1": "George Zimmerman"
+            },
+            "target": {
+              "text1": "George Zimmerman"
+            },
+            "target_language": "es"
+          },
+          {
+            "label": "BACKWARD_ENTAILMENT",
+            "pair_id": "dico_phrasis_0000313",
+            "sides": [
+              "text1"
+            ],
+            "source": {
+              "text1": "5"
+            },
+            "target": {
+              "text1": "5"
+            },
+            "target_language": "es"
+          },
+          {
+            "label": "BACKWARD_ENTAILMENT",
+            "pair_id": "dico_phrasis_0000230",
+            "sides": [
+              "text1"
+            ],
+            "source": {
+              "text1": "Boeing 787 Dreamliner"
+            },
+            "target": {
+              "text1": "Boeing 787 Dreamliner"
+            },
+            "target_language": "es"
+          },
+          {
+            "label": "EQUIVALENCE",
+            "pair_id": "dico_phrasis_0000683",
+            "sides": [
+              "text2"
+            ],
+            "source": {
+              "text2": "Vladimir Putin"
+            },
+            "target": {
+              "text2": "Vladimir Putin"
+            },
+            "target_language": "es"
+          },
+          {
+            "label": "NEGATIVE_OTHER",
+            "pair_id": "dico_phrasis_0006564",
+            "sides": [
+              "text1"
+            ],
+            "source": {
+              "text1": "Angela Merkel"
+            },
+            "target": {
+              "text1": "Angela Merkel"
+            },
+            "target_language": "es"
+          }
+        ],
+        "needs_review_copy_like_segments": [
+          {
+            "label": "FORWARD_ENTAILMENT",
+            "pair_id": "dico_phrasis_0001674",
+            "sides": [
+              "text2"
+            ],
+            "source": {
+              "text2": "Obama"
+            },
+            "target": {
+              "text2": "Obama"
+            },
+            "target_language": "es"
+          },
+          {
+            "label": "EQUIVALENCE",
+            "pair_id": "dico_phrasis_0001040",
+            "sides": [
+              "text2"
+            ],
+            "source": {
+              "text2": "Ban"
+            },
+            "target": {
+              "text2": "Ban"
+            },
+            "target_language": "es"
+          },
+          {
+            "label": "FORWARD_ENTAILMENT",
+            "pair_id": "dico_phrasis_0001379",
+            "sides": [
+              "text2"
+            ],
+            "source": {
+              "text2": "Venezuela"
+            },
+            "target": {
+              "text2": "Venezuela"
+            },
+            "target_language": "es"
+          },
+          {
+            "label": "BACKWARD_ENTAILMENT",
+            "pair_id": "dico_phrasis_0000331",
+            "sides": [
+              "text1"
+            ],
+            "source": {
+              "text1": "China"
+            },
+            "target": {
+              "text1": "China"
+            },
+            "target_language": "es"
+          },
+          {
+            "label": "FORWARD_ENTAILMENT",
+            "pair_id": "dico_phrasis_0001645",
+            "sides": [
+              "text2"
+            ],
+            "source": {
+              "text2": "hospital"
+            },
+            "target": {
+              "text2": "hospital"
+            },
+            "target_language": "es"
+          },
+          {
+            "label": "BACKWARD_ENTAILMENT",
+            "pair_id": "dico_phrasis_0000330",
+            "sides": [
+              "text1"
+            ],
+            "source": {
+              "text1": "iPhone"
+            },
+            "target": {
+              "text1": "iPhone"
+            },
+            "target_language": "es"
+          },
+          {
+            "label": "BACKWARD_ENTAILMENT",
+            "pair_id": "dico_phrasis_0000347",
+            "sides": [
+              "text1"
+            ],
+            "source": {
+              "text1": "Mubarak"
+            },
+            "target": {
+              "text1": "Mubarak"
+            },
+            "target_language": "es"
+          },
+          {
+            "label": "EQUIVALENCE",
+            "pair_id": "dico_phrasis_0000683",
+            "sides": [
+              "text1"
+            ],
+            "source": {
+              "text1": "Putin"
+            },
+            "target": {
+              "text1": "Putin"
+            },
+            "target_language": "es"
+          }
+        ],
+        "pairs_any_norm_unchanged": [
+          {
+            "label": "FORWARD_ENTAILMENT",
+            "pair_id": "dico_phrasis_0001674",
+            "sides": [
+              "text2"
+            ],
+            "source": {
+              "text1": "Obama economic tour",
+              "text2": "Obama"
+            },
+            "target": {
+              "text1": "gira económica de Obama",
+              "text2": "Obama"
+            },
+            "target_language": "es"
+          },
+          {
+            "label": "EQUIVALENCE",
+            "pair_id": "dico_phrasis_0001040",
+            "sides": [
+              "text1",
+              "text2"
+            ],
+            "source": {
+              "text1": "Ban Ki-moon",
+              "text2": "Ban"
+            },
+            "target": {
+              "text1": "Ban Ki-moon",
+              "text2": "Ban"
+            },
+            "target_language": "es"
+          },
+          {
+            "label": "FORWARD_ENTAILMENT",
+            "pair_id": "dico_phrasis_0001379",
+            "sides": [
+              "text2"
+            ],
+            "source": {
+              "text1": "Nicaragua , Venezuela",
+              "text2": "Venezuela"
+            },
+            "target": {
+              "text1": "Nicaragua, Venezuela",
+              "text2": "Venezuela"
+            },
+            "target_language": "es"
+          },
+          {
+            "label": "BACKWARD_ENTAILMENT",
+            "pair_id": "dico_phrasis_0000378",
+            "sides": [
+              "text2"
+            ],
+            "source": {
+              "text1": "Miss America crown",
+              "text2": "Miss America"
+            },
+            "target": {
+              "text1": "corona de Miss America",
+              "text2": "Miss America"
+            },
+            "target_language": "es"
+          },
+          {
+            "label": "BACKWARD_ENTAILMENT",
+            "pair_id": "dico_phrasis_0000331",
+            "sides": [
+              "text1"
+            ],
+            "source": {
+              "text1": "China",
+              "text2": "China and Taiwan"
+            },
+            "target": {
+              "text1": "China",
+              "text2": "China y Taiwán"
+            },
+            "target_language": "es"
+          },
+          {
+            "label": "BACKWARD_ENTAILMENT",
+            "pair_id": "dico_phrasis_0000360",
+            "sides": [
+              "text1"
+            ],
+            "source": {
+              "text1": "Washington Post",
+              "text2": "For The Washington Post"
+            },
+            "target": {
+              "text1": "Washington Post",
+              "text2": "Para The Washington Post"
+            },
+            "target_language": "es"
+          },
+          {
+            "label": "BACKWARD_ENTAILMENT",
+            "pair_id": "dico_phrasis_0000345",
+            "sides": [
+              "text1"
+            ],
+            "source": {
+              "text1": "George Zimmerman",
+              "text2": "after Zimmerman"
+            },
+            "target": {
+              "text1": "George Zimmerman",
+              "text2": "después de Zimmerman"
+            },
+            "target_language": "es"
+          },
+          {
+            "label": "BACKWARD_ENTAILMENT",
+            "pair_id": "dico_phrasis_0000313",
+            "sides": [
+              "text1"
+            ],
+            "source": {
+              "text1": "5",
+              "text2": "at least ten"
+            },
+            "target": {
+              "text1": "5",
+              "text2": "al menos diez"
+            },
+            "target_language": "es"
+          },
+          {
+            "label": "FORWARD_ENTAILMENT",
+            "pair_id": "dico_phrasis_0001645",
+            "sides": [
+              "text2"
+            ],
+            "source": {
+              "text1": "in hospital",
+              "text2": "hospital"
+            },
+            "target": {
+              "text1": "en el hospital",
+              "text2": "hospital"
+            },
+            "target_language": "es"
+          },
+          {
+            "label": "BACKWARD_ENTAILMENT",
+            "pair_id": "dico_phrasis_0000330",
+            "sides": [
+              "text1"
+            ],
+            "source": {
+              "text1": "iPhone",
+              "text2": "iPhone 4 imports"
+            },
+            "target": {
+              "text1": "iPhone",
+              "text2": "importaciones de iPhone 4"
+            },
+            "target_language": "es"
+          },
+          {
+            "label": "BACKWARD_ENTAILMENT",
+            "pair_id": "dico_phrasis_0000230",
+            "sides": [
+              "text1"
+            ],
+            "source": {
+              "text1": "Boeing 787 Dreamliner",
+              "text2": "on 787 Dreamliner"
+            },
+            "target": {
+              "text1": "Boeing 787 Dreamliner",
+              "text2": "en 787 Dreamliner"
+            },
+            "target_language": "es"
+          },
+          {
+            "label": "BACKWARD_ENTAILMENT",
+            "pair_id": "dico_phrasis_0000347",
+            "sides": [
+              "text1"
+            ],
+            "source": {
+              "text1": "Mubarak",
+              "text2": "of Mubarak"
+            },
+            "target": {
+              "text1": "Mubarak",
+              "text2": "de Mubarak"
+            },
+            "target_language": "es"
+          },
+          {
+            "label": "EQUIVALENCE",
+            "pair_id": "dico_phrasis_0000683",
+            "sides": [
+              "text1",
+              "text2"
+            ],
+            "source": {
+              "text1": "Putin",
+              "text2": "Vladimir Putin"
+            },
+            "target": {
+              "text1": "Putin",
+              "text2": "Vladimir Putin"
+            },
+            "target_language": "es"
+          },
+          {
+            "label": "NEGATIVE_OTHER",
+            "pair_id": "dico_phrasis_0006564",
+            "sides": [
+              "text1"
+            ],
+            "source": {
+              "text1": "Angela Merkel",
+              "text2": "Big"
+            },
+            "target": {
+              "text1": "Angela Merkel",
+              "text2": "Grande"
+            },
+            "target_language": "es"
+          }
+        ]
+      },
+      "pair_ids": {},
+      "summary": {
+        "exact_unchanged_segments": 16,
+        "expected_copy_like_segments": 8,
+        "needs_review_copy_like_segments": 8,
+        "norm_unchanged_segments": 16,
+        "pairs": 461,
+        "pairs_any_exact_unchanged": 14,
+        "pairs_any_norm_unchanged": 14,
+        "pairs_both_exact_unchanged": 2,
+        "pairs_both_norm_unchanged": 2,
+        "pairs_collapsed_equivalence": 0,
+        "pairs_collapsed_non_equivalence": 0,
+        "pairs_collapsed_translation": 0,
+        "segments": 922
+      }
+    },
+    "eu": {
+      "by_label": {
+        "BACKWARD_ENTAILMENT": {
+          "exact_unchanged_segments": 7,
+          "expected_copy_like_segments": 5,
+          "needs_review_copy_like_segments": 2,
+          "norm_unchanged_segments": 7,
+          "pairs": 125,
+          "pairs_any_exact_unchanged": 7,
+          "pairs_any_norm_unchanged": 7,
+          "segments": 250
+        },
+        "EQUIVALENCE": {
+          "exact_unchanged_segments": 4,
+          "expected_copy_like_segments": 2,
+          "needs_review_copy_like_segments": 2,
+          "norm_unchanged_segments": 4,
+          "pairs": 86,
+          "pairs_any_exact_unchanged": 2,
+          "pairs_any_norm_unchanged": 2,
+          "pairs_both_exact_unchanged": 2,
+          "pairs_both_norm_unchanged": 2,
+          "segments": 172
+        },
+        "FORWARD_ENTAILMENT": {
+          "exact_unchanged_segments": 2,
+          "needs_review_copy_like_segments": 2,
+          "norm_unchanged_segments": 2,
+          "pairs": 125,
+          "pairs_any_exact_unchanged": 2,
+          "pairs_any_norm_unchanged": 2,
+          "segments": 250
+        },
+        "NEGATIVE_OTHER": {
+          "exact_unchanged_segments": 3,
+          "expected_copy_like_segments": 1,
+          "needs_review_copy_like_segments": 2,
+          "norm_unchanged_segments": 3,
+          "pairs": 125,
+          "pairs_any_exact_unchanged": 3,
+          "pairs_any_norm_unchanged": 3,
+          "segments": 250
+        }
+      },
+      "by_modality": {
+        "headlines": {
+          "exact_unchanged_segments": 16,
+          "expected_copy_like_segments": 8,
+          "needs_review_copy_like_segments": 8,
+          "norm_unchanged_segments": 16,
+          "pairs": 217,
+          "pairs_any_exact_unchanged": 14,
+          "pairs_any_norm_unchanged": 14,
+          "pairs_both_exact_unchanged": 2,
+          "pairs_both_norm_unchanged": 2,
+          "segments": 434
+        },
+        "images": {
+          "pairs": 244,
+          "segments": 488
+        }
+      },
+      "examples": {
+        "expected_copy_like_segments": [
+          {
+            "label": "EQUIVALENCE",
+            "pair_id": "dico_phrasis_0001040",
+            "sides": [
+              "text1"
+            ],
+            "source": {
+              "text1": "Ban Ki-moon"
+            },
+            "target": {
+              "text1": "Ban Ki-moon"
+            },
+            "target_language": "eu"
+          },
+          {
+            "label": "BACKWARD_ENTAILMENT",
+            "pair_id": "dico_phrasis_0000378",
+            "sides": [
+              "text2"
+            ],
+            "source": {
+              "text2": "Miss America"
+            },
+            "target": {
+              "text2": "Miss America"
+            },
+            "target_language": "eu"
+          },
+          {
+            "label": "BACKWARD_ENTAILMENT",
+            "pair_id": "dico_phrasis_0000360",
+            "sides": [
+              "text1"
+            ],
+            "source": {
+              "text1": "Washington Post"
+            },
+            "target": {
+              "text1": "Washington Post"
+            },
+            "target_language": "eu"
+          },
+          {
+            "label": "BACKWARD_ENTAILMENT",
+            "pair_id": "dico_phrasis_0000345",
+            "sides": [
+              "text1"
+            ],
+            "source": {
+              "text1": "George Zimmerman"
+            },
+            "target": {
+              "text1": "George Zimmerman"
+            },
+            "target_language": "eu"
+          },
+          {
+            "label": "BACKWARD_ENTAILMENT",
+            "pair_id": "dico_phrasis_0000313",
+            "sides": [
+              "text1"
+            ],
+            "source": {
+              "text1": "5"
+            },
+            "target": {
+              "text1": "5"
+            },
+            "target_language": "eu"
+          },
+          {
+            "label": "BACKWARD_ENTAILMENT",
+            "pair_id": "dico_phrasis_0000230",
+            "sides": [
+              "text1"
+            ],
+            "source": {
+              "text1": "Boeing 787 Dreamliner"
+            },
+            "target": {
+              "text1": "Boeing 787 Dreamliner"
+            },
+            "target_language": "eu"
+          },
+          {
+            "label": "EQUIVALENCE",
+            "pair_id": "dico_phrasis_0000683",
+            "sides": [
+              "text2"
+            ],
+            "source": {
+              "text2": "Vladimir Putin"
+            },
+            "target": {
+              "text2": "Vladimir Putin"
+            },
+            "target_language": "eu"
+          },
+          {
+            "label": "NEGATIVE_OTHER",
+            "pair_id": "dico_phrasis_0006564",
+            "sides": [
+              "text1"
+            ],
+            "source": {
+              "text1": "Angela Merkel"
+            },
+            "target": {
+              "text1": "Angela Merkel"
+            },
+            "target_language": "eu"
+          }
+        ],
+        "needs_review_copy_like_segments": [
+          {
+            "label": "FORWARD_ENTAILMENT",
+            "pair_id": "dico_phrasis_0001674",
+            "sides": [
+              "text2"
+            ],
+            "source": {
+              "text2": "Obama"
+            },
+            "target": {
+              "text2": "Obama"
+            },
+            "target_language": "eu"
+          },
+          {
+            "label": "EQUIVALENCE",
+            "pair_id": "dico_phrasis_0001040",
+            "sides": [
+              "text2"
+            ],
+            "source": {
+              "text2": "Ban"
+            },
+            "target": {
+              "text2": "Ban"
+            },
+            "target_language": "eu"
+          },
+          {
+            "label": "NEGATIVE_OTHER",
+            "pair_id": "dico_phrasis_0007672",
+            "sides": [
+              "text1"
+            ],
+            "source": {
+              "text1": "'s Brotherhood"
+            },
+            "target": {
+              "text1": "'s Brotherhood"
+            },
+            "target_language": "eu"
+          },
+          {
+            "label": "FORWARD_ENTAILMENT",
+            "pair_id": "dico_phrasis_0001379",
+            "sides": [
+              "text2"
+            ],
+            "source": {
+              "text2": "Venezuela"
+            },
+            "target": {
+              "text2": "Venezuela"
+            },
+            "target_language": "eu"
+          },
+          {
+            "label": "BACKWARD_ENTAILMENT",
+            "pair_id": "dico_phrasis_0000330",
+            "sides": [
+              "text1"
+            ],
+            "source": {
+              "text1": "iPhone"
+            },
+            "target": {
+              "text1": "iPhone"
+            },
+            "target_language": "eu"
+          },
+          {
+            "label": "BACKWARD_ENTAILMENT",
+            "pair_id": "dico_phrasis_0000347",
+            "sides": [
+              "text1"
+            ],
+            "source": {
+              "text1": "Mubarak"
+            },
+            "target": {
+              "text1": "Mubarak"
+            },
+            "target_language": "eu"
+          },
+          {
+            "label": "EQUIVALENCE",
+            "pair_id": "dico_phrasis_0000683",
+            "sides": [
+              "text1"
+            ],
+            "source": {
+              "text1": "Putin"
+            },
+            "target": {
+              "text1": "Putin"
+            },
+            "target_language": "eu"
+          },
+          {
+            "label": "NEGATIVE_OTHER",
+            "pair_id": "dico_phrasis_0003800",
+            "sides": [
+              "text2"
+            ],
+            "source": {
+              "text2": "Iran"
+            },
+            "target": {
+              "text2": "Iran"
+            },
+            "target_language": "eu"
+          }
+        ],
+        "pairs_any_norm_unchanged": [
+          {
+            "label": "FORWARD_ENTAILMENT",
+            "pair_id": "dico_phrasis_0001674",
+            "sides": [
+              "text2"
+            ],
+            "source": {
+              "text1": "Obama economic tour",
+              "text2": "Obama"
+            },
+            "target": {
+              "text1": "Obamaren bira ekonomikoa",
+              "text2": "Obama"
+            },
+            "target_language": "eu"
+          },
+          {
+            "label": "EQUIVALENCE",
+            "pair_id": "dico_phrasis_0001040",
+            "sides": [
+              "text1",
+              "text2"
+            ],
+            "source": {
+              "text1": "Ban Ki-moon",
+              "text2": "Ban"
+            },
+            "target": {
+              "text1": "Ban Ki-moon",
+              "text2": "Ban"
+            },
+            "target_language": "eu"
+          },
+          {
+            "label": "NEGATIVE_OTHER",
+            "pair_id": "dico_phrasis_0007672",
+            "sides": [
+              "text1"
+            ],
+            "source": {
+              "text1": "'s Brotherhood",
+              "text2": "Set"
+            },
+            "target": {
+              "text1": "'s Brotherhood",
+              "text2": "Multzoa"
+            },
+            "target_language": "eu"
+          },
+          {
+            "label": "FORWARD_ENTAILMENT",
+            "pair_id": "dico_phrasis_0001379",
+            "sides": [
+              "text2"
+            ],
+            "source": {
+              "text1": "Nicaragua , Venezuela",
+              "text2": "Venezuela"
+            },
+            "target": {
+              "text1": "Nikaragua, Venezuela",
+              "text2": "Venezuela"
+            },
+            "target_language": "eu"
+          },
+          {
+            "label": "BACKWARD_ENTAILMENT",
+            "pair_id": "dico_phrasis_0000378",
+            "sides": [
+              "text2"
+            ],
+            "source": {
+              "text1": "Miss America crown",
+              "text2": "Miss America"
+            },
+            "target": {
+              "text1": "Miss Americako koroa",
+              "text2": "Miss America"
+            },
+            "target_language": "eu"
+          },
+          {
+            "label": "BACKWARD_ENTAILMENT",
+            "pair_id": "dico_phrasis_0000360",
+            "sides": [
+              "text1"
+            ],
+            "source": {
+              "text1": "Washington Post",
+              "text2": "For The Washington Post"
+            },
+            "target": {
+              "text1": "Washington Post",
+              "text2": "The Washington Post-erako"
+            },
+            "target_language": "eu"
+          },
+          {
+            "label": "BACKWARD_ENTAILMENT",
+            "pair_id": "dico_phrasis_0000345",
+            "sides": [
+              "text1"
+            ],
+            "source": {
+              "text1": "George Zimmerman",
+              "text2": "after Zimmerman"
+            },
+            "target": {
+              "text1": "George Zimmerman",
+              "text2": "Zimmerman ondoren"
+            },
+            "target_language": "eu"
+          },
+          {
+            "label": "BACKWARD_ENTAILMENT",
+            "pair_id": "dico_phrasis_0000313",
+            "sides": [
+              "text1"
+            ],
+            "source": {
+              "text1": "5",
+              "text2": "at least ten"
+            },
+            "target": {
+              "text1": "5",
+              "text2": "gutxienez hamar"
+            },
+            "target_language": "eu"
+          },
+          {
+            "label": "BACKWARD_ENTAILMENT",
+            "pair_id": "dico_phrasis_0000330",
+            "sides": [
+              "text1"
+            ],
+            "source": {
+              "text1": "iPhone",
+              "text2": "iPhone 4 imports"
+            },
+            "target": {
+              "text1": "iPhone",
+              "text2": "iPhone 4 inportazioak"
+            },
+            "target_language": "eu"
+          },
+          {
+            "label": "BACKWARD_ENTAILMENT",
+            "pair_id": "dico_phrasis_0000230",
+            "sides": [
+              "text1"
+            ],
+            "source": {
+              "text1": "Boeing 787 Dreamliner",
+              "text2": "on 787 Dreamliner"
+            },
+            "target": {
+              "text1": "Boeing 787 Dreamliner",
+              "text2": "787 Dreamliner-en gainean"
+            },
+            "target_language": "eu"
+          },
+          {
+            "label": "BACKWARD_ENTAILMENT",
+            "pair_id": "dico_phrasis_0000347",
+            "sides": [
+              "text1"
+            ],
+            "source": {
+              "text1": "Mubarak",
+              "text2": "of Mubarak"
+            },
+            "target": {
+              "text1": "Mubarak",
+              "text2": "Mubaraken"
+            },
+            "target_language": "eu"
+          },
+          {
+            "label": "EQUIVALENCE",
+            "pair_id": "dico_phrasis_0000683",
+            "sides": [
+              "text1",
+              "text2"
+            ],
+            "source": {
+              "text1": "Putin",
+              "text2": "Vladimir Putin"
+            },
+            "target": {
+              "text1": "Putin",
+              "text2": "Vladimir Putin"
+            },
+            "target_language": "eu"
+          },
+          {
+            "label": "NEGATIVE_OTHER",
+            "pair_id": "dico_phrasis_0003800",
+            "sides": [
+              "text2"
+            ],
+            "source": {
+              "text1": "for Kazakhstan",
+              "text2": "Iran"
+            },
+            "target": {
+              "text1": "Kazakhstango",
+              "text2": "Iran"
+            },
+            "target_language": "eu"
+          },
+          {
+            "label": "NEGATIVE_OTHER",
+            "pair_id": "dico_phrasis_0006564",
+            "sides": [
+              "text1"
+            ],
+            "source": {
+              "text1": "Angela Merkel",
+              "text2": "Big"
+            },
+            "target": {
+              "text1": "Angela Merkel",
+              "text2": "handia"
+            },
+            "target_language": "eu"
+          }
+        ]
+      },
+      "pair_ids": {},
+      "summary": {
+        "exact_unchanged_segments": 16,
+        "expected_copy_like_segments": 8,
+        "needs_review_copy_like_segments": 8,
+        "norm_unchanged_segments": 16,
+        "pairs": 461,
+        "pairs_any_exact_unchanged": 14,
+        "pairs_any_norm_unchanged": 14,
+        "pairs_both_exact_unchanged": 2,
+        "pairs_both_norm_unchanged": 2,
+        "pairs_collapsed_equivalence": 0,
+        "pairs_collapsed_non_equivalence": 0,
+        "pairs_collapsed_translation": 0,
+        "segments": 922
+      }
+    }
+  },
+  "pairs": 461,
+  "source_language": "en",
+  "target_languages": [
+    "es",
+    "eu"
+  ]
+}
