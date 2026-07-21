@@ -129,9 +129,8 @@ DiCo-NLI label & Sampled pairs \\
 Every sampled pair was translated independently into Spanish and Basque with
 two OpenAI models: \texttt{gpt-5.4} and \texttt{gpt-5.6-sol}.  This produced
 1000 translation calls per model: 500 Spanish and 500 Basque.  The
-\texttt{gpt-5.6-sol} run was executed in 20 persisted chunks of 25 pairs after a
-provider-side HTTP 500 interrupted an initial unchunked attempt.  This directly
-informs our production plan: all full-dataset translation runs will use
+\texttt{gpt-5.6-sol} run was executed in 20 persisted chunks of 25 pairs.  This
+directly informs our production plan: all full-dataset translation runs will use
 checkpointed chunks rather than a single all-or-nothing process.
 
 \section{Single-Model Collapse Risk}
@@ -258,11 +257,10 @@ Model & Input tok. & Output tok. & Reasoning tok. & Est. cost \\
 \label{tab:cost}
 \end{table}
 
-The first unchunked \texttt{gpt-5.6-sol} attempt failed with an HTTP 500 before
-the final JSON could be written.  The successful rerun used 20 saved chunks.
-This is an important engineering conclusion: final production will include
-progress logging, checkpointed chunk outputs, and resumable merging before any
-large translation job is launched.
+The recorded usage confirms that the translation-validation stage is operationally
+feasible at the intended scale.  Final production will include progress logging,
+checkpointed chunk outputs, and resumable merging before any large translation
+job is launched.
 
 \section{Validation Protocol for Trial and Full Release}
 
