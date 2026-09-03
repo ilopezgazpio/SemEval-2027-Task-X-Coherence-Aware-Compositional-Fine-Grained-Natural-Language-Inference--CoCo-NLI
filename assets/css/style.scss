@@ -1,0 +1,24 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+.main-content {
+  max-width: 1100px;
+  padding: 32px 64px;
+}
+
+.main-content p {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+@media screen and (max-width: 42em) {
+  .main-content {
+    padding: 32px 24px;
+  }
+
+  .main-content p {
+    text-align: left;
+  }
+}
