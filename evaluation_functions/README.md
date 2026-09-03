@@ -3,6 +3,8 @@
 This folder contains the dependency-free scorer for fixed DiCo-NLI CSV files.
 It is intended for local validation, starter kits, CI, and CodaBench scoring containers.
 
+The scorer requires Python 3.10 or newer.
+
 The scorer is intentionally agnostic to track construction. Tracks are produced
 beforehand by `participant_dataset_production`; the evaluator only compares a hidden fixed
 reference CSV with a participant prediction CSV.

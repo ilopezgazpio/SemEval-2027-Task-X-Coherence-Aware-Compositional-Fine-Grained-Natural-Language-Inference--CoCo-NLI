@@ -2,8 +2,9 @@
 
 ### Python Version
 
-The starter kit requires Python 3.9 or newer.  The code is tested for Python
-3.9 compatibility.
+The starter kit requires Python 3.10 or newer. The official scorer integration
+uses the repository-level `evaluation_functions/` package, which requires
+Python 3.10+.
 
 Check your Python version with:
 

@@ -4,11 +4,11 @@
 
 # SemEval 2027 Task 2: DiCo-NLI - Directional Consistency in Fine-Grained Natural Language Inference
 
-DiCo-NLI is a multilingual shared task on **directional consistency** in fine-grained natural language inference. Given an ordered pair of phrases, systems predict equivalence, forward entailment, backward entailment, or another semantic relation. Each reversible source pair is evaluated in both directions, enabling joint measurement of classification performance and compatibility with the deterministic label-reversal mapping. The benchmark covers English, Spanish, Basque, and mixed-language settings, with source-pair-level splits that prevent directional and cross-lingual leakage. Official evaluation reports three main scores: weighted F1, SoftCons, and HardCons.
+DiCo-NLI is a multilingual shared task on **directional consistency** in fine-grained natural language inference. Given an ordered pair of phrases, systems predict equivalence, forward entailment, backward entailment, or another semantic relation. Each reversible source pair is evaluated in both directions, enabling joint measurement of classification performance and compatibility with the deterministic label-reversal mapping. The benchmark covers English, Spanish, Basque, and mixed-language settings, with source-pair-level splits that prevent directional and cross-lingual leakage. Official evaluation reports three main scores: Weighted F1, SoftCons, and HardCons.
 
 It aims to evaluate whether NLI systems make **consistent direction-sensitive decisions** over paired phrase instances. Following the spirit of [Berglund et al.'s Reversal Curse work](https://proceedings.iclr.cc/paper_files/paper/2024/hash/5178b2f2d7c44aa390c0777dc77b3f0c-Abstract-Conference.html), the task treats reversal as a controlled stress test for semantic generalization: a system should not only identify the correct relation for an ordered phrase pair, but also produce the compatible relation when the same pair is presented in the opposite direction. The task is inspired by reversal-based evaluation, but it is not a direct test of Berglund-style parametric factual reversal.
 
-**If you use our data, code kits or evaluation scripts please cite:**
+**If you use our data, starter kit, or evaluation scripts please cite:**
 
 ```bibtex
 TODO: add official task citation once available.
@@ -16,12 +16,18 @@ TODO: add official task citation once available.
 
 - **Competition website:** TODO: CodaBench link.
 - **Questions or issues:** open a [GitHub issue](../../issues) or email `inigo.lopez@ehu.eus`.
-- **Data release:** TODO: Zenodo link.
+- **Trial data:** [`trial_data/`](trial_data/).
+- **Evaluation scripts:** [`evaluation_functions/`](evaluation_functions/).
+- **Starter kit:** [`starter_kit/`](starter_kit/).
+- **Data release:** final Zenodo archive to be added after the official evaluation phase.
 - **Task status:** conditionally accepted for SemEval 2027.
 
 # News
 
-TODO.
+- **2026-07-15:** Sample data ready.
+- **2026-07-28:** Starter kit code ready and smoke-tested on the trial data format.
+- **2026-09-08:** Final task acceptance notification expected.
+- **2026-09-08:** Final/training data release scheduled.
 
 # Task Description
 
@@ -61,19 +67,18 @@ After adding the reversed counterpart for each source pair, the distribution rem
 
 ## Data Construction
 
-The task will release trial and final data under a documented `data/` folder once the task package is ready. The expected structure is:
+The repository provides sample/trial data and will provide the complete final task data under documented data folders. The expected structure is:
 
 ```text
-data/
-  trial/
-    README.md
-    ...
-  final/
-    README.md
-    ...
+trial_data/
+  README.md
+  ...
+final_data/
+  README.md
+  ...
 ```
 
-The data documentation will specify label distributions, source provenance, split construction, multilingual translation/adjudication details, and contamination-control notes.
+The final data documentation will specify label distributions, source provenance, split construction, multilingual translation/adjudication details, and contamination-control notes. The final task data will contain the organizer-provided train, development, and test files for each track.
 
 The official split will be grouped by underlying source phrase pair. For every source pair `(A, B)`, all derived instances will be assigned to the same split: the original ordered item `(A, B)`, the reversed item `(B, A)`, Spanish and Basque translations, and mixed-language variants. This prevents leakage where one direction, language, or variant of a source pair appears in training while another appears in the official evaluation split.
 
@@ -90,9 +95,9 @@ DiCo-NLI will include four tracks.
 | 3 | Basque | Monolingual Basque phrase-pair NLI. |
 | 4 | Mixed multilingual | Premise and hypothesis may appear in any EN/ES/EU language combination. This track targets cross-lingual directional consistency. |
 
-The English, Spanish, and Basque tracks are independent monolingual tracks. Cross-lingual transfer is evaluated explicitly in the Mixed multilingual track. Participants may submit to any subset of tracks. Results will be reported per track; any macro-average will specify exactly which tracks it aggregates.
+The English, Spanish, and Basque tracks are independent monolingual tracks. Cross-lingual transfer is evaluated explicitly in the Mixed multilingual track. Participants may submit to any subset of tracks. Results will be reported per track. We will also report a monolingual macro-average over English, Spanish, and Basque, and an all-track macro-average over English, Spanish, Basque, and Mixed multilingual.
 
-The Spanish and Basque data will be produced from the English source items through translation plus bilingual expert verification. Candidate translations will initially use NLLB-200 and Google Cloud Translation; for Basque, we will also use the most recent Latxa version available through a HiTZ API. During internal preparation, we will additionally try selected open and closed translation-capable LLMs through OpenRouter or comparable providers when licensing, cost, and reproducibility constraints permit. Verification will check not only translation fidelity, but also whether the directional entailment relation is preserved after translation. Items whose relation is unstable after translation will be corrected or removed from the official split.
+The Spanish and Basque data will be produced from the English source items through translation plus bilingual expert verification. Candidate translations will be generated with multiple translation systems, including neural machine translation systems and selected translation-capable LLMs when licensing, cost, and reproducibility constraints permit. Automatic audits will flag exact source/target collapse, duplicated translated pairs, and relation-risk cases before human validation. Verification will check not only translation fidelity, but also whether the directional entailment relation is preserved after translation. Items whose relation is unstable after translation, or whose available translations collapse into trivial same-text pairs, will be corrected or removed from the official split. This filtering also helps make the final benchmark more challenging by removing pairs that become too easy after translation.
 
 For each target language, two bilingual annotators will independently validate a pilot audit of 100 source pairs. The audit will check phrase-level translation adequacy, preservation of the expected NLI label, and preservation of the reversed label after swapping premise and hypothesis. We will report raw agreement, Cohen's kappa, adjudication counts, and translation-induced label-flip rates. For the full release, each translated item will be reviewed by one bilingual annotator, with second-annotator adjudication for low-confidence, ambiguous, or relation-changing cases.
 
@@ -111,7 +116,7 @@ The official scorer will report three main evaluation scores:
 
 | Metric | What it measures |
 |--------|------------------|
-| `F-measure` | Standard item-level label-prediction quality. The official label-prediction score is weighted F-measure over all labels. |
+| `Weighted F1` | Standard item-level label-prediction quality, computed as weighted F1 over all labels. |
 | `SoftCons` | Directional self-consistency under the reversal operator, independent of gold correctness. |
 | `HardCons` | Paired directional correctness under reversal: both directions must be predicted correctly. Because the reversed gold label is deterministic, this is a strict paired-accuracy measure over reversible pairs. |
 
@@ -149,7 +154,11 @@ For example:
 
 This pair receives `HardCons = 1`. If either direction is wrong, or if the two predictions are directionally incompatible, it receives `HardCons = 0`.
 
-The official result for each track will be reported as a three-score profile: `F-measure`, `SoftCons`, and `HardCons`. We will not treat one of these as the sole main metric; the task analysis will interpret systems by their joint accuracy, directional self-consistency, and paired-correctness behavior. Any CodaBench display ordering or additional summary field will be preannounced and will not replace the three official scores.
+The official result for each track will be reported as a three-score profile: `Weighted F1`, `SoftCons`, and `HardCons`. We will not treat one of these as the sole main metric; the task analysis will interpret systems by their joint accuracy, directional self-consistency, and paired-correctness behavior. Any CodaBench display ordering or additional summary field will be preannounced and will not replace the three official scores.
+
+In addition to per-track scores, the task overview will report two secondary aggregate profiles: a monolingual macro-average over English, Spanish, and Basque, and an all-track macro-average over English, Spanish, Basque, and Mixed multilingual. Each aggregate will average the three official scores separately with equal weight per selected track. These aggregates are summaries for analysis and do not replace the per-track official results.
+
+The scorer also returns diagnostic information such as macro-F1, accuracy, per-label precision/recall/F1, confusion matrices, reversible-pair counts, and a bounded list of pair-level errors.
 
 Scores will be reported per track. We also plan to report model metadata in the task analysis, including:
 
@@ -163,7 +172,7 @@ Scores will be reported per track. We also plan to report model metadata in the 
 
 The LREC pilot paper is available at https://lrec.elra.info/lrec2026-main-423. The pilot evaluated encoder-only, decoder-only, and encoder-decoder systems on the English reversal-aware benchmark. Representative results on the positive combined track show that the task is feasible but not saturated:
 
-| Architecture family | Representative model | F-measure | SoftCons | HardCons |
+| Architecture family | Representative model | Weighted F1 | SoftCons | HardCons |
 |---------------------|----------------------|----------:|---------:|---------:|
 | Encoder-only | DeBERTa v3-base | 0.75 | 0.84 | 0.79 |
 | Decoder-only | OPT-125M | 0.61 | 0.65 | 0.58 |
@@ -171,7 +180,7 @@ The LREC pilot paper is available at https://lrec.elra.info/lrec2026-main-423. T
 
 Family-level means show the same pattern:
 
-| Architecture family | F-measure | SoftCons | HardCons |
+| Architecture family | Weighted F1 | SoftCons | HardCons |
 |---------------------|----------:|---------:|---------:|
 | Encoder-only | 0.713 +/- 0.031 | 0.770 +/- 0.049 | 0.721 +/- 0.048 |
 | Decoder-only | 0.583 +/- 0.038 | 0.568 +/- 0.060 | 0.498 +/- 0.070 |
@@ -183,8 +192,9 @@ These dates follow the SemEval-2027 preliminary timetable.
 
 | Task | Date |
 |------|------|
-| Sample data ready | 15 July 2026 |
-| Training data ready | 1 September 2026 |
+| ~~Sample data ready~~ | ~~15 July 2026~~ |
+| Final task acceptance notification | 8 September 2026 |
+| Final/training data ready | 8 September 2026 |
 | Evaluation data ready | 1 December 2026, internal deadline, not public release |
 | Evaluation start | 10 January 2027 |
 | Evaluation end | By 31 January 2027 |
@@ -197,38 +207,43 @@ These dates follow the SemEval-2027 preliminary timetable.
 
 1. Register on the CodaBench competition page once it is available.
 2. Choose one or more tracks: English, Spanish, Basque, or Mixed multilingual.
-3. Download the trial/training data from this repository once released.
+3. Download the trial/final data from this repository once released.
 4. Build a system that outputs one label per ordered phrase pair.
-5. Validate your submission format with the official checker.
+5. Validate your submission format with the official scorer/validator in [`evaluation_functions/`](evaluation_functions/).
 6. Submit predictions through CodaBench during the evaluation window.
 7. Submit a system description paper if you want your run to appear in the official SemEval ranking.
 
-Starter kit contents will be added before the training phase:
+The public repository already includes a lightweight starter kit:
 
 ```text
 starter_kit/
-  scorer/
-  format_checker/
-  baselines/
-  submission_examples/
+  README.md
+  requirements.txt
+  main.py
+  SLURM/
+  src/
 ```
 
-The starter kit is intended to provide runnable reference systems, not necessarily the strongest pilot systems. We will prioritize smaller models so that participants with limited GPU resources can run the baselines.
+The starter kit provides a minimal Hugging Face fine-tuning pipeline, prediction CSV writer, optional official-scorer integration, pinned dependency file, environment setup instructions, and SLURM templates. It is intended to help participants validate the task format and run small local experiments, not to prescribe a required modeling approach.
 
-| Family | Planned baseline | Rationale |
-|--------|------------------|-----------|
-| Encoder-only | `roberta-base` or `deberta-v3-base` | Compact supervised NLI baseline with standard fine-tuning. |
-| Decoder-only | `OPT-125M` or `GPT-2 small` | Small causal-LM baseline suitable for low-resource GPU settings. |
-| Encoder-decoder | `BART-base` or `Flan-T5-base` | Smaller sequence-to-sequence baseline covering the encoder-decoder family. |
+The official scorer and the starter kit's scorer integration require Python 3.10 or newer.
 
-For each baseline, we will provide the model identifier, preprocessing steps, training/evaluation scripts, prediction format, scorer command, and recommended hyperparameters. Where redistribution and storage constraints allow it, we will also provide trained checkpoints; otherwise, the scripts and configuration files will reproduce the baseline.
+The trial data bundle currently includes scored random and majority baselines. The starter kit also documents smoke-test commands for representative small neural model families:
+
+| Family | Smoke-test model | Purpose |
+|--------|------------------|---------|
+| Encoder-only | `distilbert-base-multilingual-cased` | Validate supervised encoder fine-tuning and scoring. |
+| Decoder-only | `EleutherAI/pythia-160m` | Validate decoder-only sequence-classification compatibility. |
+| Encoder-decoder | `google/mt5-small` | Validate encoder-decoder sequence-classification compatibility. |
+
+These neural commands are smoke tests only. They reuse trial data for technical validation and should not be interpreted as official baselines or model-quality claims.
 
 # Competition Rules and Terms
 
 <details>
   <summary>1. Official ranking</summary>
 
-To be included in the official ranking, teams must submit a system description paper according to SemEval instructions. The official result will be based on the final selected submission for each track and will report the three main scores: `F-measure`, `SoftCons`, and `HardCons`.
+To be included in the official ranking, teams must submit a system description paper according to SemEval instructions. The official result will be based on the final selected submission for each track and will report the three main scores: `Weighted F1`, `SoftCons`, and `HardCons`. The task overview may also report monolingual and all-track macro-average profiles over these same three scores as secondary summaries.
 </details>
 
 <details>
@@ -321,6 +336,9 @@ Yes. Final gold labels are expected to be released after the official evaluation
 
 - SemEval-2027 call for task proposals: https://semeval.github.io/SemEval2027/cft
 - SemEval FAQ: https://semeval.github.io/faq.html
+- Trial data: [`trial_data/`](trial_data/)
+- Evaluation scripts: [`evaluation_functions/`](evaluation_functions/)
+- Starter kit: [`starter_kit/`](starter_kit/)
 - Assessing Logical Consistency in Fine-Grained NLI, LREC 2026 pilot paper: https://lrec.elra.info/lrec2026-main-423
 - PhrasIS: Phrase Inference and Similarity benchmark: https://doi.org/10.1093/jigpal/jzae037
 - The Reversal Curse: LLMs trained on "A is B" fail to learn "B is A": https://proceedings.iclr.cc/paper_files/paper/2024/hash/5178b2f2d7c44aa390c0777dc77b3f0c-Abstract-Conference.html
