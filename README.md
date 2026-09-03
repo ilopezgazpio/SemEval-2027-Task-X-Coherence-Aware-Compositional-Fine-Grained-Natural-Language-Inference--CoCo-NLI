@@ -2,7 +2,7 @@
   <img align="center" src="static/figures/logo.png" style="width: 100%;" />
 </p>
 
-# SemEval 2027 Task 2: DiCo-NLI - Directional Consistency in Fine-Grained Natural Language Inference
+# SemEval 2027 Task 2: Directional-Consistent Fine-Grained Natural Language Inference (DiCo-NLI)
 
 DiCo-NLI is a multilingual shared task on **directional consistency** in fine-grained natural language inference. Given an ordered pair of phrases, systems predict equivalence, forward entailment, backward entailment, or another semantic relation. Each reversible source pair is evaluated in both directions, enabling joint measurement of classification performance and compatibility with the deterministic label-reversal mapping. The benchmark covers English, Spanish, Basque, and mixed-language settings, with source-pair-level splits that prevent directional and cross-lingual leakage. Official evaluation reports three main scores: Weighted F1, SoftCons, and HardCons.
 
