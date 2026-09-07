@@ -17,17 +17,18 @@ TODO: add official task citation once available.
 - **Competition website:** TODO: CodaBench link.
 - **Questions or issues:** open a [GitHub issue](../../issues) or email `inigo.lopez@ehu.eus`.
 - **Trial data:** [`trial_data/`](trial_data/).
+- **Training/development data:** [`final_data/`](final_data/).
 - **Evaluation scripts:** [`evaluation_functions/`](evaluation_functions/).
 - **Starter kit:** [`starter_kit/`](starter_kit/).
-- **Data release:** final Zenodo archive to be added after the official evaluation phase.
+- **Data release:** training/development data are available in this repository; the final Zenodo archive will be added after the official evaluation phase.
 - **Task status:** conditionally accepted for SemEval 2027.
 
 # News
 
 - **2026-07-15:** Sample data ready.
 - **2026-07-28:** Starter kit code ready and smoke-tested on the trial data format.
+- **2026-09-08:** Training and development data ready.
 - **2026-09-08:** Final task acceptance notification expected.
-- **2026-09-08:** Final/training data release scheduled.
 
 # Task Description
 
@@ -67,7 +68,8 @@ After adding the reversed counterpart for each source pair, the distribution rem
 
 ## Data Construction
 
-The repository provides sample/trial data and will provide the complete final task data under documented data folders. The expected structure is:
+The repository provides sample/trial data and the public training/development
+release under documented data folders:
 
 ```text
 trial_data/
@@ -75,10 +77,52 @@ trial_data/
   ...
 final_data/
   README.md
-  ...
+  train/
+  dev/
+  final_data_train.zip
+  final_data_dev.zip
 ```
 
-The final data documentation will specify label distributions, source provenance, split construction, multilingual translation/adjudication details, and contamination-control notes. The final task data will contain the organizer-provided train, development, and test files for each track.
+The public `final_data/` release contains organizer-provided train and
+development files for each track. The zipped files are convenience packages with
+the same contents as the corresponding folders. Participants may use either the
+folders directly or unpack the zip files.
+
+Each public train/dev split contains three files per track:
+
+```text
+dico_nli_<split>_<track>_participant_labeled.csv
+dico_nli_<split>_<track>_submission_template.csv
+dico_nli_<split>_<track>_reference.csv
+```
+
+The `participant_labeled.csv` files contain the phrase pairs and labels for
+training, development, and local experiments. The `submission_template.csv`
+files show the required prediction format: `instance_id,label`. The
+`reference.csv` files are the gold reference files for the official scorer; they
+include `reverse_pair_id`, which is required to compute `SoftCons` and
+`HardCons`.
+
+The official test data and test gold labels are not included in this release.
+They will be distributed through the official evaluation process. Test gold
+labels will remain hidden during the competition and released only after the
+evaluation phase.
+
+Current public train/dev instance counts are:
+
+| Split | Track 1 English | Track 2 Spanish | Track 3 Basque | Track 4 Mixed multilingual |
+|-------|----------------:|----------------:|---------------:|---------------------------:|
+| Train | 3042 | 3042 | 3042 | 18252 |
+| Dev | 660 | 660 | 660 | 3960 |
+
+Current label counts are:
+
+| Split | Track(s) | `BACKWARD_ENTAILMENT` | `EQUIVALENCE` | `FORWARD_ENTAILMENT` | `NEGATIVE_OTHER` | Total |
+|-------|----------|----------------------:|--------------:|---------------------:|-----------------:|------:|
+| Train | 1/2/3 | 881 | 802 | 881 | 478 | 3042 |
+| Train | 4 | 5286 | 4812 | 5286 | 2868 | 18252 |
+| Dev | 1/2/3 | 190 | 174 | 190 | 106 | 660 |
+| Dev | 4 | 1140 | 1044 | 1140 | 636 | 3960 |
 
 The official split will be grouped by underlying source phrase pair. For every source pair `(A, B)`, all derived instances will be assigned to the same split: the original ordered item `(A, B)`, the reversed item `(B, A)`, Spanish and Basque translations, and mixed-language variants. This prevents leakage where one direction, language, or variant of a source pair appears in training while another appears in the official evaluation split.
 
@@ -159,6 +203,23 @@ The official result for each track will be reported as a three-score profile: `W
 In addition to per-track scores, the task overview will report two secondary aggregate profiles: a monolingual macro-average over English, Spanish, and Basque, and an all-track macro-average over English, Spanish, Basque, and Mixed multilingual. Each aggregate will average the three official scores separately with equal weight per selected track. These aggregates are summaries for analysis and do not replace the per-track official results.
 
 The scorer also returns diagnostic information such as macro-F1, accuracy, per-label precision/recall/F1, confusion matrices, reversible-pair counts, and a bounded list of pair-level errors.
+
+## Local Scoring
+
+Train and development `reference.csv` files are public so participants can run
+the official scorer locally before the evaluation phase. From a Python 3.10+
+environment, run:
+
+```bash
+python3 -m evaluation_functions \
+  --gold final_data/dev/dico_nli_dev_track1_reference.csv \
+  --predictions results/my_dev_track1_predictions.csv \
+  --output-dir results/dev_track1_scores
+```
+
+The prediction file must contain one row per `instance_id` and exactly two
+columns: `instance_id,label`. Test reference files will not be released during
+the competition.
 
 Scores will be reported per track. We also plan to report model metadata in the task analysis, including:
 
@@ -337,6 +398,7 @@ Yes. Final gold labels are expected to be released after the official evaluation
 - SemEval-2027 call for task proposals: https://semeval.github.io/SemEval2027/cft
 - SemEval FAQ: https://semeval.github.io/faq.html
 - Trial data: [`trial_data/`](trial_data/)
+- Training/development data: [`final_data/`](final_data/)
 - Evaluation scripts: [`evaluation_functions/`](evaluation_functions/)
 - Starter kit: [`starter_kit/`](starter_kit/)
 - Assessing Logical Consistency in Fine-Grained NLI, LREC 2026 pilot paper: https://lrec.elra.info/lrec2026-main-423
