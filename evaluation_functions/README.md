@@ -6,12 +6,12 @@ It is intended for local validation, starter kits, CI, and CodaBench scoring con
 The scorer requires Python 3.10 or newer.
 
 The scorer is intentionally agnostic to track construction. Tracks are produced
-beforehand by `participant_dataset_production`; the evaluator only compares a hidden fixed
+beforehand by `participant_dataset_production`; the evaluator compares a fixed
 reference CSV with a participant prediction CSV.
 
-## Hidden Reference CSV
+## Reference CSV
 
-The hidden reference file must contain at least these columns:
+The reference file must contain at least these columns:
 
 ```text
 instance_id,pair_id,reverse_pair_id,label
@@ -41,7 +41,7 @@ Participant submissions must contain exactly:
 instance_id,label
 ```
 
-The prediction file must contain one prediction for every hidden reference
+The prediction file must contain one prediction for every reference
 `instance_id`, with no duplicates and no unknown ids.
 
 ## Official Scores

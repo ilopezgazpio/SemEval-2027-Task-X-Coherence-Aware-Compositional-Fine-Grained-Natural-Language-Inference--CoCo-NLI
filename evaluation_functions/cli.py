@@ -13,7 +13,7 @@ from .scorer import score_codabench_directories, score_files
 
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(description="Score DiCo-NLI predictions.")
-    parser.add_argument("--gold", type=Path, help="Hidden fixed reference CSV or TSV file.")
+    parser.add_argument("--gold", type=Path, help="Fixed reference CSV or TSV file.")
     parser.add_argument("--predictions", type=Path, help="Prediction CSV or TSV file.")
     parser.add_argument("--output-dir", type=Path, help="Directory for scores.json and scores.txt.")
     parser.add_argument("--reference-dir", type=Path, help="CodaBench reference directory.")
